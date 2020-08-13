@@ -10,8 +10,12 @@ target/attribute-usage.tsv: target/attributes.tsv
 
 target/envo-usage.tsv: target/attributes.tsv
 	grep '^env_' $< > $@
+
 target/envo-usage-stats.tsv: target/envo-usage.tsv
 	cut -f2 $< | ./util/count-occ.pl  > $@
+
+target/harmonized-values-eav.tsv:
+	gzip -dc downloads/biosample_set.xml.gz | ./util/make-eav-table.pl > $@
 
 
 target/occurrences-%.tsv: target/attributes.tsv
