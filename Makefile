@@ -34,6 +34,10 @@ target/taxon-id-to-name-lookup.tsv:
 # create a lookup table matching the taxonomy ids to taxonomy names
 	gzip -dc downloads/biosample_set.xml.gz | ./util/taxon-id-to-name-lookup.pl > $@
 
+target/biosample-to-taxon-id.tsv:
+# create a lookup table matching the biosample to its taxonomy id
+	gzip -dc downloads/biosample_set.xml.gz | ./util/biosample-to-taxon-id.pl > $@
+
 target/occurrences-%.tsv: target/attributes.tsv
 	egrep '^$*\t' $< | cut -f2 > $@
 .PRECIOUS: target/occurrences-%.tsv
