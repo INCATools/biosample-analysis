@@ -26,6 +26,10 @@ target/biosample-organism-attribute-values-eav.tsv:
 # values:  biosample id|taxonomy id|taxonomy name|attribute name|harmonized name|value of attribute
 	gzip -dc downloads/biosample_set.xml.gz | ./util/biosample-organism-attribute-values-eav.pl > $@
 
+target/attribute-to-harmonized-lookup.tsv:
+# create a lookup table matching the attribute names to harmonized names
+	gzip -dc downloads/biosample_set.xml.gz | ./util/attribute-to-harmonized-lookup.pl > $@
+
 target/occurrences-%.tsv: target/attributes.tsv
 	egrep '^$*\t' $< | cut -f2 > $@
 .PRECIOUS: target/occurrences-%.tsv
