@@ -17,8 +17,14 @@ target/envo-usage-stats.tsv: target/envo-usage.tsv
 target/harmonized-values-eav.tsv:
 # creates a tsv with:
 # columns: biosample|attribute|value
-# values:  biosample id| harmonized name| value of attribute
+# values:  biosample id| harmonized_name| value of attribute
 	gzip -dc downloads/biosample_set.xml.gz | ./util/harmonized-name-eav.pl > $@
+
+target/biosample-attribute-value.tsv:
+# creates a tsv with:
+# columns: biosample|attribute|value
+# values:  biosample id| attribute_name| value of attribute
+	gzip -dc downloads/biosample_set.xml.gz | ./util/biosample-attribute-value.pl > $@
 
 target/biosample-organism-attribute-values-eav.tsv:
 # creates a tsv with:

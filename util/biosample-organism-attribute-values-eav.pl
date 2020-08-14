@@ -10,7 +10,6 @@ $taxonomyId = "";
 $taxonomyName = "";
 $attributeName = "";
 $harmonizedName = "";
-$value = "";
 
 while(<>) {
 		if ($writeHeader) {
@@ -51,17 +50,12 @@ while(<>) {
 				$harmonizedName = "";
 		}
 
-		if (m@<Attribute .*?>(.*)</Attribute>@) {
-				$value = $1;
-		} else {
-				$value = "";
+		# we only to output rows with values (i.e. (.+))
+		if (m@<Attribute .*?>(.+)</Attribute>@) {
+				print "$primaryId\t$taxonomyId\t$taxonomyName\t$attributeName\t$harmonizedName\t$1\n";
 		}
 
-		# we only to output rows with values
-		if ($value =~ /.+/) {
-				print "$primaryId\t$taxonomyId\t$taxonomyName\t$attributeName\t$harmonizedName\t$value\n";
-		}
-				
+		
 		if (m@</BioSample>@) {
 				$primaryId = "";
 				# $sampleName = "";
@@ -70,7 +64,6 @@ while(<>) {
 				$taxonomyName = "";
 				$attributeName = "";
 				$harmonizedName = "";
-				$value = "";
 		}
 }
 
