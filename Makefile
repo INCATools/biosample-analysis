@@ -30,6 +30,10 @@ target/attribute-to-harmonized-lookup.tsv:
 # create a lookup table matching the attribute names to harmonized names
 	gzip -dc downloads/biosample_set.xml.gz | ./util/attribute-to-harmonized-lookup.pl > $@
 
+target/taxon-id-to-name-lookup.tsv:
+# create a lookup table matching the taxonomy ids to taxonomy names
+	gzip -dc downloads/biosample_set.xml.gz | ./util/taxon-id-to-name-lookup.pl > $@
+
 target/occurrences-%.tsv: target/attributes.tsv
 	egrep '^$*\t' $< | cut -f2 > $@
 .PRECIOUS: target/occurrences-%.tsv
