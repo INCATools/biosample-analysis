@@ -15,8 +15,16 @@ target/envo-usage-stats.tsv: target/envo-usage.tsv
 	cut -f2 $< | ./util/count-occ.pl  > $@
 
 target/harmonized-values-eav.tsv:
-	gzip -dc downloads/biosample_set.xml.gz | ./util/ harmonized-name-eav.pl > $@
+# creates a tsv with:
+# columns: biosample|attribute|value
+# values:  biosample id| harmonized name| value of attribute
+	gzip -dc downloads/biosample_set.xml.gz | ./util/harmonized-name-eav.pl > $@
 
+target/biosample-organism-attribute-values-eav.tsv:
+# creates a tsv with:
+# columns: biosample|taxonomy_id|taxonomy_name|attribute|harmonized|value
+# values:  biosample id|taxonomy id|taxonomy name|attribute name|harmonized name|value of attribute
+	gzip -dc downloads/biosample_set.xml.gz | ./util/biosample-organism-attribute-values-eav.pl > $@
 
 target/occurrences-%.tsv: target/attributes.tsv
 	egrep '^$*\t' $< | cut -f2 > $@
