@@ -26,11 +26,10 @@ target/biosample-attribute-value.tsv:
 # values:  biosample id| attribute_name| value of attribute
 	gzip -dc downloads/biosample_set.xml.gz | ./util/biosample-attribute-value.pl > $@
 
-target/biosample-organism-attribute-values-eav.tsv:
-# creates a tsv with:
-# columns: biosample|taxonomy_id|taxonomy_name|attribute|harmonized|value
-# values:  biosample id|taxonomy id|taxonomy name|attribute name|harmonized name|value of attribute
-	gzip -dc downloads/biosample_set.xml.gz | ./util/biosample-organism-attribute-values-eav.pl > $@
+target/biosample-table.tsv:
+# extracts information for biosample xml and puts the tag properties, attributes, and values in tabular format
+# note: the <Attriubte> tags and values are in EAV format
+	gzip -dc downloads/biosample_set.xml.gz | ./util/biosample-table.pl > $@
 
 target/attribute-to-harmonized-lookup.tsv:
 # create a lookup table matching the attribute names to harmonized names
