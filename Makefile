@@ -21,15 +21,31 @@ target/harmonized-values-eav.tsv:
 	gzip -dc downloads/biosample_set.xml.gz | ./util/harmonized-name-eav.pl > $@
 
 target/biosample-attribute-value.tsv:
-# creates a tsv with:
-# columns: biosample|attribute|value
-# values:  biosample id| attribute_name| value of attribute
+# creates a tsv with columns: primary_id|sra_id|attribute|harmonized|value
 	gzip -dc downloads/biosample_set.xml.gz | ./util/biosample-attribute-value.pl > $@
 
-target/biosample-table.tsv:
-# extracts information for biosample xml and puts the tag properties, attributes, and values in tabular format
-# note: the <Attriubte> tags and values are in EAV format
-	gzip -dc downloads/biosample_set.xml.gz | ./util/biosample-table.pl > $@
+target/biosample-attribute-value.tsv.gz: target/biosample-attribute-value.tsv
+# gzips target/biosample-attribute-value.tsv
+	gzip -v -c $< > $@ 
+
+target/biosample-to-json.json:
+# converts the primary_id, sra_id, and attributes to json structure
+	gzip -dc downloads/biosample_set.xml.gz | ./util/biosample-to-json.pl > $@
+
+target/biosample-to-json.json.gz: target/biosample-to-json.json
+# gzips target/biosample-to-json.json
+		gzip -v -c $< > $@
+	
+############### WARNING: I RAN THESE ALL NIGHT AND THEY DID NOT COMPLETE
+# target/biosample-attribute-table.tsv:
+# 	util/biosample-table.pl downloads/biosample_set.xml > $@
+#
+# target/biosample-table.tsv:
+# 	util/biosample-table.pl downloads/biosample_set.xml > $@
+#
+# target/biosample-table-reduced.tsv:
+# 	util/biosample-table-reduced.pl downloads/biosample_set.xml > $@
+##################
 
 target/attribute-to-harmonized-lookup.tsv:
 # create a lookup table matching the attribute names to harmonized names

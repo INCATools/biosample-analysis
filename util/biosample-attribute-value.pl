@@ -1,29 +1,28 @@
 #!/usr/bin/perl
+use Text::Trim 'trim';
 
-$writeHeader = 1;
-$primaryId = "";
+my $primaryId = "";
+my $sraId = "";
+my $header = "primary_id\tsra_id\tattribute\tharmonized\tvalue\n";
 
+print $header;
 while(<>) {
-		if ($writeHeader) {
-				print "biosample\tattribute\tvalue\n";
-				$writeHeader = 0;
-		}
-		
-		if (m@<Id .*is_primary="1">(.+)</Id>@) {
+		trim;
+		if (m@^<Id .*is_primary="1">(.+)</Id>$@) {
 				$primaryId = $1;
 		}
 
-		if (m@.*attribute_name="(.+?)".*?>(.+?)</Attribute>@ and $primaryId ne '') {
-				#$attribute = $1;
-				#$value = $2;
-				print "$primaryId\t$1\t$2\n";
-		}
+		if (m@^<Id db="SRA">(.+?)</Id>$@) { # information seems uneeded
+				$sraId = $1;
+    }
 
-		# if ( $primaryId ne '' and $attribute ne '' and $value ne '' ) {
-		# 		print "$primaryId\t$attribute\t$value\n";
-		# }
+		if ( m@^<Attribute attribute_name="(.+?)"\s*(harmonized_name="(.+?)")?.*>(.+?)</Attribute>$@) {
+				print "$primaryId\t$sraId\t$1\t$3\t$4\n";
+		}
 		
-		if (m@</BioSample>@) {
+		if (m@^</BioSample>$@) {
+				# reset values
 				$primaryId = "";
+				$sraId = "";
 		}
 }
