@@ -37,13 +37,12 @@ target/biosample-to-json.json.gz: target/biosample-to-json.json
 		gzip -v -c $< > $@
 	
 ############### WARNING: I RAN THESE ALL NIGHT AND THEY DID NOT COMPLETE
-# target/biosample-attribute-table.tsv:
-# 	util/biosample-table.pl downloads/biosample_set.xml > $@
-#
 # target/biosample-table.tsv:
+# # converts the biosample xml blocks into a tsv
 # 	util/biosample-table.pl downloads/biosample_set.xml > $@
 #
-# target/biosample-table-reduced.tsv:
+# target/biosample-table-reduced.tsv:	
+# # similar to biosample-table.pl, but only puts attribute values in the table
 # 	util/biosample-table-reduced.pl downloads/biosample_set.xml > $@
 ##################
 
