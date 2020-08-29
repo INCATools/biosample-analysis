@@ -35,7 +35,17 @@ target/biosample-to-json.json:
 target/biosample-to-json.json.gz: target/biosample-to-json.json
 # gzips target/biosample-to-json.json
 		gzip -v -c $< > $@
-	
+
+target/biosample-attribute-value.ttl: target/biosample-attribute-value.tsv.gz
+# convert biosample-attribute-value to rdf (turtle)
+# the output triples are of form <:subj> <:pred> <:value>; so it is also in n3 format
+# each attribute also has an rdfs label and a harmonized predicate to link the harmonized name
+	gzip -dc target/biosample-attribute-value.tsv.gz |  ./util/biosample-eav-to-rdf.pl > $@
+
+target/biosample-attribute-value.ttl.gz: target/biosample-attribute-value.ttl
+# gzips the file
+		gzip -v -c $< > $@
+		
 ############### WARNING: I RAN THESE ALL NIGHT AND THEY DID NOT COMPLETE
 # target/biosample-table.tsv:
 # # converts the biosample xml blocks into a tsv
