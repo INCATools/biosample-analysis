@@ -56,10 +56,6 @@ while(<FH>) {
 		}
 
 		if (m@^</BioSample>$@) { # we've reached the end of a biosample block
-
-				# these are for reference so I don't have scroll up
-				# $header = "primary_id\tsra_id";
-
 				# print values for first part of header
 				print "$primaryId\t$sraId";
 						
