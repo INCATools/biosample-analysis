@@ -20,6 +20,10 @@ target/harmonized-values-eav.tsv:
 # values:  biosample id| harmonized_name| value of attribute
 	gzip -dc downloads/biosample_set.xml.gz | ./util/harmonized-name-eav.pl > $@
 
+target/harmonized-values-eav.tsv.gz: target/harmonized-values-eav.tsv
+# gzips the target target/harmonized-values-eav.tsv
+	gzip -v -c $< > $@ 
+	
 target/biosample-attribute-value.tsv:
 # creates a tsv with columns: primary_id|sra_id|attribute|harmonized|value
 	gzip -dc downloads/biosample_set.xml.gz | ./util/biosample-attribute-value.pl > $@
