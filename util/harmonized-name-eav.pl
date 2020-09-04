@@ -4,7 +4,7 @@ $writeHeader = 1;
 
 while(<>) {
 		if ($writeHeader) {
-				print "biosample\tattribute\tvalue\n";
+				print "primary_id\tattribute\tvalue\n";
 				$writeHeader = 0;
 		}
 		
@@ -12,7 +12,7 @@ while(<>) {
 				$id = $1;
 		}
 
-		if (m@.*harmonized_name="(\S+)".*">(.*)</Attribute>@) {
+		if (m@.*harmonized_name="(\S+)".*">(.+)</Attribute>@) {
 				print "$id\t$1\t$2\n";
 		}
 }
