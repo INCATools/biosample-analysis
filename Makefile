@@ -60,11 +60,11 @@ target/harmonized-attribute-value.ttl.gz: target/harmonized-attribute-value.ttl
 # gzips target/harmonized-attribute-value.ttl
 	gzip -v -c $< > $@
 
-target/hamonized-table.tsv: target/harmonized-values-eav.tsv.gz
+target/harmonized-table.tsv: target/harmonized-values-eav.tsv.gz
 # pivots data in harmonized-values-eav.tsv in a tabular-columnar form
 	gzip -dc $< | ./util/harmonized-eav-pivot.pl > $@
 
-target/hamonized-table.tsv.gz: target/hamonized-table.tsv
+target/harmonized-table.tsv.gz: target/hamonized-table.tsv
 # gzips target/hamonized-table.tsv
 	gzip -v -c $< > $@
 
