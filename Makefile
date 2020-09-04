@@ -22,8 +22,8 @@ target/harmonized-values-eav.tsv:
 
 target/harmonized-values-eav.tsv.gz: target/harmonized-values-eav.tsv
 # gzips the target target/harmonized-values-eav.tsv
-	gzip -v -c $< > $@ 
-	
+	gzip -v -c $< > $@
+
 target/biosample-attribute-value.tsv:
 # creates a tsv with columns: primary_id|sra_id|attribute|harmonized|value
 	gzip -dc downloads/biosample_set.xml.gz | ./util/biosample-attribute-value.pl > $@
@@ -38,7 +38,7 @@ target/biosample-to-json.json:
 
 target/biosample-to-json.json.gz: target/biosample-to-json.json
 # gzips target/biosample-to-json.json
-		gzip -v -c $< > $@
+	gzip -v -c $< > $@
 
 target/biosample-attribute-value.ttl: target/biosample-attribute-value.tsv.gz
 # convert biosample-attribute-value to rdf (turtle)
@@ -48,18 +48,26 @@ target/biosample-attribute-value.ttl: target/biosample-attribute-value.tsv.gz
 
 target/biosample-attribute-value.ttl.gz: target/biosample-attribute-value.ttl
 # gzips target/biosample-attribute-value.ttl
-		gzip -v -c $< > $@
+	gzip -v -c $< > $@
 
 target/harmonized-attribute-value.ttl: target/harmonized-values-eav.tsv.gz
 # convert harmonized-values-eav.tsv to rdf (turtle)
 # the output triples are of form <:subj> <:pred> <:value>; so it is also in n3 format
 # each attribute also has an rdfs label
-	gzip -dc $< |  ./util/harmonized-eav-to-rdf.pl > $@
+	gzip -dc $< | ./util/harmonized-eav-to-rdf.pl > $@
 
 target/harmonized-attribute-value.ttl.gz: target/harmonized-attribute-value.ttl
 # gzips target/harmonized-attribute-value.ttl
-		gzip -v -c $< > $@
-		
+	gzip -v -c $< > $@
+
+target/hamonized-table.tsv: target/harmonized-values-eav.tsv.gz
+# pivots data in harmonized-values-eav.tsv in a tabular-columnar form
+	gzip -dc $< | ./util/harmonized-eav-pivot.pl > $@
+
+target/hamonized-table.tsv.gz: target/hamonized-table.tsv
+# gzips target/hamonized-table.tsv
+	gzip -v -c $< > $@
+
 ############### WARNING: I RAN THESE ALL NIGHT AND THEY DID NOT COMPLETE
 # target/biosample-table.tsv:
 # # converts the biosample xml blocks into a tsv
