@@ -64,15 +64,20 @@ target/harmonized-table.tsv: target/harmonized-values-eav.tsv
 # pivots data in harmonized-values-eav.tsv in a tabular-columnar form
 	./util/harmonized-eav-pivot.pl $< > $@
 
-target/harmonized-table.tsv.gz: target/hamonized-table.tsv
-# gzips target/hamonized-table.tsv
+target/harmonized-table.tsv.gz: target/harmonized-table.tsv
+# gzips target/harmonized-table.tsv
 	gzip -v -c $< > $@
 
-############### WARNING: I RAN THESE ALL NIGHT AND THEY DID NOT COMPLETE
-# target/biosample-table.tsv:
-# # converts the biosample xml blocks into a tsv
-# 	util/biosample-table.pl downloads/biosample_set.xml > $@
-#
+
+target/biosample-table.tsv: target/biosample-attribute-value.tsv
+# converts target/biosample-attribute-value.tsv (EAV format) into a tabular column format
+	util/biosample-eav-pivot.pl $< > $@
+
+############### WARNING: I RAN THIS ALL NIGHT AND IT DID NOT COMPLETE
+# target/biosample-table.tsv.gz: target/biosample-table.tsv
+# # gzips target/biosample-table.tsv
+# 	gzip -v -c $< > $@
+
 # target/biosample-table-reduced.tsv:	
 # # similar to biosample-table.pl, but only puts attribute values in the table
 # 	util/biosample-table-reduced.pl downloads/biosample_set.xml > $@
