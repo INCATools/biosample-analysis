@@ -15,6 +15,22 @@ Questions to explore
 
 See Makefile for details
 
+# Analysis Data
+In addition to the data in the target directory, sample data that is too large for GitHub is stored our Google drive [here](https://drive.google.com/drive/u/1/folders/1eL0v0stoduahjDpoDJIk3z2pJBAU4b2Y).  
+Files include:
+- [biosample_set.xml.gz](https://drive.google.com/file/d/1YNp7Sj4k0jfZZa3DSsqO0QQ64m0_DT3e/view?usp=sharing)  
+  This is the full raw biosample dataset formatted as XML.
+- [harmonized-values-eav.tsv.gz](https://drive.google.com/file/d/1CgLykW37ZDjgSSxz3GFPGZoDlSwG3N9e/view?usp=sharing)
+  A tab-delimited file containing data extracted from `biosample_set.xml.gz` that contains the biosample's primary id and only the biosample attributes that have `harmonized_name` property.
+  The data is in entity-attribute-value ([EAV](https://en.wikipedia.org/wiki/Entity–attribute–value_model)) format. The columns in the file are `primary_id|attribute|value`.
+  If necessary, use `make target/harmonized-table.tsv` to create the (non-zipped) file locally.
+- [harmonized-table.tsv.gz](https://drive.google.com/file/d/1chyK2dS8XoPBXriERvi70N9xIhZFUbcy/view?usp=sharing)
+  A tab-delimited file in the data from `harmonized-table.tsv.gz` has been "pivoted" into a standard tabular format (i.e., the attributes are column headers).
+  If necessary, use `make harmonized-table.tsv` to create the (non-zipped) file locally.
+- [harmonized-attribute-value.ttl.gz](https://drive.google.com/file/d/1id30HwYoghNtki6zPsxz82ew2dDIeiL1/view?usp=sharing)
+  A tab-delimited file in which the data from `harmonized-values-eav.tsv.gz` have been transformed into sets of turtle triples.  
+  If necessary, use `make harmonized-attribute-value.ttl` to create the (non-zipped) file locally.
+
 # Related
 
 https://github.com/cmungall/metadata_converter
