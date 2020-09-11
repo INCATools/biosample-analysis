@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 use Text::Trim 'trim';
+use utf8;
+binmode STDOUT, ":utf8";
 
 # hash table to hold attribute values
 my %attributes = ();
