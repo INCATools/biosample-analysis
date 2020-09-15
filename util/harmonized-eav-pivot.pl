@@ -7,8 +7,8 @@ binmode STDOUT, ":utf8";
 my %attributes = ();
 
 # default values
-my $header = "primary_id";
-my $primaryId = "";
+my $header = "accession";
+my $accession = "";
 my $prevId = "";
 my @data = ();
 my $firstIter = 1;
@@ -46,24 +46,24 @@ seek FH, 0, 0 ;
 $line = <FH>; # skip header
 while($line = <FH>) {
 		@data = split(/\t/, $line); # put data into array
-		$primaryId = $data[0]; 	# collect primary id
+		$accession = $data[0]; 	# collect accession number
 
 		if ($firstIter > 0) {
-				$prevId = $primaryId; # on first iteration set the previous id
+				$prevId = $accession; # on first iteration set the previous id
 				$firstIter = 0; # set first iteration set flag to 0
 		}
 		
 		# check to see if we've reached a new set of ids
-		if ($prevId ne $primaryId) {
+		if ($prevId ne $accession) {
 				# print collected data
-				print "$prevId"; # print primary id; note this will be the previous id
+				print "$prevId"; # print accession number; note this will be the previous id
 				foreach $value (values %attributes) { print "\t$value";} 	# print attribute values
 				print "\n"; # end of line
 				
 				# reset attributes
 				foreach $key (keys %attributes) { $attributes{$key} = ""; }
 						
-				$prevId = $primaryId; # update the previous id
+				$prevId = $accession; # update the previous id
 		}
 
 		# collect attribute name
@@ -80,6 +80,6 @@ while($line = <FH>) {
 }
 
 # after loop finishes there is still one set of data to print
-print "$primaryId"; # print primary id
+print "$accession"; # print accession number
 foreach $value (values %attributes) { print "\t$value";} 	# print attribute values
 print "\n"; # end of line
