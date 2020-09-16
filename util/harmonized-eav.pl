@@ -105,15 +105,15 @@ while(<>) {
 				$attributes{'dna_source'} = $1;
 		}
 
-		if (m@<Link type="entrez".*target="(.+?)".*>?@) {
+		if (m@<Link type="entrez".*target="(.+?)".*>?@) { # collect entrez target
 				$attributes{'entrez_target'} = $1;
 		}
 
-		if (m@<Link type="entrez".*label="(.+?)".*>?@) {
+		if (m@<Link type="entrez".*label="(.+?)".*>?@) { # collect entrez  label
 				$attributes{'entrez_label'} = $1;
 		}
 
-		if (m@<Link type="entrez".*>(.+)</Link>$@) {
+		if (m@<Link type="entrez".*>(.+)</Link>$@) { # collect entrez value
 				$attributes{'entrez_value'} = $1;
 		}
 
