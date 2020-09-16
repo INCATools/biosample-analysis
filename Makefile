@@ -26,16 +26,6 @@ target/harmonized-values-eav.tsv.gz: target/harmonized-values-eav.tsv
 # gzips the target target/harmonized-values-eav.tsv
 	gzip -v -c $< > $@
 
-target/biosample-attribute-value.ttl: target/biosample-attribute-value.tsv.gz
-# convert biosample-attribute-value to rdf (turtle)
-# the output triples are of form <:subj> <:pred> <:value>; so it is also in n3 format
-# each attribute also has an rdfs label and a harmonized predicate to link the harmonized name
-	gzip -dc $< |  ./util/biosample-eav-to-rdf.pl > $@
-
-target/biosample-attribute-value.ttl.gz: target/biosample-attribute-value.ttl
-# gzips target/biosample-attribute-value.ttl
-	gzip -v -c $< > $@
-
 target/harmonized-attribute-value.ttl: target/harmonized-values-eav.tsv.gz
 # convert harmonized-values-eav.tsv to rdf (turtle)
 # the output triples are of form <:subj> <:pred> <:value>; so it is also in n3 format
