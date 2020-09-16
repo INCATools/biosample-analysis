@@ -26,14 +26,6 @@ target/harmonized-values-eav.tsv.gz: target/harmonized-values-eav.tsv
 # gzips the target target/harmonized-values-eav.tsv
 	gzip -v -c $< > $@
 
-target/biosample-attribute-value.tsv:
-# creates a tsv with columns: primary_id|sra_id|attribute|harmonized|value
-	gzip -dc downloads/biosample_set.xml.gz | ./util/biosample-attribute-value.pl > $@
-
-target/biosample-attribute-value.tsv.gz: target/biosample-attribute-value.tsv
-# gzips target/biosample-attribute-value.tsv
-	gzip -v -c $< > $@ 
-
 target/biosample-to-json.json:
 # converts the primary_id, sra_id, and attributes to json structure
 	gzip -dc downloads/biosample_set.xml.gz | ./util/biosample-to-json.pl > $@
