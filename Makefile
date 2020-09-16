@@ -26,14 +26,6 @@ target/harmonized-values-eav.tsv.gz: target/harmonized-values-eav.tsv
 # gzips the target target/harmonized-values-eav.tsv
 	gzip -v -c $< > $@
 
-target/biosample-to-json.json:
-# converts the primary_id, sra_id, and attributes to json structure
-	gzip -dc downloads/biosample_set.xml.gz | ./util/biosample-to-json.pl > $@
-
-target/biosample-to-json.json.gz: target/biosample-to-json.json
-# gzips target/biosample-to-json.json
-	gzip -v -c $< > $@
-
 target/biosample-attribute-value.ttl: target/biosample-attribute-value.tsv.gz
 # convert biosample-attribute-value to rdf (turtle)
 # the output triples are of form <:subj> <:pred> <:value>; so it is also in n3 format
