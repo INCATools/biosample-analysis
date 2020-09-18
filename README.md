@@ -39,7 +39,7 @@ Files include:
   con = sqlite3.connect('harmonized_table.db') # connect to database
   df = pds.read_sql('select * from biosample limit 10', con) # test loading 10 records
   ```
-  **NB:** Loading all records (i.e, `df = pds.read_sql('select * from biosample', con)`) is a very time consuming and memory intensive.  
+  **NB:** Loading all records (i.e, `df = pds.read_sql('select * from biosample', con)`) is a **VERY** time consuming and memory intensive. I gave up after letting the process run for 4 hours.
   Example of how to save the harmonized dataframe in sqlite and parquet are found in [save-harmonized-table-dataframe.py](util/save-harmonized-table-dataframe.py).
   
 # Related 
