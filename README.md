@@ -22,7 +22,7 @@ Files include:
   This is the full raw biosample dataset formatted as XML.
 - [harmonized-values-eav.tsv.gz](https://drive.google.com/file/d/1CgLykW37ZDjgSSxz3GFPGZoDlSwG3N9e/view?usp=sharing)
   A tab-delimited file containing data extracted from `biosample_set.xml.gz` that contains the biosample's primary id and only the biosample attributes that have `harmonized_name` property.
-  The data is in entity-attribute-value ([EAV](https://en.wikipedia.org/wiki/Entity–attribute–value_model)) format. The columns in the file are `primary_id|attribute|value`.
+  The data is in entity-attribute-value ([EAV](https://en.wikipedia.org/wiki/Entity–attribute–value_model)) format. The columns in the file are `accession|attribute|value` (`accession` is the accession number of the biosample).  
   If necessary, use `make target/harmonized-table.tsv` to create the (non-zipped) file locally.   
 - [harmonized-table.tsv.gz](https://drive.google.com/file/d/1chyK2dS8XoPBXriERvi70N9xIhZFUbcy/view?usp=sharing)
   A tab-delimited file in the data from `harmonized-table.tsv.gz` has been "pivoted" into a standard tabular format (i.e., the attributes are column headers).
