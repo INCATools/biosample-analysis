@@ -3,6 +3,16 @@ target download:
 	curl -L -s https://ftp.ncbi.nlm.nih.gov/biosample/biosample_set.xml.gz > downloads/biosample_set.xml.gz
 	curl -L -s https://raw.githubusercontent.com/kbaseapps/kb_cmash/master/lib/kb_cmash/utils/data/ebi_samples_metadata_with_studies_final_with_cols.csv > downloads/ebi_samples_metadata_with_studies_final_with_cols.csv
 
+downloads/emp.tsv:
+	curl -L -s ftp://ftp.microbio.me/emp/release1/mapping_files/emp_qiime_mapping_release1.tsv > $@
+
+downloads/emp_studies.csv:
+	curl -L -s 'https://zenodo.org/record/890000/files/emp_studies.csv?download=1' > $@
+
+target/emp_studies.tsv: downloads/emp_studies.csv
+	mlr --csv --otsv cat $< > $@
+
+
 target/attributes.tsv:
 	gzip -dc downloads/biosample_set.xml.gz  | ./util/hacky-scan.pl > $@
 
