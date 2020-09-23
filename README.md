@@ -35,6 +35,8 @@ Files include:
 
 https://github.com/cmungall/metadata_converter
 
+https://academic.oup.com/database/article/doi/10.1093/database/bav126/2630130
+
 # Example bad data
 
 ## Depth
@@ -67,6 +69,10 @@ Some example values that do not conform:
  - Not collected
  - 7.0-7.5 um
  - Moderately alkaline
+
+Note that missing values do not correspond to:
+
+https://gensc.org/uncategorized/reporting-missing-values/
 
 ## ammonium
 
