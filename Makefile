@@ -27,7 +27,7 @@ target/envo-usage-stats.tsv: target/envo-usage.tsv
 
 target/harmonized-values-eav.tsv:
 # creates a tsv with:
-# columns: accession|attribute|value
+# columns: id|attribute|value
 # for attribute tags, only ones with harmonized names are collected
 # text values, such as paragagraph and taxonomy name, are also collected as attributes
 	gzip -dc downloads/biosample_set.xml.gz | ./util/harmonized-eav.pl > $@
@@ -63,7 +63,6 @@ target/harmonized-table.tsv: target/harmonized-values-eav.tsv
 target/harmonized-table.tsv.gz: target/harmonized-table.tsv
 # gzips target/harmonized-table.tsv
 	gzip -v -c $< > $@
-
 
 target/biosample-table.tsv: target/biosample-attribute-value.tsv
 # converts target/biosample-attribute-value.tsv (EAV format) into a tabular column format
