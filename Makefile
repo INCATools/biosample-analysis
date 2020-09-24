@@ -36,20 +36,15 @@ target/harmonized-values-eav.tsv.gz: target/harmonized-values-eav.tsv
 # gzips the target target/harmonized-values-eav.tsv
 	gzip -v -c $< > $@
 
-target/harmonized-values-only-eav.tsv:
+target/harmonized-attributes-only-eav.tsv:
 # creates a tsv with ONLY the attributes that have a harmonized name
 #   e.g., <Attribute attribute_name="estimated_size" harmonized_name="estimated_size">2550000</Attribute>
 # columns: accession|attribute|value
 	gzip -dc downloads/biosample_set.xml.gz | ./util/harmonized-attributes-only-eav.pl > $@
 
-target/harmonized-values-only-eav.tsv.gz: target/harmonized-values-only-eav.tsv
-# gzips the target target/harmonized-values-only-eav.tsvj
+target/harmonized-attributes-only-eav.tsv.gz: target/harmonized-attributes-only-eav.tsv
+# gzips the target target/harmonized-attributes-only-eav.tsvj
 	gzip -v -c $< > $@
-
-target/harmonized-values-eav.tsv.gz: target/harmonized-values-eav.tsv
-# gzips the target target/harmonized-values-eav.tsv
-	gzip -v -c $< > $@
-
 
 target/harmonized-attribute-value.ttl: target/harmonized-values-eav.tsv.gz
 # convert harmonized-values-eav.tsv to rdf (turtle)
