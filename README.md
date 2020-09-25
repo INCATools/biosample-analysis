@@ -30,8 +30,8 @@ Files include:
 - [harmonized-attribute-value.ttl.gz](https://drive.google.com/file/d/1id30HwYoghNtki6zPsxz82ew2dDIeiL1/view?usp=sharing)
   A tab-delimited file in which the data from `harmonized-values-eav.tsv.gz` have been transformed into sets of turtle triples.  
   If necessary, use `make harmonized-attribute-value.ttl` to create the (non-zipped) file locally.  
-- [harmonized-table.parquet.gzip](https://drive.google.com/file/d/1m-YfihC8ToW82JL-YLr7DRPvcUdz9wsD/view?usp=sharing)   
-  A parquet file containing the same contents as `harmonized-table.tsv.gz`. In pandas, you load like this: `df = pds.read_parquet('harmonized-table.parquet.gzip')`  
+- [harmonized-table.parquet.gz](https://drive.google.com/file/d/1m-YfihC8ToW82JL-YLr7DRPvcUdz9wsD/view?usp=sharing)   
+  A parquet file containing the same contents as `harmonized-table.tsv.gz`. In pandas, you load like this: `df = pds.read_parquet('harmonized-table.parquet.gz')`  
   You will need to have `pyarrow` installed (i.e., `pip install pyarrow`).
 - [harmonized_table.db.gz](https://drive.google.com/file/d/1hgrLkDkUokzOKNXZUa31oW8Umt1woyan/view?usp=sharing)  
   An sqlite database in which the `biosample` table contains the contents of `harmonized-table.tsv.gz`. Data is loaded into a pandas dataframe like this:
