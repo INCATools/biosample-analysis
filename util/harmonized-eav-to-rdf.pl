@@ -21,7 +21,7 @@ while ($line = <>) {
 
 		
 		if ($prevId ne $data[0]) { # only print the ids once
-				print "$subj <$base#accession> \"$data[0]\"^^xsd:string .\n"; # primary_id 
+				print "$subj <$base#id> \"$data[0]\"^^xsd:string .\n"; # primary_id 
 				$prevId = $data[0]; # update previous id
 		}
 
