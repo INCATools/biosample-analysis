@@ -17,10 +17,11 @@ my %harmonized_names = ();
 my $line = <>; # skip header
 while ($line = <>) {
 		@data = split(/\t/, $line);
-		$subj = "<$base#$data[0]>"; # build subject of triple
+		$data[0] =~ s/:/#/g; # replace the ":" in "BIOSAMPLE:<xyz>" with "#"
+		$subj = "<$base/$data[0]>"; # build subject of triple
 
 		
-		if ($prevId ne $data[0]) { # only print the ids once
+		if ($prevId ne $data[0]) { # only print the id predicate once
 				print "$subj <$base#id> \"$data[0]\"^^xsd:string .\n"; # primary_id 
 				$prevId = $data[0]; # update previous id
 		}
