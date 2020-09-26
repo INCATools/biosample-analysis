@@ -14,29 +14,29 @@ my %attributes = ();
 my $paragraph = "";
 my $title = "";
 
-print "accession\tattribute\tvalue\n"; # write header
+print "id\tattribute\tvalue\n"; # write header
 
 while(<>) {
 		trim;
 		
 		if (m@^</BioSample>$@) { # we've reached the end of a biosample block
-				$attributes{'db_id'} = collectDbIds(); # build pipe delimited list of db ids
+				$attributes{'xref'} = collectDbIds(); # build pipe delimited list of db ids
 				printAttributes (); # print collected attributes
 				resetValues(); # clear values
 		}
 
 		if (m@^<BioSample .*accession="(.+?)"@) { # collect accession number from BioSample tag
-				$accession = $1;
+				$accession = "BIOSAMPLE:$1";
 				#print $accession;
 		}
 
-		if (m@^<BioSample .*id="(.+?)"@) { # collect biosample id from BioSampe tag
+		if (m@^<BioSample .*id="(.+?)"@) { # collect biosample id from BioSample tag
 				#$biosampleId = $1;
-				$attributes{'biosample_id'} = $1;
+				$attributes{'accession_biosample_id'} = $1;
 		}
 		
 		if (m@^<Id .*db="(.+?)".*>(.+)</Id>$@) { # db name and associated id
-				$dbMap{$1} = $2;
+				$dbMap{uc $1} = $2; # upper case the db name
 				# if (m@^<Id .*is_primary="1">@) { $primaryId = $1; } # not worrying about primary_id for now ...
 		}
 
