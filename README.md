@@ -40,7 +40,7 @@ Files include:
   df = pds.read_sql('select * from biosample limit 10', con) # test loading 10 records
   ```
   **NB:** Loading all records (i.e, `df = pds.read_sql('select * from biosample', con)`) is a **VERY** time consuming and memory intensive. I gave up after letting the process run for 4 hours.
-  Example of how to save the harmonized dataframe in sqlite and parquet are found in [save-harmonized-table-dataframe.py](util/save-harmonized-table-dataframe.py).
+  Example of how to save the harmonized dataframe in sqlite and parquet are found in [save-harmonized-table-to-parquet.py](util/save-harmonized-table-to-parquet.py) and [save-harmonized-table-to-sqlite.py](util/save-harmonized-table-to-sqlite.py)
   
 # Related 
 
