@@ -32,7 +32,10 @@ Files include:
   If necessary, use `make harmonized-attribute-value.ttl` to create the (non-zipped) file locally.  
 - **harmonized-table.parquet.gz**  
   A parquet file containing the same contents as `harmonized-table.tsv.gz`. In pandas, you load like this: `df = pds.read_parquet('harmonized-table.parquet.gz')`  
-  You will need to have `pyarrow` installed (i.e., `pip install pyarrow`).
+  You will need to have `pyarrow` installed (i.e., `pip install pyarrow`).  
+  If necessary, use `make target/harmonized-table.parquet.gz` to create the parquet file locally.  
+  Details of how to save the harmonized dataframe in parquet are found in [[save-harmonized-table-to-parquet.py](util/save-harmonized-table-to-parquet.py). 
+  
 - **harmonized_table.db.gz**     
   An sqlite database in which the `biosample` table contains the contents of `harmonized-table.tsv.gz`. Data is loaded into a pandas dataframe like this:
   ```
@@ -40,7 +43,8 @@ Files include:
   df = pds.read_sql('select * from biosample limit 10', con) # test loading 10 records
   ```
   **NB:** Loading all records (i.e, `df = pds.read_sql('select * from biosample', con)`) is a **VERY** time consuming and memory intensive. I gave up after letting the process run for 4 hours.
-  Example of how to save the harmonized dataframe in sqlite and parquet are found in [save-harmonized-table-dataframe.py](util/save-harmonized-table-dataframe.py).
+  If necessary, use `make target/harmonized_table.db` to create the (non-zipped) sqlite database locally.  
+  Details of how to save the harmonized dataframe in sqlite [save-harmonized-table-to-sqlite.py](util/save-harmonized-table-to-sqlite.py)
   
 # Related 
 
