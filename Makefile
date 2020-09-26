@@ -64,6 +64,20 @@ target/harmonized-table.tsv.gz: target/harmonized-table.tsv
 # gzips target/harmonized-table.tsv
 	gzip -v -c $< > $@
 
+target/harmonized-table.parquet.gz: target/harmonized-table.tsv
+# save target/harmonized-table.tsv as a parquet file
+# this makes loading the data easier
+	python ./util/save-harmonized-table-to-parquet.py $< $@
+
+target/harmonized_table.db: target/harmonized-table.tsv
+# creates an sqlite3 database of target/harmonized-table.tsv
+# NB: this operation takes a few hours to complete
+	python ./util/save-harmonized-table-to-sqlite.py $< $@
+
+target/harmonized_table.db.gz: target/harmonized_table.db
+# gzips target/harmonized_table.db.gz
+	gzip -v -c $< > $@
+
 target/biosample-table.tsv: target/biosample-attribute-value.tsv
 # converts target/biosample-attribute-value.tsv (EAV format) into a tabular column format
 	util/biosample-eav-pivot.pl $< > $@
