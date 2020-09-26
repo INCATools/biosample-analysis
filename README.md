@@ -34,7 +34,7 @@ Files include:
   A parquet file containing the same contents as `harmonized-table.tsv.gz`. In pandas, you load like this: `df = pds.read_parquet('harmonized-table.parquet.gz')`  
   You will need to have `pyarrow` installed (i.e., `pip install pyarrow`).  
   If necessary, use `make target/harmonized-table.parquet.gz` to create the parquet file locally.  
-  Details of how to save the harmonized dataframe in parquet are found in [[save-harmonized-table-to-parquet.py](util/save-harmonized-table-to-parquet.py). 
+  Details of how to save the harmonized dataframe in parquet are found in [save-harmonized-table-to-parquet.py](util/save-harmonized-table-to-parquet.py). 
   
 - **harmonized_table.db.gz**     
   An sqlite database in which the `biosample` table contains the contents of `harmonized-table.tsv.gz`. Data is loaded into a pandas dataframe like this:
