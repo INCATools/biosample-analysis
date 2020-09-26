@@ -44,7 +44,7 @@ Files include:
   ```
   **NB:** Loading all records (i.e, `df = pds.read_sql('select * from biosample', con)`) is a **VERY** time consuming and memory intensive. I gave up after letting the process run for 4 hours.
   If necessary, use `make target/harmonized_table.db` to create the (non-zipped) sqlite database locally.  
-  Details of how to save the harmonized dataframe in sqlite [save-harmonized-table-to-sqlite.py](util/save-harmonized-table-to-sqlite.py)
+  Details of how to save the harmonized dataframe in sqlite are found in [save-harmonized-table-to-sqlite.py](util/save-harmonized-table-to-sqlite.py)
   
 # Related 
 
