@@ -27,7 +27,7 @@ target/envo-usage-stats.tsv: target/envo-usage.tsv
 
 target/harmonized-values-eav.tsv:
 # creates a tsv with:
-# columns: accession|attribute|value
+# columns: id|attribute|value
 # for attribute tags, only ones with harmonized names are collected
 # text values, such as paragagraph and taxonomy name, are also collected as attributes
 	gzip -dc downloads/biosample_set.xml.gz | ./util/harmonized-eav.pl > $@
@@ -36,20 +36,15 @@ target/harmonized-values-eav.tsv.gz: target/harmonized-values-eav.tsv
 # gzips the target target/harmonized-values-eav.tsv
 	gzip -v -c $< > $@
 
-target/harmonized-values-only-eav.tsv:
+target/harmonized-attributes-only-eav.tsv:
 # creates a tsv with ONLY the attributes that have a harmonized name
 #   e.g., <Attribute attribute_name="estimated_size" harmonized_name="estimated_size">2550000</Attribute>
 # columns: accession|attribute|value
 	gzip -dc downloads/biosample_set.xml.gz | ./util/harmonized-attributes-only-eav.pl > $@
 
-target/harmonized-values-only-eav.tsv.gz: target/harmonized-values-only-eav.tsv
-# gzips the target target/harmonized-values-only-eav.tsvj
+target/harmonized-attributes-only-eav.tsv.gz: target/harmonized-attributes-only-eav.tsv
+# gzips the target target/harmonized-attributes-only-eav.tsvj
 	gzip -v -c $< > $@
-
-target/harmonized-values-eav.tsv.gz: target/harmonized-values-eav.tsv
-# gzips the target target/harmonized-values-eav.tsv
-	gzip -v -c $< > $@
-
 
 target/harmonized-attribute-value.ttl: target/harmonized-values-eav.tsv.gz
 # convert harmonized-values-eav.tsv to rdf (turtle)
@@ -69,6 +64,19 @@ target/harmonized-table.tsv.gz: target/harmonized-table.tsv
 # gzips target/harmonized-table.tsv
 	gzip -v -c $< > $@
 
+target/harmonized-table.parquet.gz: target/harmonized-table.tsv
+# save target/harmonized-table.tsv as a parquet file
+# this makes loading the data easier
+	python ./util/save-harmonized-table-to-parquet.py $< $@
+
+target/harmonized_table.db: target/harmonized-table.tsv
+# creates an sqlite3 database of target/harmonized-table.tsv
+# NB: this operation takes a few hours to complete
+	python ./util/save-harmonized-table-to-sqlite.py $< $@
+
+target/harmonized_table.db.gz: target/harmonized_table.db
+# gzips target/harmonized_table.db.gz
+	gzip -v -c $< > $@
 
 target/biosample-table.tsv: target/biosample-attribute-value.tsv
 # converts target/biosample-attribute-value.tsv (EAV format) into a tabular column format
