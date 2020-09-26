@@ -18,29 +18,33 @@ See Makefile for details
 # Analysis Data
 In addition to the data in the target directory, sample data that is too large for GitHub is stored our Google drive [here](https://drive.google.com/drive/u/1/folders/1eL0v0stoduahjDpoDJIk3z2pJBAU4b2Y).  
 Files include:
-- [biosample_set.xml.gz](https://drive.google.com/file/d/1YNp7Sj4k0jfZZa3DSsqO0QQ64m0_DT3e/view?usp=sharing)  
+- **biosample_set.xml.gz**  
   This is the full raw biosample dataset formatted as XML.
-- [harmonized-values-eav.tsv.gz](https://drive.google.com/file/d/1CgLykW37ZDjgSSxz3GFPGZoDlSwG3N9e/view?usp=sharing)
+- **harmonized-values-eav.tsv.gz**  
   A tab-delimited file containing data extracted from `biosample_set.xml.gz` that contains the biosample's primary id and only the biosample attributes that have `harmonized_name` property.
   The data is in entity-attribute-value ([EAV](https://en.wikipedia.org/wiki/Entity–attribute–value_model)) format. The columns in the file are `accession|attribute|value` (`accession` is the accession number of the biosample).  
   If necessary, use `make target/harmonized-table.tsv` to create the (non-zipped) file locally.   
-- [harmonized-table.tsv.gz](https://drive.google.com/file/d/1chyK2dS8XoPBXriERvi70N9xIhZFUbcy/view?usp=sharing)
+- **harmonized-table.tsv.gz**  
   A tab-delimited file in the data from `harmonized-table.tsv.gz` has been "pivoted" into a standard tabular format (i.e., the attributes are column headers).
   If necessary, use `make harmonized-table.tsv` to create the (non-zipped) file locally.   
-- [harmonized-attribute-value.ttl.gz](https://drive.google.com/file/d/1id30HwYoghNtki6zPsxz82ew2dDIeiL1/view?usp=sharing)
+- **harmonized-attribute-value.ttl.gz**    
   A tab-delimited file in which the data from `harmonized-values-eav.tsv.gz` have been transformed into sets of turtle triples.  
   If necessary, use `make harmonized-attribute-value.ttl` to create the (non-zipped) file locally.  
-- [harmonized-table.parquet.gzip](https://drive.google.com/file/d/1m-YfihC8ToW82JL-YLr7DRPvcUdz9wsD/view?usp=sharing)   
-  A parquet file containing the same contents as `harmonized-table.tsv.gz`. In pandas, you load like this: `df = pds.read_parquet('harmonized-table.parquet.gzip')`  
-  You will need to have `pyarrow` installed (i.e., `pip install pyarrow`).
-- [harmonized_table.db.gz](https://drive.google.com/file/d/1hgrLkDkUokzOKNXZUa31oW8Umt1woyan/view?usp=sharing)  
+- **harmonized-table.parquet.gz**  
+  A parquet file containing the same contents as `harmonized-table.tsv.gz`. In pandas, you load like this: `df = pds.read_parquet('harmonized-table.parquet.gz')`  
+  You will need to have `pyarrow` installed (i.e., `pip install pyarrow`).  
+  If necessary, use `make target/harmonized-table.parquet.gz` to create the parquet file locally.  
+  Details of how to save the harmonized dataframe in parquet are found in [save-harmonized-table-to-parquet.py](util/save-harmonized-table-to-parquet.py). 
+  
+- **harmonized_table.db.gz**     
   An sqlite database in which the `biosample` table contains the contents of `harmonized-table.tsv.gz`. Data is loaded into a pandas dataframe like this:
   ```
   con = sqlite3.connect('harmonized_table.db') # connect to database
   df = pds.read_sql('select * from biosample limit 10', con) # test loading 10 records
   ```
   **NB:** Loading all records (i.e, `df = pds.read_sql('select * from biosample', con)`) is a **VERY** time consuming and memory intensive. I gave up after letting the process run for 4 hours.
-  Example of how to save the harmonized dataframe in sqlite and parquet are found in [save-harmonized-table-to-parquet.py](util/save-harmonized-table-to-parquet.py) and [save-harmonized-table-to-sqlite.py](util/save-harmonized-table-to-sqlite.py)
+  If necessary, use `make target/harmonized_table.db` to create the (non-zipped) sqlite database locally.  
+  Details of how to save the harmonized dataframe in sqlite [save-harmonized-table-to-sqlite.py](util/save-harmonized-table-to-sqlite.py)
   
 # Related 
 
