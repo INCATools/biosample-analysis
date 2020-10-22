@@ -1,0 +1,8 @@
+The challenges facing public health microbiologists when tackling pathogenic microbial species can be broadly summarised as 1) identification of high-risk lineages, 2) their risk assessment (eg., antimicrobial resistance) and 3) infection control. Whole Genome Sequencing (WGS) of bacterial species provides signatures of resistance and virulence and, uniquely, allows the build up of a ‘digital library’ for ongoing population comparison, which can be utilised to identify markers for rapid diagnostics.
+
+We will facilitate the implementation of WGS within AMR surveillance and clinical diagnostics within the laboratory network of the Antimicrobial Resistance Surveillance Program (ARSP) in the Philippines, and develop bioinformatics to enable local, national and international comparison of data for key pathogen species .
+The proposal consists of 4 major parts:
+1)Establishment of genomic background – sequencing of retrospective susceptible and resistant isolates (to be undertaken at The Sanger Institute).
+2)Prospective sequencing (within ARSRL) – isolates with novel antibiograms determined by routine susceptibility testing via a ‘save for sequencing’ flag within the WHONET software (in use currently).
+3)Provision of data throughout the ARSP network using tools developed at Sanger and Imperial College 
+4)Capacity building in genomics, bioinformatics and sequencing (staff exchange between locations and workshops).

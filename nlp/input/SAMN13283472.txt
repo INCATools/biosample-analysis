@@ -1,0 +1,1 @@
+Currently encompasses whole genome sequencing of cultured Vibrio parahaemolyticus as part of a surveillance project for the rapid detection foodborne illness outbreaks.

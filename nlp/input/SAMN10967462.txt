@@ -1,0 +1,1 @@
+This is a collection of metagenome-assembled genomes that were reconstructed from metagnomes from hydrothermal plume metagenomes (Guaymas Basin, Cayman Rise and Lau Basin) and Cayman_vent_fluid metagenomes. This project is aiming to find potentially novel microbial groups that are inhabiting hydrothermal environments and of ecological importance. The binning method is upgraded.

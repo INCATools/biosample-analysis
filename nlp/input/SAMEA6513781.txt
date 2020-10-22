@@ -1,0 +1,1 @@
+Project for assembly of SRA data using SKESA for Pathogen Detection

@@ -1,0 +1,1 @@
+Intestinal microbiome controls sensitivity to inflammatory bowel disease. Pglyrp-deficient mice are predisposed to colitis and this predisposition is dependent on the changed composition of their intestinal microflora. This project compares the diversity of stool bacteria in wild-type mice and mice deficient in Pglyrp1, Pglyrp2, Plglyrp3, or Pglyrp4 genes.

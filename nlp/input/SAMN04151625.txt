@@ -1,0 +1,1 @@
+Arabidopsis leaf- and root-derived microbiota culture collections representing the majority of bacterial species that are reproducibly detectable by culture-independent community sequencing.
