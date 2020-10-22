@@ -1,0 +1,1 @@
+PacBio sequencing of six relevant rhizobacterial genomes with commercial value.

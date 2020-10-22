@@ -1,0 +1,1 @@
+In order to study metabolic potential of microbes in trench sediments, we sequenced metagenomes of Challenger Deep sediment samples and further reconstructed microbial genomes from the generated sequencing data.

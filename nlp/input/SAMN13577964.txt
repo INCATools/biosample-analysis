@@ -1,0 +1,1 @@
+Whole genome sequences of various bacteria (Pseudomonas aeruginosa, Pseudomonas syringae, Escherichia coli) with large genomic deletions generated using Type I-C CRISPR-Cas system mapped to ancestral reference sequences

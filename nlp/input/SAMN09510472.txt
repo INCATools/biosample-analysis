@@ -1,0 +1,1 @@
+Nine different bacterial strains belonging to three genera, Aeromonas, Flavobacterium and Pseudocardia were sequenced using the MinION and MiSeq. Different assembly pipelines were evaluated.
