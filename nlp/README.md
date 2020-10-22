@@ -23,6 +23,6 @@
 
 ### 8. The [output folder](output) should have the result.
 
-### NOTE: The input folder in GitHub has only 1000 text files since the whole dataset is too big to upload to GitHub and the output corresponds to those 1000 text files. The entire files can be downloaded:
-- [allText.tgz](https://drive.google.com/file/d/1fDm6dpHL1CPtd8agLk4YIUd7NFvEG-JG/view?usp=sharing)
-- [OGER output](https://drive.google.com/file/d/1Lk5VMx5ziWQSpdaoj94JXgOZ3gfrpaJu/view?usp=sharing)
+### NOTE: The input folder in GitHub has only 1000 text files since the whole dataset is too big for a GitHub upload and the output corresponds to those 1000 text files. The complete datasets can be downloaded from:
+- Input: [allText.tgz](https://drive.google.com/file/d/1fDm6dpHL1CPtd8agLk4YIUd7NFvEG-JG/view?usp=sharing)
+- Output: [OGER output](https://drive.google.com/file/d/1Lk5VMx5ziWQSpdaoj94JXgOZ3gfrpaJu/view?usp=sharing)
