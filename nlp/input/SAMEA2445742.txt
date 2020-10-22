@@ -1,0 +1,6 @@
+“Draft Genome Sequence of 24570, the Type Strain of Shigella flexneri” . Pubmed ID 26021915. Shigella flexneri is a diarrheal pathogen that causes a large disease burden worldwide. We sequenced the genome of the publicly available type strain (S. flexneri 2a strain 24570) of this bacterial species to increase its utility as a reference. We present genome assembly results and comparisons with other reference strains.
+This data is part of a pre-publication release. For information on the proper use of pre-publication data shared by the Wellcome Trust Sanger Institute (including details of any publication moratoria), please see http://www.sanger.ac.uk/about/who-we-are/policies/open-access-science 
+
+http://www.sanger.ac.uk/resources/downloads/bacteria/ 
+
+http://www.sanger.ac.uk/resources/downloads/bacteria/

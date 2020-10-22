@@ -1,0 +1,1 @@
+This BioProject contains the whole genome sequence data uploaded by the Salmonella Reference Service (Gastrointestinal Bacteria Reference Unit), Public Health England.

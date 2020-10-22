@@ -1,0 +1,1 @@
+Genome sequencing and assembly of Pseudomonas aeruginosa clinical isolates from the bioMérieux collection and the Pirnay collection. These strains contribute to a global view of the phylogenetic distribution, conservation, and potential targets of type I CRISPR-cas systems.

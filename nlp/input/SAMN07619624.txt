@@ -1,0 +1,1 @@
+Utilizing the available metagenomic data from the Tara Oceans global expedition, we have used current assembly and binning techniques to reconstruct draft metagenome-assembled bacterial and archaeal genomes, with an estimated completion of ≥50%

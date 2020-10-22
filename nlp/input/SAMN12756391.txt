@@ -1,0 +1,1 @@
+This bioproject contains reconstructed genomic bins belonging to the uncultured prokaryotes. These genomic bins originate from metagenomes of different freshwater environments.
