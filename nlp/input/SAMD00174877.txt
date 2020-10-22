@@ -1,0 +1,1 @@
+Molecular epidemiology and biology analysis were performed by draft whole-genome sequencing using MiSeq, illumina.

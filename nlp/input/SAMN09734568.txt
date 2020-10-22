@@ -1,0 +1,1 @@
+Reference genomes of the gut microbiota are essential for metagenomic analysis, functional characterization, and pan-genome analysis. A culturable genome reference (CGR) was built to improve mapping rates for metagenomic analysis, as well as enable functional characterization and pan-genome analysis to human gut microbiota.

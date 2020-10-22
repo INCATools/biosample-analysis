@@ -1,0 +1,1 @@
+Although recent comprehensive genomic studies have contributed to add genomic data for several NTM species  (Fedrizzi et al. 2017; Tortoli et al. 2017), available genomic data in public databases are still limited. This project expands the NTM genomic data consists of both newly sequenced and re-sequenced.

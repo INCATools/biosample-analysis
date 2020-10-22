@@ -1,0 +1,1 @@
+Whole sequencing of Clinical and environmental isolates associated with the deadly 2015 Legionnaires' disease outbreak in New York City. These sequences where generated during the outbreak investigation in order to find and confirm the source of the outbreak in the South Bronx and also include seqeunces from historical samples with identical or similar PFGE patterns.
