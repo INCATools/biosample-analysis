@@ -25,4 +25,9 @@ Steps to set-up the NLP pipeline
     i. j: number of workers (for parallel threads)
     ii. v: verbose
 
-8. The ouput folder should have the result.
+8. The output folder should have the result.
+
+NOTE:
+      a. The input folder in GitHub has only 1000 text files
+        since the whole dataset is too big to upload to GitHub.
+      b. The output corresponds to those 1000 text files.
