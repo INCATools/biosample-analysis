@@ -14,7 +14,7 @@
 
 ### 5. Create the '[settings.ini](settings.ini)' file based on [OGER documentation](https://github.com/OntoGene/OGER/wiki/run#settings-files)
 
-### 6. The Jupyter document ['xmlParsing.ipynb'](../src/notebooks/xmlParsing.ipynb) creates a folder 'allText' and populates it with *.txt files. Each file corresponds to the text going through the entity recognition process with the filename as 'BIOSAMPLE:' id and the text within being the description. This file is too large and hence it is stored in our [google drive](https://drive.google.com/drive/u/0/folders/1eL0v0stoduahjDpoDJIk3z2pJBAU4b2Y)
+### 6. The Jupyter document '[xmlParsing.ipynb](../src/notebooks/xmlParsing.ipynb)' creates a folder 'allText' and populates it with *.txt files. Each file corresponds to the text going through the entity recognition process with the filename as 'BIOSAMPLE:' id and the text within being the description. This file is too large and hence it is stored in our [google drive](https://drive.google.com/drive/u/0/folders/1eL0v0stoduahjDpoDJIk3z2pJBAU4b2Y)
 
 ### 7. Run OGER
   `oger run -s settings.ini -v -j 5`
