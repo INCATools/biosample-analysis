@@ -10,6 +10,8 @@
     - In case of the unavailability of JSON format, we can convert an OWL to JSON via [ROBOT](http://robot.obolibrary.org/).</br>
       `robot convert --input input/ncbitaxon.owl --output input/ncbitaxon.json -f json`
     - ROBOT may throw errors during conversion which are addressed [here](http://robot.obolibrary.org/errors.html).
+    - If JAVA options need to be declared, [here](https://docs.oracle.com/html/E23737_01/configuring_jvm.htm) is a list. </br>
+    `export ROBOT_JAVA_ARGS = <java_options> && robot convert ...`
   - [Preparing term-list](https://github.com/deepakunni3/runner#preparing-term-list)
   
 
