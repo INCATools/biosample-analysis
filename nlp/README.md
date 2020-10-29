@@ -7,10 +7,11 @@
 
 ### 3. Follow Instruction from [the runNER repo](https://github.com/deepakunni3/runner)
   - [Ontology conversion from JSON to TSV via KGX](https://github.com/deepakunni3/runner#ontology-to-kgx-tsv)
-  - [Preparing term-list](https://github.com/deepakunni3/runner#preparing-term-list)
-  - In case of the unavailability of JSON format, we can convert an OWL format to JSON via [ROBOT](http://robot.obolibrary.org/).
-  `robot convert --input input/ncbitaxon.owl --output input/ncbitaxon.json -f json`
+    - In case of the unavailability of JSON format, we can convert an OWL to JSON via [ROBOT](http://robot.obolibrary.org/).</br>
+      `robot convert --input input/ncbitaxon.owl --output input/ncbitaxon.json -f json`
     - ROBOT may throw errors during conversion which are addressed [here](http://robot.obolibrary.org/errors.html).
+  - [Preparing term-list](https://github.com/deepakunni3/runner#preparing-term-list)
+  
 
 ### 4. Install OGER
   `pip install git+git://github.com/OntoGene/OGER`
