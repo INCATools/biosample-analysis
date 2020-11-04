@@ -1,1008 +1,1008 @@
-Filename	biolink	Begin	End	Term	TaggedAs	Ontology	S-Type	CUI
-stopWords	biolink:ChemicalSubstance	111	112	t	thymidine	CHEBI:17748	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	111	112	t	top quark	CHEBI:36371	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	111	112	t	ribothymidine	CHEBI:45996	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	111	112	t	tritide	CHEBI:29302	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	111	112	t	tritium atom	CHEBI:29238	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	111	112	t	L-threonine	CHEBI:16857	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	111	112	t	L-threonine residue	CHEBI:30013	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	111	112	t	tritium(.)	CHEBI:29304	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	111	112	t	triton	CHEBI:29234	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	111	112	t	thymine	CHEBI:17821	S1	CUI-less
-stopWords	biolink:OrganismalEntity	113	116	all	root	NCBITaxon:1	S1	CUI-less
-stopWords	biolink:OrganismalEntity	113	116	all	root	NCBITaxon:1	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	113	116	all	allose	CHEBI:37690	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	188	190	am	Ala-Met	CHEBI:73806	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	188	190	am	americium atom	CHEBI:33389	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	217	219	an	radon-219 atom	CHEBI:33493	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	217	219	an	actinoid atom	CHEBI:33320	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	217	219	an	Ala-Asn	CHEBI:73330	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	336	337	t	thymidine	CHEBI:17748	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	336	337	t	top quark	CHEBI:36371	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	336	337	t	ribothymidine	CHEBI:45996	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	336	337	t	tritide	CHEBI:29302	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	336	337	t	tritium atom	CHEBI:29238	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	336	337	t	L-threonine	CHEBI:16857	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	336	337	t	L-threonine residue	CHEBI:30013	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	336	337	t	tritium(.)	CHEBI:29304	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	336	337	t	triton	CHEBI:29234	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	336	337	t	thymine	CHEBI:17821	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	345	347	as	Ala-Ser	CHEBI:73394	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	345	347	as	arsenic atom	CHEBI:27563	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	345	347	as	artesunate	CHEBI:63918	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	345	347	as	arsane	CHEBI:47217	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	345	347	as	arsanetriyl group	CHEBI:29766	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	348	349	a	hydrogen acceptor	CHEBI:13193	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	348	349	a	alanine	CHEBI:16449	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	348	349	a	adenosine residue	CHEBI:62885	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	348	349	a	adenosine 5'-monophosphate residue	CHEBI:50306	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	348	349	a	adenine	CHEBI:16708	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	348	349	a	L-alanine	CHEBI:16977	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	348	349	a	L-alanine residue	CHEBI:46217	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	348	349	a	acceptor	CHEBI:15339	S1	CUI-less
-stopWords	biolink:OntologyClass	348	349	a	a mating type (yeast)	PATO:0001341	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	348	351	a's	Ala-Ser	CHEBI:73394	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	350	351	s	sulfur(1+)	CHEBI:29832	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	350	351	s	sulfur atom	CHEBI:26833	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	350	351	s	L-serine residue	CHEBI:29999	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	350	351	s	sulfido group	CHEBI:29831	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	350	351	s	thioxo group	CHEBI:29833	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	350	351	s	sulfanediyl group	CHEBI:29830	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	350	351	s	strange quark	CHEBI:36368	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	350	351	s	polysulfur	CHEBI:17909	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	350	351	s	sulfide(.1-)	CHEBI:29316	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	350	351	s	L-serine	CHEBI:17115	S1	CUI-less
-stopWords	biolink:OntologyClass	369	379	associated	associated with	PATO:0001668	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	380	382	at	astatine atom	CHEBI:30415	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	380	382	at	Ala-Thr	CHEBI:73762	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	380	382	at	astatine(.)	CHEBI:30416	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	380	382	at	astatide	CHEBI:30417	S1	CUI-less
-stopWords	biolink:OntologyClass	406	410	back	back	OBO:PATO_0001901	S1	CUI-less
-stopWords	biolink:OntologyClass	406	410	back	back	PATO:0001901	S1	CUI-less
-stopWords	biolink:OntologyClass	411	419	backward	inverted	PATO:0000625	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	430	432	be	beryllium atom	CHEBI:30501	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	430	432	be	beryllium(1+)	CHEBI:30503	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	563	569	beyond	imazamox-ammonium	CHEBI:133232	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	593	596	can	calcium ammonium nitrate	CHEBI:91238	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	593	596	can	calcium(0)	CHEBI:29320	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	609	612	can	calcium ammonium nitrate	CHEBI:91238	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	609	612	can	calcium(0)	CHEBI:29320	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	613	614	t	thymidine	CHEBI:17748	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	613	614	t	top quark	CHEBI:36371	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	613	614	t	ribothymidine	CHEBI:45996	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	613	614	t	tritide	CHEBI:29302	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	613	614	t	tritium atom	CHEBI:29238	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	613	614	t	L-threonine	CHEBI:16857	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	613	614	t	L-threonine residue	CHEBI:30013	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	613	614	t	tritium(.)	CHEBI:29304	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	613	614	t	triton	CHEBI:29234	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	613	614	t	thymine	CHEBI:17821	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	670	671	c	carbon atom	CHEBI:27594	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	670	671	c	methanetetrayl group	CHEBI:30039	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	670	671	c	carbon(1+)	CHEBI:29436	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	670	671	c	cytidine 5'-monophosphate residue	CHEBI:50308	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	670	671	c	cytidine residue	CHEBI:64656	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	670	671	c	L-cysteine	CHEBI:17561	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	670	671	c	carbide(1-)	CHEBI:29435	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	670	671	c	charm quark	CHEBI:36369	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	670	671	c	L-cysteine residue	CHEBI:29950	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	670	671	c	cytosine	CHEBI:16040	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	670	671	c	methanediylidene group	CHEBI:30040	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	670	671	c	cysteine	CHEBI:15356	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	672	675	mon	montanoyl group	CHEBI:25417	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	676	678	co	cobalt atom	CHEBI:27638	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	676	678	co	oxidocarbonate(.1-)	CHEBI:29335	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	676	678	co	cobalt(1+)	CHEBI:85033	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	676	678	co	carbon monoxide	CHEBI:17245	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	676	678	co	oxidocarbon(.1+)	CHEBI:29333	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	676	681	co co	oxalyl group	CHEBI:30870	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	679	681	co	cobalt atom	CHEBI:27638	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	679	681	co	oxidocarbonate(.1-)	CHEBI:29335	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	679	681	co	cobalt(1+)	CHEBI:85033	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	679	681	co	carbon monoxide	CHEBI:17245	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	679	681	co	oxidocarbon(.1+)	CHEBI:29333	S1	CUI-less
-stopWords	biolink:ChemicalSubstance	683	686	com	coenzyme M	CHEBI:17905	S2	CUI-less
-stopWords	biolink:OntologyClass	722	730	consider	consider	OIO:consider	S2	CUI-less
-stopWords	biolink:OntologyClass	722	730	consider	consider	OIO:consider	S2	CUI-less
-stopWords	biolink:OntologyClass	762	770	contains	contains	RO:0001019	S2	CUI-less
-stopWords	biolink:OntologyClass	762	770	contains	contains	RO:0001019	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	798	799	t	thymidine	CHEBI:17748	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	798	799	t	top quark	CHEBI:36371	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	798	799	t	ribothymidine	CHEBI:45996	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	798	799	t	tritide	CHEBI:29302	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	798	799	t	tritium atom	CHEBI:29238	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	798	799	t	L-threonine	CHEBI:16857	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	798	799	t	L-threonine residue	CHEBI:30013	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	798	799	t	tritium(.)	CHEBI:29304	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	798	799	t	triton	CHEBI:29234	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	798	799	t	thymine	CHEBI:17821	S2	CUI-less
-stopWords	biolink:OntologyClass	800	806	course	watercourse	ENVO:00000029	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	807	808	c	carbon atom	CHEBI:27594	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	807	808	c	methanetetrayl group	CHEBI:30039	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	807	808	c	carbon(1+)	CHEBI:29436	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	807	808	c	cytidine 5'-monophosphate residue	CHEBI:50308	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	807	808	c	cytidine residue	CHEBI:64656	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	807	808	c	L-cysteine	CHEBI:17561	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	807	808	c	carbide(1-)	CHEBI:29435	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	807	808	c	charm quark	CHEBI:36369	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	807	808	c	L-cysteine residue	CHEBI:29950	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	807	808	c	cytosine	CHEBI:16040	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	807	808	c	methanediylidene group	CHEBI:30040	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	807	808	c	cysteine	CHEBI:15356	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	807	810	c's	thiocarbonyl group	CHEBI:30256	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	807	810	c's	carbonothioylidene group	CHEBI:30257	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	807	810	c's	Cys-Ser	CHEBI:73462	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	809	810	s	sulfur(1+)	CHEBI:29832	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	809	810	s	sulfur atom	CHEBI:26833	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	809	810	s	L-serine residue	CHEBI:29999	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	809	810	s	sulfido group	CHEBI:29831	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	809	810	s	thioxo group	CHEBI:29833	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	809	810	s	sulfanediyl group	CHEBI:29830	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	809	810	s	strange quark	CHEBI:36368	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	809	810	s	polysulfur	CHEBI:17909	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	809	810	s	sulfide(.1-)	CHEBI:29316	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	809	810	s	L-serine	CHEBI:17115	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	832	833	t	thymidine	CHEBI:17748	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	832	833	t	top quark	CHEBI:36371	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	832	833	t	ribothymidine	CHEBI:45996	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	832	833	t	tritide	CHEBI:29302	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	832	833	t	tritium atom	CHEBI:29238	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	832	833	t	L-threonine	CHEBI:16857	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	832	833	t	L-threonine residue	CHEBI:30013	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	832	833	t	tritium(.)	CHEBI:29304	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	832	833	t	triton	CHEBI:29234	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	832	833	t	thymine	CHEBI:17821	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	863	866	did	dilC18(5) dye	CHEBI:52027	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	872	873	t	thymidine	CHEBI:17748	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	872	873	t	top quark	CHEBI:36371	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	872	873	t	ribothymidine	CHEBI:45996	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	872	873	t	tritide	CHEBI:29302	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	872	873	t	tritium atom	CHEBI:29238	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	872	873	t	L-threonine	CHEBI:16857	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	872	873	t	L-threonine residue	CHEBI:30013	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	872	873	t	tritium(.)	CHEBI:29304	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	872	873	t	triton	CHEBI:29234	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	872	873	t	thymine	CHEBI:17821	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	907	908	t	thymidine	CHEBI:17748	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	907	908	t	top quark	CHEBI:36371	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	907	908	t	ribothymidine	CHEBI:45996	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	907	908	t	tritide	CHEBI:29302	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	907	908	t	tritium atom	CHEBI:29238	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	907	908	t	L-threonine	CHEBI:16857	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	907	908	t	L-threonine residue	CHEBI:30013	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	907	908	t	tritium(.)	CHEBI:29304	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	907	908	t	triton	CHEBI:29234	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	907	908	t	thymine	CHEBI:17821	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	920	923	don	deoxynivalenol	CHEBI:10022	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	924	925	t	thymidine	CHEBI:17748	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	924	925	t	top quark	CHEBI:36371	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	924	925	t	ribothymidine	CHEBI:45996	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	924	925	t	tritide	CHEBI:29302	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	924	925	t	tritium atom	CHEBI:29238	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	924	925	t	L-threonine	CHEBI:16857	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	924	925	t	L-threonine residue	CHEBI:30013	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	924	925	t	tritium(.)	CHEBI:29304	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	924	925	t	triton	CHEBI:29234	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	924	925	t	thymine	CHEBI:17821	S2	CUI-less
-stopWords	biolink:OntologyClass	926	930	down	grassland ecosystem	ENVO:01001206	S2	CUI-less
-stopWords	biolink:OntologyClass	926	930	down	down	OBO:PATO_0000365	S2	CUI-less
-stopWords	biolink:OntologyClass	926	930	down	down	PATO:0000365	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	957	959	eg	Glu-Gly	CHEBI:73505	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1033	1035	et	ethyl	CHEBI:62801	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1033	1035	et	ethyl group	CHEBI:37807	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1033	1035	et	Glu-Thr	CHEBI:73510	S2	CUI-less
-stopWords	biolink:OrganismalEntity	1315	1319	goes	Goes	NCBITaxon:376232	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1361	1362	t	thymidine	CHEBI:17748	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1361	1362	t	top quark	CHEBI:36371	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1361	1362	t	ribothymidine	CHEBI:45996	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1361	1362	t	tritide	CHEBI:29302	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1361	1362	t	tritium atom	CHEBI:29238	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1361	1362	t	L-threonine	CHEBI:16857	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1361	1362	t	L-threonine residue	CHEBI:30013	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1361	1362	t	tritium(.)	CHEBI:29304	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1361	1362	t	triton	CHEBI:29234	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1361	1362	t	thymine	CHEBI:17821	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1383	1386	has	hexadehydroastechrome	CHEBI:73878	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1392	1393	t	thymidine	CHEBI:17748	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1392	1393	t	top quark	CHEBI:36371	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1392	1393	t	ribothymidine	CHEBI:45996	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1392	1393	t	tritide	CHEBI:29302	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1392	1393	t	tritium atom	CHEBI:29238	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1392	1393	t	L-threonine	CHEBI:16857	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1392	1393	t	L-threonine residue	CHEBI:30013	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1392	1393	t	tritium(.)	CHEBI:29304	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1392	1393	t	triton	CHEBI:29234	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1392	1393	t	thymine	CHEBI:17821	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1405	1406	t	thymidine	CHEBI:17748	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1405	1406	t	top quark	CHEBI:36371	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1405	1406	t	ribothymidine	CHEBI:45996	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1405	1406	t	tritide	CHEBI:29302	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1405	1406	t	tritium atom	CHEBI:29238	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1405	1406	t	L-threonine	CHEBI:16857	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1405	1406	t	L-threonine residue	CHEBI:30013	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1405	1406	t	tritium(.)	CHEBI:29304	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1405	1406	t	triton	CHEBI:29234	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1405	1406	t	thymine	CHEBI:17821	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1414	1416	he	helium(.1+)	CHEBI:30221	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1414	1416	he	helium(0)	CHEBI:33681	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1414	1416	he	helium atom	CHEBI:30217	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1414	1416	he	His-Glu	CHEBI:73928	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1417	1419	he	helium(.1+)	CHEBI:30221	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1417	1419	he	helium(0)	CHEBI:33681	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1417	1419	he	helium atom	CHEBI:30217	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1417	1419	he	His-Glu	CHEBI:73928	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1420	1421	d	deuterium(.)	CHEBI:29303	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1420	1421	d	deuterium atom	CHEBI:29237	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1420	1421	d	dihydrouridine	CHEBI:23774	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1420	1421	d	aspartic acid	CHEBI:22660	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1420	1421	d	deuteride	CHEBI:29301	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1420	1421	d	L-aspartic acid residue	CHEBI:29958	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1420	1421	d	L-aspartic acid	CHEBI:17053	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1420	1421	d	down quark	CHEBI:36367	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1420	1421	d	deuteron	CHEBI:29233	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1422	1424	he	helium(.1+)	CHEBI:30221	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1422	1424	he	helium(0)	CHEBI:33681	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1422	1424	he	helium atom	CHEBI:30217	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1422	1424	he	His-Glu	CHEBI:73928	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1425	1427	ll	Leu-D-Leu	CHEBI:74528	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1425	1427	ll	Leu-Leu	CHEBI:73531	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1483	1484	s	sulfur(1+)	CHEBI:29832	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1483	1484	s	sulfur atom	CHEBI:26833	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1483	1484	s	L-serine residue	CHEBI:29999	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1483	1484	s	sulfido group	CHEBI:29831	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1483	1484	s	thioxo group	CHEBI:29833	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1483	1484	s	sulfanediyl group	CHEBI:29830	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1483	1484	s	strange quark	CHEBI:36368	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1483	1484	s	polysulfur	CHEBI:17909	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1483	1484	s	sulfide(.1-)	CHEBI:29316	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1483	1484	s	L-serine	CHEBI:17115	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1507	1509	he	helium(.1+)	CHEBI:30221	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1507	1509	he	helium(0)	CHEBI:33681	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1507	1509	he	helium atom	CHEBI:30217	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1507	1509	he	His-Glu	CHEBI:73928	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1510	1511	s	sulfur(1+)	CHEBI:29832	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1510	1511	s	sulfur atom	CHEBI:26833	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1510	1511	s	L-serine residue	CHEBI:29999	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1510	1511	s	sulfido group	CHEBI:29831	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1510	1511	s	thioxo group	CHEBI:29833	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1510	1511	s	sulfanediyl group	CHEBI:29830	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1510	1511	s	strange quark	CHEBI:36368	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1510	1511	s	polysulfur	CHEBI:17909	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1510	1511	s	sulfide(.1-)	CHEBI:29316	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1510	1511	s	L-serine	CHEBI:17115	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1512	1514	hi	hydrogen iodide	CHEBI:43451	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1512	1514	hi	His-Ile	CHEBI:141437	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1515	1518	him	1H-imidazole	CHEBI:16069	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1527	1530	his	N(2)-L-histidino group	CHEBI:32515	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1527	1530	his	L-histidine	CHEBI:15971	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1527	1530	his	L-histidine residue	CHEBI:29979	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1527	1530	his	L-histidyl group	CHEBI:32514	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1576	1577	i	inosine	CHEBI:17596	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1576	1577	i	IMP residue	CHEBI:76778	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1576	1577	i	iodine(.)	CHEBI:33115	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1576	1577	i	L-isoleucine residue	CHEBI:30009	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1576	1577	i	iodine atom	CHEBI:24859	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1576	1577	i	iodo group	CHEBI:43448	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1576	1577	i	iodide	CHEBI:16382	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1576	1577	i	L-isoleucine	CHEBI:17191	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1576	1579	i'd	Ile-Asp	CHEBI:141439	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1578	1579	d	deuterium(.)	CHEBI:29303	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1578	1579	d	deuterium atom	CHEBI:29237	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1578	1579	d	dihydrouridine	CHEBI:23774	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1578	1579	d	aspartic acid	CHEBI:22660	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1578	1579	d	deuteride	CHEBI:29301	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1578	1579	d	L-aspartic acid residue	CHEBI:29958	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1578	1579	d	L-aspartic acid	CHEBI:17053	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1578	1579	d	down quark	CHEBI:36367	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1578	1579	d	deuteron	CHEBI:29233	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1580	1582	ie	Ile-Glu	CHEBI:137259	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1583	1585	if	Ile-Phe	CHEBI:74075	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1594	1595	i	inosine	CHEBI:17596	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1594	1595	i	IMP residue	CHEBI:76778	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1594	1595	i	iodine(.)	CHEBI:33115	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1594	1595	i	L-isoleucine residue	CHEBI:30009	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1594	1595	i	iodine atom	CHEBI:24859	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1594	1595	i	iodo group	CHEBI:43448	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1594	1595	i	iodide	CHEBI:16382	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1594	1595	i	L-isoleucine	CHEBI:17191	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1596	1598	ll	Leu-D-Leu	CHEBI:74528	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1596	1598	ll	Leu-Leu	CHEBI:73531	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1599	1600	i	inosine	CHEBI:17596	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1599	1600	i	IMP residue	CHEBI:76778	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1599	1600	i	iodine(.)	CHEBI:33115	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1599	1600	i	L-isoleucine residue	CHEBI:30009	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1599	1600	i	iodine atom	CHEBI:24859	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1599	1600	i	iodo group	CHEBI:43448	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1599	1600	i	iodide	CHEBI:16382	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1599	1600	i	L-isoleucine	CHEBI:17191	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1601	1602	m	L-methionine residue	CHEBI:16044	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1601	1602	m	L-methionine	CHEBI:16643	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1601	1602	m	methionine	CHEBI:16811	S2	CUI-less
-stopWords	biolink:OntologyClass	1601	1602	m	h minus	PATO:0001345	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1613	1615	in	Ile-Asn	CHEBI:74063	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1613	1615	in	indium atom	CHEBI:30430	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1613	1615	in	indium(1+)	CHEBI:30433	S2	CUI-less
-stopWords	biolink:ChemicalSubstance	1711	1713	is	Ile-Ser	CHEBI:74078	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1714	1717	isn	isonicotinamide	CHEBI:6031	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1718	1719	t	thymidine	CHEBI:17748	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1718	1719	t	top quark	CHEBI:36371	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1718	1719	t	ribothymidine	CHEBI:45996	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1718	1719	t	tritide	CHEBI:29302	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1718	1719	t	tritium atom	CHEBI:29238	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1718	1719	t	L-threonine	CHEBI:16857	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1718	1719	t	L-threonine residue	CHEBI:30013	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1718	1719	t	tritium(.)	CHEBI:29304	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1718	1719	t	triton	CHEBI:29234	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1718	1719	t	thymine	CHEBI:17821	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1720	1722	it	Ile-Thr	CHEBI:141441	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1723	1725	it	Ile-Thr	CHEBI:141441	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1726	1727	d	deuterium(.)	CHEBI:29303	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1726	1727	d	deuterium atom	CHEBI:29237	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1726	1727	d	dihydrouridine	CHEBI:23774	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1726	1727	d	aspartic acid	CHEBI:22660	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1726	1727	d	deuteride	CHEBI:29301	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1726	1727	d	L-aspartic acid residue	CHEBI:29958	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1726	1727	d	L-aspartic acid	CHEBI:17053	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1726	1727	d	down quark	CHEBI:36367	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1726	1727	d	deuteron	CHEBI:29233	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1728	1730	it	Ile-Thr	CHEBI:141441	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1731	1733	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1731	1733	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1738	1740	it	Ile-Thr	CHEBI:141441	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1741	1742	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1741	1742	s	sulfur atom	CHEBI:26833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1741	1742	s	L-serine residue	CHEBI:29999	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1741	1742	s	sulfido group	CHEBI:29831	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1741	1742	s	thioxo group	CHEBI:29833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1741	1742	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1741	1742	s	strange quark	CHEBI:36368	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1741	1742	s	polysulfur	CHEBI:17909	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1741	1742	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1741	1742	s	L-serine	CHEBI:17115	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1750	1751	i	inosine	CHEBI:17596	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1750	1751	i	IMP residue	CHEBI:76778	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1750	1751	i	iodine(.)	CHEBI:33115	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1750	1751	i	L-isoleucine residue	CHEBI:30009	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1750	1751	i	iodine atom	CHEBI:24859	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1750	1751	i	iodo group	CHEBI:43448	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1750	1751	i	iodide	CHEBI:16382	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1750	1751	i	L-isoleucine	CHEBI:17191	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1752	1754	ve	Val-Glu	CHEBI:75011	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1760	1761	k	kalide	CHEBI:29104	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1760	1761	k	L-lysine	CHEBI:18019	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1760	1761	k	potassium(1+)	CHEBI:29103	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1760	1761	k	lysine	CHEBI:25094	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1760	1761	k	L-lysine residue	CHEBI:29967	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1760	1761	k	potassium atom	CHEBI:26216	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1853	1854	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1853	1854	s	sulfur atom	CHEBI:26833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1853	1854	s	L-serine residue	CHEBI:29999	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1853	1854	s	sulfido group	CHEBI:29831	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1853	1854	s	thioxo group	CHEBI:29833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1853	1854	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1853	1854	s	strange quark	CHEBI:36368	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1853	1854	s	polysulfur	CHEBI:17909	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1853	1854	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1853	1854	s	L-serine	CHEBI:17115	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1918	1921	ltd	Leu-Thr-Asp	CHEBI:73573	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1965	1966	t	thymidine	CHEBI:17748	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1965	1966	t	top quark	CHEBI:36371	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1965	1966	t	ribothymidine	CHEBI:45996	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1965	1966	t	tritide	CHEBI:29302	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1965	1966	t	tritium atom	CHEBI:29238	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1965	1966	t	L-threonine	CHEBI:16857	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1965	1966	t	L-threonine residue	CHEBI:30013	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1965	1966	t	tritium(.)	CHEBI:29304	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1965	1966	t	triton	CHEBI:29234	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1965	1966	t	thymine	CHEBI:17821	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1967	1969	me	methyl group	CHEBI:32875	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	1967	1969	me	Met-Glu	CHEBI:74702	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2014	2015	t	thymidine	CHEBI:17748	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2014	2015	t	top quark	CHEBI:36371	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2014	2015	t	ribothymidine	CHEBI:45996	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2014	2015	t	tritide	CHEBI:29302	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2014	2015	t	tritium atom	CHEBI:29238	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2014	2015	t	L-threonine	CHEBI:16857	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2014	2015	t	L-threonine residue	CHEBI:30013	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2014	2015	t	tritium(.)	CHEBI:29304	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2014	2015	t	triton	CHEBI:29234	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2014	2015	t	thymine	CHEBI:17821	S3	CUI-less
-stopWords	biolink:OntologyClass	2016	2020	mine	mine	ENVO:00000076	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2058	2060	mr	Met-Arg	CHEBI:74698	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2081	2082	t	thymidine	CHEBI:17748	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2081	2082	t	top quark	CHEBI:36371	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2081	2082	t	ribothymidine	CHEBI:45996	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2081	2082	t	tritide	CHEBI:29302	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2081	2082	t	tritium atom	CHEBI:29238	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2081	2082	t	L-threonine	CHEBI:16857	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2081	2082	t	L-threonine residue	CHEBI:30013	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2081	2082	t	tritium(.)	CHEBI:29304	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2081	2082	t	triton	CHEBI:29234	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2081	2082	t	thymine	CHEBI:17821	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2083	2085	my	Met-Tyr	CHEBI:73615	S3	CUI-less
-stopWords	biolink:OrganismalEntity	2093	2097	name	Dioscorea trifida	NCBITaxon:55581	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2105	2107	nd	Asn-Asp	CHEBI:73419	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2105	2107	nd	neodymium atom	CHEBI:33372	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2141	2142	t	thymidine	CHEBI:17748	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2141	2142	t	top quark	CHEBI:36371	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2141	2142	t	ribothymidine	CHEBI:45996	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2141	2142	t	tritide	CHEBI:29302	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2141	2142	t	tritium atom	CHEBI:29238	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2141	2142	t	L-threonine	CHEBI:16857	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2141	2142	t	L-threonine residue	CHEBI:30013	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2141	2142	t	tritium(.)	CHEBI:29304	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2141	2142	t	triton	CHEBI:29234	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2141	2142	t	thymine	CHEBI:17821	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2214	2216	no	nitric oxide	CHEBI:16480	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2214	2216	no	nobelium	CHEBI:33396	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2214	2216	no	oxidonitrogen(1+)	CHEBI:29120	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2214	2216	no	oxidonitrate(1-)	CHEBI:29121	S3	CUI-less
-stopWords	biolink:OrganismalEntity	2228	2232	none	unidentified	NCBITaxon:32644	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2251	2253	no	nitric oxide	CHEBI:16480	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2251	2253	no	nobelium	CHEBI:33396	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2251	2253	no	oxidonitrogen(1+)	CHEBI:29120	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2251	2253	no	oxidonitrate(1-)	CHEBI:29121	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2254	2257	one	(E)-4-oxonon-2-enal	CHEBI:58972	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2327	2329	of	fluoridooxygen(1+)	CHEBI:30243	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2327	2329	of	fluoridooxygen(.)	CHEBI:30242	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2327	2329	of	fluorosyl group	CHEBI:30241	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2330	2333	off	"N,N-diethyl-m-toluamide"	CHEBI:7071	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2340	2342	oh	hydroxide	CHEBI:16234	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2340	2342	oh	hydroxylium	CHEBI:29915	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2340	2342	oh	hydroxy group	CHEBI:43176	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2340	2342	oh	hydroxyl	CHEBI:29191	S3	CUI-less
-stopWords	biolink:OntologyClass	2351	2354	old	old	OBO:PATO_0000308	S3	CUI-less
-stopWords	biolink:OntologyClass	2351	2354	old	old	PATO:0000308	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2363	2366	one	(E)-4-oxonon-2-enal	CHEBI:58972	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2372	2375	one	(E)-4-oxonon-2-enal	CHEBI:58972	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2376	2377	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2376	2377	s	sulfur atom	CHEBI:26833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2376	2377	s	L-serine residue	CHEBI:29999	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2376	2377	s	sulfido group	CHEBI:29831	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2376	2377	s	thioxo group	CHEBI:29833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2376	2377	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2376	2377	s	strange quark	CHEBI:36368	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2376	2377	s	polysulfur	CHEBI:17909	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2376	2377	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2376	2377	s	L-serine	CHEBI:17115	S3	CUI-less
-stopWords	biolink:OntologyClass	2388	2396	opposite	opposite	OBO:PATO_0001933	S3	CUI-less
-stopWords	biolink:OntologyClass	2388	2396	opposite	opposite	PATO:0001933	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2397	2399	or	gold atom	CHEBI:29287	S3	CUI-less
-stopWords	biolink:OrganismalEntity	2400	2405	other	unidentified	NCBITaxon:32644	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2436	2437	t	thymidine	CHEBI:17748	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2436	2437	t	top quark	CHEBI:36371	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2436	2437	t	ribothymidine	CHEBI:45996	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2436	2437	t	tritide	CHEBI:29302	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2436	2437	t	tritium atom	CHEBI:29238	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2436	2437	t	L-threonine	CHEBI:16857	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2436	2437	t	L-threonine residue	CHEBI:30013	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2436	2437	t	tritium(.)	CHEBI:29304	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2436	2437	t	triton	CHEBI:29234	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2436	2437	t	thymine	CHEBI:17821	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2603	2605	qv	Gln-Val	CHEBI:141433	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2613	2615	rd	Arg-Asp	CHEBI:73812	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2616	2618	re	rhenium atom	CHEBI:49882	S3	CUI-less
-stopWords	biolink:OntologyClass	2637	2643	recent	recent	PATO:0001484	S3	CUI-less
-stopWords	biolink:OntologyClass	2706	2711	right	right	OBO:PATO_0000367	S3	CUI-less
-stopWords	biolink:OntologyClass	2706	2711	right	right	PATO:0000367	S3	CUI-less
-stopWords	biolink:OntologyClass	2712	2717	round	circular	OBO:PATO_0000411	S3	CUI-less
-stopWords	biolink:OntologyClass	2712	2717	round	circular	PATO:0000411	S3	CUI-less
-stopWords	biolink:OntologyClass	2712	2717	round	subcircular	PATO:0002397	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2723	2727	same	S-adenosyl-L-methionine	CHEBI:15414	S3	CUI-less
-stopWords	biolink:OntologyClass	2748	2754	second	second	UO:0000010	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2875	2876	t	thymidine	CHEBI:17748	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2875	2876	t	top quark	CHEBI:36371	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2875	2876	t	ribothymidine	CHEBI:45996	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2875	2876	t	tritide	CHEBI:29302	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2875	2876	t	tritium atom	CHEBI:29238	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2875	2876	t	L-threonine	CHEBI:16857	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2875	2876	t	L-threonine residue	CHEBI:30013	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2875	2876	t	tritium(.)	CHEBI:29304	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2875	2876	t	triton	CHEBI:29234	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2875	2876	t	thymine	CHEBI:17821	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2885	2886	d	deuterium(.)	CHEBI:29303	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2885	2886	d	deuterium atom	CHEBI:29237	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2885	2886	d	dihydrouridine	CHEBI:23774	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2885	2886	d	aspartic acid	CHEBI:22660	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2885	2886	d	deuteride	CHEBI:29301	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2885	2886	d	L-aspartic acid residue	CHEBI:29958	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2885	2886	d	L-aspartic acid	CHEBI:17053	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2885	2886	d	down quark	CHEBI:36367	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2885	2886	d	deuteron	CHEBI:29233	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2891	2893	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2891	2893	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2898	2899	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2898	2899	s	sulfur atom	CHEBI:26833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2898	2899	s	L-serine residue	CHEBI:29999	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2898	2899	s	sulfido group	CHEBI:29831	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2898	2899	s	thioxo group	CHEBI:29833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2898	2899	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2898	2899	s	strange quark	CHEBI:36368	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2898	2899	s	polysulfur	CHEBI:17909	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2898	2899	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2898	2899	s	L-serine	CHEBI:17115	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2915	2916	t	thymidine	CHEBI:17748	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2915	2916	t	top quark	CHEBI:36371	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2915	2916	t	ribothymidine	CHEBI:45996	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2915	2916	t	tritide	CHEBI:29302	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2915	2916	t	tritium atom	CHEBI:29238	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2915	2916	t	L-threonine	CHEBI:16857	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2915	2916	t	L-threonine residue	CHEBI:30013	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2915	2916	t	tritium(.)	CHEBI:29304	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2915	2916	t	triton	CHEBI:29234	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2915	2916	t	thymine	CHEBI:17821	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2927	2929	so	oxidosulfate(.1-)	CHEBI:29824	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2927	2929	so	sulfur monoxide	CHEBI:45822	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2927	2929	so	sulfinyl group	CHEBI:29822	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	2927	2929	so	oxidosulfur(.1+)	CHEBI:29823	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3109	3111	th	Thr-His	CHEBI:73663	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3109	3111	th	thorium	CHEBI:33385	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3146	3148	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3146	3148	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3160	3161	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3160	3161	s	sulfur atom	CHEBI:26833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3160	3161	s	L-serine residue	CHEBI:29999	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3160	3161	s	sulfido group	CHEBI:29831	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3160	3161	s	thioxo group	CHEBI:29833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3160	3161	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3160	3161	s	strange quark	CHEBI:36368	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3160	3161	s	polysulfur	CHEBI:17909	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3160	3161	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3160	3161	s	L-serine	CHEBI:17115	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3167	3169	ve	Val-Glu	CHEBI:75011	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3246	3247	d	deuterium(.)	CHEBI:29303	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3246	3247	d	deuterium atom	CHEBI:29237	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3246	3247	d	dihydrouridine	CHEBI:23774	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3246	3247	d	aspartic acid	CHEBI:22660	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3246	3247	d	deuteride	CHEBI:29301	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3246	3247	d	L-aspartic acid residue	CHEBI:29958	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3246	3247	d	L-aspartic acid	CHEBI:17053	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3246	3247	d	down quark	CHEBI:36367	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3246	3247	d	deuteron	CHEBI:29233	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3272	3274	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3272	3274	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3281	3283	re	rhenium atom	CHEBI:49882	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3297	3298	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3297	3298	s	sulfur atom	CHEBI:26833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3297	3298	s	L-serine residue	CHEBI:29999	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3297	3298	s	sulfido group	CHEBI:29831	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3297	3298	s	thioxo group	CHEBI:29833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3297	3298	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3297	3298	s	strange quark	CHEBI:36368	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3297	3298	s	polysulfur	CHEBI:17909	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3297	3298	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3297	3298	s	L-serine	CHEBI:17115	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3315	3317	ve	Val-Glu	CHEBI:75011	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3334	3335	d	deuterium(.)	CHEBI:29303	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3334	3335	d	deuterium atom	CHEBI:29237	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3334	3335	d	dihydrouridine	CHEBI:23774	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3334	3335	d	aspartic acid	CHEBI:22660	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3334	3335	d	deuteride	CHEBI:29301	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3334	3335	d	L-aspartic acid residue	CHEBI:29958	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3334	3335	d	L-aspartic acid	CHEBI:17053	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3334	3335	d	down quark	CHEBI:36367	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3334	3335	d	deuteron	CHEBI:29233	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3341	3343	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3341	3343	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3349	3351	re	rhenium atom	CHEBI:49882	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3357	3359	ve	Val-Glu	CHEBI:75011	S3	CUI-less
-stopWords	biolink:OrganismalEntity	3392	3396	this	This	NCBITaxon:169495	S3	CUI-less
-stopWords	biolink:OntologyClass	3498	3505	towards	towards	RO:0002503	S3	CUI-less
-stopWords	biolink:OntologyClass	3498	3505	towards	towards	OBO:pato#towards	S3	CUI-less
-stopWords	biolink:OntologyClass	3498	3505	towards	towards	RO:0002503	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3535	3536	t	thymidine	CHEBI:17748	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3535	3536	t	top quark	CHEBI:36371	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3535	3536	t	ribothymidine	CHEBI:45996	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3535	3536	t	tritide	CHEBI:29302	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3535	3536	t	tritium atom	CHEBI:29238	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3535	3536	t	L-threonine	CHEBI:16857	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3535	3536	t	L-threonine residue	CHEBI:30013	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3535	3536	t	tritium(.)	CHEBI:29304	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3535	3536	t	triton	CHEBI:29234	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3535	3536	t	thymine	CHEBI:17821	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3535	3538	t's	Thr-Ser	CHEBI:73664	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3537	3538	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3537	3538	s	sulfur atom	CHEBI:26833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3537	3538	s	L-serine residue	CHEBI:29999	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3537	3538	s	sulfido group	CHEBI:29831	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3537	3538	s	thioxo group	CHEBI:29833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3537	3538	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3537	3538	s	strange quark	CHEBI:36368	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3537	3538	s	polysulfur	CHEBI:17909	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3537	3538	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3537	3538	s	L-serine	CHEBI:17115	S3	CUI-less
-stopWords	biolink:OntologyClass	3625	3627	up	up	OBO:PATO_0000370	S3	CUI-less
-stopWords	biolink:OntologyClass	3625	3627	up	up	PATO:0000370	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3679	3680	v	vanadium(1+)	CHEBI:33005	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3679	3680	v	vanadium atom	CHEBI:27698	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3679	3680	v	L-valine residue	CHEBI:30015	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3679	3680	v	L-valine	CHEBI:16414	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3715	3717	vs	Val-Ser	CHEBI:75021	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3738	3739	t	thymidine	CHEBI:17748	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3738	3739	t	top quark	CHEBI:36371	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3738	3739	t	ribothymidine	CHEBI:45996	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3738	3739	t	tritide	CHEBI:29302	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3738	3739	t	tritium atom	CHEBI:29238	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3738	3739	t	L-threonine	CHEBI:16857	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3738	3739	t	L-threonine residue	CHEBI:30013	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3738	3739	t	tritium(.)	CHEBI:29304	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3738	3739	t	triton	CHEBI:29234	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3738	3739	t	thymine	CHEBI:17821	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3744	3746	we	Trp-Glu	CHEBI:74869	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3747	3749	we	Trp-Glu	CHEBI:74869	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3750	3751	d	deuterium(.)	CHEBI:29303	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3750	3751	d	deuterium atom	CHEBI:29237	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3750	3751	d	dihydrouridine	CHEBI:23774	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3750	3751	d	aspartic acid	CHEBI:22660	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3750	3751	d	deuteride	CHEBI:29301	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3750	3751	d	L-aspartic acid residue	CHEBI:29958	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3750	3751	d	L-aspartic acid	CHEBI:17053	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3750	3751	d	down quark	CHEBI:36367	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3750	3751	d	deuteron	CHEBI:29233	S3	CUI-less
-stopWords	biolink:OntologyClass	3760	3764	well	well	ENVO:00000026	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3765	3767	we	Trp-Glu	CHEBI:74869	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3768	3770	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3768	3770	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3781	3783	we	Trp-Glu	CHEBI:74869	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3784	3786	re	rhenium atom	CHEBI:49882	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3793	3794	t	thymidine	CHEBI:17748	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3793	3794	t	top quark	CHEBI:36371	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3793	3794	t	ribothymidine	CHEBI:45996	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3793	3794	t	tritide	CHEBI:29302	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3793	3794	t	tritium atom	CHEBI:29238	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3793	3794	t	L-threonine	CHEBI:16857	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3793	3794	t	L-threonine residue	CHEBI:30013	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3793	3794	t	tritium(.)	CHEBI:29304	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3793	3794	t	triton	CHEBI:29234	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3793	3794	t	thymine	CHEBI:17821	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3795	3797	we	Trp-Glu	CHEBI:74869	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3798	3800	ve	Val-Glu	CHEBI:75011	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3820	3822	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3820	3822	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3828	3829	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3828	3829	s	sulfur atom	CHEBI:26833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3828	3829	s	L-serine residue	CHEBI:29999	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3828	3829	s	sulfido group	CHEBI:29831	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3828	3829	s	thioxo group	CHEBI:29833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3828	3829	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3828	3829	s	strange quark	CHEBI:36368	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3828	3829	s	polysulfur	CHEBI:17909	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3828	3829	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3828	3829	s	L-serine	CHEBI:17115	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3835	3837	ve	Val-Glu	CHEBI:75011	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3906	3907	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3906	3907	s	sulfur atom	CHEBI:26833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3906	3907	s	L-serine residue	CHEBI:29999	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3906	3907	s	sulfido group	CHEBI:29831	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3906	3907	s	thioxo group	CHEBI:29833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3906	3907	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3906	3907	s	strange quark	CHEBI:36368	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3906	3907	s	polysulfur	CHEBI:17909	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3906	3907	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3906	3907	s	L-serine	CHEBI:17115	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3980	3981	d	deuterium(.)	CHEBI:29303	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3980	3981	d	deuterium atom	CHEBI:29237	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3980	3981	d	dihydrouridine	CHEBI:23774	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3980	3981	d	aspartic acid	CHEBI:22660	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3980	3981	d	deuteride	CHEBI:29301	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3980	3981	d	L-aspartic acid residue	CHEBI:29958	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3980	3981	d	L-aspartic acid	CHEBI:17053	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3980	3981	d	down quark	CHEBI:36367	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	3980	3981	d	deuteron	CHEBI:29233	S3	CUI-less
-stopWords	biolink:OntologyClass	3990	3995	whole	whole	PATO:0001446	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4000	4002	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4000	4002	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4021	4022	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4021	4022	s	sulfur atom	CHEBI:26833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4021	4022	s	L-serine residue	CHEBI:29999	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4021	4022	s	sulfido group	CHEBI:29831	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4021	4022	s	thioxo group	CHEBI:29833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4021	4022	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4021	4022	s	strange quark	CHEBI:36368	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4021	4022	s	polysulfur	CHEBI:17909	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4021	4022	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4021	4022	s	L-serine	CHEBI:17115	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4082	4083	t	thymidine	CHEBI:17748	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4082	4083	t	top quark	CHEBI:36371	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4082	4083	t	ribothymidine	CHEBI:45996	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4082	4083	t	tritide	CHEBI:29302	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4082	4083	t	tritium atom	CHEBI:29238	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4082	4083	t	L-threonine	CHEBI:16857	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4082	4083	t	L-threonine residue	CHEBI:30013	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4082	4083	t	tritium(.)	CHEBI:29304	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4082	4083	t	triton	CHEBI:29234	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4082	4083	t	thymine	CHEBI:17821	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4097	4098	t	thymidine	CHEBI:17748	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4097	4098	t	top quark	CHEBI:36371	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4097	4098	t	ribothymidine	CHEBI:45996	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4097	4098	t	tritide	CHEBI:29302	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4097	4098	t	tritium atom	CHEBI:29238	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4097	4098	t	L-threonine	CHEBI:16857	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4097	4098	t	L-threonine residue	CHEBI:30013	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4097	4098	t	tritium(.)	CHEBI:29304	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4097	4098	t	triton	CHEBI:29234	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4097	4098	t	thymine	CHEBI:17821	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4115	4116	d	deuterium(.)	CHEBI:29303	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4115	4116	d	deuterium atom	CHEBI:29237	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4115	4116	d	dihydrouridine	CHEBI:23774	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4115	4116	d	aspartic acid	CHEBI:22660	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4115	4116	d	deuteride	CHEBI:29301	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4115	4116	d	L-aspartic acid residue	CHEBI:29958	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4115	4116	d	L-aspartic acid	CHEBI:17053	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4115	4116	d	down quark	CHEBI:36367	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4115	4116	d	deuteron	CHEBI:29233	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4121	4123	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4121	4123	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4133	4135	re	rhenium atom	CHEBI:49882	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4166	4168	ve	Val-Glu	CHEBI:75011	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4174	4175	a	hydrogen acceptor	CHEBI:13193	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4174	4175	a	alanine	CHEBI:16449	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4174	4175	a	adenosine residue	CHEBI:62885	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4174	4175	a	adenosine 5'-monophosphate residue	CHEBI:50306	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4174	4175	a	adenine	CHEBI:16708	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4174	4175	a	L-alanine	CHEBI:16977	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4174	4175	a	L-alanine residue	CHEBI:46217	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4174	4175	a	acceptor	CHEBI:15339	S3	CUI-less
-stopWords	biolink:OntologyClass	4174	4175	a	a mating type (yeast)	PATO:0001341	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4180	4181	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4180	4181	s	sulfur atom	CHEBI:26833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4180	4181	s	L-serine residue	CHEBI:29999	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4180	4181	s	sulfido group	CHEBI:29831	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4180	4181	s	thioxo group	CHEBI:29833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4180	4181	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4180	4181	s	strange quark	CHEBI:36368	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4180	4181	s	polysulfur	CHEBI:17909	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4180	4181	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4180	4181	s	L-serine	CHEBI:17115	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4182	4183	i	inosine	CHEBI:17596	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4182	4183	i	IMP residue	CHEBI:76778	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4182	4183	i	iodine(.)	CHEBI:33115	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4182	4183	i	L-isoleucine residue	CHEBI:30009	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4182	4183	i	iodine atom	CHEBI:24859	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4182	4183	i	iodo group	CHEBI:43448	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4182	4183	i	iodide	CHEBI:16382	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4182	4183	i	L-isoleucine	CHEBI:17191	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4189	4190	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4189	4190	s	sulfur atom	CHEBI:26833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4189	4190	s	L-serine residue	CHEBI:29999	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4189	4190	s	sulfido group	CHEBI:29831	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4189	4190	s	thioxo group	CHEBI:29833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4189	4190	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4189	4190	s	strange quark	CHEBI:36368	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4189	4190	s	polysulfur	CHEBI:17909	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4189	4190	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4189	4190	s	L-serine	CHEBI:17115	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4195	4196	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4195	4196	s	sulfur atom	CHEBI:26833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4195	4196	s	L-serine residue	CHEBI:29999	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4195	4196	s	sulfido group	CHEBI:29831	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4195	4196	s	thioxo group	CHEBI:29833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4195	4196	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4195	4196	s	strange quark	CHEBI:36368	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4195	4196	s	polysulfur	CHEBI:17909	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4195	4196	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4195	4196	s	L-serine	CHEBI:17115	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4197	4198	b	boron(1+)	CHEBI:30165	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4197	4198	b	boron atom	CHEBI:27560	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4197	4198	b	bottom quark	CHEBI:36370	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4197	4198	b	boranetriyl group	CHEBI:30169	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4197	4198	b	boranylidyne group	CHEBI:30170	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4197	4198	b	boride(1-)	CHEBI:30166	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4199	4200	c	carbon atom	CHEBI:27594	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4199	4200	c	methanetetrayl group	CHEBI:30039	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4199	4200	c	carbon(1+)	CHEBI:29436	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4199	4200	c	cytidine 5'-monophosphate residue	CHEBI:50308	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4199	4200	c	cytidine residue	CHEBI:64656	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4199	4200	c	L-cysteine	CHEBI:17561	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4199	4200	c	carbide(1-)	CHEBI:29435	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4199	4200	c	charm quark	CHEBI:36369	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4199	4200	c	L-cysteine residue	CHEBI:29950	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4199	4200	c	cytosine	CHEBI:16040	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4199	4200	c	methanediylidene group	CHEBI:30040	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4199	4200	c	cysteine	CHEBI:15356	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4201	4202	d	deuterium(.)	CHEBI:29303	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4201	4202	d	deuterium atom	CHEBI:29237	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4201	4202	d	dihydrouridine	CHEBI:23774	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4201	4202	d	aspartic acid	CHEBI:22660	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4201	4202	d	deuteride	CHEBI:29301	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4201	4202	d	L-aspartic acid residue	CHEBI:29958	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4201	4202	d	L-aspartic acid	CHEBI:17053	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4201	4202	d	down quark	CHEBI:36367	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4201	4202	d	deuteron	CHEBI:29233	S3	CUI-less
-stopWords	biolink:OntologyClass	4201	4204	d e	diatomite	ENVO:01000962	S3	CUI-less
-stopWords	biolink:OntologyClass	4201	4204	d e	diatomite particle	ENVO:01000963	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4201	4204	d e	deuterium(.)	CHEBI:29303	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4203	4204	e	positron	CHEBI:30225	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4203	4204	e	L-glutamic acid	CHEBI:16015	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4203	4204	e	L-glutamic acid residue	CHEBI:29972	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4203	4204	e	glutamic acid	CHEBI:18237	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4203	4204	e	electron	CHEBI:10545	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4205	4206	f	L-phenylalanine residue	CHEBI:29997	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4205	4206	f	fluorine atom	CHEBI:24061	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4205	4206	f	fluorine(.)	CHEBI:30239	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4205	4206	f	fluoro group	CHEBI:42645	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4205	4206	f	L-phenylalanine	CHEBI:17295	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4205	4206	f	fluoride	CHEBI:17051	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4205	4206	f	phenylalanine	CHEBI:28044	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4205	4206	f	fluorine(1+)	CHEBI:30240	S3	CUI-less
-stopWords	biolink:OntologyClass	4205	4206	f	F minus mating type	PATO:0001348	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4205	4208	f g	Phe-Gly	CHEBI:73635	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4207	4208	g	guanosine residue	CHEBI:64654	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4207	4208	g	7-methylguanosine	CHEBI:20794	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4207	4208	g	guanine	CHEBI:16235	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4207	4208	g	glycine	CHEBI:15428	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4207	4208	g	guanosine 5'-monophosphate residue	CHEBI:50324	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4207	4208	g	archaeosine	CHEBI:73271	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4207	4208	g	glycine residue	CHEBI:29947	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4207	4208	g	guanosine	CHEBI:16750	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4207	4210	g h	Gly-His	CHEBI:73515	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4209	4210	h	helion	CHEBI:30220	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4209	4210	h	L-histidine residue	CHEBI:29979	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4209	4210	h	hydride	CHEBI:29239	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4209	4210	h	hydrogen atom	CHEBI:49637	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4209	4210	h	mu-hydrido group	CHEBI:48238	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4209	4210	h	hydrido group	CHEBI:48237	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4209	4210	h	hydrogen(.)	CHEBI:29235	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4209	4210	h	L-histidine	CHEBI:15971	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4209	4210	h	hydron	CHEBI:15378	S3	CUI-less
-stopWords	biolink:OntologyClass	4209	4210	h	h plus	PATO:0001346	S3	CUI-less
-stopWords	biolink:OntologyClass	4209	4210	h	h minus	PATO:0001345	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4211	4212	j	iodine atom	CHEBI:24859	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4213	4214	l	L-leucine residue	CHEBI:30006	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4213	4214	l	L-leucine	CHEBI:15603	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4213	4214	l	leucine	CHEBI:25017	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4213	4216	l m	Leu-Met	CHEBI:73584	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4215	4216	m	L-methionine residue	CHEBI:16044	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4215	4216	m	L-methionine	CHEBI:16643	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4215	4216	m	methionine	CHEBI:16811	S3	CUI-less
-stopWords	biolink:OntologyClass	4215	4216	m	h minus	PATO:0001345	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4215	4218	m n	Met-Asn	CHEBI:141442	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4217	4218	n	azanylylidene group	CHEBI:30229	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4217	4218	n	lysidine zwitterion	CHEBI:64326	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4217	4218	n	L-asparagine	CHEBI:17196	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4217	4218	n	canonical ribonucleoside residue	CHEBI:33792	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4217	4218	n	azanylidyne group	CHEBI:30230	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4217	4218	n	nitrogen(.)	CHEBI:29351	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4217	4218	n	nitrogen(1+)	CHEBI:29352	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4217	4218	n	neutron	CHEBI:30222	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4217	4218	n	asparagine	CHEBI:22653	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4217	4218	n	azanidylidene group	CHEBI:30226	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4217	4218	n	nitrogen atom	CHEBI:25555	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4217	4218	n	L-asparagine residue	CHEBI:50347	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4217	4218	n	azanetriyl group	CHEBI:30228	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4217	4220	n o	nitroso group	CHEBI:35801	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4219	4220	o	oxido group	CHEBI:29355	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4219	4220	o	oxygen atom	CHEBI:25805	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4219	4220	o	oxo group	CHEBI:46629	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4219	4220	o	oxy group	CHEBI:29354	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4221	4222	p	L-proline	CHEBI:17203	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4221	4222	p	phosphanetriyl group	CHEBI:30206	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4221	4222	p	proton	CHEBI:24636	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4221	4222	p	phosphorus atom	CHEBI:28659	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4221	4222	p	phosphorus(1+)	CHEBI:33467	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4221	4222	p	phosphorus(.)	CHEBI:30207	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4221	4222	p	phosphide(3-)	CHEBI:33468	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4221	4222	p	pseudouridine	CHEBI:17802	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4221	4222	p	phosphide(1-)	CHEBI:33469	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4221	4222	p	L-proline residue	CHEBI:50342	S3	CUI-less
-stopWords	biolink:OntologyClass	4221	4222	p	h plus	PATO:0001346	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4223	4224	q	L-glutamine	CHEBI:18050	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4223	4224	q	queuosine	CHEBI:60193	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4223	4224	q	coenzyme Q10	CHEBI:46245	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4223	4224	q	L-glutamine residue	CHEBI:30011	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4223	4224	q	ubiquinones	CHEBI:16389	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4225	4226	r	L-arginine	CHEBI:16467	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4225	4226	r	R	CHEBI:8735	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4225	4226	r	L-arginine residue	CHEBI:29952	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4227	4228	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4227	4228	s	sulfur atom	CHEBI:26833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4227	4228	s	L-serine residue	CHEBI:29999	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4227	4228	s	sulfido group	CHEBI:29831	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4227	4228	s	thioxo group	CHEBI:29833	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4227	4228	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4227	4228	s	strange quark	CHEBI:36368	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4227	4228	s	polysulfur	CHEBI:17909	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4227	4228	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4227	4228	s	L-serine	CHEBI:17115	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4227	4230	s t	Ser-Thr	CHEBI:141393	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4229	4230	t	thymidine	CHEBI:17748	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4229	4230	t	top quark	CHEBI:36371	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4229	4230	t	ribothymidine	CHEBI:45996	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4229	4230	t	tritide	CHEBI:29302	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4229	4230	t	tritium atom	CHEBI:29238	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4229	4230	t	L-threonine	CHEBI:16857	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4229	4230	t	L-threonine residue	CHEBI:30013	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4229	4230	t	tritium(.)	CHEBI:29304	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4229	4230	t	triton	CHEBI:29234	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4229	4230	t	thymine	CHEBI:17821	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4231	4232	u	uridine 5'-monophosphate residue	CHEBI:46470	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4231	4232	u	L-selenocysteine residue	CHEBI:30000	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4231	4232	u	uranium atom	CHEBI:27214	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4231	4232	u	uridine	CHEBI:16704	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4231	4232	u	uracil	CHEBI:17568	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4231	4232	u	up quark	CHEBI:36366	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4238	4239	w	L-tryptophan residue	CHEBI:29954	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4238	4239	w	tryptophan	CHEBI:27897	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4238	4239	w	tungsten	CHEBI:27998	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4238	4239	w	L-tryptophan	CHEBI:16828	S3	CUI-less
-stopWords	biolink:OntologyClass	4238	4239	w	work	PATO:0001026	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4242	4243	y	L-tyrosine	CHEBI:17895	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4242	4243	y	L-tyrosine residue	CHEBI:46858	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4242	4243	y	yttrium atom	CHEBI:33331	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4242	4243	y	tyrosine	CHEBI:18186	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4244	4245	z	6-aminohexanoic acid	CHEBI:16586	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4244	4245	z	benzyloxycarbonyl group	CHEBI:51097	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4246	4247	I	inosine	CHEBI:17596	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4246	4247	I	IMP residue	CHEBI:76778	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4246	4247	I	iodine(.)	CHEBI:33115	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4246	4247	I	L-isoleucine residue	CHEBI:30009	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4246	4247	I	iodine atom	CHEBI:24859	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4246	4247	I	iodo group	CHEBI:43448	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4246	4247	I	iodide	CHEBI:16382	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4246	4247	I	L-isoleucine	CHEBI:17191	S3	CUI-less
-stopWords	biolink:OntologyClass	4252	4258	amount	amount	OBO:PATO_0000070	S3	CUI-less
-stopWords	biolink:OntologyClass	4252	4258	amount	amount	PATO:0000070	S3	CUI-less
-stopWords	biolink:OntologyClass	4264	4270	bottom	submerged bed	ENVO:00000501	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4301	4303	de	Asp-Glu	CHEBI:73828	S3	CUI-less
-stopWords	biolink:OntologyClass	4361	4365	fire	fire	ENVO:01000786	S3	CUI-less
-stopWords	biolink:OntologyClass	4372	4377	front	front	OBO:PATO_0001900	S3	CUI-less
-stopWords	biolink:OntologyClass	4372	4377	front	front	PATO:0001900	S3	CUI-less
-stopWords	biolink:OntologyClass	4451	4455	side	slope	ENVO:00002000	S3	CUI-less
-stopWords	biolink:AnatomicalEntity	4470	4476	system	anatomical system	UBERON:0000467	S3	CUI-less
-stopWords	biolink:OntologyClass	4470	4476	system	system	RO:0002577	S3	CUI-less
-stopWords	biolink:OntologyClass	4470	4476	system	system	RO:0002577	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4477	4480	ten	triethylamine	CHEBI:35026	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4477	4480	ten	pentaerythritol tetranitrate	CHEBI:25879	S3	CUI-less
-stopWords	biolink:OntologyClass	4481	4486	thick	increased thickness	OBO:PATO_0000591	S3	CUI-less
-stopWords	biolink:OntologyClass	4481	4486	thick	increased thickness	PATO:0000591	S3	CUI-less
-stopWords	biolink:OntologyClass	4487	4491	thin	decreased thickness	OBO:PATO_0000592	S3	CUI-less
-stopWords	biolink:OntologyClass	4487	4491	thin	decreased thickness	PATO:0000592	S3	CUI-less
-stopWords	biolink:OntologyClass	4563	4570	affects	causally upstream of or within	RO:0002418	S3	CUI-less
-stopWords	biolink:OntologyClass	4563	4570	affects	acts upstream of or within	RO:0002264	S3	CUI-less
-stopWords	biolink:OntologyClass	4563	4570	affects	causally upstream of or within	RO:0002418	S3	CUI-less
-stopWords	biolink:OntologyClass	4563	4570	affects	acts upstream of or within	RO:0002264	S3	CUI-less
-stopWords	biolink:OntologyClass	4563	4570	affects	causally upstream of or within	RO:0002418	S3	CUI-less
-stopWords	biolink:OntologyClass	4563	4570	affects	acts upstream of or within	RO:0002264	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4571	4573	ah	Ala-His	CHEBI:73771	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4679	4681	ca	calcium atom	CHEBI:22984	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4679	4681	ca	calcium(1+)	CHEBI:39099	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4687	4689	ed	Glu-Asp	CHEBI:73503	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4697	4699	et	ethyl	CHEBI:62801	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4697	4699	et	ethyl group	CHEBI:37807	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4697	4699	et	Glu-Thr	CHEBI:73510	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4700	4702	al	Ala-Leu	CHEBI:73770	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4700	4702	al	aluminium(1+)	CHEBI:30150	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4700	4702	al	aluminium atom	CHEBI:28984	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4700	4702	al	D-Ala-Leu	CHEBI:73838	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4700	4702	al	aluminide(1-)	CHEBI:30151	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4703	4705	ff	Phe-Phe	CHEBI:72723	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4736	4740	home	HOME	CHEBI:75830	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4741	4743	id	Ile-Asp	CHEBI:141439	S3	CUI-less
-stopWords	biolink:AnatomicalEntity	4744	4746	im	intermediate mesoderm	UBERON:0003064	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4744	4746	im	Ile-Met	CHEBI:74073	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4744	4746	im	imidazolide	CHEBI:30366	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4817	4819	kg	Lys-Gly	CHEBI:73604	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4820	4822	km	Lys-Met	CHEBI:74566	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4842	4844	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4842	4844	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4851	4853	mg	Met-Gly	CHEBI:73611	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4851	4853	mg	magnesium atom	CHEBI:25107	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4862	4864	ml	Met-Leu	CHEBI:74705	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4869	4871	na	natride	CHEBI:29102	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4869	4871	na	sodium atom	CHEBI:26708	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4869	4871	na	sodium(1+)	CHEBI:29101	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4869	4871	na	nucleic acid	CHEBI:33696	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4971	4973	pp	propionyl group	CHEBI:26294	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4971	4973	pp	poly(propylene)	CHEBI:53550	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	4971	4973	pp	Pro-Pro	CHEBI:73646	S3	CUI-less
-stopWords	biolink:OntologyClass	4988	4995	present	present	PATO:0000467	S3	CUI-less
-stopWords	biolink:OntologyClass	5105	5108	run	watercourse	ENVO:00000029	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	5109	5112	sec	L-selenocysteinate residue	CHEBI:30003	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	5109	5112	sec	L-selenocysteine residue	CHEBI:30000	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	5109	5112	sec	L-selenocysteinyl group	CHEBI:32745	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	5109	5112	sec	L-selenocysteino group	CHEBI:32746	S3	CUI-less
-stopWords	biolink:OrganismalEntity	5113	5120	section	section	NCBITaxon:section	S3	CUI-less
-stopWords	biolink:OntologyClass	5232	5237	state	national geopolitical entity	ENVO:00000009	S3	CUI-less
-stopWords	biolink:OntologyClass	5351	5355	thou	thou	UO:0010012	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	5388	5390	ts	Thr-Ser	CHEBI:73664	S3	CUI-less
-stopWords	biolink:ChemicalSubstance	5416	5418	ve	Val-Glu	CHEBI:75011	S3	CUI-less
+Filename	biolink	Term	TaggedAs	Ontology	S-Type	CUI
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S1	CUI-less
+stopWords	biolink:OrganismalEntity	all	root	NCBITaxon:1	S1	CUI-less
+stopWords	biolink:OrganismalEntity	all	root	NCBITaxon:1	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	all	allose	CHEBI:37690	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	am	Ala-Met	CHEBI:73806	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	am	americium atom	CHEBI:33389	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	an	radon-219 atom	CHEBI:33493	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	an	actinoid atom	CHEBI:33320	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	an	Ala-Asn	CHEBI:73330	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	as	Ala-Ser	CHEBI:73394	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	as	arsenic atom	CHEBI:27563	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	as	artesunate	CHEBI:63918	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	as	arsane	CHEBI:47217	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	as	arsanetriyl group	CHEBI:29766	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	a	hydrogen acceptor	CHEBI:13193	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	a	alanine	CHEBI:16449	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	a	adenosine residue	CHEBI:62885	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	a	adenosine 5'-monophosphate residue	CHEBI:50306	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	a	adenine	CHEBI:16708	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	a	L-alanine	CHEBI:16977	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	a	L-alanine residue	CHEBI:46217	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	a	acceptor	CHEBI:15339	S1	CUI-less
+stopWords	biolink:OntologyClass	a	a mating type (yeast)	PATO:0001341	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	a's	Ala-Ser	CHEBI:73394	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S1	CUI-less
+stopWords	biolink:OntologyClass	associated	associated with	PATO:0001668	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	at	astatine atom	CHEBI:30415	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	at	Ala-Thr	CHEBI:73762	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	at	astatine(.)	CHEBI:30416	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	at	astatide	CHEBI:30417	S1	CUI-less
+stopWords	biolink:OntologyClass	back	back	OBO:PATO_0001901	S1	CUI-less
+stopWords	biolink:OntologyClass	back	back	PATO:0001901	S1	CUI-less
+stopWords	biolink:OntologyClass	backward	inverted	PATO:0000625	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	be	beryllium atom	CHEBI:30501	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	be	beryllium(1+)	CHEBI:30503	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	beyond	imazamox-ammonium	CHEBI:133232	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	can	calcium ammonium nitrate	CHEBI:91238	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	can	calcium(0)	CHEBI:29320	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	can	calcium ammonium nitrate	CHEBI:91238	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	can	calcium(0)	CHEBI:29320	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	c	carbon atom	CHEBI:27594	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	c	methanetetrayl group	CHEBI:30039	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	c	carbon(1+)	CHEBI:29436	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	c	cytidine 5'-monophosphate residue	CHEBI:50308	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	c	cytidine residue	CHEBI:64656	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	c	L-cysteine	CHEBI:17561	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	c	carbide(1-)	CHEBI:29435	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	c	charm quark	CHEBI:36369	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	c	L-cysteine residue	CHEBI:29950	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	c	cytosine	CHEBI:16040	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	c	methanediylidene group	CHEBI:30040	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	c	cysteine	CHEBI:15356	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	mon	montanoyl group	CHEBI:25417	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	co	cobalt atom	CHEBI:27638	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	co	oxidocarbonate(.1-)	CHEBI:29335	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	co	cobalt(1+)	CHEBI:85033	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	co	carbon monoxide	CHEBI:17245	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	co	oxidocarbon(.1+)	CHEBI:29333	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	co co	oxalyl group	CHEBI:30870	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	co	cobalt atom	CHEBI:27638	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	co	oxidocarbonate(.1-)	CHEBI:29335	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	co	cobalt(1+)	CHEBI:85033	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	co	carbon monoxide	CHEBI:17245	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	co	oxidocarbon(.1+)	CHEBI:29333	S1	CUI-less
+stopWords	biolink:ChemicalSubstance	com	coenzyme M	CHEBI:17905	S2	CUI-less
+stopWords	biolink:OntologyClass	consider	consider	OIO:consider	S2	CUI-less
+stopWords	biolink:OntologyClass	consider	consider	OIO:consider	S2	CUI-less
+stopWords	biolink:OntologyClass	contains	contains	RO:0001019	S2	CUI-less
+stopWords	biolink:OntologyClass	contains	contains	RO:0001019	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S2	CUI-less
+stopWords	biolink:OntologyClass	course	watercourse	ENVO:00000029	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	c	carbon atom	CHEBI:27594	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	c	methanetetrayl group	CHEBI:30039	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	c	carbon(1+)	CHEBI:29436	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	c	cytidine 5'-monophosphate residue	CHEBI:50308	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	c	cytidine residue	CHEBI:64656	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	c	L-cysteine	CHEBI:17561	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	c	carbide(1-)	CHEBI:29435	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	c	charm quark	CHEBI:36369	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	c	L-cysteine residue	CHEBI:29950	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	c	cytosine	CHEBI:16040	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	c	methanediylidene group	CHEBI:30040	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	c	cysteine	CHEBI:15356	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	c's	thiocarbonyl group	CHEBI:30256	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	c's	carbonothioylidene group	CHEBI:30257	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	c's	Cys-Ser	CHEBI:73462	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	did	dilC18(5) dye	CHEBI:52027	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	don	deoxynivalenol	CHEBI:10022	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S2	CUI-less
+stopWords	biolink:OntologyClass	down	grassland ecosystem	ENVO:01001206	S2	CUI-less
+stopWords	biolink:OntologyClass	down	down	OBO:PATO_0000365	S2	CUI-less
+stopWords	biolink:OntologyClass	down	down	PATO:0000365	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	eg	Glu-Gly	CHEBI:73505	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	et	ethyl	CHEBI:62801	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	et	ethyl group	CHEBI:37807	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	et	Glu-Thr	CHEBI:73510	S2	CUI-less
+stopWords	biolink:OrganismalEntity	goes	Goes	NCBITaxon:376232	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	has	hexadehydroastechrome	CHEBI:73878	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	he	helium(.1+)	CHEBI:30221	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	he	helium(0)	CHEBI:33681	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	he	helium atom	CHEBI:30217	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	he	His-Glu	CHEBI:73928	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	he	helium(.1+)	CHEBI:30221	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	he	helium(0)	CHEBI:33681	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	he	helium atom	CHEBI:30217	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	he	His-Glu	CHEBI:73928	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium(.)	CHEBI:29303	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium atom	CHEBI:29237	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	dihydrouridine	CHEBI:23774	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	aspartic acid	CHEBI:22660	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteride	CHEBI:29301	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid residue	CHEBI:29958	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid	CHEBI:17053	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	down quark	CHEBI:36367	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteron	CHEBI:29233	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	he	helium(.1+)	CHEBI:30221	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	he	helium(0)	CHEBI:33681	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	he	helium atom	CHEBI:30217	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	he	His-Glu	CHEBI:73928	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-D-Leu	CHEBI:74528	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-Leu	CHEBI:73531	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	he	helium(.1+)	CHEBI:30221	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	he	helium(0)	CHEBI:33681	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	he	helium atom	CHEBI:30217	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	he	His-Glu	CHEBI:73928	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	hi	hydrogen iodide	CHEBI:43451	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	hi	His-Ile	CHEBI:141437	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	him	1H-imidazole	CHEBI:16069	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	his	N(2)-L-histidino group	CHEBI:32515	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	his	L-histidine	CHEBI:15971	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	his	L-histidine residue	CHEBI:29979	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	his	L-histidyl group	CHEBI:32514	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	inosine	CHEBI:17596	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	IMP residue	CHEBI:76778	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodine(.)	CHEBI:33115	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	L-isoleucine residue	CHEBI:30009	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodine atom	CHEBI:24859	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodo group	CHEBI:43448	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodide	CHEBI:16382	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	L-isoleucine	CHEBI:17191	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i'd	Ile-Asp	CHEBI:141439	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium(.)	CHEBI:29303	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium atom	CHEBI:29237	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	dihydrouridine	CHEBI:23774	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	aspartic acid	CHEBI:22660	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteride	CHEBI:29301	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid residue	CHEBI:29958	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid	CHEBI:17053	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	down quark	CHEBI:36367	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteron	CHEBI:29233	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	ie	Ile-Glu	CHEBI:137259	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	if	Ile-Phe	CHEBI:74075	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	inosine	CHEBI:17596	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	IMP residue	CHEBI:76778	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodine(.)	CHEBI:33115	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	L-isoleucine residue	CHEBI:30009	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodine atom	CHEBI:24859	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodo group	CHEBI:43448	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodide	CHEBI:16382	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	L-isoleucine	CHEBI:17191	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-D-Leu	CHEBI:74528	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-Leu	CHEBI:73531	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	inosine	CHEBI:17596	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	IMP residue	CHEBI:76778	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodine(.)	CHEBI:33115	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	L-isoleucine residue	CHEBI:30009	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodine atom	CHEBI:24859	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodo group	CHEBI:43448	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodide	CHEBI:16382	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	i	L-isoleucine	CHEBI:17191	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	m	L-methionine residue	CHEBI:16044	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	m	L-methionine	CHEBI:16643	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	m	methionine	CHEBI:16811	S2	CUI-less
+stopWords	biolink:OntologyClass	m	h minus	PATO:0001345	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	in	Ile-Asn	CHEBI:74063	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	in	indium atom	CHEBI:30430	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	in	indium(1+)	CHEBI:30433	S2	CUI-less
+stopWords	biolink:ChemicalSubstance	is	Ile-Ser	CHEBI:74078	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	isn	isonicotinamide	CHEBI:6031	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	it	Ile-Thr	CHEBI:141441	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	it	Ile-Thr	CHEBI:141441	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium(.)	CHEBI:29303	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium atom	CHEBI:29237	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	dihydrouridine	CHEBI:23774	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	aspartic acid	CHEBI:22660	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteride	CHEBI:29301	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid residue	CHEBI:29958	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid	CHEBI:17053	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	down quark	CHEBI:36367	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteron	CHEBI:29233	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	it	Ile-Thr	CHEBI:141441	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	it	Ile-Thr	CHEBI:141441	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	i	inosine	CHEBI:17596	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	i	IMP residue	CHEBI:76778	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodine(.)	CHEBI:33115	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	i	L-isoleucine residue	CHEBI:30009	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodine atom	CHEBI:24859	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodo group	CHEBI:43448	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodide	CHEBI:16382	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	i	L-isoleucine	CHEBI:17191	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ve	Val-Glu	CHEBI:75011	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	k	kalide	CHEBI:29104	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	k	L-lysine	CHEBI:18019	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	k	potassium(1+)	CHEBI:29103	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	k	lysine	CHEBI:25094	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	k	L-lysine residue	CHEBI:29967	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	k	potassium atom	CHEBI:26216	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ltd	Leu-Thr-Asp	CHEBI:73573	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	me	methyl group	CHEBI:32875	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	me	Met-Glu	CHEBI:74702	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S3	CUI-less
+stopWords	biolink:OntologyClass	mine	mine	ENVO:00000076	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	mr	Met-Arg	CHEBI:74698	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	my	Met-Tyr	CHEBI:73615	S3	CUI-less
+stopWords	biolink:OrganismalEntity	name	Dioscorea trifida	NCBITaxon:55581	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	nd	Asn-Asp	CHEBI:73419	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	nd	neodymium atom	CHEBI:33372	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	no	nitric oxide	CHEBI:16480	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	no	nobelium	CHEBI:33396	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	no	oxidonitrogen(1+)	CHEBI:29120	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	no	oxidonitrate(1-)	CHEBI:29121	S3	CUI-less
+stopWords	biolink:OrganismalEntity	none	unidentified	NCBITaxon:32644	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	no	nitric oxide	CHEBI:16480	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	no	nobelium	CHEBI:33396	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	no	oxidonitrogen(1+)	CHEBI:29120	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	no	oxidonitrate(1-)	CHEBI:29121	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	one	(E)-4-oxonon-2-enal	CHEBI:58972	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	of	fluoridooxygen(1+)	CHEBI:30243	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	of	fluoridooxygen(.)	CHEBI:30242	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	of	fluorosyl group	CHEBI:30241	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	off	"N,N-diethyl-m-toluamide"	CHEBI:7071	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	oh	hydroxide	CHEBI:16234	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	oh	hydroxylium	CHEBI:29915	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	oh	hydroxy group	CHEBI:43176	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	oh	hydroxyl	CHEBI:29191	S3	CUI-less
+stopWords	biolink:OntologyClass	old	old	OBO:PATO_0000308	S3	CUI-less
+stopWords	biolink:OntologyClass	old	old	PATO:0000308	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	one	(E)-4-oxonon-2-enal	CHEBI:58972	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	one	(E)-4-oxonon-2-enal	CHEBI:58972	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S3	CUI-less
+stopWords	biolink:OntologyClass	opposite	opposite	OBO:PATO_0001933	S3	CUI-less
+stopWords	biolink:OntologyClass	opposite	opposite	PATO:0001933	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	or	gold atom	CHEBI:29287	S3	CUI-less
+stopWords	biolink:OrganismalEntity	other	unidentified	NCBITaxon:32644	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	qv	Gln-Val	CHEBI:141433	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	rd	Arg-Asp	CHEBI:73812	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	re	rhenium atom	CHEBI:49882	S3	CUI-less
+stopWords	biolink:OntologyClass	recent	recent	PATO:0001484	S3	CUI-less
+stopWords	biolink:OntologyClass	right	right	OBO:PATO_0000367	S3	CUI-less
+stopWords	biolink:OntologyClass	right	right	PATO:0000367	S3	CUI-less
+stopWords	biolink:OntologyClass	round	circular	OBO:PATO_0000411	S3	CUI-less
+stopWords	biolink:OntologyClass	round	circular	PATO:0000411	S3	CUI-less
+stopWords	biolink:OntologyClass	round	subcircular	PATO:0002397	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	same	S-adenosyl-L-methionine	CHEBI:15414	S3	CUI-less
+stopWords	biolink:OntologyClass	second	second	UO:0000010	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium(.)	CHEBI:29303	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium atom	CHEBI:29237	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	dihydrouridine	CHEBI:23774	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	aspartic acid	CHEBI:22660	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteride	CHEBI:29301	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid residue	CHEBI:29958	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid	CHEBI:17053	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	down quark	CHEBI:36367	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteron	CHEBI:29233	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	so	oxidosulfate(.1-)	CHEBI:29824	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	so	sulfur monoxide	CHEBI:45822	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	so	sulfinyl group	CHEBI:29822	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	so	oxidosulfur(.1+)	CHEBI:29823	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	th	Thr-His	CHEBI:73663	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	th	thorium	CHEBI:33385	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ve	Val-Glu	CHEBI:75011	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium(.)	CHEBI:29303	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium atom	CHEBI:29237	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	dihydrouridine	CHEBI:23774	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	aspartic acid	CHEBI:22660	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteride	CHEBI:29301	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid residue	CHEBI:29958	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid	CHEBI:17053	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	down quark	CHEBI:36367	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteron	CHEBI:29233	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	re	rhenium atom	CHEBI:49882	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ve	Val-Glu	CHEBI:75011	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium(.)	CHEBI:29303	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium atom	CHEBI:29237	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	dihydrouridine	CHEBI:23774	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	aspartic acid	CHEBI:22660	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteride	CHEBI:29301	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid residue	CHEBI:29958	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid	CHEBI:17053	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	down quark	CHEBI:36367	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteron	CHEBI:29233	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	re	rhenium atom	CHEBI:49882	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ve	Val-Glu	CHEBI:75011	S3	CUI-less
+stopWords	biolink:OrganismalEntity	this	This	NCBITaxon:169495	S3	CUI-less
+stopWords	biolink:OntologyClass	towards	towards	RO:0002503	S3	CUI-less
+stopWords	biolink:OntologyClass	towards	towards	OBO:pato#towards	S3	CUI-less
+stopWords	biolink:OntologyClass	towards	towards	RO:0002503	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t's	Thr-Ser	CHEBI:73664	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S3	CUI-less
+stopWords	biolink:OntologyClass	up	up	OBO:PATO_0000370	S3	CUI-less
+stopWords	biolink:OntologyClass	up	up	PATO:0000370	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	v	vanadium(1+)	CHEBI:33005	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	v	vanadium atom	CHEBI:27698	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	v	L-valine residue	CHEBI:30015	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	v	L-valine	CHEBI:16414	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	vs	Val-Ser	CHEBI:75021	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	we	Trp-Glu	CHEBI:74869	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	we	Trp-Glu	CHEBI:74869	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium(.)	CHEBI:29303	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium atom	CHEBI:29237	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	dihydrouridine	CHEBI:23774	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	aspartic acid	CHEBI:22660	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteride	CHEBI:29301	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid residue	CHEBI:29958	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid	CHEBI:17053	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	down quark	CHEBI:36367	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteron	CHEBI:29233	S3	CUI-less
+stopWords	biolink:OntologyClass	well	well	ENVO:00000026	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	we	Trp-Glu	CHEBI:74869	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	we	Trp-Glu	CHEBI:74869	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	re	rhenium atom	CHEBI:49882	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	we	Trp-Glu	CHEBI:74869	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ve	Val-Glu	CHEBI:75011	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ve	Val-Glu	CHEBI:75011	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium(.)	CHEBI:29303	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium atom	CHEBI:29237	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	dihydrouridine	CHEBI:23774	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	aspartic acid	CHEBI:22660	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteride	CHEBI:29301	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid residue	CHEBI:29958	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid	CHEBI:17053	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	down quark	CHEBI:36367	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteron	CHEBI:29233	S3	CUI-less
+stopWords	biolink:OntologyClass	whole	whole	PATO:0001446	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium(.)	CHEBI:29303	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium atom	CHEBI:29237	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	dihydrouridine	CHEBI:23774	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	aspartic acid	CHEBI:22660	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteride	CHEBI:29301	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid residue	CHEBI:29958	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid	CHEBI:17053	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	down quark	CHEBI:36367	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteron	CHEBI:29233	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	re	rhenium atom	CHEBI:49882	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ve	Val-Glu	CHEBI:75011	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	a	hydrogen acceptor	CHEBI:13193	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	a	alanine	CHEBI:16449	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	a	adenosine residue	CHEBI:62885	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	a	adenosine 5'-monophosphate residue	CHEBI:50306	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	a	adenine	CHEBI:16708	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	a	L-alanine	CHEBI:16977	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	a	L-alanine residue	CHEBI:46217	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	a	acceptor	CHEBI:15339	S3	CUI-less
+stopWords	biolink:OntologyClass	a	a mating type (yeast)	PATO:0001341	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	i	inosine	CHEBI:17596	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	i	IMP residue	CHEBI:76778	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodine(.)	CHEBI:33115	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	i	L-isoleucine residue	CHEBI:30009	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodine atom	CHEBI:24859	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodo group	CHEBI:43448	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	i	iodide	CHEBI:16382	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	i	L-isoleucine	CHEBI:17191	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	b	boron(1+)	CHEBI:30165	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	b	boron atom	CHEBI:27560	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	b	bottom quark	CHEBI:36370	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	b	boranetriyl group	CHEBI:30169	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	b	boranylidyne group	CHEBI:30170	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	b	boride(1-)	CHEBI:30166	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	c	carbon atom	CHEBI:27594	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	c	methanetetrayl group	CHEBI:30039	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	c	carbon(1+)	CHEBI:29436	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	c	cytidine 5'-monophosphate residue	CHEBI:50308	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	c	cytidine residue	CHEBI:64656	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	c	L-cysteine	CHEBI:17561	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	c	carbide(1-)	CHEBI:29435	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	c	charm quark	CHEBI:36369	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	c	L-cysteine residue	CHEBI:29950	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	c	cytosine	CHEBI:16040	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	c	methanediylidene group	CHEBI:30040	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	c	cysteine	CHEBI:15356	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium(.)	CHEBI:29303	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuterium atom	CHEBI:29237	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	dihydrouridine	CHEBI:23774	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	aspartic acid	CHEBI:22660	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteride	CHEBI:29301	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid residue	CHEBI:29958	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	L-aspartic acid	CHEBI:17053	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	down quark	CHEBI:36367	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d	deuteron	CHEBI:29233	S3	CUI-less
+stopWords	biolink:OntologyClass	d e	diatomite	ENVO:01000962	S3	CUI-less
+stopWords	biolink:OntologyClass	d e	diatomite particle	ENVO:01000963	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	d e	deuterium(.)	CHEBI:29303	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	e	positron	CHEBI:30225	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	e	L-glutamic acid	CHEBI:16015	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	e	L-glutamic acid residue	CHEBI:29972	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	e	glutamic acid	CHEBI:18237	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	e	electron	CHEBI:10545	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	f	L-phenylalanine residue	CHEBI:29997	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	f	fluorine atom	CHEBI:24061	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	f	fluorine(.)	CHEBI:30239	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	f	fluoro group	CHEBI:42645	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	f	L-phenylalanine	CHEBI:17295	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	f	fluoride	CHEBI:17051	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	f	phenylalanine	CHEBI:28044	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	f	fluorine(1+)	CHEBI:30240	S3	CUI-less
+stopWords	biolink:OntologyClass	f	F minus mating type	PATO:0001348	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	f g	Phe-Gly	CHEBI:73635	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	g	guanosine residue	CHEBI:64654	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	g	7-methylguanosine	CHEBI:20794	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	g	guanine	CHEBI:16235	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	g	glycine	CHEBI:15428	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	g	guanosine 5'-monophosphate residue	CHEBI:50324	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	g	archaeosine	CHEBI:73271	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	g	glycine residue	CHEBI:29947	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	g	guanosine	CHEBI:16750	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	g h	Gly-His	CHEBI:73515	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	h	helion	CHEBI:30220	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	h	L-histidine residue	CHEBI:29979	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	h	hydride	CHEBI:29239	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	h	hydrogen atom	CHEBI:49637	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	h	mu-hydrido group	CHEBI:48238	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	h	hydrido group	CHEBI:48237	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	h	hydrogen(.)	CHEBI:29235	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	h	L-histidine	CHEBI:15971	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	h	hydron	CHEBI:15378	S3	CUI-less
+stopWords	biolink:OntologyClass	h	h plus	PATO:0001346	S3	CUI-less
+stopWords	biolink:OntologyClass	h	h minus	PATO:0001345	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	j	iodine atom	CHEBI:24859	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	l	L-leucine residue	CHEBI:30006	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	l	L-leucine	CHEBI:15603	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	l	leucine	CHEBI:25017	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	l m	Leu-Met	CHEBI:73584	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	m	L-methionine residue	CHEBI:16044	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	m	L-methionine	CHEBI:16643	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	m	methionine	CHEBI:16811	S3	CUI-less
+stopWords	biolink:OntologyClass	m	h minus	PATO:0001345	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	m n	Met-Asn	CHEBI:141442	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	n	azanylylidene group	CHEBI:30229	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	n	lysidine zwitterion	CHEBI:64326	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	n	L-asparagine	CHEBI:17196	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	n	canonical ribonucleoside residue	CHEBI:33792	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	n	azanylidyne group	CHEBI:30230	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	n	nitrogen(.)	CHEBI:29351	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	n	nitrogen(1+)	CHEBI:29352	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	n	neutron	CHEBI:30222	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	n	asparagine	CHEBI:22653	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	n	azanidylidene group	CHEBI:30226	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	n	nitrogen atom	CHEBI:25555	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	n	L-asparagine residue	CHEBI:50347	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	n	azanetriyl group	CHEBI:30228	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	n o	nitroso group	CHEBI:35801	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	o	oxido group	CHEBI:29355	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	o	oxygen atom	CHEBI:25805	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	o	oxo group	CHEBI:46629	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	o	oxy group	CHEBI:29354	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	p	L-proline	CHEBI:17203	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	p	phosphanetriyl group	CHEBI:30206	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	p	proton	CHEBI:24636	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	p	phosphorus atom	CHEBI:28659	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	p	phosphorus(1+)	CHEBI:33467	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	p	phosphorus(.)	CHEBI:30207	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	p	phosphide(3-)	CHEBI:33468	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	p	pseudouridine	CHEBI:17802	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	p	phosphide(1-)	CHEBI:33469	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	p	L-proline residue	CHEBI:50342	S3	CUI-less
+stopWords	biolink:OntologyClass	p	h plus	PATO:0001346	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	q	L-glutamine	CHEBI:18050	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	q	queuosine	CHEBI:60193	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	q	coenzyme Q10	CHEBI:46245	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	q	L-glutamine residue	CHEBI:30011	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	q	ubiquinones	CHEBI:16389	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	r	L-arginine	CHEBI:16467	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	r	R	CHEBI:8735	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	r	L-arginine residue	CHEBI:29952	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur(1+)	CHEBI:29832	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfur atom	CHEBI:26833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine residue	CHEBI:29999	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfido group	CHEBI:29831	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	thioxo group	CHEBI:29833	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfanediyl group	CHEBI:29830	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	strange quark	CHEBI:36368	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	polysulfur	CHEBI:17909	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	sulfide(.1-)	CHEBI:29316	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s	L-serine	CHEBI:17115	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	s t	Ser-Thr	CHEBI:141393	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymidine	CHEBI:17748	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	top quark	CHEBI:36371	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	ribothymidine	CHEBI:45996	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritide	CHEBI:29302	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium atom	CHEBI:29238	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine	CHEBI:16857	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	L-threonine residue	CHEBI:30013	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	tritium(.)	CHEBI:29304	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	triton	CHEBI:29234	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	t	thymine	CHEBI:17821	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	u	uridine 5'-monophosphate residue	CHEBI:46470	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	u	L-selenocysteine residue	CHEBI:30000	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	u	uranium atom	CHEBI:27214	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	u	uridine	CHEBI:16704	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	u	uracil	CHEBI:17568	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	u	up quark	CHEBI:36366	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	w	L-tryptophan residue	CHEBI:29954	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	w	tryptophan	CHEBI:27897	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	w	tungsten	CHEBI:27998	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	w	L-tryptophan	CHEBI:16828	S3	CUI-less
+stopWords	biolink:OntologyClass	w	work	PATO:0001026	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	y	L-tyrosine	CHEBI:17895	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	y	L-tyrosine residue	CHEBI:46858	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	y	yttrium atom	CHEBI:33331	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	y	tyrosine	CHEBI:18186	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	z	6-aminohexanoic acid	CHEBI:16586	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	z	benzyloxycarbonyl group	CHEBI:51097	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	I	inosine	CHEBI:17596	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	I	IMP residue	CHEBI:76778	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	I	iodine(.)	CHEBI:33115	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	I	L-isoleucine residue	CHEBI:30009	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	I	iodine atom	CHEBI:24859	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	I	iodo group	CHEBI:43448	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	I	iodide	CHEBI:16382	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	I	L-isoleucine	CHEBI:17191	S3	CUI-less
+stopWords	biolink:OntologyClass	amount	amount	OBO:PATO_0000070	S3	CUI-less
+stopWords	biolink:OntologyClass	amount	amount	PATO:0000070	S3	CUI-less
+stopWords	biolink:OntologyClass	bottom	submerged bed	ENVO:00000501	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	de	Asp-Glu	CHEBI:73828	S3	CUI-less
+stopWords	biolink:OntologyClass	fire	fire	ENVO:01000786	S3	CUI-less
+stopWords	biolink:OntologyClass	front	front	OBO:PATO_0001900	S3	CUI-less
+stopWords	biolink:OntologyClass	front	front	PATO:0001900	S3	CUI-less
+stopWords	biolink:OntologyClass	side	slope	ENVO:00002000	S3	CUI-less
+stopWords	biolink:AnatomicalEntity	system	anatomical system	UBERON:0000467	S3	CUI-less
+stopWords	biolink:OntologyClass	system	system	RO:0002577	S3	CUI-less
+stopWords	biolink:OntologyClass	system	system	RO:0002577	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ten	triethylamine	CHEBI:35026	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ten	pentaerythritol tetranitrate	CHEBI:25879	S3	CUI-less
+stopWords	biolink:OntologyClass	thick	increased thickness	OBO:PATO_0000591	S3	CUI-less
+stopWords	biolink:OntologyClass	thick	increased thickness	PATO:0000591	S3	CUI-less
+stopWords	biolink:OntologyClass	thin	decreased thickness	OBO:PATO_0000592	S3	CUI-less
+stopWords	biolink:OntologyClass	thin	decreased thickness	PATO:0000592	S3	CUI-less
+stopWords	biolink:OntologyClass	affects	causally upstream of or within	RO:0002418	S3	CUI-less
+stopWords	biolink:OntologyClass	affects	acts upstream of or within	RO:0002264	S3	CUI-less
+stopWords	biolink:OntologyClass	affects	causally upstream of or within	RO:0002418	S3	CUI-less
+stopWords	biolink:OntologyClass	affects	acts upstream of or within	RO:0002264	S3	CUI-less
+stopWords	biolink:OntologyClass	affects	causally upstream of or within	RO:0002418	S3	CUI-less
+stopWords	biolink:OntologyClass	affects	acts upstream of or within	RO:0002264	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ah	Ala-His	CHEBI:73771	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ca	calcium atom	CHEBI:22984	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ca	calcium(1+)	CHEBI:39099	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ed	Glu-Asp	CHEBI:73503	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	et	ethyl	CHEBI:62801	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	et	ethyl group	CHEBI:37807	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	et	Glu-Thr	CHEBI:73510	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	al	Ala-Leu	CHEBI:73770	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	al	aluminium(1+)	CHEBI:30150	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	al	aluminium atom	CHEBI:28984	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	al	D-Ala-Leu	CHEBI:73838	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	al	aluminide(1-)	CHEBI:30151	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ff	Phe-Phe	CHEBI:72723	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	home	HOME	CHEBI:75830	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	id	Ile-Asp	CHEBI:141439	S3	CUI-less
+stopWords	biolink:AnatomicalEntity	im	intermediate mesoderm	UBERON:0003064	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	im	Ile-Met	CHEBI:74073	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	im	imidazolide	CHEBI:30366	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	kg	Lys-Gly	CHEBI:73604	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	km	Lys-Met	CHEBI:74566	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-D-Leu	CHEBI:74528	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ll	Leu-Leu	CHEBI:73531	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	mg	Met-Gly	CHEBI:73611	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	mg	magnesium atom	CHEBI:25107	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ml	Met-Leu	CHEBI:74705	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	na	natride	CHEBI:29102	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	na	sodium atom	CHEBI:26708	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	na	sodium(1+)	CHEBI:29101	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	na	nucleic acid	CHEBI:33696	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	pp	propionyl group	CHEBI:26294	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	pp	poly(propylene)	CHEBI:53550	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	pp	Pro-Pro	CHEBI:73646	S3	CUI-less
+stopWords	biolink:OntologyClass	present	present	PATO:0000467	S3	CUI-less
+stopWords	biolink:OntologyClass	run	watercourse	ENVO:00000029	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	sec	L-selenocysteinate residue	CHEBI:30003	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	sec	L-selenocysteine residue	CHEBI:30000	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	sec	L-selenocysteinyl group	CHEBI:32745	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	sec	L-selenocysteino group	CHEBI:32746	S3	CUI-less
+stopWords	biolink:OrganismalEntity	section	section	NCBITaxon:section	S3	CUI-less
+stopWords	biolink:OntologyClass	state	national geopolitical entity	ENVO:00000009	S3	CUI-less
+stopWords	biolink:OntologyClass	thou	thou	UO:0010012	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ts	Thr-Ser	CHEBI:73664	S3	CUI-less
+stopWords	biolink:ChemicalSubstance	ve	Val-Glu	CHEBI:75011	S3	CUI-less
