@@ -1,0 +1,569 @@
+CUI-less	N/A	RO:0002170	connected to	connected to	biolink:OntologyClass
+CUI-less	N/A	RO:0002291	ubiquitously expressed in	ubiquitously expressed in	biolink:OntologyClass
+CUI-less	N/A	RO:0002292	expresses	expresses	biolink:OntologyClass
+CUI-less	N/A	RO:0002171	mutually spatially disjoint with	mutually spatially disjoint with	biolink:OntologyClass
+CUI-less	N/A	RO:0002176	connects	connects	biolink:OntologyClass
+CUI-less	N/A	RO:0002297	results in formation of	results in formation of	biolink:OntologyClass
+CUI-less	N/A	RO:0002298	results in morphogenesis of	results in morphogenesis of	biolink:OntologyClass
+CUI-less	N/A	RO:0002177	attached to part of	attached to part of	biolink:OntologyClass
+CUI-less	N/A	RO:0002178	supplies	supplies	biolink:OntologyClass
+CUI-less	N/A	RO:0002299	results in maturation of	results in maturation of	biolink:OntologyClass
+CUI-less	N/A	RO:0002179	drains	drains	biolink:OntologyClass
+CUI-less	N/A	RO:0002172	taxonomic class assertion	taxonomic class assertion	biolink:OntologyClass
+CUI-less	N/A	RO:0002293	ubiquitously expresses	ubiquitously expresses	biolink:OntologyClass
+CUI-less	N/A	RO:0002173	ambiguous for taxon	ambiguous for taxon	biolink:OntologyClass
+CUI-less	N/A	RO:0002295	results in developmental progression of	results in developmental progression of	biolink:OntologyClass
+CUI-less	N/A	RO:0002174	dubious for taxon	dubious for taxon	biolink:OntologyClass
+CUI-less	N/A	RO:0002175	present in taxon	present in taxon	biolink:OntologyClass
+CUI-less	N/A	RO:0002296	results in development of	results in development of	biolink:OntologyClass
+CUI-less	N/A	RO:0002160	only in taxon	only in taxon	biolink:OntologyClass
+CUI-less	N/A	RO:0002286	developmentally succeeded by	developmentally succeeded by	biolink:OntologyClass
+CUI-less	N/A	RO:0002287	part of developmental precursor of	part of developmental precursor of	biolink:OntologyClass
+CUI-less	N/A	RO:0002161	never in taxon	never in taxon	biolink:OntologyClass
+CUI-less	N/A	RO:0002162	in taxon	in taxon	biolink:OntologyClass
+CUI-less	N/A	RO:0002163	spatially disjoint from	spatially disjoint from	biolink:OntologyClass
+CUI-less	N/A	RO:0002285	developmentally replaces	developmentally replaces	biolink:OntologyClass
+CUI-less	N/A	RO:0002158	shares ancestor with	shares ancestor with	biolink:OntologyClass
+CUI-less	N/A	RO:0002159	serially homologous to	serially homologous to	biolink:OntologyClass
+CUI-less	N/A	RO:0003002	represses expression of	represses expression of	biolink:OntologyClass
+CUI-less	N/A	RO:0003001	produced by	produced by	biolink:OntologyClass
+CUI-less	N/A	RO:0002156	derived by descent from	derived by descent from	biolink:OntologyClass
+CUI-less	N/A	RO:0003003	increases expression of	increases expression of	biolink:OntologyClass
+CUI-less	N/A	RO:0002157	has derived by descendant	has derived by descendant	biolink:OntologyClass
+CUI-less	N/A	RO:0002150	continuous with	continuous with	biolink:OntologyClass
+CUI-less	N/A	RO:0002151	partially overlaps	partially overlaps	biolink:OntologyClass
+CUI-less	N/A	RO:0003000	produces	produces	biolink:OntologyClass
+CUI-less	N/A	RO:0002026	in register with	in register with	biolink:OntologyClass
+CUI-less	N/A	RO:0002029	has increased age-specific mortality rate	has increased age-specific mortality rate	biolink:OntologyClass
+CUI-less	N/A	RO:0002380	branching part of	branching part of	biolink:OntologyClass
+CUI-less	N/A	RO:0002264	affects	acts upstream of or within	biolink:OntologyClass
+CUI-less	N/A	RO:0002264	acts upstream of or within	acts upstream of or within	biolink:OntologyClass
+CUI-less	N/A	RO:0002385	has potential to developmentally contribute to	has potential to developmentally contribute to	biolink:OntologyClass
+CUI-less	N/A	RO:0002022	directly regulated by	directly regulated by	biolink:OntologyClass
+CUI-less	N/A	RO:0002386	has potential to developmentally induce	has potential to developmentally induce	biolink:OntologyClass
+CUI-less	N/A	RO:0002023	directly negatively regulated by	directly negatively regulated by	biolink:OntologyClass
+CUI-less	N/A	RO:0002024	directly positively regulated by	directly positively regulated by	biolink:OntologyClass
+CUI-less	N/A	RO:0002387	has potential to develop into	has potential to develop into	biolink:OntologyClass
+CUI-less	N/A	RO:0002388	has potential to directly develop into	has potential to directly develop into	biolink:OntologyClass
+CUI-less	N/A	RO:0002025	has effector activity	has effector activity	biolink:OntologyClass
+CUI-less	N/A	RO:0002381	main stem of	main stem of	biolink:OntologyClass
+CUI-less	N/A	RO:0002382	proper distributary of	proper distributary of	biolink:OntologyClass
+CUI-less	N/A	RO:0002020	transports	transports	biolink:OntologyClass
+CUI-less	N/A	RO:0002383	proper tributary of	proper tributary of	biolink:OntologyClass
+CUI-less	N/A	RO:0002384	has developmental potential involving	has developmental potential involving	biolink:OntologyClass
+CUI-less	N/A	RO:0002021	occurs across	occurs across	biolink:OntologyClass
+CUI-less	N/A	RO:0002263	acts upstream of	acts upstream of	biolink:OntologyClass
+CUI-less	N/A	RO:0002019	has ligand	has ligand	biolink:OntologyClass
+CUI-less	N/A	RO:0002378	anabranch of	anabranch of	biolink:OntologyClass
+CUI-less	N/A	RO:0002015	has positive regulatory component activity	has positive regulatory component activity	biolink:OntologyClass
+CUI-less	N/A	RO:0002257	developmentally induces	developmentally induces	biolink:OntologyClass
+CUI-less	N/A	RO:0002258	developmentally preceded by	developmentally preceded by	biolink:OntologyClass
+CUI-less	N/A	RO:0002379	spatially coextensive with	spatially coextensive with	biolink:OntologyClass
+CUI-less	N/A	RO:0002016	has necessary component activity	has necessary component activity	biolink:OntologyClass
+CUI-less	N/A	RO:0002017	has component activity	has component activity	biolink:OntologyClass
+CUI-less	N/A	RO:0002259	defined by inverse	defined by inverse	biolink:OntologyClass
+CUI-less	N/A	RO:0002018	has component process	has component process	biolink:OntologyClass
+CUI-less	N/A	RO:0002490	existence overlaps	existence overlaps	biolink:OntologyClass
+CUI-less	N/A	RO:0002374	has fused element	derived from ancestral fusion of	biolink:OntologyClass
+CUI-less	N/A	RO:0002374	derived from ancestral fusion of	derived from ancestral fusion of	biolink:OntologyClass
+CUI-less	N/A	RO:0002495	immediate transformation of	immediate transformation of	biolink:OntologyClass
+CUI-less	N/A	RO:0002011	regulates transport of	regulates transport of	biolink:OntologyClass
+CUI-less	N/A	RO:0002253	has connecting branch	has connecting branch	biolink:OntologyClass
+CUI-less	N/A	RO:0002132	has fasciculating neuron projection	has fasciculating neuron projection	biolink:OntologyClass
+CUI-less	N/A	RO:0002375	in branching relationship with	in branching relationship with	biolink:OntologyClass
+CUI-less	N/A	RO:0002496	existence starts during or after	existence starts during or after	biolink:OntologyClass
+CUI-less	N/A	RO:0002254	has developmental contribution from	has developmental contribution from	biolink:OntologyClass
+CUI-less	N/A	RO:0002012	occurent part of	occurent part of	biolink:OntologyClass
+CUI-less	N/A	RO:0002376	tributary of	tributary of	biolink:OntologyClass
+CUI-less	N/A	RO:0002134	innervates	innervates	biolink:OntologyClass
+CUI-less	N/A	RO:0002013	has regulatory component activity	has regulatory component activity	biolink:OntologyClass
+CUI-less	N/A	RO:0002255	developmentally contributes to	developmentally contributes to	biolink:OntologyClass
+CUI-less	N/A	RO:0002497	existence ends during or before	existence ends during or before	biolink:OntologyClass
+CUI-less	N/A	RO:0002014	has negative regulatory component activity	has negative regulatory component activity	biolink:OntologyClass
+CUI-less	N/A	RO:0002256	developmentally induced by	developmentally induced by	biolink:OntologyClass
+CUI-less	N/A	RO:0002377	distributary of	distributary of	biolink:OntologyClass
+CUI-less	N/A	RO:0002491	existence starts and ends during	existence starts and ends during	biolink:OntologyClass
+CUI-less	N/A	RO:0002371	attached to	attached to	biolink:OntologyClass
+CUI-less	N/A	RO:0002492	existence ends during	existence ends during	biolink:OntologyClass
+CUI-less	N/A	RO:0002372	has muscle origin	has muscle origin	biolink:OntologyClass
+CUI-less	N/A	RO:0002493	existence ends with	existence ends with	biolink:OntologyClass
+CUI-less	N/A	RO:0002130	has synaptic terminal in	has synaptic terminal in	biolink:OntologyClass
+CUI-less	N/A	RO:0002131	overlaps	overlaps	biolink:OntologyClass
+CUI-less	N/A	RO:0002373	has muscle insertion	has muscle insertion	biolink:OntologyClass
+CUI-less	N/A	RO:0002252	connecting branch of	connecting branch of	biolink:OntologyClass
+CUI-less	N/A	RO:0002010	regulates in other organism	regulates in other organism	biolink:OntologyClass
+CUI-less	N/A	RO:0002494	transformation of	transformation of	biolink:OntologyClass
+CUI-less	N/A	RO:0002008	coincident with	coincident with	biolink:OntologyClass
+CUI-less	N/A	RO:0002009	cell expresses	cell expresses	biolink:OntologyClass
+CUI-less	N/A	RO:0002004	tracheates	tracheates	biolink:OntologyClass
+CUI-less	N/A	RO:0002488	existence starts during	existence starts during	biolink:OntologyClass
+CUI-less	N/A	RO:0002246	under-expressed in	under-expressed in	biolink:OntologyClass
+CUI-less	N/A	RO:0002005	innervated_by	innervated_by	biolink:OntologyClass
+CUI-less	N/A	RO:0002489	existence starts with	existence starts with	biolink:OntologyClass
+CUI-less	N/A	RO:0002248	has active pharmaceutical ingredient	has active ingredient	biolink:OntologyClass
+CUI-less	N/A	RO:0002248	has active substance	has active ingredient	biolink:OntologyClass
+CUI-less	N/A	RO:0002248	has active ingredient	has active ingredient	biolink:OntologyClass
+CUI-less	N/A	RO:0002006	has synaptic terminal of	has synaptic terminal of	biolink:OntologyClass
+CUI-less	N/A	RO:0002007	bounding layer of	bounding layer of	biolink:OntologyClass
+CUI-less	N/A	RO:0002249	active ingredient in	active ingredient in	biolink:OntologyClass
+CUI-less	N/A	RO:0002121	dendrite synapsed in	dendrite synapsed in	biolink:OntologyClass
+CUI-less	N/A	RO:0002242	has exposure route	has exposure route	biolink:OntologyClass
+CUI-less	N/A	RO:0002484	curator guidance link	curator guidance link	biolink:OntologyClass
+CUI-less	N/A	RO:0002001	aligned with	aligned with	biolink:OntologyClass
+CUI-less	N/A	RO:0002485	receives input from	receives input from	biolink:OntologyClass
+CUI-less	N/A	RO:0002243	has exposure transport path	has exposure transport path	biolink:OntologyClass
+CUI-less	N/A	RO:0002486	sends output to	sends output to	biolink:OntologyClass
+CUI-less	N/A	RO:0002244	related via exposure to	related via exposure to	biolink:OntologyClass
+CUI-less	N/A	RO:0002487	relation between physical entity and a process or stage	relation between physical entity and a process or stage	biolink:OntologyClass
+CUI-less	N/A	RO:0002003	electrically_synapsed_to	electrically_synapsed_to	biolink:OntologyClass
+CUI-less	N/A	RO:0002245	over-expressed in	over-expressed in	biolink:OntologyClass
+CUI-less	N/A	RO:0002480	ubiquitinates	ubiquitinates	biolink:OntologyClass
+CUI-less	N/A	RO:0002481	is kinase activity	is kinase activity	biolink:OntologyClass
+CUI-less	N/A	RO:0002360	has dendrite location	has dendrite location	biolink:OntologyClass
+CUI-less	N/A	RO:0002240	has exposure receptor	has exposure receptor	biolink:OntologyClass
+CUI-less	N/A	RO:0002482	is ubiquitination	is ubiquitination	biolink:OntologyClass
+CUI-less	N/A	RO:0002120	synapsed to	synapsed to	biolink:OntologyClass
+CUI-less	N/A	RO:0002241	has exposure stressor	has exposure stressor	biolink:OntologyClass
+CUI-less	N/A	RO:0002483	inherited annotation property	inherited annotation property	biolink:OntologyClass
+CUI-less	N/A	RO:0002356	results in specification of	results in specification of	biolink:OntologyClass
+CUI-less	N/A	RO:0002114	synapsed_via_type_III_bouton_to	synapsed_via_type_III_bouton_to	biolink:OntologyClass
+CUI-less	N/A	RO:0002598	capable of positively regulating	capable of positively regulating	biolink:OntologyClass
+CUI-less	N/A	RO:0002235	stem parasite of	stem parasite of	biolink:OntologyClass
+CUI-less	N/A	RO:0002477	child nucleus of in hermaphrodite	child nucleus of in hermaphrodite	biolink:OntologyClass
+CUI-less	N/A	RO:0002115	synapsed_by_via_type_III_bouton	synapsed_by_via_type_III_bouton	biolink:OntologyClass
+CUI-less	N/A	RO:0002478	child nucleus of in male	child nucleus of in male	biolink:OntologyClass
+CUI-less	N/A	RO:0002357	results in developmental induction of	results in developmental induction of	biolink:OntologyClass
+CUI-less	N/A	RO:0002599	capable of inhibiting or preventing pathological process	capable of inhibiting or preventing pathological process	biolink:OntologyClass
+CUI-less	N/A	RO:0002236	root parasite of	root parasite of	biolink:OntologyClass
+CUI-less	N/A	RO:0002479	has part that occurs in	has part that occurs in	biolink:OntologyClass
+CUI-less	N/A	RO:0002237	hemiparasite of	hemiparasite of	biolink:OntologyClass
+CUI-less	N/A	RO:0002231	has start location	has start location	biolink:OntologyClass
+CUI-less	N/A	RO:0002110	has postsynaptic terminal in	has postsynaptic terminal in	biolink:OntologyClass
+CUI-less	N/A	RO:0002473	composed primarily of	composed primarily of	biolink:OntologyClass
+CUI-less	N/A	RO:0001021	is autoimmune trigger for	is autoimmune trigger for	biolink:OntologyClass
+CUI-less	N/A	RO:0002594	is relational form of a class	is relational form of a class	biolink:OntologyClass
+CUI-less	N/A	RO:0002352	input of	input of	biolink:OntologyClass
+CUI-less	N/A	RO:0002232	has end location	has end location	biolink:OntologyClass
+CUI-less	N/A	RO:0002111	releases neurotransmitter	releases neurotransmitter	biolink:OntologyClass
+CUI-less	N/A	RO:0002595	causal relation between material entity and a process	causal relation between material entity and a process	biolink:OntologyClass
+CUI-less	N/A	RO:0002353	output of	output of	biolink:OntologyClass
+CUI-less	N/A	RO:0001022	has allergic trigger	has allergic trigger	biolink:OntologyClass
+CUI-less	N/A	RO:0002474	dispositional interpretation	dispositional interpretation	biolink:OntologyClass
+CUI-less	N/A	RO:0002233	has input	has input	biolink:OntologyClass
+CUI-less	N/A	RO:0002112	synapsed_by_via_type_Is_bouton	synapsed_by_via_type_Is_bouton	biolink:OntologyClass
+CUI-less	N/A	RO:0002596	capable of regulating	capable of regulating	biolink:OntologyClass
+CUI-less	N/A	RO:0002475	has no connections with	has no connections with	biolink:OntologyClass
+CUI-less	N/A	RO:0002354	formed as result of	formed as result of	biolink:OntologyClass
+CUI-less	N/A	RO:0001023	has autoimmune trigger	has autoimmune trigger	biolink:OntologyClass
+CUI-less	N/A	RO:0002113	has presynaptic terminal in	has presynaptic terminal in	biolink:OntologyClass
+CUI-less	N/A	RO:0002234	has output	has output	biolink:OntologyClass
+CUI-less	N/A	RO:0002476	child nucleus of	child nucleus of	biolink:OntologyClass
+CUI-less	N/A	RO:0002597	capable of negatively regulating	capable of negatively regulating	biolink:OntologyClass
+CUI-less	N/A	RO:0002355	results in structural organization of	results in structural organization of	biolink:OntologyClass
+CUI-less	N/A	RO:0002590	results in disassembly of	results in disassembly of	biolink:OntologyClass
+CUI-less	N/A	RO:0002470	eats	eats	biolink:OntologyClass
+CUI-less	N/A	RO:0002591	results in remodeling of	results in remodeling of	biolink:OntologyClass
+CUI-less	N/A	RO:0002471	is eaten by	is eaten by	biolink:OntologyClass
+CUI-less	N/A	RO:0002592	results in organization of	results in organization of	biolink:OntologyClass
+CUI-less	N/A	RO:0002472	is evidence for	is evidence for	biolink:OntologyClass
+CUI-less	N/A	RO:0001020	is allergic trigger for	is allergic trigger for	biolink:OntologyClass
+CUI-less	N/A	RO:0002593	existence ends at start of	existence ends at start of	biolink:OntologyClass
+CUI-less	N/A	RO:0002107	synapsed_via_type_II_bouton_to	synapsed_via_type_II_bouton_to	biolink:OntologyClass
+CUI-less	N/A	RO:0002228	facultative parasite of	facultative parasite of	biolink:OntologyClass
+CUI-less	N/A	RO:0001018	contained in	contained in	biolink:OntologyClass
+CUI-less	N/A	RO:0002349	results in determination of	results in determination of	biolink:OntologyClass
+CUI-less	N/A	RO:0001019	contains	contains	biolink:OntologyClass
+CUI-less	N/A	RO:0002108	synapsed_by_via_type_II_bouton	synapsed_by_via_type_II_bouton	biolink:OntologyClass
+CUI-less	N/A	RO:0002109	synapsed_by_via_type_Ib_bouton	synapsed_by_via_type_Ib_bouton	biolink:OntologyClass
+CUI-less	N/A	RO:0002103	synapsed by	synapsed by	biolink:OntologyClass
+CUI-less	N/A	RO:0002466	is commensalism	is commensalism	biolink:OntologyClass
+CUI-less	N/A	RO:0002345	exports	exports	biolink:OntologyClass
+CUI-less	N/A	RO:0002587	results in synthesis of	results in synthesis of	biolink:OntologyClass
+CUI-less	N/A	RO:0002104	has plasma membrane part	has plasma membrane part	biolink:OntologyClass
+CUI-less	N/A	RO:0002225	develops from part of	develops from part of	biolink:OntologyClass
+CUI-less	N/A	RO:0002467	is mutualism	is mutualism	biolink:OntologyClass
+CUI-less	N/A	RO:0002588	results in assembly of	results in assembly of	biolink:OntologyClass
+CUI-less	N/A	RO:0002226	develops in	develops in	biolink:OntologyClass
+CUI-less	N/A	RO:0002589	results in catabolism of	results in catabolism of	biolink:OntologyClass
+CUI-less	N/A	RO:0002468	is parasitism	is parasitism	biolink:OntologyClass
+CUI-less	N/A	RO:0002105	synapsed_via_type_Ib_bouton_to	synapsed_via_type_Ib_bouton_to	biolink:OntologyClass
+CUI-less	N/A	RO:0002106	synapsed_via_type_Is_bouton_to	synapsed_via_type_Is_bouton_to	biolink:OntologyClass
+CUI-less	N/A	RO:0002348	results in commitment to	results in commitment to	biolink:OntologyClass
+CUI-less	N/A	RO:0002469	provides nutrients for	provides nutrients for	biolink:OntologyClass
+CUI-less	N/A	RO:0002227	obligate parasite of	obligate parasite of	biolink:OntologyClass
+CUI-less	N/A	RO:0002220	adjacent to	adjacent to	biolink:OntologyClass
+CUI-less	N/A	RO:0002462	subject participant in	subject participant in	biolink:OntologyClass
+CUI-less	N/A	RO:0002341	results in transport along	results in transport along	biolink:OntologyClass
+CUI-less	N/A	RO:0002583	existence starts at end of	existence starts at end of	biolink:OntologyClass
+CUI-less	N/A	RO:0003310	condition ameliorated by	condition ameliorated by	biolink:OntologyClass
+CUI-less	N/A	RO:0002584	has part structure that is capable of	has part structure that is capable of	biolink:OntologyClass
+CUI-less	N/A	RO:0002221	surrounds	surrounds	biolink:OntologyClass
+CUI-less	N/A	RO:0002463	target participant in	target participant in	biolink:OntologyClass
+CUI-less	N/A	RO:0002100	has soma location	has soma location	biolink:OntologyClass
+CUI-less	N/A	RO:0002342	results in transport across	results in transport across	biolink:OntologyClass
+CUI-less	N/A	RO:0002101	fasciculates with	fasciculates with	biolink:OntologyClass
+CUI-less	N/A	RO:0002343	results in growth of	results in growth of	biolink:OntologyClass
+CUI-less	N/A	RO:0002464	helper property (not for use in curation)	helper property (not for use in curation)	biolink:OntologyClass
+CUI-less	N/A	RO:0002585	results in closure of	results in closure of	biolink:OntologyClass
+CUI-less	N/A	RO:0002586	results in breakdown of	results in breakdown of	biolink:OntologyClass
+CUI-less	N/A	RO:0002344	results in transport to from or in	results in transport to from or in	biolink:OntologyClass
+CUI-less	N/A	RO:0002102	axon synapses in	axon synapses in	biolink:OntologyClass
+CUI-less	N/A	RO:0002465	is symbiosis	is symbiosis	biolink:OntologyClass
+CUI-less	N/A	RO:0003311	condition exacerbated by	condition exacerbated by	biolink:OntologyClass
+CUI-less	N/A	RO:0002580	logical macro assertion on an axiom	logical macro assertion on an axiom	biolink:OntologyClass
+CUI-less	N/A	RO:0002460	has vector	has vector	biolink:OntologyClass
+CUI-less	N/A	RO:0002581	is a defining property chain axiom	is a defining property chain axiom	biolink:OntologyClass
+CUI-less	N/A	RO:0002340	imports	imports	biolink:OntologyClass
+CUI-less	N/A	RO:0002582	is a defining property chain axiom where second argument is reflexive	is a defining property chain axiom where second argument is reflexive	biolink:OntologyClass
+CUI-less	N/A	RO:0002461	partner in	partner in	biolink:OntologyClass
+CUI-less	N/A	RO:0003307	ameliorates condition	ameliorates condition	biolink:OntologyClass
+CUI-less	N/A	RO:0002217	obsolete actively participates in	obsolete actively participates in	biolink:OntologyClass
+CUI-less	N/A	RO:0002459	is vector for	is vector for	biolink:OntologyClass
+CUI-less	N/A	RO:0002338	has target start location	has target start location	biolink:OntologyClass
+CUI-less	N/A	RO:0002218	obsolete has active participant	obsolete has active participant	biolink:OntologyClass
+CUI-less	N/A	RO:0003306	contributes to frequency of condition	contributes to frequency of condition	biolink:OntologyClass
+CUI-less	N/A	RO:0002339	has target end location	has target end location	biolink:OntologyClass
+CUI-less	N/A	RO:0003309	exacerbates condition	exacerbates condition	biolink:OntologyClass
+CUI-less	N/A	RO:0002219	surrounded by	surrounded by	biolink:OntologyClass
+CUI-less	N/A	RO:0003308	correlated with condition	correlated with condition	biolink:OntologyClass
+CUI-less	N/A	RO:0002213	positively regulates	positively regulates	biolink:OntologyClass
+CUI-less	N/A	RO:0002576	skeleton of	skeleton of	biolink:OntologyClass
+CUI-less	N/A	RO:0003303	causes condition	causes condition	biolink:OntologyClass
+CUI-less	N/A	RO:0002455	pollinates	pollinates	biolink:OntologyClass
+CUI-less	N/A	RO:0002334	regulated by	regulated by	biolink:OntologyClass
+CUI-less	N/A	RO:0002456	pollinated by	pollinated by	biolink:OntologyClass
+CUI-less	N/A	RO:0002335	negatively regulated by	negatively regulated by	biolink:OntologyClass
+CUI-less	N/A	RO:0003302	causes or contributes to condition	causes or contributes to condition	biolink:OntologyClass
+CUI-less	N/A	RO:0002577	system	system	biolink:OntologyClass
+CUI-less	N/A	RO:0002214	has prototype	has prototype	biolink:OntologyClass
+CUI-less	N/A	RO:0002578	directly regulates	directly regulates	biolink:OntologyClass
+CUI-less	N/A	RO:0002457	acquires nutrients from	acquires nutrients from	biolink:OntologyClass
+CUI-less	N/A	RO:0002336	positively regulated by	positively regulated by	biolink:OntologyClass
+CUI-less	N/A	RO:0002215	capable of	capable of	biolink:OntologyClass
+CUI-less	N/A	RO:0003305	contributes to severity of condition	contributes to severity of condition	biolink:OntologyClass
+CUI-less	N/A	RO:0003304	contributes to condition	contributes to condition	biolink:OntologyClass
+CUI-less	N/A	RO:0002458	preyed upon by	preyed upon by	biolink:OntologyClass
+CUI-less	N/A	RO:0002216	capable of part of	capable of part of	biolink:OntologyClass
+CUI-less	N/A	RO:0002337	related via localization to	related via localization to	biolink:OntologyClass
+CUI-less	N/A	RO:0002579	is indirect form of	is indirect form of	biolink:OntologyClass
+CUI-less	N/A	RO:0002451	transmitted by	transmitted by	biolink:OntologyClass
+CUI-less	N/A	RO:0002572	luminal space of	luminal space of	biolink:OntologyClass
+CUI-less	N/A	RO:0002330	genomically related to	genomically related to	biolink:OntologyClass
+CUI-less	N/A	RO:0002331	involved in	involved in	biolink:OntologyClass
+CUI-less	N/A	RO:0002210	directly develops into	directly develops into	biolink:OntologyClass
+CUI-less	N/A	RO:0002573	has modifier	has modifier	biolink:OntologyClass
+CUI-less	N/A	RO:0002452	has symptom	has symptom	biolink:OntologyClass
+CUI-less	N/A	RO:0002574	participates in a biotic-biotic interaction with	participates in a biotic-biotic interaction with	biolink:OntologyClass
+CUI-less	N/A	RO:0002332	regulates levels of	regulates levels of	biolink:OntologyClass
+CUI-less	N/A	RO:0002211	regulates	regulates	biolink:OntologyClass
+CUI-less	N/A	RO:0002453	host of	host of	biolink:OntologyClass
+CUI-less	N/A	RO:0003301	has role in modeling	has role in modeling	biolink:OntologyClass
+CUI-less	N/A	RO:0002454	has host	has host	biolink:OntologyClass
+CUI-less	N/A	RO:0002212	negatively regulates	negatively regulates	biolink:OntologyClass
+CUI-less	N/A	RO:0002333	enabled by	enabled by	biolink:OntologyClass
+CUI-less	N/A	RO:0002575	is direct form of	is direct form of	biolink:OntologyClass
+CUI-less	N/A	RO:0040042	is homeomorphic for	is homeomorphic for	biolink:OntologyClass
+CUI-less	N/A	RO:0002570	conduit for	conduit for	biolink:OntologyClass
+CUI-less	N/A	RO:0002571	lumen of	lumen of	biolink:OntologyClass
+CUI-less	N/A	RO:0002450	molecularly increases activity of	directly positively regulates activity of	biolink:OntologyClass
+CUI-less	N/A	RO:0002450	directly positively regulates activity of	directly positively regulates activity of	biolink:OntologyClass
+CUI-less	N/A	RO:0002569	has branching part	has branching part	biolink:OntologyClass
+CUI-less	N/A	RO:0002206	expressed in	expressed in	biolink:OntologyClass
+CUI-less	N/A	RO:0002448	molecularly controls	directly regulates activity of	biolink:OntologyClass
+CUI-less	N/A	RO:0002448	directly regulates activity of	directly regulates activity of	biolink:OntologyClass
+CUI-less	N/A	RO:0002327	enables	enables	biolink:OntologyClass
+CUI-less	N/A	RO:0002449	molecularly decreases activity of	directly negatively regulates activity of	biolink:OntologyClass
+CUI-less	N/A	RO:0002449	directly negatively regulates activity of	directly negatively regulates activity of	biolink:OntologyClass
+CUI-less	N/A	RO:0002207	directly develops from	directly develops from	biolink:OntologyClass
+CUI-less	N/A	RO:0002328	functionally related to	functionally related to	biolink:OntologyClass
+CUI-less	N/A	RO:0002329	part of structure that is capable of	part of structure that is capable of	biolink:OntologyClass
+CUI-less	N/A	RO:0002208	parasitoid of	parasitoid of	biolink:OntologyClass
+CUI-less	N/A	RO:0002209	has parasitoid	has parasitoid	biolink:OntologyClass
+CUI-less	N/A	RO:0002323	mereotopologically related to	mereotopologically related to	biolink:OntologyClass
+CUI-less	N/A	RO:0002202	develops from	develops from	biolink:OntologyClass
+CUI-less	N/A	RO:0002444	direct parasite of	parasite of	biolink:OntologyClass
+CUI-less	N/A	RO:0002444	parasite of	parasite of	biolink:OntologyClass
+CUI-less	N/A	RO:0002565	results in movement of	results in movement of	biolink:OntologyClass
+CUI-less	N/A	RO:0002203	develops into	develops into	biolink:OntologyClass
+CUI-less	N/A	RO:0002566	causally influences	causally influences	biolink:OntologyClass
+CUI-less	N/A	RO:0002445	directly parasitized by	parasitized by	biolink:OntologyClass
+CUI-less	N/A	RO:0002445	parasitized by	parasitized by	biolink:OntologyClass
+CUI-less	N/A	RO:0002324	developmentally related to	developmentally related to	biolink:OntologyClass
+CUI-less	N/A	RO:0002567	biomechanically related to	biomechanically related to	biolink:OntologyClass
+CUI-less	N/A	RO:0002446	semibiotically interacts with	participates in a abiotic-biotic interaction with	biolink:OntologyClass
+CUI-less	N/A	RO:0002446	participates in a abiotic-biotic interaction with	participates in a abiotic-biotic interaction with	biolink:OntologyClass
+CUI-less	N/A	RO:0002325	colocalizes with	colocalizes with	biolink:OntologyClass
+CUI-less	N/A	RO:0002204	gene product of	gene product of	biolink:OntologyClass
+CUI-less	N/A	RO:0002205	has gene product	has gene product	biolink:OntologyClass
+CUI-less	N/A	RO:0002326	contributes to	contributes to	biolink:OntologyClass
+CUI-less	N/A	RO:0002568	has muscle antagonist	has muscle antagonist	biolink:OntologyClass
+CUI-less	N/A	RO:0002447	phosphorylates	phosphorylates	biolink:OntologyClass
+CUI-less	N/A	RO:0002440	symbiotically interacts with	symbiotically interacts with	biolink:OntologyClass
+CUI-less	N/A	RO:0040035	disease relationship	disease relationship	biolink:OntologyClass
+CUI-less	N/A	RO:0002561	is symmetric relational form of process class	is symmetric relational form of process class	biolink:OntologyClass
+CUI-less	N/A	RO:0002320	evolutionarily related to	evolutionarily related to	biolink:OntologyClass
+CUI-less	N/A	RO:0002441	commensually interacts with	commensually interacts with	biolink:OntologyClass
+CUI-less	N/A	RO:0040036	has anatomical participant	has anatomical participant	biolink:OntologyClass
+CUI-less	N/A	RO:0002562	is relational form of process class	is relational form of process class	biolink:OntologyClass
+CUI-less	N/A	RO:0002321	ecologically related to	ecologically related to	biolink:OntologyClass
+CUI-less	N/A	RO:0002200	has phenotype	has phenotype	biolink:OntologyClass
+CUI-less	N/A	RO:0002442	mutualistically interacts with	mutualistically interacts with	biolink:OntologyClass
+CUI-less	N/A	RO:0002563	interaction relation helper property	interaction relation helper property	biolink:OntologyClass
+CUI-less	N/A	RO:0002564	molecular interaction relation helper property	molecular interaction relation helper property	biolink:OntologyClass
+CUI-less	N/A	RO:0002443	interacts with via parasite-host interaction	interacts with via parasite-host interaction	biolink:OntologyClass
+CUI-less	N/A	RO:0002201	phenotype of	phenotype of	biolink:OntologyClass
+CUI-less	N/A	RO:0002322	confers advantage in	confers advantage in	biolink:OntologyClass
+CUI-less	N/A	RO:0002560	is asymmetric relational form of process class	is asymmetric relational form of process class	biolink:OntologyClass
+CUI-less	N/A	RO:0002558	has evidence	has evidence	biolink:OntologyClass
+CUI-less	N/A	RO:0002437	biotically interacts with	biotically interacts with	biolink:OntologyClass
+CUI-less	N/A	RO:0002438	trophically interacts with	trophically interacts with	biolink:OntologyClass
+CUI-less	N/A	RO:0002559	causally influenced by	causally influenced by	biolink:OntologyClass
+CUI-less	N/A	RO:0002439	preys on	preys on	biolink:OntologyClass
+CUI-less	N/A	RO:0002554	has epiparasite	hyperparasitized by	biolink:OntologyClass
+CUI-less	N/A	RO:0002554	has hyperparasite	hyperparasitized by	biolink:OntologyClass
+CUI-less	N/A	RO:0002554	hyperparasitoidized by	hyperparasitized by	biolink:OntologyClass
+CUI-less	N/A	RO:0002554	hyperparasitized by	hyperparasitized by	biolink:OntologyClass
+CUI-less	N/A	RO:0002433	contributes to morphology of	contributes to morphology of	biolink:OntologyClass
+CUI-less	N/A	RO:0002312	evolutionary variant of	evolutionary variant of	biolink:OntologyClass
+CUI-less	N/A	RO:0002434	in pairwise interaction with	interacts with	biolink:OntologyClass
+CUI-less	N/A	RO:0002434	interacts with	interacts with	biolink:OntologyClass
+CUI-less	N/A	RO:0002555	allelopath of	allelopath of	biolink:OntologyClass
+CUI-less	N/A	RO:0002313	transports or maintains localization of	transports or maintains localization of	biolink:OntologyClass
+CUI-less	N/A	RO:0002314	inheres in part of	inheres in part of	biolink:OntologyClass
+CUI-less	N/A	RO:0002556	pathogen of	pathogen of	biolink:OntologyClass
+CUI-less	N/A	RO:0002435	genetically interacts with	genetically interacts with	biolink:OntologyClass
+CUI-less	N/A	RO:0002315	results in acquisition of features of	results in acquisition of features of	biolink:OntologyClass
+CUI-less	N/A	RO:0002557	has pathogen	has pathogen	biolink:OntologyClass
+CUI-less	N/A	RO:0002436	molecularly interacts with	molecularly interacts with	biolink:OntologyClass
+CUI-less	N/A	RO:0002550	end, weeks post birth	end, weeks post birth	biolink:OntologyClass
+CUI-less	N/A	RO:0002551	has skeleton	has skeleton	biolink:OntologyClass
+CUI-less	N/A	RO:0002430	involved in negative regulation of	involved in negative regulation of	biolink:OntologyClass
+CUI-less	N/A	RO:0002310	exposure event or process	exposure event or process	biolink:OntologyClass
+CUI-less	N/A	RO:0002552	results in ending of	results in ending of	biolink:OntologyClass
+CUI-less	N/A	RO:0002431	involved in or involved in regulation of	involved in or involved in regulation of	biolink:OntologyClass
+CUI-less	N/A	RO:0002553	epiparasite of	hyperparasite of	biolink:OntologyClass
+CUI-less	N/A	RO:0002553	hyperparasitoid of	hyperparasite of	biolink:OntologyClass
+CUI-less	N/A	RO:0002553	hyperparasite of	hyperparasite of	biolink:OntologyClass
+CUI-less	N/A	RO:0002432	enables activity in	is active in	biolink:OntologyClass
+CUI-less	N/A	RO:0002432	is active in	is active in	biolink:OntologyClass
+CUI-less	N/A	RO:0002547	start, days post coitum	start, days post coitum	biolink:OntologyClass
+CUI-less	N/A	RO:0002426	differs in attribute	differs in attribute	biolink:OntologyClass
+CUI-less	N/A	RO:0002305	causally upstream of, negative effect	causally upstream of, negative effect	biolink:OntologyClass
+CUI-less	N/A	RO:0002427	causally downstream of or within	causally downstream of or within	biolink:OntologyClass
+CUI-less	N/A	RO:0002548	end, days post coitum	end, days post coitum	biolink:OntologyClass
+CUI-less	N/A	RO:0002428	involved in regulation of	involved in regulation of	biolink:OntologyClass
+CUI-less	N/A	RO:0002549	start, weeks post birth	start, weeks post birth	biolink:OntologyClass
+CUI-less	N/A	RO:0002429	involved in positive regulation of	involved in positive regulation of	biolink:OntologyClass
+CUI-less	N/A	RO:0002543	start, months post birth	start, months post birth	biolink:OntologyClass
+CUI-less	N/A	RO:0002301	results in developmental regression of	results in developmental regression of	biolink:OntologyClass
+CUI-less	N/A	RO:0002422	logical macro assertion on an object property	logical macro assertion on an object property	biolink:OntologyClass
+CUI-less	N/A	RO:0002302	is treated by substance	is treated by substance	biolink:OntologyClass
+CUI-less	N/A	RO:0002423	logical macro assertion on an annotation property	logical macro assertion on an annotation property	biolink:OntologyClass
+CUI-less	N/A	RO:0002544	end, months post birth	end, months post birth	biolink:OntologyClass
+CUI-less	N/A	RO:0002303	has habitat	has habitat	biolink:OntologyClass
+CUI-less	N/A	RO:0002424	differs in	differs in	biolink:OntologyClass
+CUI-less	N/A	RO:0002545	month of gestation	month of gestation	biolink:OntologyClass
+CUI-less	N/A	RO:0002304	causally upstream of, positive effect	causally upstream of, positive effect	biolink:OntologyClass
+CUI-less	N/A	RO:0002546	has developmental stage marker	has developmental stage marker	biolink:OntologyClass
+CUI-less	N/A	RO:0002425	differs in attribute of	differs in attribute of	biolink:OntologyClass
+CUI-less	N/A	RO:0002309	has exposure stimulus	has exposure stimulus	biolink:OntologyClass
+CUI-less	N/A	RO:0002540	end, days post fertilization	end, days post fertilization	biolink:OntologyClass
+CUI-less	N/A	RO:0002420	logical macro assertion on a class	logical macro assertion on a class	biolink:OntologyClass
+CUI-less	N/A	RO:0002541	start, years post birth	start, years post birth	biolink:OntologyClass
+CUI-less	N/A	RO:0002542	end, years post birth	end, years post birth	biolink:OntologyClass
+CUI-less	N/A	RO:0002421	logical macro assertion on a property	logical macro assertion on a property	biolink:OntologyClass
+CUI-less	N/A	RO:0002300	results in disappearance of	results in disappearance of	biolink:OntologyClass
+CUI-less	N/A	RO:0002536	measurement property has unit	measurement property has unit	biolink:OntologyClass
+CUI-less	N/A	RO:0002537	has start time value	has start time value	biolink:OntologyClass
+CUI-less	N/A	RO:0002416	logical macro assertion	logical macro assertion	biolink:OntologyClass
+CUI-less	N/A	RO:0002538	has end time value	has end time value	biolink:OntologyClass
+CUI-less	N/A	RO:0002418	affects	causally upstream of or within	biolink:OntologyClass
+CUI-less	N/A	RO:0002418	causally upstream of or within	causally upstream of or within	biolink:OntologyClass
+CUI-less	N/A	RO:0002539	start, days post fertilization	start, days post fertilization	biolink:OntologyClass
+CUI-less	N/A	RO:0002532	sequentially ordered entity	sequentially ordered entity	biolink:OntologyClass
+CUI-less	N/A	RO:0002411	causally upstream of	causally upstream of	biolink:OntologyClass
+CUI-less	N/A	RO:0002533	sequence atomic unit	sequence atomic unit	biolink:OntologyClass
+CUI-less	N/A	RO:0002412	immediately causally upstream of	immediately causally upstream of	biolink:OntologyClass
+CUI-less	N/A	RO:0002534	sequence bearer	sequence bearer	biolink:OntologyClass
+CUI-less	N/A	RO:0002413	directly provides input for	directly provides input for	biolink:OntologyClass
+CUI-less	N/A	RO:0002535	temporal logical macro assertion on a class	temporal logical macro assertion on a class	biolink:OntologyClass
+CUI-less	N/A	RO:0002414	transitively provides input for	transitively provides input for	biolink:OntologyClass
+CUI-less	N/A	RO:0002419	annotation property cardinality	annotation property cardinality	biolink:OntologyClass
+CUI-less	N/A	RO:0002530	is immediately downstream of sequence of	is immediately downstream of sequence of	biolink:OntologyClass
+CUI-less	N/A	RO:0002531	is immediately upstream of sequence of	is immediately upstream of sequence of	biolink:OntologyClass
+CUI-less	N/A	RO:0002410	causally related to	causally related to	biolink:OntologyClass
+CUI-less	N/A	RO:0002404	causally downstream of	causally downstream of	biolink:OntologyClass
+CUI-less	N/A	RO:0002525	is subsequence of	is subsequence of	biolink:OntologyClass
+CUI-less	N/A	RO:0002526	overlaps sequence of	overlaps sequence of	biolink:OntologyClass
+CUI-less	N/A	RO:0002405	immediately causally downstream of	immediately causally downstream of	biolink:OntologyClass
+CUI-less	N/A	RO:0002406	directly activates	directly activates	biolink:OntologyClass
+CUI-less	N/A	RO:0002527	does not overlap sequence of	does not overlap sequence of	biolink:OntologyClass
+CUI-less	N/A	RO:0002407	indirectly activates	indirectly activates	biolink:OntologyClass
+CUI-less	N/A	RO:0002528	is upstream of sequence of	is upstream of sequence of	biolink:OntologyClass
+CUI-less	N/A	RO:0002521	is sequentially aligned with	is sequentially aligned with	biolink:OntologyClass
+CUI-less	N/A	RO:0002400	has direct input	has direct input	biolink:OntologyClass
+CUI-less	N/A	RO:0002401	obsolete has indirect input	obsolete has indirect input	biolink:OntologyClass
+CUI-less	N/A	RO:0002522	bounds sequence of	bounds sequence of	biolink:OntologyClass
+CUI-less	N/A	OIO:inSubset	in_subset	in_subset	biolink:OntologyClass
+CUI-less	N/A	RO:0002523	is bound by sequence of	is bound by sequence of	biolink:OntologyClass
+CUI-less	N/A	RO:0002402	obsolete has direct output	obsolete has direct output	biolink:OntologyClass
+CUI-less	N/A	RO:0002524	has subsequence	has subsequence	biolink:OntologyClass
+CUI-less	N/A	RO:0002403	obsolete has indirect output	obsolete has indirect output	biolink:OntologyClass
+CUI-less	N/A	RO:0002408	directly inhibits	directly inhibits	biolink:OntologyClass
+CUI-less	N/A	RO:0002529	is downstream of sequence of	is downstream of sequence of	biolink:OntologyClass
+CUI-less	N/A	RO:0002409	indirectly inhibits	indirectly inhibits	biolink:OntologyClass
+CUI-less	N/A	RO:0002640	intracellular endoparasite of	intracellular endoparasite of	biolink:OntologyClass
+CUI-less	N/A	RO:0002520	is consecutive sequence of	is consecutive sequence of	biolink:OntologyClass
+CUI-less	N/A	RO:0002641	has intracellular endoparasite	has intracellular endoparasite	biolink:OntologyClass
+CUI-less	N/A	RO:0002514	sequentially related to	sequentially related to	biolink:OntologyClass
+CUI-less	N/A	RO:0002635	has endoparasite	has endoparasite	biolink:OntologyClass
+CUI-less	N/A	RO:0002515	sequentially adjacent to	sequentially adjacent to	biolink:OntologyClass
+CUI-less	N/A	RO:0002636	mesoparasite of	mesoparasite of	biolink:OntologyClass
+CUI-less	N/A	RO:0002516	has start sequence	has start sequence	biolink:OntologyClass
+CUI-less	N/A	RO:0002637	has mesoparasite	has mesoparasite	biolink:OntologyClass
+CUI-less	N/A	RO:0002638	intercellular endoparasite of	intercellular endoparasite of	biolink:OntologyClass
+CUI-less	N/A	RO:0002517	is start sequence of	is start sequence of	biolink:OntologyClass
+CUI-less	N/A	RO:0002510	transcribed from	transcribed from	biolink:OntologyClass
+CUI-less	N/A	RO:0002511	transcribed to	transcribed to	biolink:OntologyClass
+CUI-less	N/A	RO:0002632	ectoparasite of	ectoparasite of	biolink:OntologyClass
+CUI-less	N/A	RO:0002512	ribosomal translation of	ribosomal translation of	biolink:OntologyClass
+CUI-less	N/A	RO:0002633	has ectoparasite	has ectoparasite	biolink:OntologyClass
+CUI-less	N/A	RO:0002513	ribosomally translates to	ribosomally translates to	biolink:OntologyClass
+CUI-less	N/A	RO:0002634	lives inside of	endoparasite of	biolink:OntologyClass
+CUI-less	N/A	RO:0002634	endoparasite of	endoparasite of	biolink:OntologyClass
+CUI-less	N/A	RO:0002518	has end sequence	has end sequence	biolink:OntologyClass
+CUI-less	N/A	RO:0002639	has intercellular endoparasite	has intercellular endoparasite	biolink:OntologyClass
+CUI-less	N/A	RO:0002519	is end sequence of	is end sequence of	biolink:OntologyClass
+CUI-less	N/A	RO:0002630	directly negatively regulates	directly negatively regulates	biolink:OntologyClass
+CUI-less	N/A	RO:0002503	towards	towards	biolink:OntologyClass
+CUI-less	N/A	RO:0002624	lays eggs in	lays eggs in	biolink:OntologyClass
+CUI-less	N/A	RO:0002504	always present in taxon	always present in taxon	biolink:OntologyClass
+CUI-less	N/A	RO:0002625	has eggs laid in by	has eggs laid in by	biolink:OntologyClass
+CUI-less	N/A	RO:0002505	has intermediate	has intermediate	biolink:OntologyClass
+CUI-less	N/A	RO:0002626	kills	kills	biolink:OntologyClass
+CUI-less	N/A	RO:0002506	causal relation between entities	causal relation between entities	biolink:OntologyClass
+CUI-less	N/A	RO:0002627	is killed by	is killed by	biolink:OntologyClass
+CUI-less	N/A	RO:0002500	causal agent in process	causal agent in process	biolink:OntologyClass
+CUI-less	N/A	RO:0002501	causal relation between processes	causal relation between processes	biolink:OntologyClass
+CUI-less	N/A	RO:0002622	visits flowers of	visits flowers of	biolink:OntologyClass
+CUI-less	N/A	RO:0002502	depends on	depends on	biolink:OntologyClass
+CUI-less	N/A	RO:0002623	has flowers visited by	has flowers visited by	biolink:OntologyClass
+CUI-less	N/A	RO:0002507	determined by	determined by	biolink:OntologyClass
+CUI-less	N/A	RO:0002629	directly positively regulates	directly positively regulates	biolink:OntologyClass
+CUI-less	N/A	RO:0002508	determines	determines	biolink:OntologyClass
+CUI-less	N/A	RO:0002509	determined by part of	determined by part of	biolink:OntologyClass
+CUI-less	N/A	RO:0002613	axiom contradicted by evidence	axiom contradicted by evidence	biolink:OntologyClass
+CUI-less	N/A	RO:0002614	is evidence with support from	is evidence with support from	biolink:OntologyClass
+CUI-less	N/A	RO:0002615	has model	has model	biolink:OntologyClass
+CUI-less	N/A	RO:0002616	related via evidence or inference to	related via evidence or inference to	biolink:OntologyClass
+CUI-less	N/A	RO:0002610	correlated with	correlated with	biolink:OntologyClass
+CUI-less	N/A	RO:0002611	evidential logical macro assertion on an axiom	evidential logical macro assertion on an axiom	biolink:OntologyClass
+CUI-less	N/A	RO:0002612	axiom has evidence	axiom has evidence	biolink:OntologyClass
+CUI-less	N/A	RO:0002617	is representative IRI for equivalence set	is representative IRI for equivalence set	biolink:OntologyClass
+CUI-less	N/A	RO:0002618	visits	visits	biolink:OntologyClass
+CUI-less	N/A	RO:0002619	visited by	visited by	biolink:OntologyClass
+CUI-less	N/A	RO:0009002	has substance removed	has substance removed	biolink:OntologyClass
+CUI-less	N/A	RO:0009001	has substance added	has substance added	biolink:OntologyClass
+CUI-less	N/A	RO:0009005	has primary substance added	has primary substance added	biolink:OntologyClass
+CUI-less	N/A	RO:0009004	has consumer	has consumer	biolink:OntologyClass
+CUI-less	N/A	RO:0009003	immersed in	immersed in	biolink:OntologyClass
+CUI-less	N/A	RO:0000302	obsolete downstream in neural circuit with	obsolete downstream in neural circuit with	biolink:OntologyClass
+CUI-less	N/A	RO:0002602	in approximate one to one relationship with	in approximate one to one relationship with	biolink:OntologyClass
+CUI-less	N/A	RO:0000301	obsolete upstream in neural circuit with	obsolete upstream in neural circuit with	biolink:OntologyClass
+CUI-less	N/A	RO:0002603	is approximately equivalent to	is approximately equivalent to	biolink:OntologyClass
+CUI-less	N/A	RO:0000300	obsolete in neural circuit with	obsolete in neural circuit with	biolink:OntologyClass
+CUI-less	N/A	RO:0002604	is opposite of	is opposite of	biolink:OntologyClass
+CUI-less	N/A	RO:0002605	is indistinguishable from	is indistinguishable from	biolink:OntologyClass
+CUI-less	N/A	RO:0002600	capable of upregulating or causing pathological process	capable of upregulating or causing pathological process	biolink:OntologyClass
+CUI-less	N/A	RO:0002601	logical macro assertion involving identity	logical macro assertion involving identity	biolink:OntologyClass
+CUI-less	N/A	RO:0002606	is substance that treats	is substance that treats	biolink:OntologyClass
+CUI-less	N/A	RO:0002607	is marker for	is marker for	biolink:OntologyClass
+CUI-less	N/A	RO:0002608	process has causal agent	process has causal agent	biolink:OntologyClass
+CUI-less	N/A	RO:0002609	obsolete related via dependence to	obsolete related via dependence to	biolink:OntologyClass
+CUI-less	N/A	RO:0010002	is carrier of	is carrier of	biolink:OntologyClass
+CUI-less	N/A	RO:0010001	g-depends on	generically depends on	biolink:OntologyClass
+CUI-less	N/A	RO:0010001	generically depends on	generically depends on	biolink:OntologyClass
+CUI-less	N/A	RO:0011004	indirectly regulates activity of	indirectly regulates activity of	biolink:OntologyClass
+CUI-less	N/A	RO:0011002	regulates activity of	regulates activity of	biolink:OntologyClass
+CUI-less	N/A	RO:0011003	regulates quantity of	regulates quantity of	biolink:OntologyClass
+CUI-less	N/A	RO:0011008	increases by expression quantity of	increases by expression quantity of	biolink:OntologyClass
+CUI-less	N/A	RO:0011009	directly positively regulates quantity of	directly positively regulates quantity of	biolink:OntologyClass
+CUI-less	N/A	RO:0011007	decreases by repression quantity of	decreases by repression quantity of	biolink:OntologyClass
+CUI-less	N/A	RO:0011010	directly negatively regulates quantity of	directly negatively regulates quantity of	biolink:OntologyClass
+CUI-less	N/A	RO:0011015	stabilizes quantity of	stabilizes quantity of	biolink:OntologyClass
+CUI-less	N/A	RO:0011016	indirectly negatively regulates activity of	indirectly negatively regulates activity of	biolink:OntologyClass
+CUI-less	N/A	RO:0011013	indirectly positively regulates activity of	indirectly positively regulates activity of	biolink:OntologyClass
+CUI-less	N/A	RO:0011014	destabilizes quantity of	destabilizes quantity of	biolink:OntologyClass
+CUI-less	N/A	RO:0011022	indirectly regulates quantity of	indirectly regulates quantity of	biolink:OntologyClass
+CUI-less	N/A	RO:0011023	indirectly negatively regulates quantity of	indirectly negatively regulates quantity of	biolink:OntologyClass
+CUI-less	N/A	RO:0011021	directly regulates quantity of	directly regulates quantity of	biolink:OntologyClass
+CUI-less	N/A	RO:0011024	indirectly positively regulates quantity of	indirectly positively regulates quantity of	biolink:OntologyClass
+CUI-less	N/A	RO:0012001	has small molecule activator	has small molecule activator	biolink:OntologyClass
+CUI-less	N/A	RO:0012002	has small molecule inhibitor	has small molecule inhibitor	biolink:OntologyClass
+CUI-less	N/A	RO:0012000	has small molecule regulator	has small molecule regulator	biolink:OntologyClass
+CUI-less	N/A	RO:0012005	is small molecule activator	is small molecule activator	biolink:OntologyClass
+CUI-less	N/A	RO:0012006	is small molecule inhibitor	is small molecule inhibitor	biolink:OntologyClass
+CUI-less	N/A	RO:0012003	acts on population of	acts on population of	biolink:OntologyClass
+CUI-less	N/A	RO:0012004	is small molecule regulator	is small molecule regulator	biolink:OntologyClass
+CUI-less	N/A	RO:0013003	sends synaptic output to	sends synaptic output to	biolink:OntologyClass
+CUI-less	N/A	RO:0013002	receives synaptic input in	receives synaptic input in	biolink:OntologyClass
+CUI-less	N/A	RO:0013001	has synaptic input or output in	has synaptic IO in	biolink:OntologyClass
+CUI-less	N/A	RO:0013001	has synaptic IO in	has synaptic IO in	biolink:OntologyClass
+CUI-less	N/A	RO:0004050	is negative form of	is negative form of	biolink:OntologyClass
+CUI-less	N/A	RO:0013006	sends synaptic output throughout	sends synaptic output throughout	biolink:OntologyClass
+CUI-less	N/A	RO:0013005	receives synaptic input throughout	receives synaptic input throughout	biolink:OntologyClass
+CUI-less	N/A	RO:0013004	has synaptic IO throughout	has synaptic IO throughout	biolink:OntologyClass
+CUI-less	N/A	RO:0009501	triggered by process	realized in response to	biolink:OntologyClass
+CUI-less	N/A	RO:0009501	realized in response to	realized in response to	biolink:OntologyClass
+CUI-less	N/A	RO:0004047	causally upstream of or within, positive effect	causally upstream of or within, positive effect	biolink:OntologyClass
+CUI-less	N/A	RO:0004046	causally upstream of or within, negative effect	causally upstream of or within, negative effect	biolink:OntologyClass
+CUI-less	N/A	RO:0004049	is positive form of	is positive form of	biolink:OntologyClass
+CUI-less	N/A	RO:0004048	is directional form of	is directional form of	biolink:OntologyClass
+CUI-less	N/A	RO:0004030	disease arises from structure	disease arises from structure	biolink:OntologyClass
+CUI-less	N/A	RO:0004035	acts upstream of, negative effect	acts upstream of, negative effect	biolink:OntologyClass
+CUI-less	N/A	RO:0004032	acts upstream of or within, positive effect	acts upstream of or within, positive effect	biolink:OntologyClass
+CUI-less	N/A	RO:0004031	enables subfunction	enables subfunction	biolink:OntologyClass
+CUI-less	N/A	RO:0004034	acts upstream of, positive effect	acts upstream of, positive effect	biolink:OntologyClass
+CUI-less	N/A	RO:0004033	acts upstream of or within, negative effect	acts upstream of or within, negative effect	biolink:OntologyClass
+CUI-less	N/A	RO:0008508	has eggs laid on by	has eggs laid on by	biolink:OntologyClass
+CUI-less	N/A	RO:0004029	disease has feature	disease has feature	biolink:OntologyClass
+CUI-less	N/A	RO:0008507	lays eggs on	lays eggs on	biolink:OntologyClass
+CUI-less	N/A	RO:0004028	realized in response to stimulus	realized in response to stimulus	biolink:OntologyClass
+CUI-less	N/A	RO:0008506	ecologically co-occurs with	ecologically co-occurs with	biolink:OntologyClass
+CUI-less	N/A	RO:0008505	creates habitat for	creates habitat for	biolink:OntologyClass
+CUI-less	N/A	RO:0008504	kleptoparasitized by	kleptoparasitized by	biolink:OntologyClass
+CUI-less	N/A	RO:0004025	disease causes dysfunction of	disease causes dysfunction of	biolink:OntologyClass
+CUI-less	N/A	RO:0008503	kleptoparasite of	kleptoparasite of	biolink:OntologyClass
+CUI-less	N/A	RO:0004024	disease causes disruption of	disease causes disruption of	biolink:OntologyClass
+CUI-less	N/A	RO:0008502	has epiphyte	has epiphyte	biolink:OntologyClass
+CUI-less	N/A	RO:0004027	disease has inflammation site	disease has inflammation site	biolink:OntologyClass
+CUI-less	N/A	RO:0004026	disease has location	disease has location	biolink:OntologyClass
+CUI-less	N/A	RO:0008501	epiphyte of	epiphyte of	biolink:OntologyClass
+CUI-less	N/A	RO:0004021	disease has basis in disruption of	disease has basis in disruption of	biolink:OntologyClass
+CUI-less	N/A	RO:0002085	encompasses	encompasses	biolink:OntologyClass
+CUI-less	N/A	RO:0004020	disease has basis in dysfunction of	disease has basis in dysfunction of	biolink:OntologyClass
+CUI-less	N/A	RO:0004023	causal relationship with disease as subject	causal relationship with disease as subject	biolink:OntologyClass
+CUI-less	N/A	RO:0004022	disease has basis in feature	disease has basis in feature	biolink:OntologyClass
+CUI-less	N/A	RO:0004018	is basis for realizable	is basis for realizable	biolink:OntologyClass
+CUI-less	N/A	RO:0004017	realizable has basis in	realizable has basis in	biolink:OntologyClass
+CUI-less	N/A	RO:0004019	disease has basis in	disease has basis in	biolink:OntologyClass
+CUI-less	N/A	OBO:ro/subsets#ro-eco	eco subset	eco subset	biolink:OntologyClass
+CUI-less	N/A	RO:0004014	is causal somatic mutation in	is causal somatic mutation in	biolink:OntologyClass
+CUI-less	N/A	RO:0004013	is causal germline mutation in	is causal germline mutation in	biolink:OntologyClass
+CUI-less	N/A	RO:0004016	is causal germline mutation partially giving rise to	is causal germline mutation partially giving rise to	biolink:OntologyClass
+CUI-less	N/A	RO:0004015	is causal susceptibility factor for	is causal susceptibility factor for	biolink:OntologyClass
+CUI-less	N/A	RO:0004010	is genetic basis for condition	is genetic basis for condition	biolink:OntologyClass
+CUI-less	N/A	RO:0004012	is causal loss of function germline mutation of in	is causal loss of function germline mutation of in	biolink:OntologyClass
+CUI-less	N/A	RO:0004011	is causal gain of function germline mutation of in	is causal gain of function germline mutation of in	biolink:OntologyClass
+CUI-less	N/A	RO:0004007	has primary input or output	has primary input or output	biolink:OntologyClass
+CUI-less	N/A	RO:0004006	has partial material basis in germline mutation in	has partial material basis in germline mutation in	biolink:OntologyClass
+CUI-less	N/A	RO:0004009	has primary input	has primary input	biolink:OntologyClass
+CUI-less	N/A	RO:0004008	has primary output	has primary output	biolink:OntologyClass
+CUI-less	N/A	RO:0002180	has component	has component	biolink:OntologyClass
+CUI-less	N/A	RO:0004003	has material basis in germline mutation in	has material basis in germline mutation in	biolink:OntologyClass
+CUI-less	N/A	RO:0004002	has material basis in loss of function germline mutation in	has material basis in loss of function germline mutation in	biolink:OntologyClass
+CUI-less	N/A	RO:0004005	has major susceptibility factor	has major susceptibility factor	biolink:OntologyClass
+CUI-less	N/A	RO:0004004	has material basis in somatic mutation in	has material basis in somatic mutation in	biolink:OntologyClass
+CUI-less	N/A	RO:0004001	has material basis in gain of function germline mutation in	has material basis in gain of function germline mutation in	biolink:OntologyClass
+CUI-less	N/A	RO:0004000	condition has genetic basis in	condition has genetic basis in	biolink:OntologyClass
+CUI-less	N/A	OIO:SubsetProperty	subset_property	subset_property	biolink:OntologyClass

@@ -1,0 +1,543 @@
+CUI-less	N/A	UO:1000281	count per nanomolar second based unit	count per nanomolar second based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000167	parts per hundred based unit	parts per hundred based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000168	parts per thousand based unit	parts per thousand based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000165	volume percentage based unit	volume percentage based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000163	mass percentage based unit	mass percentage based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000284	count per nanomolar based unit	count per nanomolar based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000164	mass volume percentage based unit	mass volume percentage based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000285	count per molar based unit	count per molar based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000282	count per molar second based unit	count per molar second based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000162	watt per steradian based unit	watt per steradian based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000158	watt per steradian per square meter based unit	watt per steradian per square meter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000156	einstein per square meter per second based unit	einstein per square meter per second based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000035	month based unit	month based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000036	year based unit	year based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000033	day based unit	day based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000034	week based unit	week based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000155	watt per square meter based unit	watt per square meter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000152	half life based unit	half life based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000031	minute based unit	minute based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000153	foot candle based unit	foot candle based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000032	hour based unit	hour based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000151	century based unit	century based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000147	disintegrations per minute based unit	disintegrations per minute based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000268	volt per meter based unit	volt per meter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000148	counts per minute based unit	counts per minute based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000269	absorbance unit based unit	absorbance unit based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000027	degree Celsius based unit	degree Celsius based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000181	enzyme unit based unit	enzyme unit based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000180	mass per unit volume based unit	mass per unit volume based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000068	molal based unit	molal based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000188	pi based unit	pi based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000185	degree based unit	degree based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000062	molar based unit	molar based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000170	parts per billion based unit	parts per billion based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000171	parts per trillion based unit	parts per trillion based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000178	unit per milliliter based unit	unit per milliliter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000179	unit per liter based unit	unit per liter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000175	gram per liter based unit	gram per liter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000172	parts per quadrillion based unit	parts per quadrillion based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000173	gram per milliliter based unit	gram per milliliter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000169	parts per million based unit	parts per million based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010049	gram per square meter based unit	gram per square meter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000123	radian based unit	radian based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000244	base pair based unit	base pair based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000245	kibibyte based unit	kibibyte based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000242	pixels per inch based unit	pixels per inch based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000243	pixels per millimeter based unit	pixels per millimeter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000240	dots per inch based unit	dots per inch based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000120	katal based unit	katal based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000118	lumen based unit	lumen based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000237	chroma sampling unit based unit	chroma sampling unit based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000116	lux based unit	lux based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000238	dynamic range unit based unit	dynamic range unit based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000114	watt based unit	watt based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000112	joule based unit	joule based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000233	byte based unit	byte based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000110	pascal based unit	pascal based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000232	bit based unit	bit based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000228	tesla based unit	tesla based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000108	newton based unit	newton based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000229	volt-hour based unit	volt-hour based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000226	weber based unit	weber based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000106	hertz based unit	hertz based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010029	quart based unit	quart based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010025	acre based unit	acre based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010026	fluid ounce based unit	fluid ounce based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010027	gill based unit	gill based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010028	pint based unit	pint based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000266	electronvolt based unit	electronvolt based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000264	siemens based unit	siemens based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000265	watt per meter kelvin based unit	watt per meter kelvin based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000021	gram based unit	gram based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000260	effective dose unit based unit	effective dose unit based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000140	Roentgen equivalent man based unit	Roentgen equivalent man based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000019	angstrom based unit	angstrom based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000257	pascal second based unit	pascal second based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000136	roentgen based unit	roentgen based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000137	sievert based unit	sievert based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000258	poise based unit	poise based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010032	drachm based unit	drachm based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010033	ounce based unit	ounce based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010034	pound based unit	pound based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010035	stone based unit	stone based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010030	gallon based unit	gallon based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010031	grain based unit	grain based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010036	quarter based unit	quarter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010037	hundredweight based unit	hundredweight based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010038	ton based unit	ton based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010039	slug based unit	slug based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000255	dyne per cm based unit	dyne per cm based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000134	gray based unit	gray based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000013	mole based unit	mole based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000135	rad based unit	rad based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000014	candela based unit	candela based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000011	ampere based unit	ampere based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000132	becquerel based unit	becquerel based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000012	kelvin based unit	kelvin based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000133	curie based unit	curie based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000254	newton per meter based unit	newton per meter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000010	second based unit	second based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000008	meter based unit	meter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000246	mebibyte based unit	mebibyte based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000125	steradian based unit	steradian based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010040	teaspoon based unit	teaspoon based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0010035	stone	stone	biolink:OntologyClass
+CUI-less	N/A	UO:0010036	quarter	quarter	biolink:OntologyClass
+CUI-less	N/A	UO:0010033	ounce	ounce	biolink:OntologyClass
+CUI-less	N/A	UO:0010034	pound	pound	biolink:OntologyClass
+CUI-less	N/A	UO:0010031	grain	grain	biolink:OntologyClass
+CUI-less	N/A	UO:0010032	drachm	drachm	biolink:OntologyClass
+CUI-less	N/A	UO:0010030	gallon	gallon	biolink:OntologyClass
+CUI-less	N/A	UO:1000201	cells per milliliter based unit	cells per milliliter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000230	kilovolt-hour	kilovolt-hour	biolink:OntologyClass
+CUI-less	N/A	UO:0000110	pascal	pascal	biolink:OntologyClass
+CUI-less	N/A	UO:0000231	information unit	information unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000111	energy unit	energy unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000232	bit	bit	biolink:OntologyClass
+CUI-less	N/A	UO:0000233	byte	byte	biolink:OntologyClass
+CUI-less	N/A	UO:0000112	joule	joule	biolink:OntologyClass
+CUI-less	N/A	UO:0000234	kilobyte	kilobyte	biolink:OntologyClass
+CUI-less	N/A	UO:0000113	power unit	power unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000114	watt	watt	biolink:OntologyClass
+CUI-less	N/A	UO:0000235	megabyte	megabyte	biolink:OntologyClass
+CUI-less	N/A	UO:0000104	femtoliter	femtoliter	biolink:OntologyClass
+CUI-less	N/A	UO:0000225	magnetic flux unit	magnetic flux unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000226	weber	weber	biolink:OntologyClass
+CUI-less	N/A	UO:0000105	frequency unit	frequency unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000227	magnetic flux density unit	magnetic flux density unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000106	hertz	hertz	biolink:OntologyClass
+CUI-less	N/A	UO:0000228	tesla	tesla	biolink:OntologyClass
+CUI-less	N/A	UO:0000107	force unit	force unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000314	relative fluorescence unit based unit	relative fluorescence unit based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000229	volt-hour	volt-hour	biolink:OntologyClass
+CUI-less	N/A	UO:0000108	newton	newton	biolink:OntologyClass
+CUI-less	N/A	UO:0000109	pressure unit	pressure unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000312	relative light unit based unit	relative light unit based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000313	relative luminescence unit based unit	relative luminescence unit based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010010	hectare based unit	hectare based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010011	inch based unit	inch based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010012	thou based unit	thou based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010013	foot based unit	foot based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0010028	pint	pint	biolink:OntologyClass
+CUI-less	N/A	UO:0010029	quart	quart	biolink:OntologyClass
+CUI-less	N/A	UO:0010026	fluid ounce	fluid ounce	biolink:OntologyClass
+CUI-less	N/A	UO:0010027	gill	gill	biolink:OntologyClass
+CUI-less	N/A	UO:0010046	united states customary cup	united states customary cup	biolink:OntologyClass
+CUI-less	N/A	UO:1010018	league based unit	league based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010019	maritime length unit based unit	maritime length unit based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0010047	united states fda cup	united states fda cup	biolink:OntologyClass
+CUI-less	N/A	UO:0010044	united states customary tablespoon	united states customary tablespoon	biolink:OntologyClass
+CUI-less	N/A	UO:0010045	metric cup	metric cup	biolink:OntologyClass
+CUI-less	N/A	UO:1010014	yard based unit	yard based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0010042	tablespoon	tablespoon	biolink:OntologyClass
+CUI-less	N/A	UO:1010015	chain based unit	chain based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0010043	australian metric tablespoon	australian metric tablespoon	biolink:OntologyClass
+CUI-less	N/A	UO:1010016	furlong based unit	furlong based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0010040	teaspoon	teaspoon	biolink:OntologyClass
+CUI-less	N/A	UO:1010017	mile based unit	mile based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0010041	united states customary teaspoon	united states customary teaspoon	biolink:OntologyClass
+CUI-less	N/A	UO:1000310	dosage unit based unit	dosage unit based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000240	dots per inch	dots per inch	biolink:OntologyClass
+CUI-less	N/A	UO:0000241	micron pixel	micron pixel	biolink:OntologyClass
+CUI-less	N/A	UO:0000120	katal	katal	biolink:OntologyClass
+CUI-less	N/A	UO:0000242	pixels per inch	pixels per inch	biolink:OntologyClass
+CUI-less	N/A	UO:0000121	angle unit	angle unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000000	unit	unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000122	plane angle unit	plane angle unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000001	length unit	length unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000243	pixels per millimeter	pixels per millimeter	biolink:OntologyClass
+CUI-less	N/A	UO:0000123	radian	radian	biolink:OntologyClass
+CUI-less	N/A	UO:0000002	mass unit	mass unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000244	base pair	base pair	biolink:OntologyClass
+CUI-less	N/A	UO:0000003	time unit	time unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000245	kibibyte	kibibyte	biolink:OntologyClass
+CUI-less	N/A	UO:0000124	solid angle unit	solid angle unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000125	steradian	steradian	biolink:OntologyClass
+CUI-less	N/A	UO:0000246	mebibyte	mebibyte	biolink:OntologyClass
+CUI-less	N/A	UO:0000004	electric current unit	electric current unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000115	illuminance unit	illuminance unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000236	image resolution unit	image resolution unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000116	lux	lux	biolink:OntologyClass
+CUI-less	N/A	UO:0000237	chroma sampling unit	chroma sampling unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000117	luminous flux unit	luminous flux unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000238	dynamic range unit	dynamic range unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000118	lumen	lumen	biolink:OntologyClass
+CUI-less	N/A	UO:0000239	spatial resolution unit	spatial resolution unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000119	catalytic activity unit	catalytic activity unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010021	cable based unit	cable based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010022	nautical mile based unit	nautical mile based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010023	perch based unit	perch based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010024	rood based unit	rood based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0010039	slug	slug	biolink:OntologyClass
+CUI-less	N/A	UO:0010037	hundredweight	hundredweight	biolink:OntologyClass
+CUI-less	N/A	UO:0010038	ton	ton	biolink:OntologyClass
+CUI-less	N/A	UO:1010020	fathom based unit	fathom based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0010013	foot	foot	biolink:OntologyClass
+CUI-less	N/A	UO:0010014	yard	yard	biolink:OntologyClass
+CUI-less	N/A	UO:0010011	inch	inch	biolink:OntologyClass
+CUI-less	N/A	UO:0010012	thou	thou	biolink:OntologyClass
+CUI-less	N/A	UO:0010010	hectare	hectare	biolink:OntologyClass
+CUI-less	N/A	UO:1000223	watt-hour based unit	watt-hour based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000220	coulomb based unit	coulomb based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000100	cubic decimeter based unit	cubic decimeter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000330	gigabasepair	gigabasepair	biolink:OntologyClass
+CUI-less	N/A	UO:1000221	dalton based unit	dalton based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000331	gigabyte	gigabyte	biolink:OntologyClass
+CUI-less	N/A	UO:0000210	colony forming unit	colony forming unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000332	terabyte	terabyte	biolink:OntologyClass
+CUI-less	N/A	UO:0000211	plaque forming unit	plaque forming unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000212	colony forming unit per volume	colony forming unit per volume	biolink:OntologyClass
+CUI-less	N/A	UO:0000213	colony forming unit per milliliter	colony forming unit per milliliter	biolink:OntologyClass
+CUI-less	N/A	UO:0000203	katal per cubic meter	katal per cubic meter	biolink:OntologyClass
+CUI-less	N/A	UO:0000324	square angstrom	square angstrom	biolink:OntologyClass
+CUI-less	N/A	UO:0000204	katal per liter	katal per liter	biolink:OntologyClass
+CUI-less	N/A	UO:0000325	megaHertz	megaHertz	biolink:OntologyClass
+CUI-less	N/A	UO:0000326	centiMorgan	centiMorgan	biolink:OntologyClass
+CUI-less	N/A	UO:0000205	volume per unit volume	volume per unit volume	biolink:OntologyClass
+CUI-less	N/A	UO:1000218	volt based unit	volt based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000206	milliliter per cubic meter	milliliter per cubic meter	biolink:OntologyClass
+CUI-less	N/A	UO:0000327	centiRay	centiRay	biolink:OntologyClass
+CUI-less	N/A	UO:0000207	milliliter per liter	milliliter per liter	biolink:OntologyClass
+CUI-less	N/A	UO:1000215	plaque forming unit per milliliter based unit	plaque forming unit per milliliter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000328	kilobasepair	kilobasepair	biolink:OntologyClass
+CUI-less	N/A	UO:0000208	gram per deciliter	gram per deciliter	biolink:OntologyClass
+CUI-less	N/A	UO:1000216	disintegrations per second based unit	disintegrations per second based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000329	megabasepair	megabasepair	biolink:OntologyClass
+CUI-less	N/A	UO:0000209	deciliter	deciliter	biolink:OntologyClass
+CUI-less	N/A	UO:1000213	colony forming unit per milliliter based unit	colony forming unit per milliliter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0010008	kilometer per hour	kilometer per hour	biolink:OntologyClass
+CUI-less	N/A	UO:0010009	milli	milli	biolink:OntologyClass
+CUI-less	N/A	UO:0010006	ratio	ratio	biolink:OntologyClass
+CUI-less	N/A	UO:0010007	volt-second per square centimeter	volt-second per square centimeter	biolink:OntologyClass
+CUI-less	N/A	UO:0010004	micromole per kilogram	micromole per kilogram	biolink:OntologyClass
+CUI-less	N/A	UO:0010005	millimeters per day	millimeters per day	biolink:OntologyClass
+CUI-less	N/A	UO:0010024	rood	rood	biolink:OntologyClass
+CUI-less	N/A	UO:0010025	acre	acre	biolink:OntologyClass
+CUI-less	N/A	UO:0010022	nautical mile	nautical mile	biolink:OntologyClass
+CUI-less	N/A	UO:0010023	perch	perch	biolink:OntologyClass
+CUI-less	N/A	UO:0010020	fathom	fathom	biolink:OntologyClass
+CUI-less	N/A	UO:0010021	cable	cable	biolink:OntologyClass
+CUI-less	N/A	UO:1000211	plaque forming unit based unit	plaque forming unit based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000210	colony forming unit based unit	colony forming unit based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000220	coulomb	coulomb	biolink:OntologyClass
+CUI-less	N/A	UO:0000100	cubic decimeter	cubic decimeter	biolink:OntologyClass
+CUI-less	N/A	UO:0000221	dalton	dalton	biolink:OntologyClass
+CUI-less	N/A	UO:0000101	microliter	microliter	biolink:OntologyClass
+CUI-less	N/A	UO:0000222	kilodalton	kilodalton	biolink:OntologyClass
+CUI-less	N/A	UO:0000102	nanoliter	nanoliter	biolink:OntologyClass
+CUI-less	N/A	UO:0000223	watt-hour	watt-hour	biolink:OntologyClass
+CUI-less	N/A	UO:0000224	kilowatt-hour	kilowatt-hour	biolink:OntologyClass
+CUI-less	N/A	UO:0000103	picoliter	picoliter	biolink:OntologyClass
+CUI-less	N/A	UO:0000214	plaque forming unit per volume	plaque forming unit per volume	biolink:OntologyClass
+CUI-less	N/A	UO:1000208	gram per deciliter based unit	gram per deciliter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000215	plaque forming unit per milliliter	plaque forming unit per milliliter	biolink:OntologyClass
+CUI-less	N/A	UO:0000216	disintegrations per second	disintegrations per second	biolink:OntologyClass
+CUI-less	N/A	UO:0000217	electric potential difference unit	electric potential difference unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000218	volt	volt	biolink:OntologyClass
+CUI-less	N/A	UO:1000204	katal per liter based unit	katal per liter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000219	electric charge	electric charge	biolink:OntologyClass
+CUI-less	N/A	UO:1000203	katal per cubic meter based unit	katal per cubic meter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1010001	square micrometer based unit	square micrometer based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0010019	maritime length unit	maritime length unit	biolink:OntologyClass
+CUI-less	N/A	UO:0010017	mile	mile	biolink:OntologyClass
+CUI-less	N/A	UO:0010018	league	league	biolink:OntologyClass
+CUI-less	N/A	UO:0010015	chain	chain	biolink:OntologyClass
+CUI-less	N/A	UO:0010016	furlong	furlong	biolink:OntologyClass
+CUI-less	N/A	UO:0000310	dosage unit	dosage unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000311	milligram per kilogram per day	milligram per kilogram per day	biolink:OntologyClass
+CUI-less	N/A	UO:0000312	relative light unit	relative light unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000302	pico	pico	biolink:OntologyClass
+CUI-less	N/A	UO:0000303	femto	femto	biolink:OntologyClass
+CUI-less	N/A	UO:0000304	atto	atto	biolink:OntologyClass
+CUI-less	N/A	UO:0000305	zepto	zepto	biolink:OntologyClass
+CUI-less	N/A	UO:0000306	yocto	yocto	biolink:OntologyClass
+CUI-less	N/A	UO:0000307	dose unit	dose unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000308	milligram per kilogram	milligram per kilogram	biolink:OntologyClass
+CUI-less	N/A	UO:0000309	milligram per square meter	milligram per square meter	biolink:OntologyClass
+CUI-less	N/A	UO:0010002	millisiemens	millisiemens	biolink:OntologyClass
+CUI-less	N/A	UO:0010003	micromole per litre	micromole per litre	biolink:OntologyClass
+CUI-less	N/A	UO:0010001	square micrometer	square micrometer	biolink:OntologyClass
+CUI-less	N/A	UO:0000320	curie per liter	curie per liter	biolink:OntologyClass
+CUI-less	N/A	UO:0000321	microcurie per milliliter	microcurie per milliliter	biolink:OntologyClass
+CUI-less	N/A	UO:0000200	cell concentration unit	cell concentration unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000322	fold dilution	fold dilution	biolink:OntologyClass
+CUI-less	N/A	UO:0000201	cells per milliliter	cells per milliliter	biolink:OntologyClass
+CUI-less	N/A	UO:0000202	catalytic (activity) concentration unit	catalytic (activity) concentration unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000323	ton per hectare	ton per hectare	biolink:OntologyClass
+CUI-less	N/A	UO:0000313	relative luminescence unit	relative luminescence unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000314	relative fluorescence unit	relative fluorescence unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000315	turbidity unit	turbidity unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000316	cells per microliter	cells per microliter	biolink:OntologyClass
+CUI-less	N/A	UO:0000317	cells per well	cells per well	biolink:OntologyClass
+CUI-less	N/A	UO:0000318	formazin nephelometric unit	formazin nephelometric unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000319	radioactivity concentration	radioactivity concentration	biolink:OntologyClass
+CUI-less	N/A	UO:0000300	nano	nano	biolink:OntologyClass
+CUI-less	N/A	UO:0000301	microgram per liter	microgram per liter	biolink:OntologyClass
+CUI-less	N/A	UO:0000190	ratio	ratio	biolink:OntologyClass
+CUI-less	N/A	UO:0000070	micromolal	micromolal	biolink:OntologyClass
+CUI-less	N/A	UO:0000191	fraction	fraction	biolink:OntologyClass
+CUI-less	N/A	UO:0000192	molecule count	molecule count	biolink:OntologyClass
+CUI-less	N/A	UO:0000071	nanomolal	nanomolal	biolink:OntologyClass
+CUI-less	N/A	UO:0000072	picomolal	picomolal	biolink:OntologyClass
+CUI-less	N/A	UO:0000193	purity percentage	purity percentage	biolink:OntologyClass
+CUI-less	N/A	UO:0000194	confluence percentage	confluence percentage	biolink:OntologyClass
+CUI-less	N/A	UO:0000073	femtomolar	femtomolar	biolink:OntologyClass
+CUI-less	N/A	UO:0000074	unit of normality	unit of normality	biolink:OntologyClass
+CUI-less	N/A	UO:0000195	degree Fahrenheit	degree Fahrenheit	biolink:OntologyClass
+CUI-less	N/A	UO:0000075	normal	normal	biolink:OntologyClass
+CUI-less	N/A	UO:0000196	pH	pH	biolink:OntologyClass
+CUI-less	N/A	UO:0000076	mole fraction	mole fraction	biolink:OntologyClass
+CUI-less	N/A	UO:0000197	liter per kilogram	liter per kilogram	biolink:OntologyClass
+CUI-less	N/A	UO:0000198	milliliter per kilogram	milliliter per kilogram	biolink:OntologyClass
+CUI-less	N/A	UO:0000077	meter per second per second	meter per second per second	biolink:OntologyClass
+CUI-less	N/A	UO:0000199	microliter per kilogram	microliter per kilogram	biolink:OntologyClass
+CUI-less	N/A	UO:0000078	radian per second per second	radian per second per second	biolink:OntologyClass
+CUI-less	N/A	UO:0000079	radian per second	radian per second	biolink:OntologyClass
+CUI-less	N/A	UO:0000080	square meter	square meter	biolink:OntologyClass
+CUI-less	N/A	UO:0000081	square centimeter	square centimeter	biolink:OntologyClass
+CUI-less	N/A	UO:0000082	square millimeter	square millimeter	biolink:OntologyClass
+CUI-less	N/A	UO:0000083	kilogram per cubic meter	kilogram per cubic meter	biolink:OntologyClass
+CUI-less	N/A	UO:0000084	gram per cubic centimeter	gram per cubic centimeter	biolink:OntologyClass
+CUI-less	N/A	UO:0000085	candela per square meter	candela per square meter	biolink:OntologyClass
+CUI-less	N/A	UO:0000086	kilogram per square meter	kilogram per square meter	biolink:OntologyClass
+CUI-less	N/A	UO:0000087	kilogram per mole	kilogram per mole	biolink:OntologyClass
+CUI-less	N/A	UO:0000088	gram per mole	gram per mole	biolink:OntologyClass
+CUI-less	N/A	UO:0000089	cubic meter per mole	cubic meter per mole	biolink:OntologyClass
+CUI-less	N/A	UO:0000290	peta	peta	biolink:OntologyClass
+CUI-less	N/A	UO:0000170	parts per billion	parts per billion	biolink:OntologyClass
+CUI-less	N/A	UO:0000291	tera	tera	biolink:OntologyClass
+CUI-less	N/A	UO:0000050	angular acceleration unit	angular acceleration unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000171	parts per trillion	parts per trillion	biolink:OntologyClass
+CUI-less	N/A	UO:0000292	giga	giga	biolink:OntologyClass
+CUI-less	N/A	UO:0000172	parts per quadrillion	parts per quadrillion	biolink:OntologyClass
+CUI-less	N/A	UO:0000051	concentration unit	concentration unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000293	mega	mega	biolink:OntologyClass
+CUI-less	N/A	UO:0000173	gram per milliliter	gram per milliliter	biolink:OntologyClass
+CUI-less	N/A	UO:0000294	kilo	kilo	biolink:OntologyClass
+CUI-less	N/A	UO:0000052	mass density unit	mass density unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000053	luminance unit	luminance unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000295	deca	deca	biolink:OntologyClass
+CUI-less	N/A	UO:0000174	kilogram per liter	kilogram per liter	biolink:OntologyClass
+CUI-less	N/A	UO:0000054	area density unit	area density unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000296	deci	deci	biolink:OntologyClass
+CUI-less	N/A	UO:0000175	gram per liter	gram per liter	biolink:OntologyClass
+CUI-less	N/A	UO:0000055	molar mass unit	molar mass unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000297	milli	milli	biolink:OntologyClass
+CUI-less	N/A	UO:0000176	milligram per milliliter	milligram per milliliter	biolink:OntologyClass
+CUI-less	N/A	UO:0000056	molar volume unit	molar volume unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000177	unit per volume unit	unit per volume unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000298	centi	centi	biolink:OntologyClass
+CUI-less	N/A	UO:0000057	momentum unit	momentum unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000178	unit per milliliter	unit per milliliter	biolink:OntologyClass
+CUI-less	N/A	UO:0000299	micro	micro	biolink:OntologyClass
+CUI-less	N/A	UO:0000058	rotational frequency unit	rotational frequency unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000179	unit per liter	unit per liter	biolink:OntologyClass
+CUI-less	N/A	UO:0000059	specific volume unit	specific volume unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000049	angular velocity unit	angular velocity unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000180	mass per unit volume	mass per unit volume	biolink:OntologyClass
+CUI-less	N/A	UO:0000060	speed/velocity unit	speed/velocity unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000181	enzyme unit	enzyme unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000182	density unit	density unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000061	unit of molarity	unit of molarity	biolink:OntologyClass
+CUI-less	N/A	UO:0000062	molar	molar	biolink:OntologyClass
+CUI-less	N/A	UO:0000183	linear density unit	linear density unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000184	kilogram per meter	kilogram per meter	biolink:OntologyClass
+CUI-less	N/A	UO:0000063	millimolar	millimolar	biolink:OntologyClass
+CUI-less	N/A	UO:0000185	degree	degree	biolink:OntologyClass
+CUI-less	N/A	UO:0000064	micromolar	micromolar	biolink:OntologyClass
+CUI-less	N/A	UO:0000065	nanomolar	nanomolar	biolink:OntologyClass
+CUI-less	N/A	UO:0000186	dimensionless unit	dimensionless unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000187	percent	percent	biolink:OntologyClass
+CUI-less	N/A	UO:0000066	picomolar	picomolar	biolink:OntologyClass
+CUI-less	N/A	UO:0000067	unit of molality	unit of molality	biolink:OntologyClass
+CUI-less	N/A	UO:0000188	pi	pi	biolink:OntologyClass
+CUI-less	N/A	UO:0000068	molal	molal	biolink:OntologyClass
+CUI-less	N/A	UO:0000189	count unit	count unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000069	millimolal	millimolal	biolink:OntologyClass
+CUI-less	N/A	UO:0000270	volumetric flow rate unit	volumetric flow rate unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000271	microliters per minute	microliters per minute	biolink:OntologyClass
+CUI-less	N/A	UO:0000150	nanosecond	nanosecond	biolink:OntologyClass
+CUI-less	N/A	UO:0000151	century	century	biolink:OntologyClass
+CUI-less	N/A	UO:0000272	millimetres of mercury	millimetres of mercury	biolink:OntologyClass
+CUI-less	N/A	UO:0000030	picosecond	picosecond	biolink:OntologyClass
+CUI-less	N/A	UO:0000273	milligram per liter	milligram per liter	biolink:OntologyClass
+CUI-less	N/A	UO:0000031	minute	minute	biolink:OntologyClass
+CUI-less	N/A	UO:0000152	half life	half life	biolink:OntologyClass
+CUI-less	N/A	UO:0000032	hour	hour	biolink:OntologyClass
+CUI-less	N/A	UO:0000153	foot candle	foot candle	biolink:OntologyClass
+CUI-less	N/A	UO:0000274	microgram per milliliter	microgram per milliliter	biolink:OntologyClass
+CUI-less	N/A	UO:0000275	nanogram per milliliter	nanogram per milliliter	biolink:OntologyClass
+CUI-less	N/A	UO:0000033	day	day	biolink:OntologyClass
+CUI-less	N/A	UO:0000154	irradiance unit	irradiance unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000034	week	week	biolink:OntologyClass
+CUI-less	N/A	UO:0000276	amount per container	amount per container	biolink:OntologyClass
+CUI-less	N/A	UO:0000155	watt per square meter	watt per square meter	biolink:OntologyClass
+CUI-less	N/A	UO:0000277	ug/disk	ug/disk	biolink:OntologyClass
+CUI-less	N/A	UO:0000156	einstein per square meter per second	einstein per square meter per second	biolink:OntologyClass
+CUI-less	N/A	UO:0000035	month	month	biolink:OntologyClass
+CUI-less	N/A	UO:0000157	light unit	light unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000036	year	year	biolink:OntologyClass
+CUI-less	N/A	UO:0000278	nmole/disk	nmole/disk	biolink:OntologyClass
+CUI-less	N/A	UO:0000158	watt per steradian per square meter	watt per steradian per square meter	biolink:OntologyClass
+CUI-less	N/A	UO:0000037	milliampere	milliampere	biolink:OntologyClass
+CUI-less	N/A	UO:0000279	milliunits per milliliter	milliunits per milliliter	biolink:OntologyClass
+CUI-less	N/A	UO:0000269	absorbance unit	absorbance unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000027	degree Celsius	degree Celsius	biolink:OntologyClass
+CUI-less	N/A	UO:0000148	counts per minute	counts per minute	biolink:OntologyClass
+CUI-less	N/A	UO:0000028	millisecond	millisecond	biolink:OntologyClass
+CUI-less	N/A	UO:0000029	microsecond	microsecond	biolink:OntologyClass
+CUI-less	N/A	UO:0000280	rate unit	rate unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000281	count per nanomolar second	count per nanomolar second	biolink:OntologyClass
+CUI-less	N/A	UO:0000160	microeinstein per square meter per second	microeinstein per square meter per second	biolink:OntologyClass
+CUI-less	N/A	UO:0000161	radiance unit	radiance unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000282	count per molar second	count per molar second	biolink:OntologyClass
+CUI-less	N/A	UO:0000040	millimole	millimole	biolink:OntologyClass
+CUI-less	N/A	UO:0000162	watt per steradian	watt per steradian	biolink:OntologyClass
+CUI-less	N/A	UO:0000041	nanomole	nanomole	biolink:OntologyClass
+CUI-less	N/A	UO:0000283	kilogram per hectare	kilogram per hectare	biolink:OntologyClass
+CUI-less	N/A	UO:0000163	mass percentage	mass percentage	biolink:OntologyClass
+CUI-less	N/A	UO:0000042	picomole	picomole	biolink:OntologyClass
+CUI-less	N/A	UO:0000284	count per nanomolar	count per nanomolar	biolink:OntologyClass
+CUI-less	N/A	UO:0000285	count per molar	count per molar	biolink:OntologyClass
+CUI-less	N/A	UO:0000164	mass volume percentage	mass volume percentage	biolink:OntologyClass
+CUI-less	N/A	UO:0000043	femtomole	femtomole	biolink:OntologyClass
+CUI-less	N/A	UO:0000165	volume percentage	volume percentage	biolink:OntologyClass
+CUI-less	N/A	UO:0000044	attomole	attomole	biolink:OntologyClass
+CUI-less	N/A	UO:0000286	yotta	yotta	biolink:OntologyClass
+CUI-less	N/A	UO:0000166	parts per notation unit	parts per notation unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000287	hecto	hecto	biolink:OntologyClass
+CUI-less	N/A	UO:0000045	base unit	base unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000046	prefix	prefix	biolink:OntologyClass
+CUI-less	N/A	UO:0000167	parts per hundred	parts per hundred	biolink:OntologyClass
+CUI-less	N/A	UO:0000288	zetta	zetta	biolink:OntologyClass
+CUI-less	N/A	UO:0000047	area unit	area unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000168	parts per thousand	parts per thousand	biolink:OntologyClass
+CUI-less	N/A	UO:0000289	exa	exa	biolink:OntologyClass
+CUI-less	N/A	UO:0000048	acceleration unit	acceleration unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000169	parts per million	parts per million	biolink:OntologyClass
+CUI-less	N/A	UO:0000159	radiant intensity unit	radiant intensity unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000038	microampere	microampere	biolink:OntologyClass
+CUI-less	N/A	UO:0000039	micromole	micromole	biolink:OntologyClass
+CUI-less	N/A	UO:0000250	nanovolt	nanovolt	biolink:OntologyClass
+CUI-less	N/A	UO:0000251	picovolt	picovolt	biolink:OntologyClass
+CUI-less	N/A	UO:0000130	dose equivalent unit	dose equivalent unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000131	exposure unit	exposure unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000252	megavolt	megavolt	biolink:OntologyClass
+CUI-less	N/A	UO:0000010	second	second	biolink:OntologyClass
+CUI-less	N/A	UO:0000132	becquerel	becquerel	biolink:OntologyClass
+CUI-less	N/A	UO:0000011	ampere	ampere	biolink:OntologyClass
+CUI-less	N/A	UO:0000253	surface tension unit	surface tension unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000254	newton per meter	newton per meter	biolink:OntologyClass
+CUI-less	N/A	UO:0000133	curie	curie	biolink:OntologyClass
+CUI-less	N/A	UO:0000012	kelvin	kelvin	biolink:OntologyClass
+CUI-less	N/A	UO:0000013	mole	mole	biolink:OntologyClass
+CUI-less	N/A	UO:0000134	gray	gray	biolink:OntologyClass
+CUI-less	N/A	UO:0000255	dyne per cm	dyne per cm	biolink:OntologyClass
+CUI-less	N/A	UO:0000135	rad	rad	biolink:OntologyClass
+CUI-less	N/A	UO:0000014	candela	candela	biolink:OntologyClass
+CUI-less	N/A	UO:0000256	viscosity unit	viscosity unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000136	roentgen	roentgen	biolink:OntologyClass
+CUI-less	N/A	UO:0000257	pascal second	pascal second	biolink:OntologyClass
+CUI-less	N/A	UO:0000015	centimeter	centimeter	biolink:OntologyClass
+CUI-less	N/A	UO:0000247	millivolt	millivolt	biolink:OntologyClass
+CUI-less	N/A	UO:0000005	temperature unit	temperature unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000006	substance unit	substance unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000127	radiation unit	radiation unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000248	kilovolt	kilovolt	biolink:OntologyClass
+CUI-less	N/A	UO:0000249	microvolt	microvolt	biolink:OntologyClass
+CUI-less	N/A	UO:0000128	activity (of a radionuclide) unit	activity (of a radionuclide) unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000007	luminous intensity unit	luminous intensity unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000008	meter	meter	biolink:OntologyClass
+CUI-less	N/A	UO:0000129	absorbed dose unit	absorbed dose unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000009	kilogram	kilogram	biolink:OntologyClass
+CUI-less	N/A	UO:0010048	micromole	micromole	biolink:OntologyClass
+CUI-less	N/A	UO:0010049	gram per square meter	gram per square meter	biolink:OntologyClass
+CUI-less	N/A	UO:0000260	effective dose unit	effective dose unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000140	Roentgen equivalent man	Roentgen equivalent man	biolink:OntologyClass
+CUI-less	N/A	UO:0000261	conduction unit	conduction unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000020	picometer	picometer	biolink:OntologyClass
+CUI-less	N/A	UO:0000141	microgray	microgray	biolink:OntologyClass
+CUI-less	N/A	UO:0000262	electrical conduction unit	electrical conduction unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000021	gram	gram	biolink:OntologyClass
+CUI-less	N/A	UO:0000142	milligray	milligray	biolink:OntologyClass
+CUI-less	N/A	UO:0000263	heat conduction unit	heat conduction unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000143	nanogray	nanogray	biolink:OntologyClass
+CUI-less	N/A	UO:0000264	siemens	siemens	biolink:OntologyClass
+CUI-less	N/A	UO:0000022	milligram	milligram	biolink:OntologyClass
+CUI-less	N/A	UO:0000144	nanosievert	nanosievert	biolink:OntologyClass
+CUI-less	N/A	UO:0000265	watt per meter kelvin	watt per meter kelvin	biolink:OntologyClass
+CUI-less	N/A	UO:0000023	microgram	microgram	biolink:OntologyClass
+CUI-less	N/A	UO:0000145	millicurie	millicurie	biolink:OntologyClass
+CUI-less	N/A	UO:0000024	nanogram	nanogram	biolink:OntologyClass
+CUI-less	N/A	UO:0000266	electronvolt	electronvolt	biolink:OntologyClass
+CUI-less	N/A	UO:0000146	microcurie	microcurie	biolink:OntologyClass
+CUI-less	N/A	UO:0000025	picogram	picogram	biolink:OntologyClass
+CUI-less	N/A	UO:0000267	electric field strength unit	electric field strength unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000026	femtogram	femtogram	biolink:OntologyClass
+CUI-less	N/A	UO:0000147	disintegrations per minute	disintegrations per minute	biolink:OntologyClass
+CUI-less	N/A	UO:0000268	volt per meter	volt per meter	biolink:OntologyClass
+CUI-less	N/A	UO:0000016	millimeter	millimeter	biolink:OntologyClass
+CUI-less	N/A	UO:0000258	poise	poise	biolink:OntologyClass
+CUI-less	N/A	UO:0000137	sievert	sievert	biolink:OntologyClass
+CUI-less	N/A	UO:0000138	millisievert	millisievert	biolink:OntologyClass
+CUI-less	N/A	UO:0000259	decibel	decibel	biolink:OntologyClass
+CUI-less	N/A	UO:0000017	micrometer	micrometer	biolink:OntologyClass
+CUI-less	N/A	UO:0000139	microsievert	microsievert	biolink:OntologyClass
+CUI-less	N/A	UO:0000018	nanometer	nanometer	biolink:OntologyClass
+CUI-less	N/A	UO:0000019	angstrom	angstrom	biolink:OntologyClass
+CUI-less	N/A	UO:1000082	square millimeter based unit	square millimeter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000080	square meter based unit	square meter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000081	square centimeter based unit	square centimeter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000088	gram per mole based unit	gram per mole based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000089	cubic meter per mole based unit	cubic meter per mole based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000084	gram per cubic centimeter based unit	gram per cubic centimeter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000085	candela per square meter based unit	candela per square meter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000192	molecule count based unit	molecule count based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000193	purity percentage based unit	purity percentage based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000079	radian per second based unit	radian per second based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000077	meter per second per second based unit	meter per second per second based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000078	radian per second per second based unit	radian per second per second based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000075	normal based unit	normal based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000196	pH based unit	pH based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000197	liter per kilogram based unit	liter per kilogram based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000076	mole fraction based unit	mole fraction based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000194	confluence percentage based unit	confluence percentage based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000195	degree Fahrenheit based unit	degree Fahrenheit based unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000090	cubic centimeter per mole	cubic centimeter per mole	biolink:OntologyClass
+CUI-less	N/A	UO:0000091	kilogram meter per second	kilogram meter per second	biolink:OntologyClass
+CUI-less	N/A	UO:0000092	turns per second	turns per second	biolink:OntologyClass
+CUI-less	N/A	UO:0000093	cubic meter per kilogram	cubic meter per kilogram	biolink:OntologyClass
+CUI-less	N/A	UO:0000094	meter per second	meter per second	biolink:OntologyClass
+CUI-less	N/A	UO:0000095	volume unit	volume unit	biolink:OntologyClass
+CUI-less	N/A	UO:0000096	cubic meter	cubic meter	biolink:OntologyClass
+CUI-less	N/A	UO:0000097	cubic centimeter	cubic centimeter	biolink:OntologyClass
+CUI-less	N/A	UO:0000098	milliliter	milliliter	biolink:OntologyClass
+CUI-less	N/A	UO:0000099	liter	liter	biolink:OntologyClass
+CUI-less	N/A	UO:1000093	cubic meter per kilogram based unit	cubic meter per kilogram based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000094	meter per second based unit	meter per second based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000092	turns per second based unit	turns per second based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000090	cubic centimeter per mole based unit	cubic centimeter per mole based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000099	liter based unit	liter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000097	cubic centimeter based unit	cubic centimeter based unit	biolink:OntologyClass
+CUI-less	N/A	UO:1000096	cubic meter based unit	cubic meter based unit	biolink:OntologyClass
