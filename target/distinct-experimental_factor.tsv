@@ -1,0 +1,1003 @@
+3917	gene|marine metagenome|uncultured microorganism|uncultured organism|ecotype|biological replicate|technical replicate|interspecies interaction between organisms
+1169	human-associated
+1061	human-gut
+394	diversity gradient
+262	Illumina native fastq format
+252	Control
+250	Impact of indomethacin on the gut microbiota
+224	experimental factor
+201	10 % Glycerol
+183	environmental stability
+178	microbiome
+176	sex,sampling site,inflammatory bowel disease,clinical treatment,population,human gut metagenome,health trait
+150	specimen
+143	TB
+132	Impact of Misoprostol on the gut microbiota
+131	Impact of dietary Zn on the gut microbiota
+123	genetic variation, bacterial disease
+103	Impact of Helicobacter pylori and iron diet on gastric microbiota
+91	allogenic FMT
+79	temperature
+78	Stress
+65	uninfected
+64	Warming
+62	normal
+62	Drought
+61	seasonal/depth
+56	control
+55	Adding urea or not, distance from root
+53	Replicate 2
+53	symptomatic
+52	PAAL-SAP
+50	Replicate 3
+50	Long-term exposure experiment in a seawater flow trough system located on Helgoland run with Helgoland Roads North Sea water (Resilience of North Sea phytoplankton spring bloom dynamics: An analysis of long-term data at Helgoland Roads Wiltshire et al_2008,PANGAEA 2004 and http://www.pangaea.de).
+49	hatch_pre
+48	Uninfected
+48	Replicate 1
+47	FUT2
+47	Impact of dietary Mn on the gut microbiota
+46	wild_pre
+46	Soil FR2
+46	TB_HRZ
+45	day84
+45	BMT, APC-ERT
+43	drink warm water
+39	drink cold water
+38	Refreshed starter top
+38	genotype
+37	genotype EFO:0000513
+37	Healthy.control
+37	autologous FMT
+36	Case
+36	Unrefreshed starter bottom
+36	Incubated under ambient light conditions
+36	Hands
+33	Incubated under dim light conditions
+32	HT_Female
+32	soil-reared MTF infected Apo
+32	soil-reared MTF infected Sc50
+31	soil-reared MTF infected Sc10
+30	soil-reared CDS infected Sc10
+30	freeze-drying, storage time, storage temperature
+30	Poop-wound
+30	coral-colony-samp
+30	NonResponder.Pre.FMT
+29	soil-reared CDS infected Apo
+29	soil-reared MTF uninfected
+28	Control-poop
+28	alga
+28	Control-wound
+28	soil-reared CDS uninfected
+27	soil-reared CDS infected Sc50
+26	NonResponder.Post.FMT
+26	lime
+26	ancestral
+25	Donor
+24	HT_Male
+24	CNSS population (hatchery)
+24	Tweed population (wild)
+24	Spey population (wild)
+24	Towy population (wild)
+24	Frome population (wild)
+24	Nitrate
+24	MHS population (hatchery)
+24	Endophyte infection
+24	not Endophyte infection
+24	Cynrig population (hatchery)
+24	Ammonium
+22	medium
+21	day14
+21	Con_Female
+20	NCG 0.05
+20	9_wks
+20	17_wks
+20	efo:EFO_0000369, triclosan: 1 mg/L for 7 h
+19	efo:EFO_0000369
+19	Con_Male
+19	substrate
+18	Soil SEN2
+18	hatch&gt;wild
+18	carbon dioxide
+18	Soil CAM2
+18	Soil CAM1
+17	NCG 0.5
+16	NA
+16	Usk
+16	KO Before-cohousing
+16	Tintern
+16	Soil IT2
+16	wild&gt;enr
+16	wild&gt;hatch
+16	Whitestone
+16	Wytham
+16	WT Before-cohousing
+16	Garth
+16	hatch&gt;enr
+16	in situ
+16	hatch&gt;hatch
+15	midguts
+15	Seedbank
+15	h1 hindgut
+15	h2 midgut
+15	Reference
+15	Acorn
+15	control midgut
+15	control hindgut
+15	hindguts
+15	crops
+15	h2 hindgut
+15	Bareroot
+15	BalledBurlapped
+15	h1 midgut
+15	Seedling
+14	size fractionation &lt; 1 micrometer
+14	BMT_Ldlrko_23ko_to_wt
+14	wild&gt;wild
+14	Responder.Pre.FMT
+14	High Nitrate
+14	asymptomatic
+14	unfiltered control
+13	BMT_Ldlrko_wt_to_wt
+12	visibly charred
+12	s
+12	r
+12	Responder.Post.FMT
+12	visibly not charred
+12	Not provided
+12	Original
+12	infrabuccal pockets
+12	Replicate 4
+12	postHRZ
+12	l
+12	BMT_23ko_to_ldlrko_plus_mIL22Ig
+12	t
+12	Soil FR1
+12	rh
+12	Bagley
+12	Parents
+11	willow biochar
+11	inoculated softwood pellet biochar
+11	water
+11	inoculated willow biochar
+11	softwood pellet biochar
+11	Time
+10	19 m from transect origin
+10	Month_9
+10	4 m from transect origin
+10	HH
+10	25 m from transect origin
+10	HK
+10	soil-reared CDS infected Sw
+10	soil-reared CDS infected Sf
+10	2 m from transect origin
+10	Month_1
+10	Month_4
+10	DK
+10	5 m from transect origin
+10	Soil IT1
+10	temp
+10	17 m from transect origin
+10	Month_3
+10	DH
+10	Normal
+10	soil-reared MTF infected Sw
+10	1 m from transect origin
+10	Month_7
+10	Insomnia
+10	Month_10
+10	soil-reared MTF infected Sf
+10	13 m from transect origin
+10	Soil SEN1
+10	cold
+10	Month_6
+10	Month_8
+10	Month_5
+10	24 m from transect origin
+9	0 hour
+9	9 hour
+9	0_5cm_1
+9	Shrub soil
+9	8_wks
+9	1.5 hour
+9	16 m from transect origin
+9	4_wks
+9	Month_12
+9	Fishmeal
+9	Month_2
+9	Month_11
+9	Fishmeal-free
+9	16 hour
+9	time
+9	N/A
+9	11 m from transect origin
+9	blank
+9	10 m from transect origin
+9	9 m from transect origin
+9	7 m from transect origin
+9	BMT_wt_to_ldlrko_plus_mIL22Ig
+9	22 m from transect origin
+9	14 m from transect origin
+8	disease
+8	antibiotics Lycium barbarum1.5%
+8	21 m from transect origin
+8	20 m from transect origin
+8	18 m from transect origin
+8	antibiotics
+8	KO 3 month separately-housing
+8	12 m from transect origin
+8	norma
+8	H2 incubated
+8	larvae
+8	6 m from transect origin
+8	inoculated
+8	KO
+8	WT 3 month separately-housing
+8	KO 1 month separately-housing
+8	KO 2 month separately-housing
+8	WT 1 month separately-housing
+8	KO After-cohousing
+7	Post_natal_P17
+7	8 m from transect origin
+7	None
+7	High Ammonium
+7	3 m from transect origin
+7	15 m from transect origin
+7	WT 2 month separately-housing
+7	Post_natal_P7
+6	alcohol diet and SCE
+6	small gravel
+6	pot trial inorganic fertiliser
+6	benchControl
+6	Aerobic
+6	low Lycium barbarum
+6	marine water
+6	Low Nitrate
+6	RSV50
+6	Sulfate-reducing PAHs microcosms
+6	No treatment
+6	biofilm
+6	Qinghai lake
+6	Qaidam lake
+6	Sulfate-reducing
+6	Methanogenic PAHs microcosms
+6	Low Ammonium
+6	Ferric-reducing
+6	Con
+6	Ferric-reducing n-alkanes microcosms
+6	pot trial control
+6	RSV10
+6	RSV20
+6	Methanogenic
+6	normal month1
+6	probiotic_biofilm
+6	Grass soil
+6	soil
+6	Nitrogen, Phosphorus
+6	Methanogenic n-alkanes microcosms
+6	large gravel
+6	normal diet
+6	Nitrate-reducing PAHs microcosms
+6	heterotrophic_biofilm
+6	Sulfate-reducing n-alkanes microcosms
+6	treat 24h under alkali stress
+6	normal diet and SCE
+6	Ferric-reducing PAHs microcosms
+6	uncontaminated
+6	normal month12
+6	Nitrate-reducing
+6	WT After-cohousing
+6	23 m from transect origin
+6	high Lycium barbarum
+6	treat 6h under alkali stress
+6	salmon
+6	alcohol diet
+6	human_control
+6	Nitrate-reducing n-alkanes microcosms
+6	salt stress
+6	pot trial organic fertiliser
+5	WT
+5	Elymus sibiricus soil
+5	Replicate 2, Dilution 7
+5	Replicate 1, Dilution 6
+5	KO Seperately-housing 5-day DSS
+5	Replicate 3, Dilution 4
+5	Papain + Lactobacillus plantarum
+5	sleep deprivation with double does melatonin supplementation
+5	LIP Doripenem
+5	Replicate 3, Dilution 5
+5	Replicate 3, Dilution 1
+5	Control (CNT)
+5	LIP ABX combination
+5	Replicate 2, Dilution 5
+5	KO Seperately-housing 3-day DSS
+5	Replicate 2, Dilution 6
+5	Replicate 1, Dilution 4
+5	Replicate 3, Dilution 2
+5	Replicate 1, Dilution 5
+5	LIP Vancomycin
+5	sleep deprivation with single does melatonin supplementation
+5	Restraint stress with melatonin supplementation
+5	sleep deprivation
+5	Replicate 1, Dilution 1
+5	Lactobacillus plantarum
+5	KO Seperately-housing Pre-DSS
+5	Replicate 2, Dilution 1
+5	Papain
+5	Replicate 3, Dilution 3
+5	Replicate 2, Dilution 2
+5	Replicate 1, Dilution 3
+5	KO 11w after separation
+5	Replicate 2, Dilution 4
+5	Replicate 3, Dilution 6
+5	Restraint stress
+5	LIP
+5	LIP Metronidazole
+5	Replicate 2, Dilution 3
+5	no salmon
+5	Phosphorus
+5	Replicate 1, Dilution 7
+5	Alfalfa soil
+5	LIP Neomycin
+5	Replicate 3, Dilution 7
+5	Replicate 1, Dilution 2
+5	WT Seperately-housing Pre-DSS
+5	KO 8w after separation
+4	WT Seperately-housing 5-day DSS
+4	BH3MA 1
+4	BH2CK 1
+4	Healthy 4
+4	Flour
+4	Field 2_plot 2
+4	H
+4	PMA 1
+4	WT 3w after separation
+4	SJ80
+4	KO After-cohousing Pre-DSS
+4	25 oC
+4	KO After-cohousing 3-day DSS
+4	BH3CK 3
+4	BH3MA 3
+4	HR
+4	BH1MA 3
+4	Healthy 5
+4	SJCK
+4	Healthy 3
+4	Healthy 9
+4	BH2MA 1
+4	Field 2_plot 3
+4	TB_Z
+4	TB_RZ
+4	BH1CK 1
+4	Unfractioned, QIAamp DNA Stool
+4	TB_HZ
+4	Diseased 2
+4	Field 2_plot 4
+4	BH2CK 2
+4	Healthy 8
+4	10 oC
+4	TB_R
+4	control group
+4	Diseased 3
+4	BH3CK 2
+4	Diseased 1
+4	SJ40
+4	KO 4w after separation
+4	BH2MA 3
+4	Field 3_plot 1
+4	WT 4w after separation
+4	Field 3_plot 2
+4	PMA 2
+4	TB_H
+4	BH1CK 3
+4	BH1MA 2
+4	KO 9w after separation
+4	Diseased 9
+4	RZ
+4	With mussel
+4	WT After-cohousing 3-day DSS
+4	Healthy 7
+4	BH2CK 3
+4	baicalin group
+4	Diseased 8
+4	BH3CK 1
+4	KO 6w after separation
+4	Healthy 6
+4	model group
+4	15 oC
+4	Healthy 2
+4	Diseased 4
+4	KO After-cohousing 5-day DSS
+4	WT After-cohousing Pre-DSS
+4	Field 1_plot 1
+4	PCK 3
+4	Diseased 6
+4	BH1MA 1
+4	WT Seperately-housing 3-day DSS
+4	BH3MA 2
+4	Diseased 5
+4	BH1CK 2
+4	BH2MA 2
+4	PCK 2
+4	Field 1_plot 2
+4	WT 6w after separation
+4	20 oC
+4	TB_HR
+4	SJ20
+4	Z
+4	Healthy 1
+4	No mussel
+4	HZ
+4	WT After-cohousing 5-day DSS
+4	Field 2_plot 1
+4	Field 1_plot 3
+4	PMA 3
+4	Field 3_plot 3
+4	gut microbiome
+4	PCK 1
+4	R
+4	Diseased 7
+4	Field 1_plot 4
+4	high fat
+4	Field 3_plot 4
+4	donor
+3	VANM
+3	KO 3w after separation
+3	4
+3	blank control PAHs microcosms
+3	Bare soil
+3	Replicate 1, run 2
+3	high salt 1d
+3	stage3 under sterility
+3	Indian mustard near rhizosphere
+3	Replicate 2, run 2
+3	milk replacer day45
+3	eugenol treated
+3	Z day1 fungi
+3	NA-1
+3	normal day25
+3	milk replacer day75
+3	low fat
+3	channel under hydraulic retention time of 74 min
+3	high salt 3d
+3	Simultaneous-2
+3	channel under hydraulic retention time of 456 min
+3	mutant with 24h 300mmol/l mannitol
+3	Z pit day15 bacteria
+3	Post_natal_P16
+3	6_15cm_3
+3	Replicate 2, Dilution 8
+3	Z pit day15 fungi
+3	field Linfen
+3	sew variable 15
+3	normal in the Shannan
+3	excysted sporozoites
+3	Replicate 1, run 1
+3	gametocytes 144 h post-infection
+3	gre variable 5
+3	Post_natal_P9
+3	pupae
+3	gre variable 15
+3	gre stable 10
+3	seeding
+3	sew variable 5
+3	Y pit day15 bacteria
+3	water_elevCO2
+3	maturity
+3	low salt
+3	stage3 under fertility
+3	Indian mustard middle rhizosphere
+3	water_elevtemp_elevCO2
+3	normal day15
+3	Ryegrass-vegetated soil
+3	high N P 0-5cm soil depth
+3	2185m 1
+3	laboratory viruliferous 10d
+3	3289m 1
+3	Z day3 bacteria
+3	milk replacer day10
+3	2185m 3
+3	swe stable 10
+3	field Tianjin
+3	Y day1 bacteria
+3	Diet
+3	ambient sw
+3	normal day45
+3	N 0-5cm soil depth
+3	field Tianshui
+3	P 0-5cm soil depth
+3	water_elevtemp
+3	laboratory viruliferous 20d
+3	Z day3 fungi
+3	normal day10
+3	Tall Fescue far rhizosphere
+3	Z pit day30 bacteria
+3	stage2 under sterility
+3	6_15cm_1
+3	Y day1 fungi
+3	2185m 2
+3	Z pit day30 fungi
+3	field Hancheng
+3	stage2 under fertility
+3	Z day5 bacteria
+3	swe stable 15
+3	P 5-10cm soil depth
+3	N P 5-10cm soil depth
+3	3289m 3
+3	sew stable 5
+3	Z pit day3 fungi
+3	2
+3	unplanted soil
+3	polluted in the Linzhi
+3	N P 0-5cm soil depth
+3	workers
+3	6_15cm_2
+3	N 5-10cm soil depth
+3	laboratory viruliferous 5d
+3	gre stable 15
+3	Prior to Freeze-Thaw Cycling
+3	NR-2
+3	Z pit day3 bacteria
+3	high salt 7d
+3	high N 0-5cm soil depth
+3	high salt
+3	normal in the Linzhi
+3	high N 10-20cm soil depth
+3	gre variable 10
+3	gre stable 5
+3	Z day1 bacteria
+3	Y day5 fungi
+3	ck 10-20cm soil depth
+3	Under 25cm_1
+3	polluted in the Shannan
+3	Y pit day3 fungi
+3	laboratory nonviruliferous
+3	3785m 3
+3	Y day3 fungi
+3	high N P 10-20cm soil depth
+3	NA-2
+3	Replicate 3, run 2
+3	1
+3	field Baoding
+3	SMFC-2
+3	milk replacer day25
+3	Indian mustard far rhizosphere
+3	Replicate 3, Dilution 8
+3	ck 5-10cm soil depth
+3	water_presentday
+3	Z day5 fungi
+3	Tall Fescue middle rhizosphere
+3	Y day5 bacteria
+3	Simultaneous-1
+3	Under 25cm_3
+3	ck 0-5cm soil depth
+3	Y day3 bacteria
+3	NR-1
+3	normal day75
+3	Y pit day30 bacteria
+3	blank control n-alkanes microcosms
+3	normal with 24h 300mmol/l mannitol
+3	normal in the Rikaze
+3	3785m 1
+3	milk replacer day15
+3	HRZ
+3	Separate-2
+3	Tall Fescue near rhizosphere
+3	Replicate 2, run 1
+3	fermented 30d
+3	Following 48 Freeze-Thaw Cycles
+3	Under 25cm_2
+3	field Taiyuan
+3	N P 10-20cm soil depth
+3	SMFC-1
+3	stage1 under fertility
+3	Replicate 1, Dilution 8
+3	3785m 2
+3	fermented 0d
+3	P 10-20cm soil depth
+3	stage1 under sterility
+3	Y pit day30 fungi
+3	Y pit day15 fungi
+3	polluted in the Rikaze
+3	sew variable 10
+3	3
+3	Replicate 3, run 1
+3	N 10-20cm soil depth
+3	high N P 5-10cm soil depth
+3	3289m 2
+3	high N 5-10cm soil depth
+3	Y pit day3 bacteria
+2	Site 1 5cm-deep 3
+2	Replicate 1, dilution 4, run 1
+2	Group1-WT
+2	Replicate 1, dilution 9, run 1
+2	Replicate 4, Dilution 5
+2	Site 2 5cm-deep 1
+2	Replicate 4, Dilution 3
+2	Replicate 4, Dilution 7
+2	Group4-Hetero
+2	Replicate 1, dilution 8, run 2
+2	Puratos Tap Water Sample
+2	ammonium
+2	Group3-KO
+2	kelpsurface_elevtemp
+2	Site 3 5cm-deep 1
+2	Replicate 3, dilution 1, run 2
+2	kelpsurface_elevCO2
+2	control_start
+2	Replicate 2, dilution 4, run 1
+2	kelpsurface_elevtemp_elevCO2
+2	THP 3.1 g/kg
+2	Site 2 25cm-deep 1
+2	Site 3 5cm-deep 3
+2	Replicate 1, dilution 5, run 1
+2	Site 2 25cm-deep 2
+2	Site 3 5cm-deep 2
+2	Bulk soil, ploughed with standard nitrogen fertilization and use of pesticides
+2	Replicate 1, dilution 7, run 1
+2	Replicate 1, dilution 9, run 2
+2	Replicate 3, dilution 5, run 2
+2	Replicate 2, dilution 1, run 2
+2	Replicate 1, dilution 1, run 1
+2	Replicate 3, dilution 4, run 2
+2	Replicate 3, dilution 1, run 1
+2	Replicate 1, dilution 8, run 1
+2	Replicate 2, dilution 4, run 2
+2	Site 2 5cm-deep 3
+2	Replicate 3, dilution 9, run 1
+2	Site 1 25cm-deep 1
+2	Replicate 4, Dilution 2
+2	water_heterotrophic_biofilm
+2	Replicate 3, dilution 8, run 1
+2	Replicate 4, Dilution 6
+2	Replicate 1, dilution 2, run 1
+2	merozoites 118 h post-infection
+2	Replicate 4, Dilution 4
+2	raw
+2	Replicate 2, dilution 6, run 1
+2	Replicate 3, dilution 7, run 2
+2	water_probiotic_biofilm
+2	DNA Blank
+2	Site 1 15cm-deep 1
+2	Replicate 1, dilution 6, run 1
+2	Replicate 1, dilution 4, run 2
+2	Replicate 1, dilution 6, run 2
+2	Replicate 4, Dilution 1
+2	Replicate 2, dilution 5, run 2
+2	Bulk soil, cultivator tratment with standard nitrogen fertilization and use of pesticides
+2	Replicate 1, dilution 5, run 2
+2	Site 1 15cm-deep 3
+2	control_final
+2	urea
+2	Replicate 3, dilution 2, run 2
+2	Replicate 3, dilution 6, run 1
+2	KO 10w after separation
+2	Replicate 2, dilution 8, run 2
+2	Replicate 1, dilution 1, run 2
+2	Group1-Hetero
+2	Replicate 3, dilution 4, run 1
+2	Replicate 2, dilution 9, run 1
+2	Replicate 3, dilution 6, run 2
+2	23_wks
+2	none
+2	Replicate 2, dilution 1, run 1
+2	control-water
+2	Group4-KO
+2	Site 1 5cm-deep 1
+2	Root-affected soil, cultivator treatment with standard nitrogen fertilization and use of pesticides
+2	ambient seawater
+2	Root-affected soil, cultivator treatment with reduced (50%) nitrogen fertilization
+2	Replicate 2, dilution 2, run 2
+2	Root-affected soil, ploughed with standard nitrogen fertilization and use of pesticides
+2	Replicate 1, dilution 7, run 2
+2	Site 2 15cm-deep 2
+2	KO 5w after separation
+2	Site 2 15cm-deep 3
+2	Site 1 5cm-deep 2
+2	Site 2 5cm-deep 2
+2	Replicate 3, dilution 2, run 1
+2	Replicate 3, dilution 5, run 1
+2	Bulk soil, cultivator tratment with reduced (50%) nitrogen fertilization
+2	Reigous water
+2	succession after disturbance
+2	chronic-water
+2	Replicate 3, dilution 8, run 2
+2	Dust
+2	Site 3 15cm-deep 2
+2	Replicate 2, dilution 3, run 2
+2	Replicate 3, dilution 3, run 2
+2	16_wks
+2	Root-affected soil, ploughed with reduced (50%) nitrogen fertilization
+2	Site 2 25cm-deep 3
+2	Site 3 15cm-deep 3
+2	Cont
+2	KO 7w after separation
+2	Site 3 25cm-deep 2
+2	Replicate 2, dilution 3, run 1
+2	channel under hydraulic retention time of 130 min
+2	feces-samp
+2	The proximal murine colon contains mucosal folds that are known to be associated with morphologically distinct microbes. To identify these microbes, we utilized the technique of laser capture microdissection to sample microbes associated with these folds (interfold region) and within the central lumen (digesta region). Tag pyrosequencing of 16S rRNA genes was used to compare microbial populations between interfold and digesta samples.
+2	acute-water
+2	Site 3 25cm-deep 3
+2	Replicate 1, dilution 2, run 2
+2	Site 2 15cm-deep 1
+2	Replicate 3, dilution 9, run 2
+2	BMT_wt_to_Ldlrko_cage_7
+2	Replicate 1, dilution 3, run 2
+2	Replicate 2, dilution 7, run 1
+2	Site 1 25cm-deep 2
+2	Unfractioned, QIAamp Fast DNA Stool
+2	Replicate 3, dilution 7, run 1
+2	Site 1 15cm-deep 2
+2	Replicate 1, dilution 3, run 1
+2	Site 3 15cm-deep 1
+2	Bulk soil, ploughed with reduced (50%) nitrogen fertilization
+2	Replicate 2, dilution 9, run 2
+2	seawater_initial
+2	Replicate 2, dilution 5, run 1
+2	Site 1 25cm-deep 3
+2	Group2-WT
+2	Replicate 3, dilution 3, run 1
+2	Replicate 2, dilution 7, run 2
+2	Replicate 2, dilution 8, run 1
+2	Site 3 25cm-deep 1
+2	Replicate 2, dilution 2, run 1
+2	Replicate 2, dilution 6, run 2
+1	Anaerobic Returned Sludge
+1	open ambient bag 3 replicate 3
+1	low temperature treatment14
+1	Throughfall exclusion
+1	closed ambient bag 4 replicate 2
+1	Group3-Hetero
+1	closed precipitation bag 3 replicate 1
+1	Genome-MPET Library. 5000ng starting material, 13 PCR cycles
+1	inoculum replicate 1
+1	Bactera were grown in three minimal salt media supplemented with a single pollutant per mediun i.e., toluene, naphthalene and petrol
+1	Group4-WT
+1	THP 22 g/kg
+1	closed ambient bag 2 replicate 1
+1	Group2-Hetero
+1	DC2B
+1	MHS water (hatchery)
+1	TBF2F
+1	THP 17 g/kg
+1	First gravity fraction, QIAamp DNA Stool
+1	closed ambient bag 6 replicate 1
+1	ZQF2F
+1	open ambient bag 6 replicate 3
+1	medium/negative cotrol
+1	BMT_wt_to_Ldlrko_PBS_cage_3
+1	open ambient bag 4 replicate 2
+1	closed precipitation bag 1 replicate 2
+1	low temperature treatment10
+1	DCF3F
+1	LK3B
+1	open precipitation bag 6 replicate 1
+1	open precipitation bag 1 replicate 1
+1	DS2B
+1	open precipitation bag 6 replicate 3
+1	Lysogenic virus induction (mitomycin C) from marine Vibrio parahaemolyticus VN-3212. Reads from phage concentrate elution
+1	closed ambient bag 4 replicate 3
+1	LXF1F
+1	closed precipitation bag 4 replicate 3
+1	low temperature treatment15
+1	no light
+1	low temperature treatment4
+1	open precipitation bag 5 replicate 1
+1	Lysogenic virus induction (mitomycin C) from marine Vibrio cholerae VN-3213. Reads from phage concentrate elution
+1	DC3B
+1	normal6
+1	KO 12w after separation
+1	DBF2F
+1	Sediment 1
+1	TBF3F
+1	normal3
+1	closed ambient bag 6 replicate 3
+1	ZQ2B
+1	normal8
+1	Cynrig water (hatchery)
+1	Urban River Sediment
+1	inoculum replicate 7
+1	LC3B
+1	open precipitation bag 8 replicate 2
+1	low temperature treatment8
+1	open ambient bag 5 replicate 2
+1	WT 9w after separation
+1	BMT_wt_to_Ldlrko_PBS_cage_2
+1	not known
+1	open precipitation bag 7 replicate 1
+1	LQF1F
+1	closed ambient bag 3 replicate 3
+1	Parent EFO: http://www.ebi.ac.uk/efo/EFO_0001032. cDNA EFO: http://www.ebi.ac.uk/efo/EFO_0004187
+1	closed ambient bag 5 replicate 1
+1	open precipitation bag 4 replicate 2
+1	DSF3F
+1	Filtered
+1	closed precipitation bag 5 replicate 1
+1	closed ambient bag 6 replicate 2
+1	internal transcribed spacer 4, ribosomal DNA, and internal transcribed spacer 5
+1	CNSS water (hatchery)
+1	low temperature treatment17
+1	LX1B
+1	LQ1B
+1	open ambient bag 3 replicate 1
+1	open ambient bag 2 replicate 3
+1	closed ambient bag 8 replicate 2
+1	closed precipitation bag 4 replicate 2
+1	open precipitation bag 7 replicate 3
+1	open ambient bag 4 replicate 1
+1	ZQF1F
+1	Sediment LS9
+1	sampling site (efo:EFO_0000688)
+1	full fluorescent light
+1	Sediment 2
+1	THP 6.8 g/kg
+1	closed ambient bag 2 replicate 3
+1	Second gravity fraction, QIAamp DNA Stool
+1	TB3B
+1	ContVeg and Cont
+1	normal2
+1	channel under hydraulic retention time of 200 min
+1	inoculum replicate 4
+1	LCF1F
+1	DBF3F
+1	closed precipitation bag 6 replicate 1
+1	ZQ3B
+1	Unfractioned, QIAamp DNA Microbiome
+1	BMT_wt_to_ldlrko_PBS_cage_1
+1	LX3B
+1	Genome-MPET Library. 10000ng starting material, 15 PCR cycles
+1	Group2-KO
+1	open ambient bag 2 replicate 2
+1	Month_20
+1	TBF1F
+1	open precipitation bag 2 replicate 1
+1	closed precipitation bag 7 replicate 2
+1	open ambient bag 1 replicate 2
+1	open precipitation bag 4 replicate 3
+1	filtered red light
+1	open ambient bag 5 replicate 3
+1	DB2B
+1	open precipitation bag 2 replicate 3
+1	open ambient bag 5 replicate 1
+1	open precipitation bag 5 replicate 2
+1	closed ambient bag 4 replicate 1
+1	open precipitation bag 5 replicate 3
+1	closed precipitation bag 1 replicate 1
+1	open precipitation bag 3 replicate 3
+1	open precipitation bag 4 replicate 1
+1	ZQF3F
+1	closed precipitation bag 3 replicate 3
+1	inoculum replicate 5
+1	closed precipitation bag 8 replicate 1
+1	BMT_23ko_to_Ldlrko_PBS_cage_1
+1	inoculum replicate 6
+1	open ambient bag 4 replicate 3
+1	eggs
+1	LKF3F
+1	DB3B
+1	Veg
+1	closed precipitation bag 4 replicate 1
+1	LQF2F
+1	inoculum replicate 3
+1	LC2B
+1	Frome water (wild)
+1	closed precipitation bag 8 replicate 3
+1	closed precipitation bag 2 replicate 3
+1	LC1B
+1	DC1B
+1	closed ambient bag 1 replicate 1
+1	closed precipitation bag 2 replicate 1
+1	normal5
+1	open ambient bag 3 replicate 2
+1	closed ambient bag 8 replicate 3
+1	Genome-MPET Library. 5000ng starting material, 15 PCR cycles
+1	LX2B
+1	closed precipitation bag 2 replicate 2
+1	open ambient bag 7 replicate 2
+1	open ambient bag 8 replicate 1
+1	normal1
+1	Pressure
+1	Genome-PET Library. Genomic DNA extraction was done at GSC
+1	low temperature treatment2
+1	closed precipitation bag 7 replicate 1
+1	closed ambient bag 8 replicate 1
+1	Group3-WT
+1	open ambient bag 2 replicate 1
+1	normal7
+1	DS1B
+1	low temperature treatment16
+1	low temperature treatment7
+1	closed ambient bag 7 replicate 2
+1	open ambient bag 6 replicate 1
+1	TB2B
+1	closed ambient bag 5 replicate 3
+1	low temperature treatment3
+1	low temperature treatment9
+1	low temperature treatment13
+1	open ambient bag 7 replicate 3
+1	Group1-KO
+1	open ambient bag 8 replicate 3
+1	ContVeg
+1	closed ambient bag 5 replicate 2
+1	DSF1F
+1	closed precipitation bag 8 replicate 2
+1	low temperature treatment5
+1	closed precipitation bag 1replicate 3
+1	closed precipitation bag 6 replicate 3
+1	closed precipitation bag 5 replicate 2
+1	LK1B
+1	low temperature treatment1
+1	WT 11w after separation
+1	THP 12 g/kg
+1	closed precipitation bag 7 replicate 3
+1	DB1B
+1	open precipitation bag 1replicate 3
+1	DS3B
+1	normal4
+1	open precipitation bag 8 replicate 3
+1	open ambient bag 8 replicate 2
+1	low temperature treatment11
+1	LXF2F
+1	BMT_23ko_to_Ldlrko_PBS
+1	open ambient bag 1 replicate 1
+1	Genome-PET Library. Genomic DNA was prepared by collaborator
+1	LQF3F
+1	room temperature
+1	open ambient bag 6 replicate 2
+1	closed ambient bag 1 replicate 2
+1	Lysogenic virus induction (mitomycin C) from potentially pathogenic Vibrio parahaemolyticus VN-3218, isolated from North Sea. Reads from phage concentrate elution.
+1	closed ambient bag 2 replicate 2
+1	open ambient bag 1replicate 3
+1	Genome-PET Library. Genomic DNA was prepared by collaborator. with post PCR purification
+1	LKF2F
+1	Contaminated Soil
+1	LK2B
+1	ZQ1B
+1	DCF2F
+1	stochastic cell encapsulation, growth medium
+1	Tweed water (wild)
+1	not applicable
+1	Month_26
+1	open ambient bag 7 replicate 1
+1	BMT_23ko_to_Ldlrko_PBS_cage_2
+1	LCF2F
+1	inoculum replicate 2
+1	WT 8w after separation
+1	LKF1F
+1	open precipitation bag 8 replicate 1
+1	open precipitation bag 3 replicate 2
+1	open precipitation bag 3 replicate 1
+1	closed ambient bag 7 replicate 3
+1	Spey water (wild)
+1	closed precipitation bag 3 replicate 2
+1	DBF1F
+1	open precipitation bag 7 replicate 2
+1	LXF3F
+1	closed precipitation bag 5 replicate 3
+1	LQ3B
+1	closed ambient bag 1replicate 3
+1	LQ2B
+1	small subunit ribosomal RNA gene partial sequence; internal transcribed spacer 4 and 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 5
+1	Oil Sludge
+1	DCF1F
+1	closed precipitation bag 6 replicate 2
+1	kelpsurface_presentday
+1	TB1B
+1	open precipitation bag 2 replicate 2
+1	Towy water (wild)
+1	open precipitation bag 1 replicate 2
+1	Month_19
+1	low temperature treatment6
+1	Sediment 3
+1	DSF2F
+1	filtered blue light
+1	KO 13w after separation
+1	THP 44 g/kg
+1	inoculum replicate 8
+1	low temperature treatment12
+1	closed ambient bag 3 replicate 2
+1	Lysogenic virus induction (mitomycin C) from marine Vibrio parahaemolyticus VN-3220. Reads from phage concentrate elution
+1	closed ambient bag 7 replicate 1
+1	Third gravity fraction, QIAamp DNA Stool
+1	LCF3F
+1	open precipitation bag 6 replicate 2
