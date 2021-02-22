@@ -117,6 +117,9 @@ while(<>) {
 				$attributes{'entrez_value'} = $1;
 		}
 
+		if (m@<Link .*label="DOI".*>(.+)</Link>$@) { # collect doi
+				$attributes{'doi'} = $1;
+		}
 }
 
 ### subroutines ###
