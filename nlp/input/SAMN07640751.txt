@@ -1,1 +1,0 @@
-Whole genome Illumina (short read) genome sequencing of Ensifer rhizobia isolated from Medicago nodules. Strains are from the USDA collection.

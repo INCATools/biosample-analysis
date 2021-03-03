@@ -1,1 +1,0 @@
-This BioProject is updated on an ongoing basis with the data from M. tuberculosis whole genome sequencing projects undertaken by the BC Centre for Disease Control and BCCDC Public Health Laboratory. Isolates under this BioProject are derived from clinical culture-positive TB cases handled by the BCPHL.

@@ -1,1 +1,0 @@
-This project estimated the genetic diversity of all KPC-producig Klebsiella in France in 2018.

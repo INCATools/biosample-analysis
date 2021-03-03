@@ -1,2 +1,0 @@
-NCBI has developed an automatic annotation pipeline that combines ab initio gene prediction algorithms with homology based methods. See more details here.
-Historically RefSeq prokaryotic genomes retained on author submitted annotation. Annotation from different submitters varies in quality resulting in the inconsistent annotation even in closely related genomes. The NCBI Prokaryotic Annotation Pipeline can produce consistent high quality automatic annotation.

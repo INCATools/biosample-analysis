@@ -1,1 +1,0 @@
-Whole genome sequencing of bacterial pathogens is combined with machine learning and data mining of the electronic medical record to enhance outbreak detection in hospitals and thereby reduce hospital-associated infections.

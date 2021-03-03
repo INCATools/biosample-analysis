@@ -1,1 +1,0 @@
-Develop molecular sub typing scheme based on whole genome sequencing data of Salmonella Heidelberg
