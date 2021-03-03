@@ -1,1 +1,0 @@
-The library of environmental isolates was collected across the Duke University campus as part of an undergraduate program – the Resistome Project (Bass connections project), and analysis for temporal encoding of bacterial identity and traits in growth dynamics.

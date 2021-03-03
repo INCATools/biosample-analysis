@@ -1,1 +1,0 @@
-Reference genome for the Human Microbiome Project.

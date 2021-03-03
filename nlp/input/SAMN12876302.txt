@@ -1,1 +1,0 @@
-Sequencing and assembly of metagenome-assembled genomes (MAGs) and sequencing of 16S rRNA gene amplicons from deep-sea hydrothermal vents at Brothers Volcano

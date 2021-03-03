@@ -1,1 +1,0 @@
-PART 2 of sequence files. Sequences are from mycobacterium tuberculosis from sputum smears.

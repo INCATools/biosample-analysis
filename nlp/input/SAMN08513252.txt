@@ -1,1 +1,0 @@
-Extra-intestinal pathogenic Escherichia coli (ExPEC) are important sources of multi-drug resistant infections, particularly in hospitals. We report hybrid Nanopore-Illumina assemblies for 5 ExPEC isolates with varying drug resistance profiles.

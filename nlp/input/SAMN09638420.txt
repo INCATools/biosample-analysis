@@ -1,1 +1,0 @@
-This is the collection of metagenome-assembled genomes that were reconstructed from metagnomes from hydrothermal vent sediments (21 studies) and freshwater spring sediments (22 studies). This project is aiming to find potentially novel microbial groups that are inhabiting sedimentary environments and of ecological importance.

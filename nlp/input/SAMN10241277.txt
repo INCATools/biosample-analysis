@@ -1,1 +1,0 @@
-Whole genome sequencing of 40 clinical Klebsiella pneumoniae isolates using both Oxford Nanopore Technologies and Illumina sequencing

@@ -1,5 +1,0 @@
--Track the emergence and spread of V. cholerae 01 during the Haitian epidemic from 2010-2012.
-
--Assess the underlying evolutionary processes of the Haitian cholera epidemic
-
--Evaluate the influence of selection on the V. cholera population

@@ -1,1 +1,0 @@
-Collection of 3,087 bacterial metagenome-assembled genomes (MAGs) recovered from metagenomes available from the Sequence Read Archive. These MAGs comprise part of the data set used to define a standardised bacterial taxonomy based on a concatenated protein phylogeny that conservatively removes polyphyletic groups and normalises ranks based on relative evolutionary divergence.
