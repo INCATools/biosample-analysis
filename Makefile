@@ -1,4 +1,6 @@
 
+.PHONY: target/non-human-samples.tsv .FORCE
+
 target download:
 	curl -L -s https://ftp.ncbi.nlm.nih.gov/biosample/biosample_set.xml.gz > downloads/biosample_set.xml.gz
 	curl -L -s https://raw.githubusercontent.com/kbaseapps/kb_cmash/master/lib/kb_cmash/utils/data/ebi_samples_metadata_with_studies_final_with_cols.csv > downloads/ebi_samples_metadata_with_studies_final_with_cols.csv
@@ -110,3 +112,8 @@ target/occurrences-%.tsv: target/attributes.tsv
 target/distinct-%.tsv: target/occurrences-%.tsv
 	./util/count-occ.pl $< | ./util/mysort -r -k1 -n  > $@
 
+target/non-human-samples.tsv.gz: .FORCE
+# executes the jupyter notebook src/notebooks/build-non-human-samples.ipynb
+# in order to create the target/non-human-samples.tsv.gz file
+# NB: target/harmonized-table.parquet.gz must exist locally
+	jupyter nbconvert --execute --clear-output src/notebooks/build-non-human-samples.ipynb
