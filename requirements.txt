@@ -76,3 +76,4 @@ pandasql
 pyarrow
 sklearn
 pydotplus
+openpyxl
