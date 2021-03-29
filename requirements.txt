@@ -77,3 +77,4 @@ pyarrow
 sklearn
 pydotplus
 openpyxl
+git_root
