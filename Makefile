@@ -117,3 +117,8 @@ target/non-human-samples.tsv.gz: .FORCE
 # in order to create the target/non-human-samples.tsv.gz file
 # NB: target/harmonized-table.parquet.gz must exist locally
 	jupyter nbconvert --execute --clear-output src/notebooks/build-non-human-samples.ipynb
+
+target/mixs-triad-counts.tsv: target/harmonized_table.db .FORCE
+# creates file containing the number of times each mixs triad occurs
+# NB: target/harmonized_table.db must exist locally
+	util/mixs-triad-counts.py -db $< -out $@
