@@ -10,11 +10,11 @@ NLP_OUTPUT_DIRECTORY = 'data/nlp/output/'
 
 def post_nlp(fn):
     # Post-process the NLP output
-    nlpCols = ['Study_BiosampleId', 'category', 'BeginTerm', 'EndTerm', 'TokenizedTerm', 'PreferredTerm', \
-                'CURIE', 'NaN1', 'SentenceID', 'NaN2', 'UMLS_CUI']
+    #nlpCols = ['Study_BiosampleId', 'category', 'BeginTerm', 'EndTerm', 'TokenizedTerm', 'PreferredTerm', \
+    #            'CURIE', 'NaN1', 'SentenceID', 'NaN2', 'UMLS_CUI']
     in_fn = fn.replace('input','output')
-    df = pd.read_csv(in_fn, low_memory=False, sep='\t', names=nlpCols)
-    df = df.drop(['NaN1', 'SentenceID', 'NaN2', 'UMLS_CUI'], axis = 1)
+    df = pd.read_csv(in_fn, low_memory=False, sep='\t')
+    #df = df.drop(['NaN1', 'SentenceID', 'NaN2', 'UMLS_CUI'], axis = 1)
     df = df.drop_duplicates()
     out_fn = in_fn.replace('Input','Output')
     df.to_csv(out_fn, sep='\t', index=False)
@@ -26,9 +26,9 @@ df_gold = pd.read_csv(os.path.join(INPUT_DIRECTORY,'biosamples-expanded.tsv'), l
 
 # Column conctenation for NLP
 df_ncbi['studyBiosampleId'] = df_ncbi['StudyId']+'_'+df_ncbi['BiosampleId']
-df_ncbi['text'] = df_ncbi['Name'] + ' ' + df_ncbi['Title'] + ' ' + df_ncbi['Description']
+df_ncbi['text'] = df_ncbi['Name'] + '. ' + df_ncbi['Title'] + '. ' + df_ncbi['Description']
 
-df_gold['text'] = df_gold['name'] + ' ' + df_gold['name'] + ' ' + df_gold['community'] + ' ' + df_gold['habitat']
+df_gold['text'] = df_gold['name'] + '. ' + df_gold['name'] + '. ' + df_gold['community'] + '. ' + df_gold['habitat']
 
 nlp_ncbi_df = df_ncbi[['studyBiosampleId', 'text']]
 nlp_gold_df = df_gold[['id', 'text']]
@@ -44,5 +44,3 @@ runner.run_oger(settings='settings.ini',workers=5)
 #Postprocess
 post_nlp(nlp_ncbi_input)
 post_nlp(nlp_gold_input)
-
-
