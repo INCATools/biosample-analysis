@@ -1,5 +1,5 @@
 .DS_Store
-nlp/terms/ncbitaxon_termlist.tsv
-nlp/intermediateFiles/chebi.owl
-nlp/intermediateFiles/ncbitaxon.owl
 data
+nlp/*
+
+*.gz
