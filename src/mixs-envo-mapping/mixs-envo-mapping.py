@@ -11,19 +11,29 @@ import urllib.request
 from ontobio.ontol_factory import OntologyFactory
 from tdda import rexpy
 import click
+from runner import runner
+import os
 
 #prepare to use a SQLite connection as a global
 cnx = None
 
-# # this count may be as slow as any subsequent query!
-# # and SQLite doesn't seem to have a fast sample random rows function
-# dbrows = pds.read_sql("select count(1) from biosample", cnx)
-# dbrows = dbrows.iloc[0][0]
+def create_named_tempfile(extension):
+    fp = tempfile.NamedTemporaryFile(suffix=extension, delete=False)
+    return(fp)
 
-def json_url_to_graph(onto_url):
-    fp = tempfile.NamedTemporaryFile(suffix='.json')
-    urllib.request.urlretrieve(onto_url, fp.name)
-    ont = OntologyFactory().create(fp.name, ignore_cache=True)
+def onto_json_to_runner_tsv(filename):
+    # print(filename)
+    # runner_tsv_filename = filename + '.tsv'
+    # print(runner_tsv_filename)
+    runner.json2tsv(filename, filename)
+    # return(runner_tsv_filename)
+    return
+
+
+def json_url_to_graph(onto_url, temploc):
+    # fp = tempfile.NamedTemporaryFile(suffix='.json')
+    urllib.request.urlretrieve(onto_url, temploc)
+    ont = OntologyFactory().create(temploc, ignore_cache=True)
     return(ont)
 
 def node_ids_from_graph(graph):
@@ -33,8 +43,8 @@ def node_ids_from_graph(graph):
 
 def scope_ids(unscoped, prefix):
     r = re.compile("^" + prefix + ":")
-    scoped_list = list(filter(r.match, unscoped))
-    return scoped_list
+    scoped_ids = list(filter(r.match, unscoped))
+    return scoped_ids
 
 def discover_id_pattern(example_ids):
     extracted = rexpy.extract(example_ids)
@@ -45,15 +55,10 @@ def discover_id_pattern(example_ids):
     
 # removed row_fraction = 1.0
 def get_and_tabulate(colname, dbrows):
-    # keep_sql_num = dbrows
-    # if row_fraction < 1.0:
-    #     keep_sql_num = int(dbrows * row_fraction)
-
     pre_query = datetime.now()
     print("Reading " + str(dbrows) + " rows, starting at")
     print(pre_query)
     print('\n')
-
     #sql = "select env_broad_scale, env_local_scale, env_medium from biosample limit " + str(keep_sql_num)
     q = "select " + colname + " from biosample limit " + str(dbrows)
     df = pds.read_sql(q, cnx)
@@ -74,12 +79,8 @@ def get_and_tabulate(colname, dbrows):
     return counts_frame
 
 
-def decompose_extracted(tabulated_frame, pattern):
-    concat_pattern = pattern
-    #compiled_pattern = re.compile(concat_pattern)
-    #with_flag = tabulated_frame['string'].str.contains(compiled_pattern)
-    #tabulated_frame['term_found'] = with_flag
-    #
+def decompose_extracted(tabulated_frame, id_pattern):
+    concat_pattern = id_pattern
     for_capture = '(' + concat_pattern + ')'
     p = re.compile(for_capture)
     extracts = tabulated_frame['string'].str.extract(p)
@@ -88,8 +89,7 @@ def decompose_extracted(tabulated_frame, pattern):
     for_replacement = '\[?' + concat_pattern + '\]?'
     remaining_string = tabulated_frame['string'].replace(to_replace = for_replacement, value = '', regex = True)
     residual_prefix = '^[A-Z]+:'
-    if re.match(residual_prefix,pattern):
-        # print("matches")
+    if re.match(residual_prefix,id_pattern):
         remaining_string = remaining_string.replace(to_replace = residual_prefix, value = '', regex = True)
     tabulated_frame['remaining_string'] = remaining_string
     return tabulated_frame
@@ -97,7 +97,7 @@ def decompose_extracted(tabulated_frame, pattern):
 # required and default proably incompatible/redundant
 @click.command()
 @click.option('--dbfile',
-              default="/home/mam/harmonized_table.db",
+              default="target/harmonized_table.db",
               help='Path to SQLite requiring annotations.',
               required=True)
 # OR get expected total rows and desired fraction
@@ -115,21 +115,43 @@ def decompose_extracted(tabulated_frame, pattern):
               help='Prefix corresponding to JSON reference ontology.',
               required=True)
 def clickmain(dbfile, dbrows, ontourl, ontoprefix):
-    # print(str(dbfile))
-    # print(str(dbrows))
-    # print(str(ontourl))
-    # print(str(ontoprefix))
     global cnx
     cnx = sqlite3.connect(dbfile)
-    graph = json_url_to_graph(ontourl)
+    
+    # downoad json ontology file, build graph,
+    # get name and close file
+    ontology_dl_file = create_named_tempfile('.json')
+    ontology_dl_file_name = ontology_dl_file.name
+    graph = json_url_to_graph(ontourl, ontology_dl_file_name)
+    ontology_dl_file.close()
+    # print(ontology_dl_file_name)
+    
+    # ontology_dl_file_size =  os.path.getsize(ontology_dl_file_name)
+    # print(ontology_dl_file_size)
+    
+    # N = 9
+    # with open(ontology_dl_file_name) as myfile:
+    #     head = [next(myfile) for x in range(N)]
+    #     print("\n".join(head))
+    
     example_ids = node_ids_from_graph(graph)
     example_ids = scope_ids(example_ids, ontoprefix)
-    pattern = discover_id_pattern(example_ids)
+    id_pattern = discover_id_pattern(example_ids)
+    # print(id_pattern)
     
     # removed row_fraction = 0.1
     broad_frame = get_and_tabulate("env_broad_scale", dbrows)
-    broad_frame = decompose_extracted(broad_frame, pattern)
-
+    broad_frame = decompose_extracted(broad_frame, id_pattern)
+    
+    # runner_tsv_filename = 
+    onto_json_to_runner_tsv(ontology_dl_file_name)
+    # print(runner_tsv_filename)
+    
+    # N = 9
+    # with open(runner_tsv_filename) as myfile:
+    #     head = [next(myfile) for x in range(N)]
+    #     print("\n".join(head))
+    
     print(broad_frame)
     
 clickmain()
@@ -162,6 +184,14 @@ clickmain()
 # just ENVO id - look up class label and add?
 # just a string, which will require NER
 # envo:string
+
+
+###
+
+# # this count may be as slow as any subsequent query!
+# # and SQLite doesn't seem to have a fast sample random rows function
+# dbrows = pds.read_sql("select count(1) from biosample", cnx)
+# dbrows = dbrows.iloc[0][0]
 
 
 
