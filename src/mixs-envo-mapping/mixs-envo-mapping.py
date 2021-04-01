@@ -12,7 +12,7 @@ from ontobio.ontol_factory import OntologyFactory
 from tdda import rexpy
 import click
 from runner import runner
-import os
+# import os
 
 #prepare to use a SQLite connection as a global
 cnx = None
@@ -143,9 +143,13 @@ def clickmain(dbfile, dbrows, ontourl, ontoprefix):
     broad_frame = get_and_tabulate("env_broad_scale", dbrows)
     broad_frame = decompose_extracted(broad_frame, id_pattern)
     
-    # runner_tsv_filename = 
+    #  
     onto_json_to_runner_tsv(ontology_dl_file_name)
     # print(runner_tsv_filename)
+    
+    # tmpgde2_ud7.json -> tmpgde2_ud7.json_nodes.tsv
+    nodes_file = ontology_dl_file_name + "_nodes.tsv"
+    runner.prepare_termlist(nodes_file, 'abc123.tsv')
     
     # N = 9
     # with open(runner_tsv_filename) as myfile:
