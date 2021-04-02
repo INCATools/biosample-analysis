@@ -118,7 +118,7 @@ def onto_json_to_runner_tsv(filename):
               help='Prefix corresponding to JSON reference ontology.',
               required=True)
 @click.option('--oger_ini_file',
-              default='conf/envo_mapping_settings.ini',
+              default='conf/mapping_settings.ini',
               help='An OGER ini settings file.',
               required=True)
 def clickmain(dbfile, dbrows, ontourl, ontoprefix, oger_ini_file):
@@ -170,7 +170,7 @@ if(False):
     ontourl = 'http://purl.obolibrary.org/obo/envo.json'
     ontoprefix = 'ENVO'
     dbrows = 30000000
-    oger_ini_file = 'conf/envo_mapping_settings.ini'
+    oger_ini_file = 'conf/mapping_settings.ini'
 
 # ### what kind of IRIs do we expect from ENVO?
 # deprecated in favor of the ontobio download and parse above
