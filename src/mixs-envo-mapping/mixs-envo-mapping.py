@@ -12,6 +12,7 @@ from ontobio.ontol_factory import OntologyFactory
 from tdda import rexpy
 import click
 from runner import runner
+# import nltk
 # import os
 
 #prepare to use a SQLite connection as a global
@@ -20,15 +21,6 @@ cnx = None
 def create_named_tempfile(extension):
     fp = tempfile.NamedTemporaryFile(suffix=extension, delete=False)
     return(fp)
-
-def onto_json_to_runner_tsv(filename):
-    # print(filename)
-    # runner_tsv_filename = filename + '.tsv'
-    # print(runner_tsv_filename)
-    runner.json2tsv(filename, filename)
-    # return(runner_tsv_filename)
-    return
-
 
 def json_url_to_graph(onto_url, temploc):
     # fp = tempfile.NamedTemporaryFile(suffix='.json')
@@ -60,6 +52,8 @@ def get_and_tabulate(colname, dbrows):
     print(pre_query)
     print('\n')
     #sql = "select env_broad_scale, env_local_scale, env_medium from biosample limit " + str(keep_sql_num)
+    # add table name to status mesage beflow. not getting passed yet
+    # using global cnx instead
     q = "select " + colname + " from biosample limit " + str(dbrows)
     df = pds.read_sql(q, cnx)
 
@@ -94,6 +88,15 @@ def decompose_extracted(tabulated_frame, id_pattern):
     tabulated_frame['remaining_string'] = remaining_string
     return tabulated_frame
 
+def onto_json_to_runner_tsv(filename):
+    # print(filename)
+    # runner_tsv_filename = filename + '.tsv'
+    # print(runner_tsv_filename)
+    runner.json2tsv(filename, filename)
+    # return(runner_tsv_filename)
+    return
+
+
 # required and default proably incompatible/redundant
 @click.command()
 @click.option('--dbfile',
@@ -114,8 +117,13 @@ def decompose_extracted(tabulated_frame, id_pattern):
               default='ENVO',
               help='Prefix corresponding to JSON reference ontology.',
               required=True)
-def clickmain(dbfile, dbrows, ontourl, ontoprefix):
+@click.option('--oger_ini_file',
+              default='conf/envo_mapping_settings.ini',
+              help='An OGER ini settings file.',
+              required=True)
+def clickmain(dbfile, dbrows, ontourl, ontoprefix, oger_ini_file):
     global cnx
+    
     cnx = sqlite3.connect(dbfile)
     
     # downoad json ontology file, build graph,
@@ -124,41 +132,45 @@ def clickmain(dbfile, dbrows, ontourl, ontoprefix):
     ontology_dl_file_name = ontology_dl_file.name
     graph = json_url_to_graph(ontourl, ontology_dl_file_name)
     ontology_dl_file.close()
-    # print(ontology_dl_file_name)
     
     # ontology_dl_file_size =  os.path.getsize(ontology_dl_file_name)
     # print(ontology_dl_file_size)
     
-    # N = 9
-    # with open(ontology_dl_file_name) as myfile:
-    #     head = [next(myfile) for x in range(N)]
-    #     print("\n".join(head))
-    
     example_ids = node_ids_from_graph(graph)
     example_ids = scope_ids(example_ids, ontoprefix)
     id_pattern = discover_id_pattern(example_ids)
-    # print(id_pattern)
     
     # removed row_fraction = 0.1
-    broad_frame = get_and_tabulate("env_broad_scale", dbrows)
-    broad_frame = decompose_extracted(broad_frame, id_pattern)
-    
-    #  
-    onto_json_to_runner_tsv(ontology_dl_file_name)
-    # print(runner_tsv_filename)
-    
-    # tmpgde2_ud7.json -> tmpgde2_ud7.json_nodes.tsv
-    nodes_file = ontology_dl_file_name + "_nodes.tsv"
-    runner.prepare_termlist(nodes_file, 'abc123.tsv')
+    summarized_input = get_and_tabulate("env_broad_scale", dbrows)
+    summarized_input = decompose_extracted(summarized_input, id_pattern)
     
     # N = 9
     # with open(runner_tsv_filename) as myfile:
     #     head = [next(myfile) for x in range(N)]
     #     print("\n".join(head))
     
-    print(broad_frame)
+    print(summarized_input)
+    
+    for_oger = pds.concat([summarized_input['remaining_string']], axis=1).reset_index()
+    for_oger.columns = ['id', 'text']
+    for_oger.to_csv('target/runner_files/data/input/for_oger.tsv', sep = '\t', index=False)
+    
+    onto_json_to_runner_tsv(ontology_dl_file_name)
+    nodes_file = ontology_dl_file_name + "_nodes.tsv"
+    termlist_file = 'target/runner_files/data/terms/runner_termlist.tsv'
+    runner.prepare_termlist(nodes_file, termlist_file)
+    
+    runner.run_oger(settings=oger_ini_file)
     
 clickmain()
+
+# can run this in IDE to emulate what click would pass to the clickmain fn
+if(False):
+    dbfile = 'target/harmonized_table.db'
+    ontourl = 'http://purl.obolibrary.org/obo/envo.json'
+    ontoprefix = 'ENVO'
+    dbrows = 30000000
+    oger_ini_file = 'conf/envo_mapping_settings.ini'
 
 # ### what kind of IRIs do we expect from ENVO?
 # deprecated in favor of the ontobio download and parse above
