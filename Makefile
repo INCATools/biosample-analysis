@@ -122,3 +122,11 @@ target/mixs-triad-counts.tsv: target/harmonized_table.db .FORCE
 # creates file containing the number of times each mixs triad occurs
 # NB: target/harmonized_table.db must exist locally
 	util/mixs-triad-counts.py -db $< -out $@
+
+target/nmdc-biosample-one-hot.tsv: downloads/nmdc-gold-path-ner/runner/runNER_Output.tsv
+# create a one-hot encoded representation of the named entities found by runNER
+	util/one-hot-encode-nmdc-biosample-net.py -i $< -o $@
+
+target/nmdc-biosample-one-hot.tsv.gz: target/nmdc-biosample-one-hot.tsv
+# gzip target/nmdc-biosample-one-hot.tsv
+	gzip -v -c $< > $@
