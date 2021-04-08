@@ -1,28 +1,85 @@
 # -*- coding: utf-8 -*-
 
-import pandas as pds
-import sqlite3
 from datetime import datetime
-import re
-import tempfile
-import urllib.request
 from ontobio.ontol_factory import OntologyFactory
-from tdda import rexpy
-import click
 from runner import runner
 from strsimpy.cosine import Cosine
-import string
+from tdda import rexpy
+from urllib.request import urlopen
+from xml.etree.ElementTree import parse
+import click
 import numpy as np
+import pandas as pds
+import re
+import sqlite3
+import string
+import tempfile
+import urllib.request
+
+# get offical package information
+# observed values will frequently not match
+# see also Chris's tabulation
+# or tabulate inline
+# this code could be moved somewhere else
+
+# see also target/distinct-env_package.tsv
+
+def get_package_dictionary():
+    bios_xml = urlopen('https://www.ncbi.nlm.nih.gov/biosample/docs/packages/?format=xml')
+    bios_doc = parse(bios_xml)
+    
+    bios_columns = ['Name', 'DisplayName', 'ShortName', 'EnvPackage', 'EnvPackageDisplay', 'NotAppropriateFor', 'Description', 'Example']
+    bios_df = pds.DataFrame(columns = bios_columns)
+    
+    bios_root = bios_doc.getroot()
+    for node in bios_root:
+        PackageName = node.find('Name').text if node is not None else None
+        DisplayName = node.find('DisplayName').text if node is not None else None
+        ShortName = node.find('ShortName').text if node is not None else None
+        Description = node.find('Description').text if node is not None else None
+        EnvPackage = node.find('EnvPackage').text if node is not None else None
+        EnvPackageDisplay = node.find('EnvPackageDisplay').text if node is not None else None
+        NotAppropriateFor = node.find('NotAppropriateFor').text if node is not None else None
+        PackageExample = node.find('Example').text if node is not None else None
+        bios_df = bios_df.append(pds.Series([PackageName,
+                                           DisplayName,
+                                           ShortName,
+                                           EnvPackage,
+                                           EnvPackageDisplay,
+                                           NotAppropriateFor,
+                                           Description,
+                                           PackageExample], index = bios_columns), ignore_index = True)
+    bios_df.to_csv('target/package_dictionary.tsv', sep = '\t', index=False)
+    return
+
+def normalize_package_counts():
+    raw_package_counts = pds.read_csv('target/distinct-env_package.tsv', sep='\t', header=None)
+    raw_package_counts.columns = ['count', 'string' ]
+    raw_package_counts['normalized'] = raw_package_counts['string'].str.replace('MIGS/MIMS/MIMARKS\.', '', regex=True)
+    regex = re.compile('[%s]' % re.escape(string.punctuation))
+    raw_package_counts['normalized'] = raw_package_counts['normalized'].str.replace(regex, ' ', regex=True)
+    raw_package_counts['normalized'] = raw_package_counts['normalized'].str.lower()
+    raw_package_counts['normalized'] = raw_package_counts['normalized'].str.strip()
+     
+    raw_package_counts['normalized'] = raw_package_counts['normalized'].str.replace('MIGS/MIMS/MIMARKS\.', '', regex=True)
+    norm_package_count = raw_package_counts.groupby(['normalized'])['count'].agg('sum')
+    norm_package_count = norm_package_count.to_frame()
+    
+    total = np.sum(raw_package_counts['count'].values)
+    norm_package_count['fraction'] = norm_package_count['count']/total
+    return(norm_package_count)
+
+###
 
 # reassemble triad values based on provided string or preferred string
 # todo: look up labels when only a term id is provided
 # todo: any quick way to estimate number of rows in SQLite databaser to give progress indicator?
 # todo think about quadrants: with/without mappable string * wiht/without ontolog term ID
 # define actions for all four cases
-# especially id but no string... ad dlabel back in?
+# especially id but no string... add label back in?
 
-# todo maybe should save downloadwed ontology file
-#   wiht a meaningful name
+# todo maybe should save downloaded ontology file
+#   with a meaningful name
 #   in a sensible location
 #   instead of using a tempfile
 
@@ -73,7 +130,8 @@ def get_as_is(colname, dbrows):
     
     padded_print('Trying to read ' + str(dbrows) + ' rows, starting at', pre_query)
 
-    q = 'select id, ' + colname + ', env_package, package, package_name from biosample limit ' + str(dbrows)
+    # removed ', package, package_name'
+    q = 'select id, ' + colname + ', env_package from biosample limit ' + str(dbrows)
     df = pds.read_sql(q, cnx)
 
     post_query = datetime.now()
@@ -121,10 +179,17 @@ def dl_onto_get_pattern(ontourl, ontoprefix):
     # get name and close file
     # probably shouldn't actually use a tempfile
     #   and support reuse of exisiting OGER termlist
-    ontology_dl_file = create_named_tempfile('.json')
-    ontology_dl_file_name = ontology_dl_file.name
+    
+    url_bits = ontourl.split('/')
+    ontology_dl_file_name = url_bits[len(url_bits) - 1]
+    ontology_dl_file_name = 'target/' + ontology_dl_file_name
+    
+    # ontology_dl_file = create_named_tempfile('.json')
+    # ontology_dl_file_name = ontology_dl_file.name
+   
+    
     graph = json_url_to_graph(ontourl, ontology_dl_file_name)
-    ontology_dl_file.close()
+    # ontology_dl_file.close()
     example_ids = node_ids_from_graph(graph)
     example_ids = scope_ids(example_ids, ontoprefix)
     id_pattern = discover_id_pattern(example_ids)
@@ -137,9 +202,41 @@ def onto_to_termlist(ontology_dl_file_name):
     runner.prepare_termlist(nodes_file, termlist_file_name)
     return
 
+def get_accepted_packages():
+    package_metadata = pds.read_csv('target/package_dictionary.tsv', sep='\t')
+    accepted_EnvPackage = set(package_metadata['EnvPackage'][package_metadata['ShortName'] == 'MIMS Environmental/Metagenome'])
+    accepted_EnvPackageDisplay = set(package_metadata['EnvPackageDisplay'][package_metadata['ShortName'] == 'MIMS Environmental/Metagenome'])
+    accepted_packages = list(accepted_EnvPackage.union(accepted_EnvPackageDisplay))
+    accepted_packages = pds.DataFrame(accepted_packages)
+    accepted_packages.columns = ['package_string']
+    accepted_packages['normalized'] = accepted_packages['package_string'].str.replace('-', ' ')
+    return(accepted_packages)
+
+# where to apply this?
+def normalize_packages(as_is_result):
+    # as_is_result = df
+    
+    # misc environment ?
+    # built environment
+
+    accepted_packages = get_accepted_packages()
+    
+    as_is_result['normalized'] = as_is_result['env_package'].str.replace('MIGS/MIMS/MIMARKS\.', '', regex = True)
+    regex = re.compile('[%s]' % re.escape(string.punctuation))
+    as_is_result['normalized'] = as_is_result['normalized'].str.replace(regex, ' ', regex=True)
+    as_is_result['normalized'] = as_is_result['normalized'].str.lower()
+    as_is_result['normalized'] = as_is_result['normalized'].str.strip()
+    as_is_result['normalized'] = as_is_result['normalized'].str.replace('MIGS/MIMS/MIMARKS\.', '', regex=True)
+    as_is_result['normalized'] = as_is_result['normalized'].str.replace(' environment', '', regex=True)
+    as_is_result = as_is_result[as_is_result['normalized'].isin(accepted_packages['normalized'])]
+    return(as_is_result)
+
 def process_column(db_column, dbrows, id_pattern, min_string_count, oger_ini_file, max_cosine_dist):
     padded_print(db_column)
     as_is_result = get_as_is(db_column, dbrows)
+    
+    as_is_result= normalize_packages(as_is_result)
+    
     series_decomposition = decompse_series(as_is_result[db_column], id_pattern)
     result_decomposition_concat = pds.concat([as_is_result, series_decomposition], axis = 1)
     result_decomposition_concat['extract_len'] = result_decomposition_concat['extract'].str.len()
@@ -293,7 +390,7 @@ def assembly_prep(processed_result):
               help="""Path to a MIXS-formatted INSDC SQLite database 
               that requires annotations from an ontology.""",
               required=True, show_default = True)
-# removed "... specified with --ontoprefix""
+# removed '... specified with --ontoprefix'
 @click.option('--dbcol',
               default='env_broad_scale',
               help="""One of env_broad_scale, env_local_scale or env_medium.
@@ -309,7 +406,7 @@ def assembly_prep(processed_result):
               default='http://purl.obolibrary.org/obo/envo.json',
               help='URL pointing to an OBO JSON formatted ontology.',
               required=True, show_default = True)
-# removed "...corresponding to JSON reference ontology"
+# removed '...corresponding to JSON reference ontology'
 # this determines what anchor will be used for extracting ontology terms 
 #   that are already present in the triad columns
 #   it doesn't detemine what OGER corpus is used forthe mapping
@@ -352,31 +449,29 @@ def clickmain(dbfile, dbcol, dbrows, ontourl, ontoprefix, oger_ini_file, min_str
     something = pds.read_sql(q, cnx)
     padded_print(something)
     
-    
-    
-    temp = dl_onto_get_pattern(ontourl, ontoprefix)
-    ontology_dl_file_name= temp[0]
-    id_pattern = temp[1]
-    
+    pattern_prefix = dl_onto_get_pattern(ontourl, ontoprefix)
+    ontology_dl_file_name= pattern_prefix[0]
+    id_pattern = pattern_prefix[1]
     onto_to_termlist(ontology_dl_file_name)
     
     # need to capture output
     broad_processed = process_column('env_broad_scale', dbrows, id_pattern, min_string_count, oger_ini_file, max_cosine_dist)
-    print(broad_processed)
+    broad_pre_assembly = assembly_prep(broad_processed)
+    print(broad_pre_assembly)
         
-    local_processed = process_column('env_local_scale', dbrows, id_pattern, min_string_count, oger_ini_file, max_cosine_dist)
-    print(local_processed)
+    # local_processed = process_column('env_local_scale', dbrows, id_pattern, min_string_count, oger_ini_file, max_cosine_dist)
+    # print(local_processed)
     
-    medium_processed = process_column('env_medium', dbrows, id_pattern, min_string_count, oger_ini_file, max_cosine_dist)
-    print(medium_processed)
+    # medium_processed = process_column('env_medium', dbrows, id_pattern, min_string_count, oger_ini_file, max_cosine_dist)
+    # print(medium_processed)
 
         
-    # should be able to tell which packages were enriched
-    # just report for now
-    package_combo_counts = broad_processed.groupby(['env_package','package','package_name']).size().reset_index().rename(columns={0:'count'})
-    print(package_combo_counts)
+    # # should be able to tell which packages were enriched
+    # # just report for now
+    # package_combo_counts = broad_processed.groupby(['env_package','package','package_name']).size().reset_index().rename(columns={0:'count'})
+    # print(package_combo_counts)
     
-    medium_pre_assembly = assembly_prep(medium_processed)
+    # medium_pre_assembly = assembly_prep(medium_processed)
 
     
 if __name__ == '__main__':
@@ -385,7 +480,7 @@ if __name__ == '__main__':
 # can run this in IDE to emulate what click would pass to the clickmain fn
 if(False):
     dbfile = 'target/harmonized_table.db'
-    db_column = dbcol='env_broad_scale'
+    db_column = dbcol= colname = 'env_broad_scale'
     ontourl = 'http://purl.obolibrary.org/obo/envo.json'
     ontoprefix = 'ENVO'
     dbrows = 20000000
@@ -425,3 +520,7 @@ if(False):
 
     # ontology_dl_file_size =  os.path.getsize(ontology_dl_file_name)
     # print(ontology_dl_file_size)
+    
+###
+
+

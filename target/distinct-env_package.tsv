@@ -1,24 +1,24 @@
-49254	host-associated
-47921	human-gut
-16367	water
-13706	human-skin
-12391	built environment
-11976	soil
-11715	misc environment
+69444	host-associated
+52783	human-gut
+17143	water
+14327	human-skin
+13821	misc environment
+13613	built environment
+12515	soil
+8559	human-oral
 8453	missing
-7882	human-oral
-5969	sediment
+6339	sediment
+5357	human-associated
 3786	MIGS/MIMS/MIMARKS.soil
-3167	human-associated
 2988	MIGS/MIMS/MIMARKS.host-associated
+2581	plant-associated
 2499	MIGS/MIMS/MIMARKS.human-gut
-2129	microbial mat/biofilm
-2076	plant-associated
+2148	microbial mat/biofilm
 1837	MIGS/MIMS/MIMARKS.water
 1417	MIGS/MIMS/MIMARKS.human-associated
 1189	MIGS/MIMS/MIMARKS.sediment
 1154	MIGS/MIMS/MIMARKS.human-oral
-1077	human-vaginal
+1082	human-vaginal
 1063	MIGS/MIMS/MIMARKS.plant-associated
 741	MIGS/MIMS/MIMARKS.microbial
 611	miscellaneous natural or artificial environment
@@ -26,67 +26,70 @@
 479	mimarks
 417	wastewater|sludge
 406	mouse-gut
+400	wastewater/sludge
 385	MIGS/MIMS/MIMARKS.wastewater
-357	wastewater/sludge
-283	unknown
+274	unknown
+234	air
 212	Human-associated
 206	MIGS/MIMS/MIMARKS.air
 201	Human-oral
 172	gut
 171	host_associated
-152	air
 135	MIGS/MIMS/MIMARKS.human-skin
+119	not applicable
 114	biofilm
 111	Human-gut
+110	Host-associated
 107	human-not providedsopharyngeal
 90	wastewater sludge
 87	mice gut
 61	built
 60	CV
-59	human gut
 59	Human_Gut
+59	human gut
 51	default
 48	microbial mat|biofilm
 44	home, outdoor environment
-42	fermentation-associated
 42	Unspecified
-41	not applicable
+42	fermentation-associated
 36	soil-associated
+36	seawater
 35	sterile water
 33	miscellaneous
-28	human_skin
 28	Human-vaginal
+28	human_skin
 27	Mouse_Gut
 27	fresh water
+21	Water
 19	Soil
+14	control
 14	wastewater
 12	rock
+10	extreme habitat
 10	arctic
-9	seawater
 9	freshwater sediment
 9	MIGS/MIMS/MIMARKS.human-vaginal
 7	misc-environment
-6	MIENS_16S
 6	MIMARKS_water
+6	MIENS_16S
 5	NA
 5	cave
 4	Not available
 3	plant
-3	Host-associated
-3	Water
-3	not collected
 3	MIGS.plant-associated
-2	host associated
+3	not collected
+2	Sediment
 2	sea water
-1	ENVO:00000016
-1	gut microbiome
-1	saliva
-1	sea water, [ENVO:00002149]
-1	Sea water
-1	Unknown
-1	Deep-sea water
+2	host associated
 1	MIMARKS_16S
+1	gut microbiome
+1	Unknown
 1	marine sediment (ENVO:00002113)
+1	Deep-sea water
+1	Sea water
+1	ENVO:00000016
 1	Coastal water body (ENVO:02000049)
-1	Sediment
+1	ocean[ENVO:00000015]
 1	env_package
+1	sea water, [ENVO:00002149]
+1	saliva
