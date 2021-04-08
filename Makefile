@@ -107,7 +107,7 @@ target/biosample-to-taxon-id.tsv:
 	gzip -dc downloads/biosample_set.xml.gz | ./util/biosample-to-taxon-id.pl > $@
 
 target/occurrences-%.tsv: target/attributes.tsv
-	egrep '^$*\t' $< | cut -f2 > $@
+	grep -P '^$*\t' $< | cut -f2 > $@
 .PRECIOUS: target/occurrences-%.tsv
 target/distinct-%.tsv: target/occurrences-%.tsv
 	./util/count-occ.pl $< | ./util/mysort -r -k1 -n  > $@
