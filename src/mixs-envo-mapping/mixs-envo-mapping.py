@@ -240,11 +240,14 @@ def normalize_packages(as_is_result):
     accepted_packages = get_accepted_packages()
 
     as_is_result['normalized'] = as_is_result['env_package'].str.replace('MIGS/MIMS/MIMARKS\.', '', regex=True)
+    
     regex = re.compile('[%s]' % re.escape(string.punctuation))
     as_is_result['normalized'] = as_is_result['normalized'].str.replace(regex, ' ', regex=True)
+    
     as_is_result['normalized'] = as_is_result['normalized'].str.lower()
     as_is_result['normalized'] = as_is_result['normalized'].str.strip()
-    as_is_result['normalized'] = as_is_result['normalized'].str.replace('MIGS/MIMS/MIMARKS\.', '', regex=True)
+    # as_is_result['normalized'] = as_is_result['normalized'].str.replace('MIGS/MIMS/MIMARKS\.', '', regex=True)
+    
     as_is_result['normalized'] = as_is_result['normalized'].str.replace(' environment', '', regex=True)
     as_is_result = as_is_result[as_is_result['normalized'].isin(accepted_packages['normalized'])]
     return as_is_result
