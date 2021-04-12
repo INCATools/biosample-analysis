@@ -3,3 +3,7 @@ nlp/terms/ncbitaxon_termlist.tsv
 nlp/intermediateFiles/chebi.owl
 nlp/intermediateFiles/ncbitaxon.owl
 data
+.idea
+downloads
+target
+
