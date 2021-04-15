@@ -1,9 +1,8 @@
-.DS_Store
-nlp/terms/ncbitaxon_termlist.tsv
-nlp/intermediateFiles/chebi.owl
-nlp/intermediateFiles/ncbitaxon.owl
 data
-.idea
 downloads
+.DS_Store
+*.gz
+.idea
+local
+nlp/*
 target
-

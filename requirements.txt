@@ -78,8 +78,10 @@ sklearn
 pydotplus
 openpyxl
 
+# from MAM
 click>=7.1.2
 ontobio>=2.6.4
 Runner>=1.1
 strsimpy>=0.2.0
 tdda>=1.0.32
+git_root

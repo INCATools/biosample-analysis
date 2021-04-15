@@ -1,5 +1,7 @@
 
 .PHONY: target/non-human-samples.tsv .FORCE
+# .PHONY: sqlitesync
+.PHONY: /tmp/gdcode
 
 target download:
 	curl -L -s https://ftp.ncbi.nlm.nih.gov/biosample/biosample_set.xml.gz > downloads/biosample_set.xml.gz
@@ -117,3 +119,25 @@ target/non-human-samples.tsv.gz: .FORCE
 # in order to create the target/non-human-samples.tsv.gz file
 # NB: target/harmonized-table.parquet.gz must exist locally
 	jupyter nbconvert --execute --clear-output src/notebooks/build-non-human-samples.ipynb
+
+target/mixs-triad-counts.tsv: target/harmonized_table.db .FORCE
+# creates file containing the number of times each mixs triad occurs
+# NB: target/harmonized_table.db must exist locally
+	util/mixs-triad-counts.py -db $< -out $@
+
+gd_fileId = 1r_FOSBBNa5qXAd3Upu2V--VdivlVehL3
+gd_fileName = target/harmonized_table.db.gz
+/tmp/gdcode:
+	# get code for confirming download of large file without virus scanning
+	rm /tmp/gdcookie /tmp/gdcode ; \
+	curl -sc /tmp/gdcookie "https://drive.google.com/uc?export=download&id=$(gd_fileId)" > /dev/null; \
+	awk '/_warning_/ {print $$NF}' /tmp/gdcookie > /tmp/gdcode
+
+sqlitesync: /tmp/gdcode
+# gets a gzipped SQLite database 
+# that was derrived from records with a "harmonized name" field
+# in ftp://ftp.ncbi.nlm.nih.gov/biosample/biosample_set.xml.gz
+# via Google Drive
+	$(eval gc4m=$(shell cat /tmp/gdcode))
+	curl -Lb /tmp/gdcookie "https://drive.google.com/uc?export=download&confirm=$(gc4m)&id=$(gd_fileId)" -o $(gd_fileName)
+	gunzip $(gd_fileName)
