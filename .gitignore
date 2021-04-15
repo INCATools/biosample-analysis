@@ -6,3 +6,4 @@ downloads
 local
 nlp/*
 target
+temp/
