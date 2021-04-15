@@ -3,7 +3,6 @@ downloads
 .DS_Store
 *.gz
 .idea
-local
 nlp/*
 target
 temp/

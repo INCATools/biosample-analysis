@@ -129,7 +129,9 @@ gd_fileId = 1r_FOSBBNa5qXAd3Upu2V--VdivlVehL3
 gd_fileName = target/harmonized_table.db.gz
 /tmp/gdcode:
 	# get code for confirming download of large file without virus scanning
-	rm /tmp/gdcookie /tmp/gdcode ; \
+	# TODO switch to using temporary files instead of named files that somebody else might delete or overwrite
+	[ ! -e /tmp/gdcookie ] || rm /tmp/gdcookie
+	[ ! -e /tmp/gdcode ] || rm /tmp/gdcode
 	curl -sc /tmp/gdcookie "https://drive.google.com/uc?export=download&id=$(gd_fileId)" > /dev/null; \
 	awk '/_warning_/ {print $$NF}' /tmp/gdcookie > /tmp/gdcode
 
@@ -141,3 +143,7 @@ sqlitesync: /tmp/gdcode
 	$(eval gc4m=$(shell cat /tmp/gdcode))
 	curl -Lb /tmp/gdcookie "https://drive.google.com/uc?export=download&confirm=$(gc4m)&id=$(gd_fileId)" -o $(gd_fileName)
 	gunzip $(gd_fileName)
+	[ ! -e /tmp/gdcookie ] || rm /tmp/gdcookie
+	[ ! -e /tmp/gdcode ] || rm /tmp/gdcode
+	
+	
