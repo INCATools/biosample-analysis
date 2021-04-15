@@ -1,7 +1,7 @@
 
 .PHONY: target/non-human-samples.tsv .FORCE
 # .PHONY: sqlitesync
-.PHONY: /tmp/gdcode
+.PHONY: /tmp/gdcode target/package_dictionary.tsv
 
 target download:
 	curl -L -s https://ftp.ncbi.nlm.nih.gov/biosample/biosample_set.xml.gz > downloads/biosample_set.xml.gz
@@ -145,5 +145,9 @@ sqlitesync: /tmp/gdcode
 	gunzip $(gd_fileName)
 	[ ! -e /tmp/gdcookie ] || rm /tmp/gdcookie
 	[ ! -e /tmp/gdcode ] || rm /tmp/gdcode
-	
-	
+
+target/package_dictionary.tsv:
+	src/mixs-envo-mapping/biosample-triad-mapping.py gpd-wrapper
+
+target/cp_counts.tsv:
+	sqlite3 target/harmonized_table.db  -header < queries/cp_counts.sql > target/cp_counts.tsv

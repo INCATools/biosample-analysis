@@ -15,7 +15,7 @@ fsspec==0.8.0
 git+git://github.com/biolink/kgx
 git+git://github.com/OntoGene/OGER
 idna==2.10
-importlib-metadata==1.7.0
+
 ipykernel==5.3.4
 ipython==7.17.0
 ipython-genutils==0.2.0
@@ -81,7 +81,8 @@ openpyxl
 # from MAM
 click>=7.1.2
 ontobio>=2.6.4
-Runner>=1.1
 strsimpy>=0.2.0
 tdda>=1.0.32
 git_root
+importlib-metadata >= 3.6
+pyshex >= 0.7.11
