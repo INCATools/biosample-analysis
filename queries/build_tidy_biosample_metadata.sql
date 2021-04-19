@@ -1,6 +1,6 @@
 .mode tabs
 -- drop table tidy_biosample_metadata
- CREATE TABLE IF NOT EXISTS tidy_biosample_metadata (id,
+CREATE TABLE IF NOT EXISTS tidy_biosample_metadata (id,
 package,
 env_package,
 checklist_extract,
@@ -11,7 +11,7 @@ DELETE
 FROM
 	tidy_biosample_metadata;
 ---
- insert
+insert
 	into
 	tidy_biosample_metadata ( id,
 	package,
@@ -29,32 +29,36 @@ select
 from
 	biosample ;
 ---
- update
+update
 	tidy_biosample_metadata
 set
 	checklist_extract = SUBSTR(package,
 	1,
 	INSTR(package,
-	'.')-1),
-	env_package_extract = replace(replace(lower(env_package),
-	'-',
-	' '),
-	'/',
-	' ') ;
+	'.')-1);
 ---
- update
+update
+	tidy_biosample_metadata
+set
+	env_package_extract = replace(replace(lower(replace(env_package,
+	'MIGS/MIMS/MIMARKS.',
+	'')),'-',' '),'/',' ') ;
+---
+update
 	tidy_biosample_metadata
 set
 	checklist_extract = ''
 where
 	checklist_extract is null ;
 ---
- update
+update
 	tidy_biosample_metadata
 set
 	env_package_extract = ''
 where
 	env_package_extract is null ;
+---
+-- select env_package_extract , count(1) from tidy_biosample_metadata tbm group by env_package_extract order by count(1) desc;
 ---
  UPDATE
 	tidy_biosample_metadata
@@ -99,12 +103,12 @@ where
 		and env_package_extract = tidy_package_dictionary.tidy_EnvPackageDisplay)
 	AND checklist_package = '';
 ---
- select
-	checklist_package,
-	(count(1)) as checklist_package_count
-from
-	tidy_biosample_metadata
-group by
-	checklist_package
-order by
-	(count(1)) DESC
+--select
+--	checklist_package,
+--	(count(1)) as checklist_package_count
+--from
+--	tidy_biosample_metadata
+--group by
+--	checklist_package
+--order by
+--	(count(1)) DESC
