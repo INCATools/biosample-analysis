@@ -1,7 +1,7 @@
 
 .PHONY: target/non-human-samples.tsv .FORCE
 # .PHONY: sqlitesync
-.PHONY: /tmp/gdcode target/package_dictionary.tsv
+.PHONY: clean /tmp/gdcode target/cp_counts.tsv target/package_dictionary.tsv add_pack_dict_to_sqlite3
 
 target download:
 	curl -L -s https://ftp.ncbi.nlm.nih.gov/biosample/biosample_set.xml.gz > downloads/biosample_set.xml.gz
@@ -135,14 +135,20 @@ gd_fileName = target/harmonized_table.db.gz
 	curl -sc /tmp/gdcookie "https://drive.google.com/uc?export=download&id=$(gd_fileId)" > /dev/null; \
 	awk '/_warning_/ {print $$NF}' /tmp/gdcookie > /tmp/gdcode
 
+PV := $(shell which pv)
+$(info $$PV is ${PV})
+
 sqlitesync: /tmp/gdcode
 # gets a gzipped SQLite database 
-# that was derrived from records with a "harmonized name" field
+# that was derived from records with a "harmonized name" field
 # in ftp://ftp.ncbi.nlm.nih.gov/biosample/biosample_set.xml.gz
 # via Google Drive
 	$(eval gc4m=$(shell cat /tmp/gdcode))
 	curl -Lb /tmp/gdcookie "https://drive.google.com/uc?export=download&confirm=$(gc4m)&id=$(gd_fileId)" -o $(gd_fileName)
-	gunzip $(gd_fileName)
+	# is force really a good idea here? or just make another rule?
+	# does Bill already have one?
+	gunzip -f $(gd_fileName)
+	# test for exisitence appraoch
 	[ ! -e /tmp/gdcookie ] || rm /tmp/gdcookie
 	[ ! -e /tmp/gdcode ] || rm /tmp/gdcode
 
@@ -151,3 +157,17 @@ target/package_dictionary.tsv:
 
 target/cp_counts.tsv:
 	sqlite3 target/harmonized_table.db  -header < queries/cp_counts.sql > target/cp_counts.tsv
+
+add_pack_dict_to_sqlite3: target/package_dictionary.tsv
+	sqlite3 target/harmonized_table.db -cmd '.tables' ".mode tabs" ".import target/package_dictionary.tsv package_dictionary" '.tables'
+	sqlite3 target/harmonized_table.db < queries/build_tidy_package_dictionary.sql
+	sqlite3 target/harmonized_table.db < queries/build_tidy_biosample_metadata.sql
+#	sqlite3 target/harmonized_table.db < queries/create_tidy_legal_package_combo.sql
+#	sqlite3 target/harmonized_table.db < queries/truncate_tidy_legal_package_combo.sql
+#	sqlite3 target/harmonized_table.db < queries/add_tidy_legal_package_combo.sql
+
+clean:
+	# force delete approach
+	rm -f target/package_dictionary.tsv target/cp_counts.tsv /tmp/gdcookie /tmp/gdcode
+	sqlite3 target/harmonized_table.db "drop table if exists tidy_package_dictionary" "drop table if exists tidy_biosample_metadata"
+
