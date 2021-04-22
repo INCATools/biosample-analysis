@@ -46,7 +46,7 @@ def get_package_dictionary():
             rowdict[framecol] = temptext
         # print(rowdict)
         bio_s_df = bio_s_df.append(rowdict, ignore_index=True)
-    bio_s_df['EnvPackage_nohyph'] = bio_s_df['EnvPackage'].str.replace('-', ' ', regex=True)
+    # bio_s_df['EnvPackage_nohyph'] = bio_s_df['EnvPackage'].str.replace('-', ' ', regex=True)
     print(bio_s_df)
     bio_s_df.to_csv('target/package_dictionary.tsv', sep='\t', index=False)
     return

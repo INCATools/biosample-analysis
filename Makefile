@@ -135,12 +135,14 @@ gd_fileName = target/harmonized_table.db.gz
 	curl -sc /tmp/gdcookie "https://drive.google.com/uc?export=download&id=$(gd_fileId)" > /dev/null; \
 	awk '/_warning_/ {print $$NF}' /tmp/gdcookie > /tmp/gdcode
 
-PV := $(shell which pv)
-$(info $$PV is ${PV})
+# aborted effort to monitor progress with the proccess viewer application
+# PV := $(shell which pv)
+# $(info $$PV is ${PV})
 
 sqlitesync: /tmp/gdcode
 # gets a gzipped SQLite database 
-# that was derived from records with a "harmonized name" field
+# that was derived from biosample metadata records 
+# that have a "harmonized name" field
 # in ftp://ftp.ncbi.nlm.nih.gov/biosample/biosample_set.xml.gz
 # via Google Drive
 	$(eval gc4m=$(shell cat /tmp/gdcode))
@@ -159,15 +161,25 @@ target/cp_counts.tsv:
 	sqlite3 target/harmonized_table.db  -header < queries/cp_counts.sql > target/cp_counts.tsv
 
 add_pack_dict_to_sqlite3: target/package_dictionary.tsv
-	sqlite3 target/harmonized_table.db -cmd '.tables' ".mode tabs" ".import target/package_dictionary.tsv package_dictionary" '.tables'
-	sqlite3 target/harmonized_table.db < queries/build_tidy_package_dictionary.sql
-	sqlite3 target/harmonized_table.db < queries/build_tidy_biosample_metadata.sql
-#	sqlite3 target/harmonized_table.db < queries/create_tidy_legal_package_combo.sql
-#	sqlite3 target/harmonized_table.db < queries/truncate_tidy_legal_package_combo.sql
-#	sqlite3 target/harmonized_table.db < queries/add_tidy_legal_package_combo.sql
-
+	sqlite3 target/harmonized_table.db ".tables"
+	sqlite3 target/harmonized_table.db "DROP TABLE IF EXISTS package_dictionary"
+	sqlite3 target/harmonized_table.db "DROP TABLE IF EXISTS tidy_package_dictionary"
+	sqlite3 target/harmonized_table.db ".tables"
+	sqlite3 target/harmonized_table.db ".mode tabs" ".import target/package_dictionary.tsv package_dictionary"
+	# why dont headers appear? tried  XYZ?
+	sqlite3 target/harmonized_table.db "PRAGMA table_info(package_dictionary)"
+	sqlite3 target/harmonized_table.db < queries/alter_package_dictionary.sql
+	sqlite3 target/harmonized_table.db "PRAGMA table_info(package_dictionary)"
+	
 clean:
 	# force delete approach
 	rm -f target/package_dictionary.tsv target/cp_counts.tsv /tmp/gdcookie /tmp/gdcode
-	sqlite3 target/harmonized_table.db "drop table if exists tidy_package_dictionary" "drop table if exists tidy_biosample_metadata"
+	# sqlite3 target/harmonized_table.db "drop table if exists tidy_package_dictionary" "drop table if exists tidy_biosample_metadata"
 
+tidy_checklist_package: target/package_dictionary.tsv
+	add_biosample_col () { sqlite3 target/harmonized_table.db "PRAGMA table_info(biosample)" | grep $${1}; if [[ "$${?}" -eq 1 ]] ; then sqlite3 target/harmonized_table.db "alter table biosample add column $${1}" ; else echo $${1} "already present" ; fi } ; \
+	add_biosample_col checklist_extract ; \
+	add_biosample_col env_package_extract ; \
+	add_biosample_col epe_legal ; \
+	add_biosample_col checklist_package_combo
+	sqlite3 target/harmonized_table.db < queries/tidy_biosample_metadata.sql
