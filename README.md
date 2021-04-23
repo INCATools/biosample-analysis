@@ -116,5 +116,31 @@ _The geographical origin of the sample as defined by the country or sea name fol
  - USA:CA:Davis
  - United Kingdom: Midlands and East of England
  - Malawi: GAZ
+
+## For https://github.com/INCATools/biosample-analysis/blob/mam-envo-mapping/src/mixs-envo-mapping/mixs-envo-mapping.py
+
+```bash
+python3  -m venv venv 
+source venv/bin/activate 
+export PYTHONPATH=.:$PYTHONPATH 
+pip install wheel 
+pip install -r requirements.txt
+```
+
+> ERROR: keyring 23.0.1 has requirement importlib-metadata>=3.6, but you'll have importlib-metadata 1.7.0 which is incompatible.
+ERROR: twine 3.4.1 has requirement importlib-metadata>=3.6, but you'll have importlib-metadata 1.7.0 which is incompatible.
+ERROR: biolinkml 1.7.6 has requirement pyshex>=0.7.20, but you'll have pyshex 0.7.11 which is incompatible.
+ERROR: linkml 0.0.7 has requirement pyshex>=0.7.20, but you'll have pyshex 0.7.11 which is incompatible.
+
+ 
+ ```bash
+ pip install git+https://github.com/monarch-initiative/runner.git
+ ```
+ 
+ > WARNING: Keyring is skipped due to an exception: entry_points() got an unexpected keyword argument 'group'
+WARNING: Keyring is skipped due to an exception: entry_points() got an unexpected keyword argument 'group'
+WARNING: Keyring is skipped due to an exception: entry_points() got an unexpected keyword argument 'group'
+ERROR: ontobio 2.7.0 has requirement PyShEx==0.7.11, but you'll have pyshex 0.7.20 which is incompatible.
+
  
  

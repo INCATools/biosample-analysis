@@ -1,5 +1,8 @@
 
 .PHONY: target/non-human-samples.tsv .FORCE
+.PHONY: clean /tmp/htdb_fileId target/cp_counts.tsv 
+.PHONY: target/package_dictionary.tsv add_pack_dict_to_htdb
+.PHONY: tidy_biosample_checklist_package
 
 target download:
 	curl -L -s https://ftp.ncbi.nlm.nih.gov/biosample/biosample_set.xml.gz > downloads/biosample_set.xml.gz
@@ -107,7 +110,7 @@ target/biosample-to-taxon-id.tsv:
 	gzip -dc downloads/biosample_set.xml.gz | ./util/biosample-to-taxon-id.pl > $@
 
 target/occurrences-%.tsv: target/attributes.tsv
-	egrep '^$*\t' $< | cut -f2 > $@
+	grep -P '^$*\t' $< | cut -f2 > $@
 .PRECIOUS: target/occurrences-%.tsv
 target/distinct-%.tsv: target/occurrences-%.tsv
 	./util/count-occ.pl $< | ./util/mysort -r -k1 -n  > $@
@@ -122,3 +125,84 @@ target/mixs-triad-counts.tsv: target/harmonized_table.db .FORCE
 # creates file containing the number of times each mixs triad occurs
 # NB: target/harmonized_table.db must exist locally
 	util/mixs-triad-counts.py -db $< -out $@
+
+
+# aborted effort to monitor progress with the proccess viewer application
+# PV := $(shell which pv)
+# $(info $$PV is ${PV})
+
+
+
+target/cp_counts.tsv:
+	sqlite3 target/harmonized_table.db  -header < queries/cp_counts.sql > target/cp_counts.tsv
+
+###
+
+clean:
+	# force delete approach
+	rm -f target/package_dictionary.tsv target/cp_counts.tsv /tmp/gdcookie /tmp/htdb_fileId
+	# sqlite3 target/harmonized_table.db "drop table if exists tidy_package_dictionary" "drop table if exists tidy_biosample_metadata"
+
+###
+
+htdb_fileId = 1r_FOSBBNa5qXAd3Upu2V--VdivlVehL3
+htdb_fileName = target/harmonized_table.db.gz
+/tmp/htdb_fileId:
+	# get code for confirming download of large file without virus scanning
+	# TODO switch to using temporary files instead of named files that somebody else might delete or overwrite
+	[ ! -e /tmp/gdcookie ] || rm /tmp/gdcookie
+	[ ! -e /tmp/htdb_fileId ] || rm /tmp/htdb_fileId
+	curl -sc /tmp/gdcookie "https://drive.google.com/uc?export=download&id=$(htdb_fileId)" > /dev/null; \
+	awk '/_warning_/ {print $$NF}' /tmp/gdcookie > /tmp/htdb_fileId
+
+sync_htdb: /tmp/htdb_fileId
+# gets a gzipped SQLite database 
+# that was derived from biosample metadata records 
+# that have a "harmonized name" field
+# in ftp://ftp.ncbi.nlm.nih.gov/biosample/biosample_set.xml.gz
+# via Google Drive
+	$(eval gc4m=$(shell cat /tmp/htdb_fileId))
+	curl -Lb /tmp/gdcookie "https://drive.google.com/uc?export=download&confirm=$(gc4m)&id=$(htdb_fileId)" -o $(htdb_fileName)
+	# is force really a good idea here? 
+	# or just make another rule?
+	# does Bill already have one?
+	ls -lh target/harmonized_table.db*
+	gunzip -f $(htdb_fileName)
+	ls -lh target/harmonized_table.db*
+	# test for exisitence appraoch
+	[ ! -e /tmp/gdcookie ] || rm /tmp/gdcookie
+	[ ! -e /tmp/htdb_fileId ] || rm /tmp/htdb_fileId
+
+# % ls -lh target/harmonized_table.db*
+# -rw-r--r--  1 MAM  staff    13G Apr 23 12:58 target/harmonized_table.db
+# -rw-r--r--  1 MAM  staff   680M Apr 23 13:00 target/harmonized_table.db.gz
+
+# dependent on target/harmonized_table.db, but there are two route for getting that
+target/package_dictionary.tsv:
+	src/mixs-envo-mapping/biosample-triad-mapping.py gpd-wrapper
+
+# dependent on target/harmonized_table.db, but there are two route for getting that
+add_pack_dict_to_htdb: target/package_dictionary.tsv
+	sqlite3 target/harmonized_table.db ".tables"
+	sqlite3 target/harmonized_table.db "DROP TABLE IF EXISTS package_dictionary"
+	sqlite3 target/harmonized_table.db ".tables"
+	ls -lh target/harmonized_table.db*
+	sqlite3 target/harmonized_table.db ".mode tabs" ".import target/package_dictionary.tsv package_dictionary"
+	ls -lh target/harmonized_table.db*
+	# why dont headers appear? tried  XYZ?
+	sqlite3 target/harmonized_table.db "PRAGMA table_info(package_dictionary)"
+	sqlite3 target/harmonized_table.db < queries/alter_package_dictionary.sql
+	sqlite3 target/harmonized_table.db "PRAGMA table_info(package_dictionary)"
+	ls -lh target/harmonized_table.db*
+	# -rw-r--r--  1 MAM  staff    13G Apr 23 13:15 target/harmonized_table.db
+
+# dependent on target/harmonized_table.db, but there are two route for getting that
+tidy_biosample_checklist_package: 
+	add_biosample_col () { sqlite3 target/harmonized_table.db "PRAGMA table_info(biosample)" | grep $${1}; if [[ "$${?}" -eq 1 ]] ; then sqlite3 target/harmonized_table.db "alter table biosample add column $${1}" ; else echo $${1} "already present" ; fi } ; \
+	add_biosample_col checklist_extract ; \
+	add_biosample_col env_package_extract ; \
+	add_biosample_col epe_legal ; \
+	add_biosample_col checklist_package_combo
+	# ls -lh target/harmonized_table.db*
+    # -rw-r--r--  1 MAM  staff    13G Apr 23 13:05 target/harmonized_table.db
+	sqlite3 target/harmonized_table.db < queries/tidy_biosample_metadata.sql

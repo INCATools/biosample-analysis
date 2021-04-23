@@ -1,6 +1,10 @@
-.DS_Store
 data
-nlp/*
-
+downloads
+.DS_Store
 *.gz
+.idea
+nlp/*
+target
 temp/
+venv
+
