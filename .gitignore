@@ -4,3 +4,7 @@ nlp/*
 
 *.gz
 temp/
+venv
+target
+downloads
+.idea
