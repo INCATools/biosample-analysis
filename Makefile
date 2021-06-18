@@ -123,7 +123,7 @@ target/mixs-triad-counts.tsv: target/harmonized_table.db .FORCE
 # NB: target/harmonized_table.db must exist locally
 	util/mixs-triad-counts.py -db $< -out $@
 
-target/%MIxS_columns.tsv: https://github.com/cmungall/mixs-source/tree/main/src/schema
-# This notebook generates two files : MIxS_columns.tsv and Non_MIxS_columns.tsv.
-# Highlights the data column names that are MIxS terms and non-MIxS terms
-	jupyter nbconvert --execute --clear-output src/notebooks/MIxS_comparison.ipynb 
+#target/%MIxS_columns.tsv: https://github.com/cmungall/mixs-source/tree/main/src/schema
+## This notebook generates two files : MIxS_columns.tsv and Non_MIxS_columns.tsv.
+## Highlights the data column names that are MIxS terms and non-MIxS terms
+#	jupyter nbconvert --execute --clear-output src/notebooks/MIxS_comparison.ipynb
