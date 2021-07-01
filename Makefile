@@ -27,12 +27,13 @@ target/envo-usage.tsv: target/attributes.tsv
 target/envo-usage-stats.tsv: target/envo-usage.tsv
 	cut -f2 $< | ./util/count-occ.pl  > $@
 
-target/harmonized-values-eav.tsv:
-# creates a tsv with:
-# columns: id|attribute|value
-# for attribute tags, only ones with harmonized names are collected
-# text values, such as paragagraph and taxonomy name, are also collected as attributes
-	gzip -dc downloads/biosample_set.xml.gz | ./util/harmonized-eav.pl > $@
+# see proposed replacement, with same name, below
+#target/harmonized-values-eav.tsv:
+## creates a tsv with:
+## columns: id|attribute|value
+## for attribute tags, only ones with harmonized names are collected
+## text values, such as paragagraph and taxonomy name, are also collected as attributes
+#	gzip -dc downloads/biosample_set.xml.gz | ./util/harmonized-eav.pl > $@
 
 target/harmonized-values-eav.tsv.gz: target/harmonized-values-eav.tsv
 # gzips the target target/harmonized-values-eav.tsv
@@ -58,9 +59,10 @@ target/harmonized-attribute-value.ttl.gz: target/harmonized-attribute-value.ttl
 # gzips target/harmonized-attribute-value.ttl
 	gzip -v -c $< > $@
 
-target/harmonized-table.tsv: target/harmonized-values-eav.tsv
-# pivots data in harmonized-values-eav.tsv in a tabular-columnar form
-	./util/harmonized-eav-pivot.pl $< > $@
+# see proposed replacement, with same name, below
+#target/harmonized-table.tsv: target/harmonized-values-eav.tsv
+## pivots data in harmonized-values-eav.tsv in a tabular-columnar form
+#	./util/harmonized-eav-pivot.pl $< > $@
 
 target/harmonized-table.tsv.gz: target/harmonized-table.tsv
 # gzips target/harmonized-table.tsv
@@ -127,3 +129,53 @@ target/mixs-triad-counts.tsv: target/harmonized_table.db .FORCE
 ## This notebook generates two files : MIxS_columns.tsv and Non_MIxS_columns.tsv.
 ## Highlights the data column names that are MIxS terms and non-MIxS terms
 #	jupyter nbconvert --execute --clear-output src/notebooks/MIxS_comparison.ipynb
+
+# ---
+
+# somewhat redundant with "target download"
+#   no phony tasks... all named after targets
+#   doesn't get EBI samples (which don't go into teh harmonized table anyway?
+#   unzips biosample_set.xml.gz for loading into basex
+#     don't know how to load directly from compressed yet
+downloads/biosample_set.xml.gz:
+	# ~ 1 minute for ~1.3 GB 20210630
+	curl -L -s https://ftp.ncbi.nlm.nih.gov/biosample/biosample_set.xml.gz > $@
+
+downloads/biosample_set.xml: downloads/biosample_set.xml.gz
+	# ~44 GB unpacked in ~ 1 minute 20210630
+	gunzip -c $< > $@
+
+.PHONY: biosample_set_basex
+biosample_set_basex: downloads/biosample_set.xml
+	# another ~ 48 GB in ~ 1 hur for the indexed basex database 20210630
+	basex -c "CREATE DB $@ $<"
+	rm downloads/biosample_set.xml
+
+# suggesting a replacement for Bill's recipe of the same name
+# depends on biosample_set_basex recipe
+# identifies biosamples with sequential Biosample/@id,
+#   not with Biosample/@accession or Biosample/Ids/Id[@is_primary=“1”]
+# can merge from sqlite table XXX later on
+# archive current or previous target/chunks/* instead of just deleting?
+target/harmonized-values-eav.tsv:
+	rm -f target/chunks/harmonized-values_*.tsv
+	util/get_harmonized-values_chunks.sh
+	awk '(NR == 1) || (FNR > 1)' target/chunks/harmonized-values_*.tsv > $@
+	rm -f target/chunks/harmonized-values_*.tsv
+
+# there may already be some values containing pipes, even inside of quotes
+# switch to triple pipe ||| to check
+
+# most recently build target/harmonized-values-eav.tsv files
+# have only been ~ 6 GB, but I had some at 15 GB in the past
+
+# the number of pipe-catted lines is reasonable
+# compared to the harmonized attribute count
+#
+#% wc -l target/harmonized-values-eav.tsv
+#164 550 724 target/harmonized-values-eav.tsv
+#
+#basex> count(/BioSampleSet/BioSample/Attributes/Attribute[@harmonized_name])
+#165 573 477
+
+target/harmonized-table.tsv: target/harmonized-values-eav.tsv
