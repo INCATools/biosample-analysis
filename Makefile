@@ -214,6 +214,6 @@ target/harmonized-table.tsv: target/harmonized-values-eav.tsv
 target/harmonized-table.db: target/harmonized-table.tsv
 	#sqlite3 $@ "vacuum;"
 	sqlite3 $@ -cmd ".mode tabs " ".import $< harmonized_attrib_pivot" ".quit"
-	sqlite3 $@ -cmd 'create unique index if not exists id_attrib_idx on harmonized_attrib_pivot ( "id" ) ;'
+	sqlite3 $@ -cmd 'create unique index if not exists id_attrib_idx on harmonized_attrib_pivot ( "id" ) ;' ""
 
 #make downloads/biosample_set.xml ; make biosample_set_basex ; target/harmonized-table.db
