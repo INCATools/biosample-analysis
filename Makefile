@@ -1,5 +1,5 @@
 
-.PHONY: target/non-human-samples.tsv .FORCE
+.PHONY: target/non-human-samples.tsv .FORCE smalltest biosample_set_basex
 
 target download:
 	curl -L -s https://ftp.ncbi.nlm.nih.gov/biosample/biosample_set.xml.gz > downloads/biosample_set.xml.gz
@@ -73,10 +73,11 @@ target/harmonized-table.parquet.gz: target/harmonized-table.tsv
 # this makes loading the data easier
 	python ./util/save-harmonized-table-to-parquet.py $< $@
 
-target/harmonized_table.db: target/harmonized-table.tsv
-# creates an sqlite3 database of target/harmonized-table.tsv
-# NB: this operation takes a few hours to complete
-	python ./util/save-harmonized-table-to-sqlite.py $< $@
+## see proposed replacement wiht same name below
+#target/harmonized_table.db: target/harmonized-table.tsv
+## creates an sqlite3 database of target/harmonized-table.tsv
+## NB: this operation takes a few hours to complete
+#	python ./util/save-harmonized-table-to-sqlite.py $< $@
 
 target/harmonized_table.db.gz: target/harmonized_table.db
 # gzips target/harmonized_table.db.gz
@@ -145,14 +146,31 @@ downloads/biosample_set.xml: downloads/biosample_set.xml.gz
 	# ~44 GB unpacked in ~ 1 minute 20210630
 	gunzip -c $< > $@
 
-.PHONY: biosample_set_basex
-biosample_set_basex: downloads/biosample_set.xml
+downloads/biosample_set_destructive.xml: downloads/biosample_set.xml
+	# calculate maxent from some fraction of the whole dataset?
+	# either way, this requires that the whole dataset is already loaded ito basex
+	# and that biosample_set_basex_keep does not exist yet
+	# should also rename existing target/harmonized*
+	# ditto target/chunks/*
+	#basex -c "list"
+	basex -bmaxent=2000000 xqueries/get_first_n_biosamples.xq > $@
+	basex -c "alter db biosample_set_basex biosample_set_basex_keep"
+	#if [ -f downloads/biosample_set.xml ]; then ...
+	mv $< $<.keep
+	#; fi
+	cp $@ $<
+
+# depends on downloads/biosample_set.xml
+# but might not always want to trigger new download (and phony)
+# drop if exists first?
+biosample_set_basex:
 	# another ~ 48 GB in ~ 1 hur for the indexed basex database 20210630
-	basex -c "CREATE DB $@ $<"
+	#basex -c "CREATE DB $@ $<"
+	basex -c "CREATE DB $@ downloads/biosample_set.xml"
 	rm downloads/biosample_set.xml
 
 # suggesting a replacement for Bill's recipe of the same name
-# depends on biosample_set_basex recipe
+# depends on biosample_set_basex recipe, but that's phony
 # identifies biosamples with sequential Biosample/@id,
 #   not with Biosample/@accession or Biosample/Ids/Id[@is_primary=“1”]
 # can merge from sqlite table XXX later on
@@ -178,4 +196,23 @@ target/harmonized-values-eav.tsv:
 #basex> count(/BioSampleSet/BioSample/Attributes/Attribute[@harmonized_name])
 #165 573 477
 
+# suggesting a replacement for Bill's recipe of the same name
+# filenames hardcoded for now
 target/harmonized-table.tsv: target/harmonized-values-eav.tsv
+	python util/harmonized-eav-pivot.py $< $@
+
+#harmonized_values_eav.shape
+#Out[55]: (164550723, 3)
+
+#harmonized_table.shape
+#Out[54]: (18014303, 469)
+
+#% wc -l target/harmonized_table.tsv
+# 18 014 304 target/harmonized_table.tsv
+
+#https://unix.stackexchange.com/questions/397806/how-to-pass-multiple-commands-to-sqlite3-in-a-one-liner-shell-command
+target/harmonized-table.db: target/harmonized-table.tsv
+	#sqlite3 $@ "vacuum;"
+	sqlite3 $@ -cmd ".mode tabs " ".import $< harmonized_attrib_pivot"  ".quit"
+
+#make downloads/biosample_set.xml ; make biosample_set_basex ; target/harmonized-table.db

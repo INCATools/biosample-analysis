@@ -5,13 +5,20 @@ Created on Thu Jul  1 10:08:31 2021
 
 @author: MAM
 """
+import sys
 
 import pandas as pd
 from datetime import datetime
 import os
 
-harmonized_values_eav_fp = '../target/harmonized-values-eav.tsv'
-harmonized_table_fp      = '../target/harmonized_table.tsv'
+# harmonized_values_eav_fp = 'target/harmonized-values-eav.tsv'
+# harmonized_table_fp      = 'target/harmonized_table.tsv'
+harmonized_values_eav_fp =sys.argv[1]
+harmonized_table_fp =sys.argv[2]
+
+print(harmonized_values_eav_fp)
+print(harmonized_table_fp)
+
 chunk_size = 100000
 
 cwd = os.getcwd()
@@ -41,10 +48,10 @@ print(end_time)
 time_diff = end_time - start_time
 print(time_diff)
 
+# > 45 minutes just for writing?!
 start_time = datetime.now()
-# print(row_count)
 print(start_time)
-harmonized_table.to_csv(harmonized_table_fp, sep='\t', index=False)
+harmonized_table.to_csv(harmonized_table_fp, sep='\t', index=True)
 end_time = datetime.now()
 print(end_time)
 time_diff = end_time - start_time
