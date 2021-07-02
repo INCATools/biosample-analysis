@@ -16,16 +16,16 @@ target/emp_studies.tsv: downloads/emp_studies.csv
 
 
 target/attributes.tsv:
-	gzip -dc downloads/biosample_set.xml.gz  | ./util/hacky-scan.pl > $@
+	gzip -dc downloads/biosample_set.xml.gz | ./util/hacky-scan.pl > $@
 
 target/attribute-usage.tsv: target/attributes.tsv
-	egrep -v '\t(not determined|missing)' $<  | cut -f1 | ./util/count-occ.pl | ./util/mysort -r -k1 -n > $@
+	egrep -v '\t(not determined|missing)' $< | cut -f1 | ./util/count-occ.pl | ./util/mysort -r -k1 -n > $@
 
 target/envo-usage.tsv: target/attributes.tsv
 	grep '^env_' $< > $@
 
 target/envo-usage-stats.tsv: target/envo-usage.tsv
-	cut -f2 $< | ./util/count-occ.pl  > $@
+	cut -f2 $< | ./util/count-occ.pl > $@
 
 # see proposed replacement, with same name, below
 #target/harmonized-values-eav.tsv:
@@ -41,7 +41,7 @@ target/harmonized-values-eav.tsv.gz: target/harmonized-values-eav.tsv
 
 target/harmonized-attributes-only-eav.tsv:
 # creates a tsv with ONLY the attributes that have a harmonized name
-#   e.g., <Attribute attribute_name="estimated_size" harmonized_name="estimated_size">2550000</Attribute>
+# e.g., <Attribute attribute_name="estimated_size" harmonized_name="estimated_size">2550000</Attribute>
 # columns: accession|attribute|value
 	gzip -dc downloads/biosample_set.xml.gz | ./util/harmonized-attributes-only-eav.pl > $@
 
@@ -113,7 +113,7 @@ target/occurrences-%.tsv: target/attributes.tsv
 	egrep '^$*\t' $< | cut -f2 > $@
 .PRECIOUS: target/occurrences-%.tsv
 target/distinct-%.tsv: target/occurrences-%.tsv
-	./util/count-occ.pl $< | ./util/mysort -r -k1 -n  > $@
+	./util/count-occ.pl $< | ./util/mysort -r -k1 -n > $@
 
 target/non-human-samples.tsv.gz: .FORCE
 # executes the jupyter notebook src/notebooks/build-non-human-samples.ipynb
@@ -134,10 +134,10 @@ target/mixs-triad-counts.tsv: target/harmonized_table.db .FORCE
 # ---
 
 # somewhat redundant with "target download"
-#   no phony tasks... all named after targets
-#   doesn't get EBI samples (which don't go into teh harmonized table anyway?
-#   unzips biosample_set.xml.gz for loading into basex
-#     don't know how to load directly from compressed yet
+# no phony tasks... all named after targets
+# doesn't get EBI samples (which don't go into teh harmonized table anyway?
+# unzips biosample_set.xml.gz for loading into basex
+# don't know how to load directly from compressed yet
 downloads/biosample_set.xml.gz:
 	# ~ 1 minute for ~1.3 GB 20210630
 	curl -L -s https://ftp.ncbi.nlm.nih.gov/biosample/biosample_set.xml.gz > $@
@@ -172,7 +172,7 @@ biosample_set_basex:
 # suggesting a replacement for Bill's recipe of the same name
 # depends on biosample_set_basex recipe, but that's phony
 # identifies biosamples with sequential Biosample/@id,
-#   not with Biosample/@accession or Biosample/Ids/Id[@is_primary=“1”]
+# not with Biosample/@accession or Biosample/Ids/Id[@is_primary=“1”]
 # can merge from sqlite table XXX later on
 # archive current or previous target/chunks/* instead of just deleting?
 target/harmonized-values-eav.tsv:
@@ -213,6 +213,7 @@ target/harmonized-table.tsv: target/harmonized-values-eav.tsv
 #https://unix.stackexchange.com/questions/397806/how-to-pass-multiple-commands-to-sqlite3-in-a-one-liner-shell-command
 target/harmonized-table.db: target/harmonized-table.tsv
 	#sqlite3 $@ "vacuum;"
-	sqlite3 $@ -cmd ".mode tabs " ".import $< harmonized_attrib_pivot"  ".quit"
+	sqlite3 $@ -cmd ".mode tabs " ".import $< harmonized_attrib_pivot" ".quit"
+	sqlite3 $@ -cmd 'create unique index if not exists id_attrib_idx on harmonized_attrib_pivot ( "id" ) ;'
 
 #make downloads/biosample_set.xml ; make biosample_set_basex ; target/harmonized-table.db
