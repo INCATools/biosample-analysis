@@ -1,5 +1,5 @@
 
-.PHONY: target/non-human-samples.tsv .FORCE smalltest biosample_set_basex
+.PHONY: target/non-human-samples.tsv .FORCE smalltest biosample_set_basex cooperate
 
 target download:
 	curl -L -s https://ftp.ncbi.nlm.nih.gov/biosample/biosample_set.xml.gz > downloads/biosample_set.xml.gz
@@ -213,12 +213,21 @@ target/harmonized-table.tsv: target/harmonized-values-eav.tsv
 #https://unix.stackexchange.com/questions/397806/how-to-pass-multiple-commands-to-sqlite3-in-a-one-liner-shell-command
 target/harmonized-table.db: target/harmonized-table.tsv
 	#sqlite3 $@ "vacuum;"
-	sqlite3 $@ -cmd ".mode tabs " ".import $< harmonized_attrib_pivot" ".quit"
+	sqlite3 $@ -cmd ".mode tabs" ".import $< harmonized_attrib_pivot" ""
 	sqlite3 $@ -cmd 'create unique index if not exists id_attrib_idx on harmonized_attrib_pivot ( "id" ) ;' ""
 
 target/non-bsattribute-columns.tsv:
 	basex xqueries/non-bsattribute-columns.xq >  $@
-	sqlite3 target/harmonized-table.db -cmd ".mode tabs " ".import $@ non_bsattribute_columns" ".quit"
-	sqlite3 target/harmonized-table.db -cmd 'create index if not exists bs_denoters_idx on non_bsattribute_columns ("id", primary_id, accession)' ""
+	sqlite3 target/harmonized-table.db -cmd ".mode tabs" ".import $@ non_bsattribute_columns" ""
+	sqlite3 target/harmonized-table.db -cmd 'create unique index if not exists bs_denoters_idx on non_bsattribute_columns ("id", primary_id, accession)' ""
 
+# 9 minutes
+cooperate:
+	sqlite3 target/harmonized-table.db -cmd 'create table biosample as select * from non_bsattribute_columns nbc join harmonized_attrib_pivot hap on nbc."id" = hap."id"' ""
+
+target/biosample_packages.xml:
+	curl -o target/biosample_packages.xml https://www.ncbi.nlm.nih.gov/biosample/docs/packages/?format=xml
+
+indices:
+	sqlite3 target/harmonized-table.db < queries/ht_indicies.sql
 #make downloads/biosample_set.xml ; make biosample_set_basex ; target/harmonized-table.db ; make target/non-bsattribute-columns.tsv
