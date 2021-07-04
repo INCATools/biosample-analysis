@@ -216,4 +216,9 @@ target/harmonized-table.db: target/harmonized-table.tsv
 	sqlite3 $@ -cmd ".mode tabs " ".import $< harmonized_attrib_pivot" ".quit"
 	sqlite3 $@ -cmd 'create unique index if not exists id_attrib_idx on harmonized_attrib_pivot ( "id" ) ;' ""
 
-#make downloads/biosample_set.xml ; make biosample_set_basex ; target/harmonized-table.db
+target/non-bsattribute-columns.tsv:
+	basex xqueries/non-bsattribute-columns.xq >  $@
+	sqlite3 target/harmonized-table.db -cmd ".mode tabs " ".import $@ non_bsattribute_columns" ".quit"
+	sqlite3 target/harmonized-table.db -cmd 'create index if not exists bs_denoters_idx on non_bsattribute_columns ("id", primary_id, accession)' ""
+
+#make downloads/biosample_set.xml ; make biosample_set_basex ; target/harmonized-table.db ; make target/non-bsattribute-columns.tsv
