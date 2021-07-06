@@ -1,5 +1,5 @@
 
-.PHONY: target/non-human-samples.tsv .FORCE smalltest biosample_set_basex cooperate
+.PHONY: target/non-human-samples.tsv .FORCE smalltest biosample_set_basex biosample_table biosample_indices
 
 target download:
 	curl -L -s https://ftp.ncbi.nlm.nih.gov/biosample/biosample_set.xml.gz > downloads/biosample_set.xml.gz
@@ -221,13 +221,15 @@ target/non-bsattribute-columns.tsv:
 	sqlite3 target/harmonized-table.db -cmd ".mode tabs" ".import $@ non_bsattribute_columns" ""
 	sqlite3 target/harmonized-table.db -cmd 'create unique index if not exists bs_denoters_idx on non_bsattribute_columns ("id", primary_id, accession)' ""
 
+#make downloads/biosample_set.xml ; make biosample_set_basex ; target/harmonized-table.db ; make target/non-bsattribute-columns.tsv
+
 # 9 minutes
-cooperate:
+biosample_table:
 	sqlite3 target/harmonized-table.db -cmd 'create table biosample as select * from non_bsattribute_columns nbc join harmonized_attrib_pivot hap on nbc."id" = hap."id"' ""
 
 target/biosample_packages.xml:
 	curl -o target/biosample_packages.xml https://www.ncbi.nlm.nih.gov/biosample/docs/packages/?format=xml
 
-indices:
+biosample_indices:
 	sqlite3 target/harmonized-table.db < queries/ht_indicies.sql
-#make downloads/biosample_set.xml ; make biosample_set_basex ; target/harmonized-table.db ; make target/non-bsattribute-columns.tsv
+
