@@ -1,4 +1,3 @@
-
 .PHONY: target/non-human-samples.tsv .FORCE smalltest biosample_set_basex biosample_table biosample_indices
 
 target download:
@@ -232,4 +231,3 @@ target/biosample_packages.xml:
 
 biosample_indices:
 	sqlite3 target/harmonized-table.db < queries/ht_indicies.sql
-
