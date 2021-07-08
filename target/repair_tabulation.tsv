@@ -1,0 +1,717 @@
+scoping_value	biosample_col_to_map	consensus_id	consensus_lab	count
+plant-associated	env_broad_scale	ENVO:00000114	agricultural field	220
+plant-associated	env_broad_scale	ENVO:01000245	cropland biome	825
+plant-associated	env_broad_scale	ENVO:01000311	cultivated environment	1
+plant-associated	env_broad_scale	ENVO:00002011	fresh water	50
+plant-associated	env_broad_scale	ENVO:00000873	freshwater biome	57
+plant-associated	env_broad_scale	AGRO:00000363	greenhouse	3
+plant-associated	env_broad_scale	PO:0025034	leaf	219
+plant-associated	env_broad_scale	ENVO:01000024	marine benthic biome	3
+plant-associated	env_broad_scale	ENVO:00000447	marine biome	3
+plant-associated	env_broad_scale	ENVO:01000320	marine environment	7
+plant-associated	env_broad_scale	ENVO:00000469	research facility	3
+plant-associated	env_broad_scale	ENVO:00005801	rhizosphere	905
+plant-associated	env_broad_scale	ENVO:00001998	soil	23
+plant-associated	env_broad_scale	ENVO:01000250	subpolar coniferous forest biome	12
+plant-associated	env_broad_scale	ENVO:01000206	temperate	108
+plant-associated	env_broad_scale	ENVO:01001794	temperate broadleaf forest	198
+plant-associated	env_broad_scale	ENVO:01000211	temperate coniferous forest biome	99
+plant-associated	env_broad_scale	ENVO:01001811	temperate grassland	16
+plant-associated	env_broad_scale	ENVO:01000193	temperate grassland biome	6
+plant-associated	env_broad_scale	ENVO:01000215	temperate shrubland biome	6
+plant-associated	env_broad_scale	ENVO:01000221	temperate woodland biome	75
+plant-associated	env_broad_scale	ENVO:00000446	terrestrial biome	205
+plant-associated	env_broad_scale	ENVO:01001800	tropical moist broadleaf forest	6
+plant-associated	env_broad_scale	ENVO:01000220	tropical woodland biome	10
+plant-associated	env_broad_scale	ENVO:01000249	urban biome	40
+plant-associated	env_broad_scale	ENVO:00000116	vineyard	10
+plant-associated	env_local_scale	ENVO:00005802	bulk soil	9
+plant-associated	env_local_scale	ENVO:00000087	cliff	9
+plant-associated	env_local_scale	ENVO:01000965	constructed swimming pool	50
+plant-associated	env_local_scale	ENVO:01000352	field	76
+plant-associated	env_local_scale	ENVO:00000011	garden	108
+plant-associated	env_local_scale	AGRO:00000363	greenhouse	9
+plant-associated	env_local_scale	ENVO:00000081	mountain	1
+plant-associated	env_local_scale	ENVO:01000433	needleleaf forest	99
+plant-associated	env_local_scale	ENVO:01000159	organic feature	7
+plant-associated	env_local_scale	ENVO:00000117	plantation	1
+plant-associated	env_local_scale	ENVO:00000260	prairie	85
+plant-associated	env_local_scale	ENVO:00000469	research facility	12
+plant-associated	env_local_scale	ENVO:00005801	rhizosphere	32
+plant-associated	env_local_scale	ENVO:00000296	rice field	310
+plant-associated	env_local_scale	PO:0009005	root	558
+plant-associated	env_local_scale	ENVO:00000023	stream	55
+plant-associated	env_local_scale	ENVO:00000116	vineyard	57
+plant-associated	env_local_scale	ENVO:01001209	wetland ecosystem	9
+plant-associated	env_medium	ENVO:00002005	air	114
+plant-associated	env_medium	ENVO:02000047	animal feed	3
+plant-associated	env_medium	ENVO:00002034	biofilm	19
+plant-associated	env_medium	ENVO:00002224	eutrophic water	50
+plant-associated	env_medium	PO:0025034	leaf	16
+plant-associated	env_medium	ENVO:01000155	organic material	659
+plant-associated	env_medium	ENVO:00005801	rhizosphere	363
+plant-associated	env_medium	ENVO:00001995	rock	3
+plant-associated	env_medium	PO:0009005	root	115
+plant-associated	env_medium	ENVO:01000164	root nodule	3
+plant-associated	env_medium	ENVO:01000059	sea grass bed	3
+plant-associated	env_medium	ENVO:00001998	soil	180
+plant-associated	env_medium	CHEBI:15377	water	18
+plant-associated	env_medium	ENVO:00002040	wood	298
+sediment	env_broad_scale	NCBITaxon:2157	Archaea	18
+sediment	env_broad_scale	NCBITaxon:2	Bacteria	2
+sediment	env_broad_scale	ENVO:00000892	Small lake biome	124
+sediment	env_broad_scale	ENVO:00002046	activated sludge	10
+sediment	env_broad_scale	ENVO:01000313	anthropogenic environment	2
+sediment	env_broad_scale	ENVO:00002030	aquatic biome	53
+sediment	env_broad_scale	ENVO:01000263	cold seep	3
+sediment	env_broad_scale	ENVO:00002116	contaminated soil	7
+sediment	env_broad_scale	ENVO:00002113	deep marine sediment	41
+sediment	env_broad_scale	ENVO:01000020	estuarine biome	229
+sediment	env_broad_scale	ENVO:00000045	estuary	68
+sediment	env_broad_scale	ENVO:01000174	forest biome	23
+sediment	env_broad_scale	ENVO:00002011	fresh water	16
+sediment	env_broad_scale	ENVO:00000873	freshwater biome	191
+sediment	env_broad_scale	ENVO:01000252	freshwater lake biome	41
+sediment	env_broad_scale	ENVO:01000177	grassland biome	7
+sediment	env_broad_scale	ENVO:00000215	hydrothermal vent	1
+sediment	env_broad_scale	ENVO:00000316	intertidal zone	30
+sediment	env_broad_scale	ENVO:00000546	lake sediment	2
+sediment	env_broad_scale	ENVO:00000887	large river biome	22
+sediment	env_broad_scale	ENVO:01000027	marine abyssal zone biome	3992
+sediment	env_broad_scale	ENVO:01000026	marine bathyal zone biome	66
+sediment	env_broad_scale	ENVO:01000024	marine benthic biome	491
+sediment	env_broad_scale	ENVO:00000447	marine biome	599
+sediment	env_broad_scale	ENVO:01000127	marine cold seep biome	2
+sediment	env_broad_scale	ENVO:01000320	marine environment	1
+sediment	env_broad_scale	ENVO:01000025	marine neritic benthic zone biome	18
+sediment	env_broad_scale	ENVO:01000044	marine pelagic feature	7
+sediment	env_broad_scale	ENVO:01000022	marine salt marsh biome	52
+sediment	env_broad_scale	ENVO:03000033	marine sediment	54
+sediment	env_broad_scale	NCBITaxon:256318	metagenome	4
+sediment	env_broad_scale	ENVO:00000881	obsolete Tropical and subtropical grasslands, savannas, and shrubland biome	137
+sediment	env_broad_scale	ENVO:01000186	polar desert biome	1
+sediment	env_broad_scale	ENVO:00000054	saline marsh	12
+sediment	env_broad_scale	ENVO:01000017	sand	27
+sediment	env_broad_scale	ENVO:00002199	sandy beach	1
+sediment	env_broad_scale	ENVO:00000016	sea	2
+sediment	env_broad_scale	ENVO:00002007	sediment	68
+sediment	env_broad_scale	ENVO:01001192	sediment surface	6
+sediment	env_broad_scale	ENVO:00000890	small river biome	70
+sediment	env_broad_scale	ENVO:01000250	subpolar coniferous forest biome	14
+sediment	env_broad_scale	ENVO:01000184	subtropical desert biome	59
+sediment	env_broad_scale	ENVO:00000126	sulfur spring	1
+sediment	env_broad_scale	ENVO:01001805	temperate forest	17
+sediment	env_broad_scale	ENVO:01000215	temperate shrubland biome	4
+sediment	env_broad_scale	ENVO:01000221	temperate woodland biome	4
+sediment	env_broad_scale	ENVO:00000112	tundra	4
+sediment	env_broad_scale	ENVO:01000249	urban biome	65
+sediment	env_broad_scale	ENVO:00000893	xeric basin biome	17
+sediment	env_local_scale	GAZ:00011748	Greenland Ice Sheet	20
+sediment	env_local_scale	ENVO:00000244	abyssal plain	28
+sediment	env_local_scale	ENVO:01001826	active sulphate-reducing enrichment culturing unit	8
+sediment	env_local_scale	ENVO:00012408	aquifer	4
+sediment	env_local_scale	ENVO:00000032	bay	2
+sediment	env_local_scale	ENVO:00000091	beach	8
+sediment	env_local_scale	ENVO:00000067	cave	27
+sediment	env_local_scale	ENVO:01000120	clay sediment	1
+sediment	env_local_scale	ENVO:01000687	coast	39
+sediment	env_local_scale	ENVO:02000049	coastal water body	16
+sediment	env_local_scale	ENVO:01000263	cold seep	1
+sediment	env_local_scale	ENVO:00000504	container of an intermittent pond	7
+sediment	env_local_scale	ENVO:00002114	contaminated sediment	61
+sediment	env_local_scale	ENVO:01000298	continental margin	2
+sediment	env_local_scale	ENVO:00000223	continental shelf	60
+sediment	env_local_scale	ENVO:00000138	cove	2
+sediment	env_local_scale	ENVO:00002113	deep marine sediment	40
+sediment	env_local_scale	NCBITaxon:1566338	enrichment culture	55
+sediment	env_local_scale	ENVO:01000408	environmental zone	1
+sediment	env_local_scale	ENVO:00002160	estuarine mud	193
+sediment	env_local_scale	ENVO:00000045	estuary	9
+sediment	env_local_scale	ENVO:00000039	fjord	1
+sediment	env_local_scale	ENVO:00002011	fresh water	44
+sediment	env_local_scale	ENVO:00000021	freshwater lake	5
+sediment	env_local_scale	ENVO:00000215	hydrothermal vent	1
+sediment	env_local_scale	ENVO:00000316	intertidal zone	140
+sediment	env_local_scale	ENVO:00000038	lagoon	31
+sediment	env_local_scale	ENVO:00000020	lake	116
+sediment	env_local_scale	ENVO:00000546	lake sediment	41
+sediment	env_local_scale	ENVO:00000887	large river biome	23
+sediment	env_local_scale	ENVO:01000026	marine bathyal zone biome	1
+sediment	env_local_scale	ENVO:01000105	marine benthic feature	277
+sediment	env_local_scale	ENVO:01001201	marine environmental zone	1
+sediment	env_local_scale	ENVO:00005795	marine mud	7
+sediment	env_local_scale	ENVO:01000073	marine oligotrophic desert	3917
+sediment	env_local_scale	ENVO:01000160	marine pockmark	18
+sediment	env_local_scale	ENVO:01000143	marine reef	5
+sediment	env_local_scale	ENVO:03000033	marine sediment	109
+sediment	env_local_scale	ENVO:01000150	marine subtidal rocky reef	1
+sediment	env_local_scale	ENVO:00000035	marsh	6
+sediment	env_local_scale	ENVO:00001996	mine drainage	12
+sediment	env_local_scale	ENVO:01000001	mud	5
+sediment	env_local_scale	ENVO:00000402	mud volcano	1
+sediment	env_local_scale	ENVO:00002022	obsolete alkaline habitat	137
+sediment	env_local_scale	ENVO:00000015	ocean	2
+sediment	env_local_scale	ENVO:00000426	ocean floor	17
+sediment	env_local_scale	ENVO:00002063	oil seep	3
+sediment	env_local_scale	ENVO:00002061	oil spill	1
+sediment	env_local_scale	ENVO:01000774	oligotrophic lake	140
+sediment	env_local_scale	ENVO:01000159	organic feature	2
+sediment	env_local_scale	ENVO:01000007	organic object formed through microbial activity	41
+sediment	env_local_scale	ENVO:01000138	plant matter fall	18
+sediment	env_local_scale	ENVO:01000112	polymetallic nodule	3
+sediment	env_local_scale	ENVO:00000512	pond bed	20
+sediment	env_local_scale	ENVO:00000469	research facility	86
+sediment	env_local_scale	ENVO:00000022	river	110
+sediment	env_local_scale	ENVO:00000130	rocky reef	62
+sediment	env_local_scale	ENVO:00000054	saline marsh	4
+sediment	env_local_scale	ENVO:00000279	saline pan	76
+sediment	env_local_scale	ENVO:01000017	sand	29
+sediment	env_local_scale	ENVO:00000016	sea	2
+sediment	env_local_scale	ENVO:00000092	sea beach	1
+sediment	env_local_scale	ENVO:00000482	sea floor	24
+sediment	env_local_scale	ENVO:00000485	sea shore	1
+sediment	env_local_scale	ENVO:00002149	sea water	3
+sediment	env_local_scale	ENVO:00002007	sediment	89
+sediment	env_local_scale	ENVO:01001192	sediment surface	24
+sediment	env_local_scale	ENVO:01000262	seep	12
+sediment	env_local_scale	ENVO:03000034	shallow marine sediment	8
+sediment	env_local_scale	ENVO:02000044	siliceous ooze	14
+sediment	env_local_scale	ENVO:00000195	sinkhole	2
+sediment	env_local_scale	ENVO:00000023	stream	65
+sediment	env_local_scale	ENVO:01000206	temperate	8
+sediment	env_local_scale	ENVO:00000241	tidal mudflat	3
+sediment	env_local_scale	ENVO:00000495	tributary	10
+sediment	env_medium	ENVO:01000008		4
+sediment	env_medium	ENVO:00002046	activated sludge	10
+sediment	env_medium	ENVO:01000236	basalt	8
+sediment	env_medium	ENVO:00002034	biofilm	10
+sediment	env_medium	ENVO:00003044	brine	4
+sediment	env_medium	ENVO:00002982	clay	8
+sediment	env_medium	ENVO:01000120	clay sediment	62
+sediment	env_medium	ENVO:00002114	contaminated sediment	106
+sediment	env_medium	ENVO:00002113	deep marine sediment	194
+sediment	env_medium	NCBITaxon:1566338	enrichment culture	36
+sediment	env_medium	UBERON:0001988	feces	27
+sediment	env_medium	ENVO:00005750	grassland soil	8
+sediment	env_medium	ENVO:00000546	lake sediment	159
+sediment	env_medium	ENVO:03000033	marine sediment	903
+sediment	env_medium	ENVO:00002017	metamorphic rock	22
+sediment	env_medium	ENVO:01000008	microbial mat	12
+sediment	env_medium	ENVO:01000001	mud	3917
+sediment	env_medium	ENVO:00001995	rock	32
+sediment	env_medium	ENVO:00002209	saline lake sediment	86
+sediment	env_medium	ENVO:01000017	sand	27
+sediment	env_medium	ENVO:00002007	sediment	1265
+sediment	env_medium	ENVO:01001028	sediment permeated by freshwater	27
+sediment	env_medium	ENVO:03000034	shallow marine sediment	1
+sediment	env_medium	ENVO:00001998	soil	109
+sediment	env_medium	ENVO:00002127	stream sediment	109
+sediment	env_medium	CHEBI:15377	water	15
+soil	env_broad_scale	NCBITaxon:2	Bacteria	58
+soil	env_broad_scale	NCBITaxon:457792	Clypeola jonthlaspi	6
+soil	env_broad_scale	NCBITaxon:1767996	Deyeuxia arundinacea	6
+soil	env_broad_scale	NCBITaxon:5506	Fusarium	21
+soil	env_broad_scale	NCBITaxon:3635	Gossypium hirsutum	72
+soil	env_broad_scale	GAZ:00146341	Ria de Aveiro	3
+soil	env_broad_scale	ENVO:00002259	agricultural soil	20
+soil	env_broad_scale	ENVO:01000313	anthropogenic environment	5
+soil	env_broad_scale	ENVO:01000219	anthropogenic terrestrial biome	10
+soil	env_broad_scale	ENVO:00002030	aquatic biome	25
+soil	env_broad_scale	ENVO:00005742	arable soil	1
+soil	env_broad_scale	ENVO:01000892	area of cropland	1
+soil	env_broad_scale	ENVO:00000091	beach	1
+soil	env_broad_scale	ENVO:00005770	beech forest soil	64
+soil	env_broad_scale	ENVO:00000428	biome	3
+soil	env_broad_scale	ENVO:00005802	bulk soil	25
+soil	env_broad_scale	ENVO:01000382	cold desert	1
+soil	env_broad_scale	ENVO:01000196	coniferous forest biome	120
+soil	env_broad_scale	ENVO:00002116	contaminated soil	1
+soil	env_broad_scale	ENVO:01000245	cropland biome	6406
+soil	env_broad_scale	ENVO:01000248	dense settlement biome	3
+soil	env_broad_scale	ENVO:01001357	desert	157
+soil	env_broad_scale	ENVO:01000179	desert biome	143
+soil	env_broad_scale	ENVO:00000291	drainage basin	4
+soil	env_broad_scale	ENVO:01000195	flooded grassland biome	108
+soil	env_broad_scale	ENVO:01000174	forest biome	275
+soil	env_broad_scale	ENVO:00002261	forest soil	175
+soil	env_broad_scale	ENVO:00000873	freshwater biome	193
+soil	env_broad_scale	ENVO:01000177	grassland biome	58
+soil	env_broad_scale	ENVO:01001206	grassland ecosystem	49
+soil	env_broad_scale	ENVO:00005750	grassland soil	26
+soil	env_broad_scale	ENVO:01000739	habitat	3
+soil	env_broad_scale	ENVO:00000098	island	1
+soil	env_broad_scale	ENVO:00000887	large river biome	95
+soil	env_broad_scale	ENVO:01000024	marine benthic biome	96
+soil	env_broad_scale	ENVO:01000022	marine salt marsh biome	24
+soil	env_broad_scale	ENVO:00000035	marsh	1
+soil	env_broad_scale	ENVO:01001791	mediterranean forest	1
+soil	env_broad_scale	PCO:1000004	microbial community	90
+soil	env_broad_scale	ENVO:01000198	mixed forest biome	1
+soil	env_broad_scale	ENVO:01000194	montane grassland biome	230
+soil	env_broad_scale	ENVO:01000216	montane shrubland biome	23
+soil	env_broad_scale	ENVO:01000433	needleleaf forest	9
+soil	env_broad_scale	ENVO:00003009	obsolete Subtropical Division (230)	5
+soil	env_broad_scale	ENVO:00000876	obsolete Temperate broadleaf and mixed forest biome	40
+soil	env_broad_scale	ENVO:00002988	obsolete Temperate grasslands	112
+soil	env_broad_scale	ENVO:00002875	oil contaminated soil	13
+soil	env_broad_scale	ENVO:00000115	orchard	32
+soil	env_broad_scale	ENVO:00005740	paddy field soil	11
+soil	env_broad_scale	ENVO:00000266	pasture	6
+soil	env_broad_scale	ENVO:00005774	peat soil	8
+soil	env_broad_scale	ENVO:00000044	peatland	21
+soil	env_broad_scale	ENVO:00000134	permafrost	149
+soil	env_broad_scale	ENVO:01000628	plant litter	18
+soil	env_broad_scale	ENVO:01000339	polar biome	30
+soil	env_broad_scale	ENVO:01000186	polar desert biome	206
+soil	env_broad_scale	ENVO:01000247	rangeland biome	40
+soil	env_broad_scale	ENVO:00005801	rhizosphere	1
+soil	env_broad_scale	ENVO:01000017	sand	81
+soil	env_broad_scale	ENVO:00002007	sediment	14
+soil	env_broad_scale	ENVO:01000176	shrubland biome	128
+soil	env_broad_scale	ENVO:00001998	soil	356
+soil	env_broad_scale	ENVO:01001044	soil environment	3
+soil	env_broad_scale	ENVO:00005784	spruce forest soil	64
+soil	env_broad_scale	ENVO:01000250	subpolar coniferous forest biome	182
+soil	env_broad_scale	ENVO:01001804	subtropical forest	13
+soil	env_broad_scale	ENVO:01000206	temperate	12
+soil	env_broad_scale	ENVO:01000211	temperate coniferous forest biome	94
+soil	env_broad_scale	ENVO:01000182	temperate desert biome	4
+soil	env_broad_scale	ENVO:01001805	temperate forest	211
+soil	env_broad_scale	ENVO:01001811	temperate grassland	197
+soil	env_broad_scale	ENVO:01000193	temperate grassland biome	325
+soil	env_broad_scale	ENVO:01000389	temperate mixed broadleaf forest	172
+soil	env_broad_scale	ENVO:01000215	temperate shrubland biome	23
+soil	env_broad_scale	ENVO:01000221	temperate woodland biome	31
+soil	env_broad_scale	ENVO:00000446	terrestrial biome	544
+soil	env_broad_scale	ENVO:01000200	tropical broadleaf forest biome	4
+soil	env_broad_scale	ENVO:01000210	tropical coniferous forest biome	6
+soil	env_broad_scale	ENVO:01000183	tropical desert biome	22
+soil	env_broad_scale	ENVO:01000192	tropical grassland biome	4
+soil	env_broad_scale	ENVO:01000228	tropical moist broadleaf forest biome	123
+soil	env_broad_scale	ENVO:01000214	tropical shrubland biome	127
+soil	env_broad_scale	ENVO:00000112	tundra	347
+soil	env_broad_scale	ENVO:01000180	tundra biome	524
+soil	env_broad_scale	ENVO:01000249	urban biome	1011
+soil	env_broad_scale	ENVO:00000109	woodland area	23
+soil	env_local_scale	ENVO:00000367	IUCN national park	26
+soil	env_local_scale	ENVO:01001610	active layer in a cryosphere	146
+soil	env_local_scale	AGRO:00000301	agricultural experimental plot	5
+soil	env_local_scale	ENVO:00000077	agricultural feature	172
+soil	env_local_scale	ENVO:00002259	agricultural soil	276
+soil	env_local_scale	ENVO:00005759	alluvial paddy field soil	320
+soil	env_local_scale	ENVO:00000258	alluvial plain	12
+soil	env_local_scale	ENVO:00002204	anthropogenic contamination feature	10
+soil	env_local_scale	ENVO:00002031	anthropogenic habitat	5
+soil	env_local_scale	ENVO:00002196	aquarium	4
+soil	env_local_scale	ENVO:00005742	arable soil	8
+soil	env_local_scale	ENVO:01000892	area of cropland	20
+soil	env_local_scale	ENVO:01000816	area of deciduous forest	12
+soil	env_local_scale	ENVO:01000843	area of evergreen forest	18
+soil	env_local_scale	ENVO:01000888	area of gramanoid or herbaceous vegetation	39
+soil	env_local_scale	ENVO:01000855	area of mixed forest	21
+soil	env_local_scale	ENVO:01000891	area of pastureland or hayfields	28
+soil	env_local_scale	ENVO:01000893	area of woody wetland	4
+soil	env_local_scale	ENVO:00000161	banana plantation	3
+soil	env_local_scale	ENVO:00000091	beach	1
+soil	env_local_scale	ENVO:01000430	broadleaf forest	10
+soil	env_local_scale	ENVO:00005802	bulk soil	1
+soil	env_local_scale	ENVO:00002262	clay soil	2
+soil	env_local_scale	ENVO:01000687	coast	72
+soil	env_local_scale	ENVO:00000163	coffee plantation	62
+soil	env_local_scale	ENVO:00005747	compost soil	2
+soil	env_local_scale	ENVO:00002116	contaminated soil	1
+soil	env_local_scale	ENVO:00002236	cryosol	48
+soil	env_local_scale	ENVO:00000113	cultivated habitat	295
+soil	env_local_scale	ENVO:00000074	dam	95
+soil	env_local_scale	ENVO:01001357	desert	20
+soil	env_local_scale	ENVO:00005800	desert sand	4
+soil	env_local_scale	ENVO:00000291	drainage basin	4
+soil	env_local_scale	ENVO:00000277	dry lake	56
+soil	env_local_scale	ENVO:00005748	dry soil	20
+soil	env_local_scale	ENVO:00000170	dune	9
+soil	env_local_scale	ENVO:01000408	environmental zone	8
+soil	env_local_scale	ENVO:00000078	farm	45
+soil	env_local_scale	ENVO:00005749	farm soil	52
+soil	env_local_scale	ENVO:00000232	fen	110
+soil	env_local_scale	ENVO:01000352	field	246
+soil	env_local_scale	ENVO:00005755	field soil	976
+soil	env_local_scale	ENVO:00002273	fluvisol	12
+soil	env_local_scale	ENVO:00002261	forest soil	690
+soil	env_local_scale	ENVO:00000243	freshwater wetland	192
+soil	env_local_scale	ENVO:00000011	garden	1
+soil	env_local_scale	ENVO:00002263	garden soil	152
+soil	env_local_scale	ENVO:00000133	glacier	12
+soil	env_local_scale	ENVO:01001206	grassland ecosystem	192
+soil	env_local_scale	ENVO:00005750	grassland soil	379
+soil	env_local_scale	ENVO:00000548	gravel field	10
+soil	env_local_scale	ENVO:00000318	high tide zone	96
+soil	env_local_scale	ENVO:00002267	industrial waste material	2
+soil	env_local_scale	ENVO:00000020	lake	4
+soil	env_local_scale	ENVO:01001785	land	28
+soil	env_local_scale	ENVO:01000437	lava field	6
+soil	env_local_scale	ENVO:00002248	luvisol	20
+soil	env_local_scale	ENVO:00000035	marsh	1
+soil	env_local_scale	NCBITaxon:256318	metagenome	9
+soil	env_local_scale	CHEBI:46662	mineral	34
+soil	env_local_scale	ENVO:01000431	mixed forest	15
+soil	env_local_scale	AGRO:00000481	monoculture	42
+soil	env_local_scale	ENVO:01000185	montane desert biome	26
+soil	env_local_scale	ENVO:00000081	mountain	34
+soil	env_local_scale	ENVO:01000433	needleleaf forest	10
+soil	env_local_scale	ENVO:00000047	obsolete canopy	2
+soil	env_local_scale	ENVO:00000015	ocean	14
+soil	env_local_scale	ENVO:00002875	oil contaminated soil	98
+soil	env_local_scale	ENVO:00000120	oil palm plantation	15
+soil	env_local_scale	ENVO:00002061	oil spill	1
+soil	env_local_scale	ENVO:01000007	organic object formed through microbial activity	4
+soil	env_local_scale	FOODON:03530253	organic plant cultivation	6
+soil	env_local_scale	ENVO:00000297	paddy field	19
+soil	env_local_scale	ENVO:00005740	paddy field soil	11
+soil	env_local_scale	ENVO:00000489	palsa	25
+soil	env_local_scale	ENVO:00000266	pasture	24
+soil	env_local_scale	ENVO:00000189	peat swamp	1
+soil	env_local_scale	ENVO:00000044	peatland	34
+soil	env_local_scale	ENVO:00000134	permafrost	57
+soil	env_local_scale	ENVO:00000086	plain	20
+soil	env_local_scale	ENVO:00000119	planted forest	23
+soil	env_local_scale	ENVO:00002257	podzol	4
+soil	env_local_scale	ENVO:00000033	pond	1
+soil	env_local_scale	ENVO:00000260	prairie	29
+soil	env_local_scale	ENVO:01000747	regolith	30
+soil	env_local_scale	ENVO:00000469	research facility	153
+soil	env_local_scale	ENVO:00005801	rhizosphere	108
+soil	env_local_scale	ENVO:00000296	rice field	11
+soil	env_local_scale	ENVO:00000171	river valley	5
+soil	env_local_scale	ENVO:00000130	rocky reef	21
+soil	env_local_scale	ENVO:00000054	saline marsh	24
+soil	env_local_scale	ENVO:01000017	sand	81
+soil	env_local_scale	ENVO:00002007	sediment	24
+soil	env_local_scale	ENVO:01000282	sedimentary stratum	18
+soil	env_local_scale	ENVO:00002000	slope	74
+soil	env_local_scale	ENVO:00002044	sludge	1
+soil	env_local_scale	ENVO:03000116	snowpack	88
+soil	env_local_scale	ENVO:00001998	soil	355
+soil	env_local_scale	ENVO:01000910	soil biocrust	84
+soil	env_local_scale	ENVO:00002268	sphagnum bog	108
+soil	env_local_scale	ENVO:00005777	steppe soil	218
+soil	env_local_scale	ENVO:01000250	subpolar coniferous forest biome	57
+soil	env_local_scale	ENVO:01001804	subtropical forest	62
+soil	env_local_scale	ENVO:02000059	surface soil	6
+soil	env_local_scale	ENVO:00000233	swamp ecosystem	4
+soil	env_local_scale	ENVO:01000211	temperate coniferous forest biome	16
+soil	env_local_scale	ENVO:01000221	temperate woodland biome	2
+soil	env_local_scale	ENVO:00005778	tropical soil	38
+soil	env_local_scale	ENVO:00000112	tundra	458
+soil	env_local_scale	ENVO:00000116	vineyard	239
+soil	env_local_scale	ENVO:00000094	volcanic feature	21
+soil	env_local_scale	ENVO:00000247	volcano	127
+soil	env_local_scale	ENVO:01001209	wetland ecosystem	193
+soil	env_local_scale	ENVO:00002040	wood	54
+soil	env_local_scale	ENVO:00000109	woodland	15
+soil	env_local_scale	ENVO:00000109	woodland area	4
+soil	env_medium	NCBITaxon:2	Bacteria	39
+soil	env_medium	ENVO:00002259	agricultural soil	131
+soil	env_medium	ENVO:01001189	algal material	18
+soil	env_medium	ENVO:00005741	alpine soil	29
+soil	env_medium	ENVO:00002232	andosol	6
+soil	env_medium	ENVO:00002230	anthrosol	1
+soil	env_medium	ENVO:00005742	arable soil	13
+soil	env_medium	ENVO:00002229	arenosol	20
+soil	env_medium	ENVO:00005802	bulk soil	127
+soil	env_medium	ENVO:00005800	desert sand	9
+soil	env_medium	ENVO:00002246	ferralsol	10
+soil	env_medium	ENVO:00002261	forest soil	3
+soil	env_medium	ENVO:01001526	frozen soil	9
+soil	env_medium	ENVO:00005750	grassland soil	15
+soil	env_medium	ENVO:01000018	gravel	19
+soil	env_medium	ENVO:00005780	greenhouse soil	1
+soil	env_medium	ENVO:00002243	histosol	78
+soil	env_medium	ENVO:01000000	humus	26
+soil	env_medium	ENVO:00005783	leafy wood soil	164
+soil	env_medium	ENVO:00002258	loam	1
+soil	env_medium	ENVO:00005769	mountain forest soil	33
+soil	env_medium	ENVO:00002875	oil contaminated soil	4
+soil	env_medium	ENVO:00005740	paddy field soil	27
+soil	env_medium	ENVO:00005774	peat soil	285
+soil	env_medium	ENVO:00000134	permafrost	6
+soil	env_medium	ENVO:00005801	rhizosphere	268
+soil	env_medium	ENVO:00001995	rock	16
+soil	env_medium	ENVO:01000017	sand	201
+soil	env_medium	ENVO:00002149	sea water	6
+soil	env_medium	ENVO:00002007	sediment	121
+soil	env_medium	ENVO:00001998	soil	13249
+soil	env_medium	ENVO:00005784	spruce forest soil	34
+soil	env_medium	ENVO:02000059	surface soil	156
+soil	env_medium	ENVO:00005786	upland soil	66
+soil	env_medium	ENVO:01001841	volcanic soil	21
+soil	env_medium	CHEBI:15377	water	3
+water	env_broad_scale	GAZ:00002457	Arabian Sea	2
+water	env_broad_scale	NCBITaxon:2759	Eukaryota	6
+water	env_broad_scale	ENVO:00000891	Large lake biome	1198
+water	env_broad_scale	ENVO:00000892	Small lake biome	3287
+water	env_broad_scale	GAZ:00000373	Southern Ocean	13
+water	env_broad_scale	ENVO:00002030	aquatic biome	273
+water	env_broad_scale	ENVO:01000317	aquatic environment	5
+water	env_broad_scale	ENVO:00012408	aquifer	5
+water	env_broad_scale	ENVO:00002138	beach sand	92
+water	env_broad_scale	ENVO:00002034	biofilm	13
+water	env_broad_scale	ENVO:00002152	biofilter	1
+water	env_broad_scale	ENVO:00002019	brackish water	16
+water	env_broad_scale	ENVO:00000369	brine pool	18
+water	env_broad_scale	ENVO:00002270	chemocline	1
+water	env_broad_scale	ENVO:00002150	coastal sea water	35
+water	env_broad_scale	ENVO:00000230	coastal wetland ecosystem	2
+water	env_broad_scale	ENVO:01000004	concentration basin mediterranean sea biome	1
+water	env_broad_scale	ENVO:01000248	dense settlement biome	48
+water	env_broad_scale	ENVO:01001357	desert	132
+water	env_broad_scale	ENVO:00003064	drinking water	6
+water	env_broad_scale	ENVO:01000020	estuarine biome	406
+water	env_broad_scale	ENVO:00000045	estuary	154
+water	env_broad_scale	ENVO:00000039	fjord	6
+water	env_broad_scale	ENVO:00002011	fresh water	180
+water	env_broad_scale	ENVO:00000873	freshwater biome	1068
+water	env_broad_scale	ENVO:01000306	freshwater environment	105
+water	env_broad_scale	ENVO:00000021	freshwater lake	9
+water	env_broad_scale	ENVO:01000252	freshwater lake biome	7
+water	env_broad_scale	ENVO:01001004	groundwater	97
+water	env_broad_scale	ENVO:00000051	hot spring	6
+water	env_broad_scale	ENVO:00000215	hydrothermal vent	4
+water	env_broad_scale	ENVO:01001020	hypersaline lake	1
+water	env_broad_scale	ENVO:00000316	intertidal zone	53
+water	env_broad_scale	ENVO:00000038	lagoon	5
+water	env_broad_scale	ENVO:00000020	lake	37
+water	env_broad_scale	ENVO:00000887	large river biome	5
+water	env_broad_scale	ENVO:01000181	mangrove biome	4
+water	env_broad_scale	ENVO:01000046	marginal sea biome	41
+water	env_broad_scale	ENVO:01000027	marine abyssal zone biome	16
+water	env_broad_scale	ENVO:01000024	marine benthic biome	76
+water	env_broad_scale	ENVO:00000447	marine biome	3680
+water	env_broad_scale	ENVO:01000051	marine black smoker biome	1
+water	env_broad_scale	ENVO:01000049	marine coral reef biome	3
+water	env_broad_scale	ENVO:01000320	marine environment	28
+water	env_broad_scale	ENVO:01000030	marine hydrothermal vent biome	14
+water	env_broad_scale	NCBITaxon:408172	marine metagenome	2
+water	env_broad_scale	ENVO:01000023	marine pelagic biome	244
+water	env_broad_scale	ENVO:01000044	marine pelagic feature	23
+water	env_broad_scale	ENVO:00000208	marine pelagic zone	58
+water	env_broad_scale	ENVO:00000209	marine photic zone	65
+water	env_broad_scale	ENVO:01000022	marine salt marsh biome	190
+water	env_broad_scale	ENVO:01000050	marine subtidal rocky reef biome	1
+water	env_broad_scale	ENVO:01000053	marine ultramafic hydrothermal vent biome	8
+water	env_broad_scale	ENVO:00001999	marine water body	19
+water	env_broad_scale	ENVO:01000207	mediterranean	1
+water	env_broad_scale	ENVO:01000047	mediterranean sea biome	7
+water	env_broad_scale	ENVO:01000042	neritic epipelagic zone biome	26
+water	env_broad_scale	ENVO:01000043	neritic mesopelagic zone biome	3
+water	env_broad_scale	ENVO:01000032	neritic pelagic zone biome	25
+water	env_broad_scale	ENVO:00000015	ocean	83
+water	env_broad_scale	ENVO:01000048	ocean biome	1498
+water	env_broad_scale	ENVO:01000038	oceanic abyssopelagic zone biome	3
+water	env_broad_scale	ENVO:01000035	oceanic epipelagic zone biome	335
+water	env_broad_scale	ENVO:00000044	peatland	1
+water	env_broad_scale	ENVO:01000339	polar biome	359
+water	env_broad_scale	ENVO:01000186	polar desert biome	278
+water	env_broad_scale	ENVO:03600015	polluted river	12
+water	env_broad_scale	ENVO:00000469	research facility	4
+water	env_broad_scale	ENVO:00000022	river	23
+water	env_broad_scale	ENVO:01000599	river water	4
+water	env_broad_scale	ENVO:00000016	sea	69
+water	env_broad_scale	ENVO:00002200	sea ice	4
+water	env_broad_scale	ENVO:01001581	sea surface layer	21
+water	env_broad_scale	ENVO:00002149	sea water	226
+water	env_broad_scale	ENVO:00002007	sediment	9
+water	env_broad_scale	ENVO:00000890	small river biome	133
+water	env_broad_scale	ENVO:01000406	snow	8
+water	env_broad_scale	ENVO:01001042	sterile water environment	3
+water	env_broad_scale	ENVO:01000250	subpolar coniferous forest biome	46
+water	env_broad_scale	ENVO:03000035	supraglacial lake	2
+water	env_broad_scale	ENVO:00002042	surface water	1
+water	env_broad_scale	ENVO:01001805	temperate forest	24
+water	env_broad_scale	ENVO:01000860	temperate marine upwelling biome	1
+water	env_broad_scale	ENVO:01000857	temperate mediterranean sea biome	60
+water	env_broad_scale	ENVO:00000446	terrestrial biome	1
+water	env_broad_scale	ENVO:01001230	tropical marginal sea biome	69
+water	env_broad_scale	ENVO:00000112	tundra	13
+water	env_broad_scale	ENVO:01000180	tundra biome	164
+water	env_broad_scale	ENVO:01000249	urban biome	185
+water	env_broad_scale	ENVO:01000246	village biome	33
+water	env_broad_scale	CHEBI:15377	water	139
+water	env_local_scale	GAZ:00002456	Red Sea	17
+water	env_local_scale	GAZ:00002510	Southern California Bight	420
+water	env_local_scale	ENVO:00000244	abyssal plain	14
+water	env_local_scale	ENVO:00001997	acid mine drainage	1
+water	env_local_scale	PATO:0001429	acidic	2
+water	env_local_scale	ENVO:00002031	anthropogenic habitat	2
+water	env_local_scale	ENVO:00012408	aquifer	41
+water	env_local_scale	ENVO:01000666	area of open water	90
+water	env_local_scale	ENVO:00000149	artificial reef	5
+water	env_local_scale	ENVO:00000032	bay	15
+water	env_local_scale	ENVO:00000091	beach	1
+water	env_local_scale	ENVO:00002152	biofilter	78
+water	env_local_scale	ENVO:00002137	brackish estuary	269
+water	env_local_scale	ENVO:00002019	brackish water	20
+water	env_local_scale	ENVO:01000687	coast	68
+water	env_local_scale	ENVO:00002150	coastal sea water	321
+water	env_local_scale	ENVO:01001256	coastal shrimp pond	69
+water	env_local_scale	ENVO:01000006	coastal upwelling	1
+water	env_local_scale	ENVO:02000049	coastal water body	70
+water	env_local_scale	ENVO:00002186	contaminated water	95
+water	env_local_scale	ENVO:00000223	continental shelf	20
+water	env_local_scale	ENVO:00000150	coral reef	11
+water	env_local_scale	ENVO:00000138	cove	2
+water	env_local_scale	ENVO:01000326	deep chlorophyll maximum layer	97
+water	env_local_scale	ENVO:00000277	dry lake	89
+water	env_local_scale	ENVO:01000995	dry river	2
+water	env_local_scale	ENVO:00002297	environmental feature	98
+water	env_local_scale	ENVO:00002297|ENVO:01000074	environmental feature|oceanic gyre	50
+water	env_local_scale	ENVO:01000408	environmental zone	5
+water	env_local_scale	ENVO:01000301	estuarine water	153
+water	env_local_scale	ENVO:00000045	estuary	78
+water	env_local_scale	ENVO:00000039	fjord	506
+water	env_local_scale	ENVO:00000255	flood plain	15
+water	env_local_scale	ENVO:00002011	fresh water	11
+water	env_local_scale	ENVO:00000021	freshwater lake	2887
+water	env_local_scale	ENVO:01000480	glass	6
+water	env_local_scale	ENVO:01001004	groundwater	5
+water	env_local_scale	ENVO:00000463	harbor	7
+water	env_local_scale	ENVO:00000318	high tide zone	18
+water	env_local_scale	ENVO:00000051	hot spring	2
+water	env_local_scale	ENVO:00000070	human construction	8
+water	env_local_scale	ENVO:00000215	hydrothermal vent	51
+water	env_local_scale	ENVO:01001020	hypersaline lake	2
+water	env_local_scale	ENVO:00000316	intertidal zone	217
+water	env_local_scale	ENVO:01000058	kelp forest	81
+water	env_local_scale	ENVO:00000038	lagoon	11
+water	env_local_scale	ENVO:00000020	lake	142
+water	env_local_scale	ENVO:00000887	large river biome	17
+water	env_local_scale	ENVO:00000212	marine abyssalpelagic zone	22
+water	env_local_scale	ENVO:00000211	marine bathypelagic zone	5
+water	env_local_scale	ENVO:01000105	marine benthic feature	31
+water	env_local_scale	ENVO:00000447	marine biome	2
+water	env_local_scale	ENVO:01000130	marine hydrothermal plume	6
+water	env_local_scale	ENVO:01000122	marine hydrothermal vent	14
+water	env_local_scale	ENVO:00000213	marine mesopelagic zone	119
+water	env_local_scale	ENVO:01000065	marine oxygen minimum zone	38
+water	env_local_scale	ENVO:01000044	marine pelagic feature	321
+water	env_local_scale	ENVO:00000208	marine pelagic zone	53
+water	env_local_scale	ENVO:00000209	marine photic zone	72
+water	env_local_scale	ENVO:00001999	marine water body	170
+water	env_local_scale	ENVO:00000035	marsh	6
+water	env_local_scale	ENVO:01000207	mediterranean	1
+water	env_local_scale	ENVO:03000040	melt pond	9
+water	env_local_scale	ENVO:00000018	obsolete dry river	1
+water	env_local_scale	ENVO:00002002	obsolete food product	1
+water	env_local_scale	ENVO:01000031	obsolete marine feature	69
+water	env_local_scale	ENVO:00000569	obsolete marine habitat	4
+water	env_local_scale	ENVO:00002151	obsolete ocean water	2
+water	env_local_scale	ENVO:00000015	ocean	294
+water	env_local_scale	ENVO:01000037	oceanic bathypelagic zone biome	25
+water	env_local_scale	ENVO:01000035	oceanic epipelagic zone biome	8
+water	env_local_scale	ENVO:01000074	oceanic gyre	294
+water	env_local_scale	ENVO:01000036	oceanic mesopelagic zone biome	47
+water	env_local_scale	ENVO:00000207	oceanic zone	137
+water	env_local_scale	ENVO:00002185	oil reservoir	7
+water	env_local_scale	ENVO:00002061	oil spill	37
+water	env_local_scale	ENVO:00002223	oligotrophic water	15
+water	env_local_scale	ENVO:01000159	organic feature	12
+water	env_local_scale	ENVO:01000007	organic object formed through microbial activity	703
+water	env_local_scale	ENVO:00000489	palsa	4
+water	env_local_scale	ENVO:01000080	pelagic isothermal surface	4
+water	env_local_scale	ENVO:06105101	plastic	54
+water	env_local_scale	ENVO:00000033	pond	49
+water	env_local_scale	SO:0002237	rRNA_16S_gene	17
+water	env_local_scale	ENVO:00000469	research facility	71
+water	env_local_scale	ENVO:00003919	research station	48
+water	env_local_scale	ENVO:00000025	reservoir	1
+water	env_local_scale	ENVO:00000022	river	151
+water	env_local_scale	ENVO:00000130	rocky reef	18
+water	env_local_scale	ENVO:00000055	saline evaporation pond	1
+water	env_local_scale	ENVO:00000017	saline hydrographic feature	1
+water	env_local_scale	ENVO:00000019	saline lake	184
+water	env_local_scale	ENVO:00000054	saline marsh	189
+water	env_local_scale	ENVO:00002010	saline water	2
+water	env_local_scale	ENVO:00000016	sea	11
+water	env_local_scale	ENVO:00000092	sea beach	29
+water	env_local_scale	ENVO:01000059	sea grass bed	3
+water	env_local_scale	ENVO:00002200	sea ice	2
+water	env_local_scale	ENVO:03000066	sea ice floe	21
+water	env_local_scale	ENVO:00002149	sea water	743
+water	env_local_scale	ENVO:01000321	sea water environment	2
+water	env_local_scale	ENVO:00000304	shore	18
+water	env_local_scale	ENVO:00000195	sinkhole	15
+water	env_local_scale	ENVO:00000023	stream	311
+water	env_local_scale	ENVO:01000205	subtropical	1
+water	env_local_scale	ENVO:03000035	supraglacial lake	2
+water	env_local_scale	ENVO:00002042	surface water	104
+water	env_local_scale	ENVO:00000495	tributary	6
+water	env_local_scale	ENVO:00000112	tundra	75
+water	env_local_scale	ENVO:00002926	warm seep	1
+water	env_local_scale	ENVO:00002001	waste water	1
+water	env_local_scale	CHEBI:15377	water	52
+water	env_local_scale	ENVO:06105011	water column	27
+water	env_local_scale	ENVO:01001191	water surface	3
+water	env_local_scale	ENVO:01000002	water well	5
+water	env_local_scale	ENVO:00000029	watercourse	2
+water	env_local_scale	ENVO:01001209	wetland ecosystem	23
+water	env_medium	ENVO:01001189	algal material	50
+water	env_medium	ENVO:02000047	animal feed	1
+water	env_medium	ENVO:01000173	anoxic water	3
+water	env_medium	ENVO:00002034	biofilm	7
+water	env_medium	ENVO:01000156	biofilm material	60
+water	env_medium	ENVO:00002152	biofilter	1
+water	env_medium	ENVO:00002019	brackish water	153
+water	env_medium	ENVO:00003044	brine	1
+water	env_medium	ENVO:01001190	brown sea ice	2
+water	env_medium	ENVO:00002150	coastal sea water	722
+water	env_medium	ENVO:00002150|ENVO:00002149	coastal sea water|sea water	7
+water	env_medium	ENVO:00002153	compost biofilter	1
+water	env_medium	ENVO:01000326	deep chlorophyll maximum layer	2
+water	env_medium	ENVO:00002113	deep marine sediment	33
+water	env_medium	ENVO:00003064	drinking water	3
+water	env_medium	ENVO:01000301	estuarine water	271
+water	env_medium	ENVO:00002224	eutrophic water	1
+water	env_medium	FOODON:00001248	fish food product	2
+water	env_medium	ENVO:00002011	fresh water	6034
+water	env_medium	ENVO:00000021	freshwater lake	1
+water	env_medium	ENVO:01000480	glass	8
+water	env_medium	ENVO:01001004	groundwater	10
+water	env_medium	ENVO:00002012	hypersaline water	63
+water	env_medium	ENVO:01001125	ice	3
+water	env_medium	ENVO:00000020	lake	1
+water	env_medium	PO:0025034	leaf	6
+water	env_medium	ENVO:01000815	liquid environmental material	5
+water	env_medium	ENVO:00001999	marine water body	6
+water	env_medium	ENVO:03000040	melt pond	2
+water	env_medium	ENVO:00002225	mesotrophic water	3
+water	env_medium	ENVO:01000008	microbial mat	2
+water	env_medium	ENVO:01001038	moderately saline water	1
+water	env_medium	ENVO:00000569	obsolete marine habitat	1
+water	env_medium	ENVO:00002151	obsolete ocean water	174
+water	env_medium	ENVO:00002227	obsolete saline water habitat	1
+water	env_medium	ENVO:00002223	oligotrophic water	7
+water	env_medium	ENVO:00002223|ENVO:00002149	oligotrophic water|sea water	34
+water	env_medium	ENVO:01000063	planktonic material	78
+water	env_medium	ENVO:06105101	plastic	9
+water	env_medium	ENVO:00002014	plutonic rock	2
+water	env_medium	FOODON:03500021	polypropylene	4
+water	env_medium	ENVO:00002228	pond water	25
+water	env_medium	ENVO:00002154	radioactive sediment	1
+water	env_medium	ENVO:01000599	river water	3
+water	env_medium	ENVO:01001257	saline shrimp pond water	69
+water	env_medium	ENVO:00002010	saline water	143
+water	env_medium	ENVO:01000017	sand	92
+water	env_medium	ENVO:00002200	sea ice	59
+water	env_medium	ENVO:00002149	sea water	4942
+water	env_medium	ENVO:00002007	sediment	188
+water	env_medium	ENVO:01001192	sediment surface	6
+water	env_medium	ENVO:01000406	snow	8
+water	env_medium	ENVO:00005791	sterile water	12
+water	env_medium	ENVO:03000035	supraglacial lake	2
+water	env_medium	ENVO:00002042	surface water	101
+water	env_medium	ENVO:01000514	tile	9
+water	env_medium	ENVO:00005792	underground water	220
+water	env_medium	ENVO:00002001	waste water	3
+water	env_medium	CHEBI:15377	water	4301
+water	env_medium	ENVO:06105011	water column	40
+water	env_medium	ENVO:01000277	water ice	5
+water	env_medium	ENVO:01000436	waterborne particulate matter	13
