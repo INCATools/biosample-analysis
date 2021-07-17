@@ -12,6 +12,7 @@ do
   let bs_reached=bs_reached+bs_chunk_size
   date && \
   basex \
+  -bdelim=$1 \
   -bmin_bs_id_val=${start} \
   -bmax_bs_id_val=${bs_reached} \
   xqueries/get_harmonized-values.xq > \

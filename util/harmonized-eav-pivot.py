@@ -57,7 +57,11 @@ print(time_diff)
 
 row_count = len(harmonized_values_eav.index)
 desired_chunk_count = row_count/desired_avg_chunk_size
+
+
 harmonized_values_eav['chunk'] = round(harmonized_values_eav.id / desired_avg_chunk_size )
+# harmonized_values_eav['chunk'] = round(pd.Series(harmonized_values_eav.index) / desired_avg_chunk_size )
+
 harmonized_values_eav['chunk'] = harmonized_values_eav['chunk'].astype(int)
 id_vc = harmonized_values_eav['chunk'].value_counts()
 print(id_vc)

@@ -2,6 +2,17 @@ declare option output:method "csv";
 declare option output:csv "header=yes, separator=tab";
 declare variable $min_bs_id_val as xs:int+ external;
 declare variable $max_bs_id_val as xs:int+ external;
+declare variable $delim external;
+
+(:let $delim := "|||":)
+
+(:
+for "potentially_shared"
+let $delim := ""
+one pipe
+three pipes
+soemthing else?
+:)
 
 for $bs in doc(
   'biosample_set_basex'
@@ -12,6 +23,8 @@ for $bs in doc(
 let $bs_id_val := data(
   $bs/@id
 )
+
+let $legacy_id := concat("BIOSAMPLE:",data($bs/Ids/Id[@is_primary = "1"]))
 
 where xs:integer(
   $bs_id_val
@@ -33,7 +46,7 @@ let $potentially_shared := fn:normalize-space(
       distinct-values(
         $x
       )
-    ),'|||'
+    ),$delim
   )
 )
 

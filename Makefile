@@ -1,4 +1,4 @@
-.PHONY: target/non-human-samples.tsv .FORCE smalltest biosample_set_basex biosample_table biosample_indices
+.PHONY: target/non-human-samples.tsv .FORCE smalltest biosample_set_basex biosample_table biosample_indices xq_clean
 
 target download:
 	curl -L -s https://ftp.ncbi.nlm.nih.gov/biosample/biosample_set.xml.gz > downloads/biosample_set.xml.gz
@@ -132,6 +132,8 @@ target/mixs-triad-counts.tsv: target/harmonized_table.db .FORCE
 
 # ---
 
+delim := '|||'
+
 # somewhat redundant with "target download"
 # no phony tasks... all named after targets
 # doesn't get EBI samples (which don't go into teh harmonized table anyway?
@@ -145,25 +147,25 @@ downloads/biosample_set.xml: downloads/biosample_set.xml.gz
 	# ~44 GB unpacked in ~ 1 minute 20210630
 	gunzip -c $< > $@
 
-downloads/biosample_set_destructive.xml: downloads/biosample_set.xml
-	# calculate maxent from some fraction of the whole dataset?
-	# either way, this requires that the whole dataset is already loaded ito basex
-	# and that biosample_set_basex_keep does not exist yet
-	# should also rename existing target/harmonized*
-	# ditto target/chunks/*
-	#basex -c "list"
-	basex -bmaxent=2000000 xqueries/get_first_n_biosamples.xq > $@
-	basex -c "alter db biosample_set_basex biosample_set_basex_keep"
-	#if [ -f downloads/biosample_set.xml ]; then ...
-	mv $< $<.keep
-	#; fi
-	cp $@ $<
+#downloads/biosample_set_destructive.xml: downloads/biosample_set.xml
+#	# calculate maxent from some fraction of the whole dataset?
+#	# either way, this requires that the whole dataset is already loaded ito basex
+#	# and that biosample_set_basex_keep does not exist yet
+#	# should also rename existing target/harmonized*
+#	# ditto target/chunks/*
+#	#basex -c "list"
+#	basex -bmaxent=2000000 xqueries/get_first_n_biosamples.xq > $@
+#	basex -c "alter db biosample_set_basex biosample_set_basex_keep"
+#	#if [ -f downloads/biosample_set.xml ]; then ...
+#	mv $< $<.keep
+#	#; fi
+#	cp $@ $<
 
 # depends on downloads/biosample_set.xml
 # but might not always want to trigger new download (and phony)
 # drop if exists first?
 biosample_set_basex:
-	# another ~ 48 GB in ~ 1 hur for the indexed basex database 20210630
+	# another ~ 48 GB in ~ 1 our for the indexed basex database 20210630
 	#basex -c "CREATE DB $@ $<"
 	basex -c "CREATE DB $@ downloads/biosample_set.xml"
 	rm downloads/biosample_set.xml
@@ -174,14 +176,23 @@ biosample_set_basex:
 # not with Biosample/@accession or Biosample/Ids/Id[@is_primary=“1”]
 # can merge from sqlite table XXX later on
 # archive current or previous target/chunks/* instead of just deleting?
+# 1 hour
 target/harmonized-values-eav.tsv:
 	rm -f target/chunks/harmonized-values_*.tsv
-	util/get_harmonized-values_chunks.sh
+	util/get_harmonized-values_chunks.sh $(delim)
 	awk '(NR == 1) || (FNR > 1)' target/chunks/harmonized-values_*.tsv > $@
 	rm -f target/chunks/harmonized-values_*.tsv
 
+# maybe filter out common unhelpful values?
+# cut -f 3  target/chunks/harmonized-values_0_500000.tsv | sort | uniq -c  | sort -n -r > target/harmonized-values_0_500000_counts.txt
+# not determined
+# missing
+# acutally those probably just make up a few percent, like 10,000 out of the 20,000,000 in the first chunk?
+
 # there may already be some values containing pipes, even inside of quotes
 # switch to triple pipe ||| to check
+
+# grep '|' target/harmonized-values-eav.tsv
 
 # most recently build target/harmonized-values-eav.tsv files
 # have only been ~ 6 GB, but I had some at 15 GB in the past
@@ -210,24 +221,50 @@ target/harmonized-table.tsv: target/harmonized-values-eav.tsv
 # 18 014 304 target/harmonized_table.tsv
 
 #https://unix.stackexchange.com/questions/397806/how-to-pass-multiple-commands-to-sqlite3-in-a-one-liner-shell-command
-target/harmonized-table.db: target/harmonized-table.tsv
-	#sqlite3 $@ "vacuum;"
+target/harmonized_table.db: target/harmonized-table.tsv
+	sqlite3 $@ "vacuum;"
 	sqlite3 $@ -cmd ".mode tabs" ".import $< harmonized_attrib_pivot" ""
 	sqlite3 $@ -cmd 'create unique index if not exists id_attrib_idx on harmonized_attrib_pivot ( "id" ) ;' ""
 
 target/non-bsattribute-columns.tsv:
-	basex xqueries/non-bsattribute-columns.xq >  $@
-	sqlite3 target/harmonized-table.db -cmd ".mode tabs" ".import $@ non_bsattribute_columns" ""
-	sqlite3 target/harmonized-table.db -cmd 'create unique index if not exists bs_denoters_idx on non_bsattribute_columns ("id", primary_id, accession)' ""
+	basex -bdelim=$(delim) xqueries/non-bsattribute-columns.xq >  $@
+	sqlite3 target/harmonized_table.db -cmd ".mode tabs" ".import $@ non_bsattribute_columns" ""
+	sqlite3 target/harmonized_table.db -cmd 'create unique index if not exists bs_denoters_idx on non_bsattribute_columns ("id", accession_biosample_id, accession)' ""
 
-#make downloads/biosample_set.xml ; make biosample_set_basex ; target/harmonized-table.db ; make target/non-bsattribute-columns.tsv
+#make downloads/biosample_set.xml ; make biosample_set_basex ; target/harmonized_table.db ; make target/non-bsattribute-columns.tsv
 
 # 9 minutes
 biosample_table:
-	sqlite3 target/harmonized-table.db -cmd 'create table biosample as select * from non_bsattribute_columns nbc join harmonized_attrib_pivot hap on nbc."id" = hap."id"' ""
+	sqlite3 target/harmonized_table.db -cmd 'create table biosample as select * from non_bsattribute_columns nbc join harmonized_attrib_pivot hap on nbc."id" = hap."id"' ""
+	sqlite3 target/harmonized_table.db "drop table if exists harmonized_attrib_pivot" "drop table if exists  non_bsattribute_columns" ""
+	###  DROP COLUMN UNSUPPORTED
+	sqlite3 target/harmonized_table.db  'ALTER TABLE biosample RENAME COLUMN "id" TO dropme1' 'ALTER TABLE biosample RENAME COLUMN "id:1" TO dropme2' ''
+	sqlite3 target/harmonized_table.db  'ALTER TABLE biosample RENAME COLUMN "legacy_id" TO "id"' ''
 
 target/biosample_packages.xml:
 	curl -o target/biosample_packages.xml https://www.ncbi.nlm.nih.gov/biosample/docs/packages/?format=xml
 
 biosample_indices:
-	sqlite3 target/harmonized-table.db < queries/ht_indicies.sql
+	sqlite3 target/harmonized_table.db < queries/ht_indicies.sql
+
+xq_clean:
+	rm -rf downloads/biosample_set.xml downloads/biosample_set.xml
+	rm -rf target/harmonized-values-eav.tsv target/harmonized-table.tsv target/non-bsattribute-columns.tsv
+	rm -rf target/chunks/*
+	rm -rf target/harmonized_table.db
+
+
+# xq_clean
+# downloads/biosample_set.xml <- downloads/biosample_set.xml
+# biosample_set_basex
+# target/harmonized_table.db <- target/harmonized-table.tsv <- target/harmonized-values-eav.tsv
+# target/non-bsattribute-columns.tsv
+# biosample_table
+### compress and publish before indexing?
+# biosample_indices
+
+###
+
+# target/biosample_packages.xml
+
+#
