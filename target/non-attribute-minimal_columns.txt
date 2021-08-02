@@ -1,0 +1,15 @@
+id
+accession_biosample_id
+xref
+entrez_links
+title
+dna_source
+doi
+model
+package
+package_name
+status
+status_date
+taxonomy_id
+taxonomy_name
+paragraph
