@@ -149,7 +149,10 @@ column-accounting:
 	#   entrez_links from xquery uses a different (more inclusive?) strategy compared to the entrez* columns from SQLite
 	# < indicates columns that appear in the SQLite atrifact but are not obtained from xquery
 	#   the SQLite entrez* columns contain some of the information in the xquery entrez_links column distrubted over three columns
+	#     compare the entrez annotations for BIOSAMPLE:SAMN00004593 between the two sources
+	#     xquery: bioproject:PRJNA141675:141675|bioproject:PRJNA138711:138711
 	#   attribute from SQLite is all NULL
 	# this column name anlysis doent' not say anythign about column contents
+
 
 
