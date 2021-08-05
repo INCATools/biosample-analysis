@@ -1,4 +1,4 @@
-.PHONY: target/non-human-samples.tsv .FORCE smalltest biosample_set_basex biosample_table biosample_indices
+.PHONY: target/non-human-samples.tsv .FORCE smalltest biosample_set_basex biosample_table biosample_indices column-accounting
 
 target download:
 	curl -L -s https://ftp.ncbi.nlm.nih.gov/biosample/biosample_set.xml.gz > downloads/biosample_set.xml.gz
@@ -126,3 +126,33 @@ target/mixs-triad-counts.tsv: target/harmonized_table.db .FORCE
 ## This notebook generates two files : MIxS_columns.tsv and Non_MIxS_columns.tsv.
 ## Highlights the data column names that are MIxS terms and non-MIxS terms
 #	jupyter nbconvert --execute --clear-output src/notebooks/MIxS_comparison.ipynb
+
+# depends on target/harmonized_table.db but is not triggering it here
+column-accounting:
+	# install basex and load ftp://ftp.ncbi.nlm.nih.gov//biosample/biosample_set.xml.gz with default settings
+	# increasing basex's Java RAM allocation will improve performance
+	# probaly any xquery parser could run these queries
+	sqlite3 target/harmonized_table.db "pragma table_info(biosample)" | cut -f2 -d'|' | sort > target/biosample_sqlite_columns.txt
+	# ~ 3 minutes @ 24 GB RAM 
+	# commenting out and commiting target/hn_count*
+	# assuming that most people don't have basex installed
+	# date ; basex xqueries/hn_count.xq > target/hn_count.txt ; date
+	cat target/hn_count.txt | cut -f1 | tail -n +2 | sort > target/hn_columns.txt
+	# 10 minutes @ 24 GB RAM 
+	# commenting out as above
+	# date ; basex xqueries/non-attribute-minimal.xq > target/non-attribute-minimal.txt ; date
+	# head -n 1 target/non-attribute-minimal.txt | tr '\t' '\n' > target/non-attribute-minimal_columns.txt
+	cat target/hn_columns.txt target/non-attribute-minimal_columns.txt  | sort | uniq > target/xquery_columns.txt
+	diff target/biosample_sqlite_columns.txt target/xquery_columns.txt| sort | egrep '^>|<' > target/column-accounting.txt
+	# > indicates columns that the xqueries obtain but which are not found in the SQLite
+	#   possibly/mostly because the xqueries were run over a slightly newer biosample_set.xml which has additional attributes with harmonized names
+	#   entrez_links from xquery uses a different (more inclusive?) strategy compared to the entrez* columns from SQLite
+	# < indicates columns that appear in the SQLite atrifact but are not obtained from xquery
+	#   the SQLite entrez* columns contain some of the information in the xquery entrez_links column distrubted over three columns
+	#     compare the entrez annotations for BIOSAMPLE:SAMN00004593 between the two sources
+	#     xquery: bioproject:PRJNA141675:141675|bioproject:PRJNA138711:138711
+	#   attribute from SQLite is all NULL
+	# this column name anlysis doent' not say anythign about column contents
+
+
+
