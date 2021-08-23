@@ -78,3 +78,7 @@ sklearn
 pydotplus
 openpyxl
 git_root
+
+jupyter_contrib_nbextensions
+black
+

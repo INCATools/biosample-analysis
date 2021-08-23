@@ -1,0 +1,18 @@
+subject_category	subject_label	predicate_id	object_id	object_label	match_type	creator_id	mapping_date	subject_id
+env_medium	organic material	skos:relatedMatch	ENVO:01000155	organic material	Lexical	https://github.com/turbomam/scoped-mapping	2021-07-07T08:06:52	env_medium_env_package_normalization.EnvPackage_plant-associated:organic%20material
+env_medium	rhizosphere	skos:relatedMatch	ENVO:00005801	rhizosphere	Lexical	https://github.com/turbomam/scoped-mapping	2021-07-07T08:06:52	env_medium_env_package_normalization.EnvPackage_plant-associated:rhizosphere
+env_medium	wood	skos:relatedMatch	ENVO:00002040	wood	Lexical	https://github.com/turbomam/scoped-mapping	2021-07-07T08:06:52	env_medium_env_package_normalization.EnvPackage_plant-associated:wood
+env_medium	soil	skos:relatedMatch	ENVO:00001998	soil	Lexical	https://github.com/turbomam/scoped-mapping	2021-07-07T08:06:52	env_medium_env_package_normalization.EnvPackage_plant-associated:soil
+env_medium	Soil	skos:relatedMatch	ENVO:00001998	soil	Lexical	https://github.com/turbomam/scoped-mapping	2021-07-07T08:06:52	env_medium_env_package_normalization.EnvPackage_plant-associated:Soil
+env_medium	air	skos:relatedMatch	ENVO:00002005	air	Lexical	https://github.com/turbomam/scoped-mapping	2021-07-07T08:06:52	env_medium_env_package_normalization.EnvPackage_plant-associated:air
+env_medium	Root	skos:relatedMatch	PO:0009005	root	Lexical	https://github.com/turbomam/scoped-mapping	2021-07-07T08:06:52	env_medium_env_package_normalization.EnvPackage_plant-associated:Root
+env_medium	root	skos:relatedMatch	PO:0009005	root	Lexical	https://github.com/turbomam/scoped-mapping	2021-07-07T08:06:52	env_medium_env_package_normalization.EnvPackage_plant-associated:root
+env_medium	eutrophic water	skos:relatedMatch	ENVO:00002224	eutrophic water	Lexical	https://github.com/turbomam/scoped-mapping	2021-07-07T08:06:52	env_medium_env_package_normalization.EnvPackage_plant-associated:eutrophic%20water
+env_medium	rhizosphere soil	skos:relatedMatch	ENVO:00005801	rhizosphere	Lexical	https://github.com/turbomam/scoped-mapping	2021-07-07T08:06:52	env_medium_env_package_normalization.EnvPackage_plant-associated:rhizosphere%20soil
+env_medium	biofilm	skos:relatedMatch	ENVO:00002034	biofilm	Lexical	https://github.com/turbomam/scoped-mapping	2021-07-07T08:06:52	env_medium_env_package_normalization.EnvPackage_plant-associated:biofilm
+env_medium	water	skos:relatedMatch	CHEBI:15377	water	Lexical	https://github.com/turbomam/scoped-mapping	2021-07-07T08:06:52	env_medium_env_package_normalization.EnvPackage_plant-associated:water
+env_medium	leaf	skos:relatedMatch	PO:0025034	leaf	Lexical	https://github.com/turbomam/scoped-mapping	2021-07-07T08:06:52	env_medium_env_package_normalization.EnvPackage_plant-associated:leaf
+env_medium	animal feed	skos:relatedMatch	ENVO:02000047	animal feed	Lexical	https://github.com/turbomam/scoped-mapping	2021-07-07T08:06:52	env_medium_env_package_normalization.EnvPackage_plant-associated:animal%20feed
+env_medium	rock	skos:relatedMatch	ENVO:00001995	rock	Lexical	https://github.com/turbomam/scoped-mapping	2021-07-07T08:06:52	env_medium_env_package_normalization.EnvPackage_plant-associated:rock
+env_medium	root nodule	skos:relatedMatch	ENVO:01000164	root nodule	Lexical	https://github.com/turbomam/scoped-mapping	2021-07-07T08:06:52	env_medium_env_package_normalization.EnvPackage_plant-associated:root%20nodule
+env_medium	sea grass bed	skos:relatedMatch	ENVO:01000059	sea grass bed	Lexical	https://github.com/turbomam/scoped-mapping	2021-07-07T08:06:52	env_medium_env_package_normalization.EnvPackage_plant-associated:sea%20grass%20bed

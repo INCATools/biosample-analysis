@@ -1,6 +1,13 @@
 .DS_Store
 data
 nlp/*
+src/notebooks/.ipynb_checkpoints/
+src/notebooks/.ipynb_checkpoints
+.Rhistory
 
 *.gz
 temp/
+venv
+target
+downloads
+.idea
