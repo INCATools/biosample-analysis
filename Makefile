@@ -122,6 +122,14 @@ target/mixs-triad-counts.tsv: target/harmonized_table.db .FORCE
 # NB: target/harmonized_table.db must exist locally
 	util/mixs-triad-counts.py -db $< -out $@
 
+target/nmdc-biosample-one-hot.tsv: downloads/nmdc-gold-path-ner/runner/runNER_Output.tsv
+# create a one-hot encoded representation of the named entities found by runNER
+	util/one-hot-encode-nmdc-biosample-net.py -i $< -o $@
+
+target/nmdc-biosample-one-hot.tsv.gz: target/nmdc-biosample-one-hot.tsv
+# gzip target/nmdc-biosample-one-hot.tsv
+	gzip -v -c $< > $@
+
 #target/%MIxS_columns.tsv: https://github.com/cmungall/mixs-source/tree/main/src/schema
 ## This notebook generates two files : MIxS_columns.tsv and Non_MIxS_columns.tsv.
 ## Highlights the data column names that are MIxS terms and non-MIxS terms
@@ -153,6 +161,4 @@ column-accounting:
 	#     xquery: bioproject:PRJNA141675:141675|bioproject:PRJNA138711:138711
 	#   attribute from SQLite is all NULL
 	# this column name anlysis doent' not say anythign about column contents
-
-
 
