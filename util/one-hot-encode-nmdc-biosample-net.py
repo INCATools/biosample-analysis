@@ -14,7 +14,8 @@ DEFAULT_OUTPUT = git_root("target/nmdc-biosample-one-hot.tsv")
 @click.option("--input", "-i", default=DEFAULT_INPUT)
 @click.option("--output", "-o", default=DEFAULT_OUTPUT)
 @click.option("--delimiter", "-d", default="\t")
-def main(input, output, delimiter, use_entity_id=False):
+@click.option("--use-entity-id", default=False)
+def main(input, output, delimiter, use_entity_id):
     # read runNER output
     df_ner = pds.read_csv(input, sep=delimiter)
 
@@ -27,7 +28,7 @@ def main(input, output, delimiter, use_entity_id=False):
 
     # create one-hot encoded data frame with gold ids as the index but with empty features
     onehot_df = pds.DataFrame(columns=matched_ids, index=gold_ids).rename_axis(
-        "GOLD ID"
+        "gold_id"
     )
     onehot_df.fillna(0, inplace=True)  # set all features to 0
 
@@ -44,8 +45,8 @@ def main(input, output, delimiter, use_entity_id=False):
             if col in series.values:
                 onehot_df.loc[idx, col] = 1
 
-    # save output
-    onehot_df.to_csv(output, sep=delimiter, index=False)
+    # save output (note: make sure index is true to save them to file)
+    onehot_df.to_csv(output, sep=delimiter, index=True)
 
 
 if __name__ == "__main__":
