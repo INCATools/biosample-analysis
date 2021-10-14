@@ -50,4 +50,3 @@ def main(input, output, delimiter, use_entity_id=False):
 
 if __name__ == "__main__":
     main()
-# %%
