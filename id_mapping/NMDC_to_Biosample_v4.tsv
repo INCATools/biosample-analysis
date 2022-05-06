@@ -1,7 +1,7 @@
-	0	1	2	0
+	NMDC_analysis_id	relation	NERSC_activity_json	API_alternate_ids
 0	nmdc:mga00098	was_informed_by	Gp0138748	['img.taxon:3300025496', 'biosample:SAMN06266110']
-1	nmdc:mga0014j80	was_informed_by	SAMEA7724291_ERR5003334	null
-2	nmdc:mga0026t90	was_informed_by	SAMEA7724302_ERR5004081	null
+1	nmdc:mga0014j80	was_informed_by	SAMEA7724291_ERR5003334	['gold:Gb0240018']
+2	nmdc:mga0026t90	was_informed_by	SAMEA7724302_ERR5004081	['gold:Gb0239923']
 3	nmdc:mga002nf41	was_informed_by	SAMEA7724295	null
 4	nmdc:mga002tn28	was_informed_by	Gp0566644	['img.taxon:3300046718']
 5	nmdc:mga002tt13	was_informed_by	Gp0566808	['img.taxon:3300046519']
@@ -10,7 +10,7 @@
 8	nmdc:mga009wr51	was_informed_by	Gp0566764	['img.taxon:3300046674']
 9	nmdc:mga00ack82	was_informed_by	Gp0225780	null
 10	nmdc:mga00bn471	was_informed_by	Gp0225767	null
-11	nmdc:mga00c4z05	was_informed_by	SAMEA7724315_ERR5004943	null
+11	nmdc:mga00c4z05	was_informed_by	SAMEA7724315_ERR5004943	['gold:Gb0240029']
 12	nmdc:mga00eae29	was_informed_by	Gp0208574	null
 13	nmdc:mga00efj22	was_informed_by	Gp0306222	null
 14	nmdc:mga00f53	was_informed_by	SRR10739566	null
@@ -23,23 +23,23 @@
 21	nmdc:mga00h47	was_informed_by	Gp0213343	['img.taxon:3300018047', 'biosample:SAMN08777608']
 22	nmdc:mga00hh562	was_informed_by	Gp0127656	['img.taxon:3300042801', 'biosample:SAMN06267141', 'gold:Gb0126457']
 23	nmdc:mga00j44	was_informed_by	Gp0213341	['img.taxon:3300018026', 'biosample:SAMN08779181']
-24	nmdc:mga00mdk15	was_informed_by	SAMEA7724310_ERR5004151	null
+24	nmdc:mga00mdk15	was_informed_by	SAMEA7724310_ERR5004151	['gold:Gb0240024']
 25	nmdc:mga00p32	was_informed_by	SRR12480170	null
 26	nmdc:mga00q2s82	was_informed_by	Gp0344901	['img.taxon:3300032091', 'biosample:SAMN11532912']
 27	nmdc:mga00qqf36	was_informed_by	Gp0095970	null
-28	nmdc:mga00s2q55	was_informed_by	SAMEA7724317_ERR5004945	null
+28	nmdc:mga00s2q55	was_informed_by	SAMEA7724317_ERR5004945	['gold:Gb0240031']
 29	nmdc:mga00tbm08	was_informed_by	Gp0566673	['img.taxon:3300046790']
 30	nmdc:mga00v17	was_informed_by	Gp0116323	['img.taxon:3300006051', 'biosample:SAMN06266330']
 31	nmdc:mga00w14	was_informed_by	SRR8849261	null
-32	nmdc:mga00whr66	was_informed_by	SAMEA7724338_ERR5003426	null
+32	nmdc:mga00whr66	was_informed_by	SAMEA7724338_ERR5003426	['gold:Gb0240042']
 33	nmdc:mga00wsw62	was_informed_by	Gp0566646	['img.taxon:3300046714']
 34	nmdc:mga00x5449	was_informed_by	Gp0331406	null
 35	nmdc:mga00xge30	was_informed_by	Gp0306246	null
-36	nmdc:mga00xqw92	was_informed_by	SAMEA7724221_ERR5004695	null
+36	nmdc:mga00xqw92	was_informed_by	SAMEA7724221_ERR5004695	['gold:Gb0240085']
 37	nmdc:mga00y08	was_informed_by	Gp0138741	null
 38	nmdc:mga00yx311	was_informed_by	Gp0321272	['img.taxon:3300042821', 'biosample:SAMN10864148', 'gold:Gb0191652']
 39	nmdc:mga00z05	was_informed_by	SRR12480355	null
-40	nmdc:mga00z8128	was_informed_by	SAMEA7724307_ERR5004148	null
+40	nmdc:mga00z8128	was_informed_by	SAMEA7724307_ERR5004148	['gold:Gb0240021']
 41	nmdc:mga00zf426	was_informed_by	Gp0566839	['img.taxon:3300046525']
 42	nmdc:mga011yj63	was_informed_by	Gp0566826	['img.taxon:3300046471']
 43	nmdc:mga01293	was_informed_by	SRR12479797	null
@@ -59,9 +59,9 @@
 57	nmdc:mga01bcz35	was_informed_by	Gp0225776	null
 58	nmdc:mga01bg617	was_informed_by	Gp0306226	null
 59	nmdc:mga01dmr31	was_informed_by	Gp0321294	['img.taxon:3300042840', 'biosample:SAMN10864125', 'gold:Gb0191674']
-60	nmdc:mga01dqc70	was_informed_by	SAMEA7724345_ERR5002153	null
+60	nmdc:mga01dqc70	was_informed_by	SAMEA7724345_ERR5002153	['gold:Gb0240049']
 61	nmdc:mga01e1a86	was_informed_by	Gp0566663	['img.taxon:3300046784']
-62	nmdc:mga01ekv53	was_informed_by	SAMEA7724211_ERR5003207	null
+62	nmdc:mga01ekv53	was_informed_by	SAMEA7724211_ERR5003207	['gold:Gb0240101']
 63	nmdc:mga01enr64	was_informed_by	Gp0321277	['img.taxon:3300042829', 'biosample:SAMN10864142', 'gold:Gb0191657']
 64	nmdc:mga01evm82	was_informed_by	Gp0225791	null
 65	nmdc:mga01h3602	was_informed_by	SAMEA7724284	null
@@ -69,14 +69,14 @@
 67	nmdc:mga01hpq67	was_informed_by	Gp0146713	null
 68	nmdc:mga01j5636	was_informed_by	Gp0344866	['img.taxon:3300031668', 'biosample:SAMN10864364']
 69	nmdc:mga01k42	was_informed_by	Gp0213356	['img.taxon:3300018017', 'biosample:SAMN08779025']
-70	nmdc:mga01r1q76	was_informed_by	SAMEA7724295_ERR5004861	null
+70	nmdc:mga01r1q76	was_informed_by	SAMEA7724295_ERR5004861	['gold:Gb0240016']
 71	nmdc:mga01r27	was_informed_by	SRR8849276	null
 72	nmdc:mga01s24	was_informed_by	Gp0138739	null
 73	nmdc:mga01sm875	was_informed_by	Gp0331390	null
-74	nmdc:mga01tbe80	was_informed_by	SAMEA7724299_ERR5004865	null
+74	nmdc:mga01tbe80	was_informed_by	SAMEA7724299_ERR5004865	['gold:Gb0239920']
 75	nmdc:mga01v18	was_informed_by	Gp0138757	['img.taxon:3300009760', 'biosample:SAMN06266178']
 76	nmdc:mga01vn649	was_informed_by	Gp0566801	['img.taxon:3300046660']
-77	nmdc:mga01vqm09	was_informed_by	SAMEA7724304_ERR5004870	null
+77	nmdc:mga01vqm09	was_informed_by	SAMEA7724304_ERR5004870	['gold:Gb0239925']
 78	nmdc:mga01z06	was_informed_by	Gp0138752	null
 79	nmdc:mga01z0n14	was_informed_by	Gp0566840	['img.taxon:3300046477']
 80	nmdc:mga01zyp41	was_informed_by	Gp0566737	['img.taxon:3300047316']
@@ -95,27 +95,27 @@
 93	nmdc:mga0270k82	was_informed_by	Gp0331409	null
 94	nmdc:mga027kw74	was_informed_by	Gp0321411	null
 95	nmdc:mga02876	was_informed_by	Gp0213358	['img.taxon:3300018019', 'biosample:SAMN08778335']
-96	nmdc:mga028x879	was_informed_by	SAMEA7724332_ERR5004173	null
+96	nmdc:mga028x879	was_informed_by	SAMEA7724332_ERR5004173	['gold:Gb0240036']
 97	nmdc:mga02973	was_informed_by	Gp0208371	['img.taxon:3300014167', 'biosample:SAMN07631769']
 98	nmdc:mga029dh68	was_informed_by	Gp0344820	['img.taxon:3300031805', 'biosample:SAMN11532138']
-99	nmdc:mga02djr83	was_informed_by	SAMEA7724342_ERR5004183	null
-100	nmdc:mga02f9c77	was_informed_by	SAMEA7724308_ERR5004936	null
+99	nmdc:mga02djr83	was_informed_by	SAMEA7724342_ERR5004183	['gold:Gb0240046']
+100	nmdc:mga02f9c77	was_informed_by	SAMEA7724308_ERR5004936	['gold:Gb0240022']
 101	nmdc:mga02ft906	was_informed_by	Gp0119859	['img.taxon:3300042786', 'biosample:SAMN06343775', 'gold:Gb0119269']
 102	nmdc:mga02gdb19	was_informed_by	Gp0344857	['img.taxon:3300032059', 'biosample:SAMN11532485']
 103	nmdc:mga02ht194	was_informed_by	Gp0344832	['img.taxon:3300031768', 'biosample:SAMN10864296']
 104	nmdc:mga02kzm09	was_informed_by	Gp0321283	['img.taxon:3300042843', 'biosample:SAMN10864254', 'gold:Gb0191663']
 105	nmdc:mga02mx002	was_informed_by	Gp0225786	null
-106	nmdc:mga02nm607	was_informed_by	SAMEA7724204_ERR5004678	null
-107	nmdc:mga02nv905	was_informed_by	SAMEA7724316_ERR5003414	null
+106	nmdc:mga02nm607	was_informed_by	SAMEA7724204_ERR5004678	['gold:Gb0240065']
+107	nmdc:mga02nv905	was_informed_by	SAMEA7724316_ERR5003414	['gold:Gb0240030']
 108	nmdc:mga02p34	was_informed_by	Gp0213353	['img.taxon:3300018030', 'biosample:SAMN08777593']
 109	nmdc:mga02qev02	was_informed_by	Gp0344835	['img.taxon:3300031846', 'biosample:SAMN11532312']
-110	nmdc:mga02r9c74	was_informed_by	SAMEA7724294_ERR5004073	null
-111	nmdc:mga02tmf43	was_informed_by	SAMEA7724305_ERR5002067	null
+110	nmdc:mga02r9c74	was_informed_by	SAMEA7724294_ERR5004073	['gold:Gb0240015']
+111	nmdc:mga02tmf43	was_informed_by	SAMEA7724305_ERR5002067	['gold:Gb0239926']
 112	nmdc:mga02tph39	was_informed_by	Gp0127636	['img.taxon:3300042770', 'biosample:SAMN06267122', 'gold:Gb0126437']
 113	nmdc:mga02vfg67	was_informed_by	Gp0331402	null
 114	nmdc:mga02w2h83	was_informed_by	Gp0208576	['img.taxon:3300031879', 'biosample:SAMN07630340']
 115	nmdc:mga02wem86	was_informed_by	Gp0566812	['img.taxon:3300047318']
-116	nmdc:mga02xq187	was_informed_by	SAMEA7724289_ERR5002054	null
+116	nmdc:mga02xq187	was_informed_by	SAMEA7724289_ERR5002054	['gold:Gb0239939']
 117	nmdc:mga02y3f57	was_informed_by	Gp0306230	null
 118	nmdc:mga03004	was_informed_by	SRR12480320	null
 119	nmdc:mga030nq18	was_informed_by	Gp0566818	['img.taxon:3300046528']
@@ -135,34 +135,34 @@
 133	nmdc:mga03eyz63	was_informed_by	Gp0127623	['img.taxon:3300042757', 'biosample:SAMN06266292', 'gold:Gb0126424']
 134	nmdc:mga03fnv98	was_informed_by	Gp0321404	null
 135	nmdc:mga03gac67	was_informed_by	Gp0566660	['img.taxon:3300046788']
-136	nmdc:mga03ggs34	was_informed_by	SAMEA7724337_ERR5004178	null
+136	nmdc:mga03ggs34	was_informed_by	SAMEA7724337_ERR5004178	['gold:Gb0240041']
 137	nmdc:mga03gw024	was_informed_by	Gp0566792	['img.taxon:3300046513']
 138	nmdc:mga03jww04	was_informed_by	Gp0566735	['img.taxon:3300049453']
 139	nmdc:mga03k7778	was_informed_by	Gp0344886	['img.taxon:3300032008', 'biosample:SAMN11532884']
 140	nmdc:mga03m3r55	was_informed_by	Gp0344823	['img.taxon:3300031724', 'biosample:SAMN11533374']
-141	nmdc:mga03m5e87	was_informed_by	SAMEA7724219_ERR5004693	null
+141	nmdc:mga03m5e87	was_informed_by	SAMEA7724219_ERR5004693	['gold:Gb0240098']
 142	nmdc:mga03n38	was_informed_by	Gp0116322	['img.taxon:3300006048', 'biosample:SAMN06264538']
 143	nmdc:mga03ndz76	was_informed_by	Gp0321423	null
 144	nmdc:mga03nj659	was_informed_by	Gp0306227	null
 145	nmdc:mga03p4e53	was_informed_by	Gp0344846	['img.taxon:3300031798', 'biosample:SAMN11532591']
 146	nmdc:mga03ps698	was_informed_by	Gp0119856	['img.taxon:3300042783', 'biosample:SAMN06343772', 'gold:Gb0119266']
 147	nmdc:mga03ptd78	was_informed_by	Gp0566733	['img.taxon:3300047314']
-148	nmdc:mga03q3514	was_informed_by	SAMEA7724208_ERR5003895	null
+148	nmdc:mga03q3514	was_informed_by	SAMEA7724208_ERR5003895	['gold:Gb0240087']
 149	nmdc:mga03s1188	was_informed_by	Gp0566756	['img.taxon:3300046472']
-150	nmdc:mga03sr017	was_informed_by	SAMEA7724288_ERR5002053	null
+150	nmdc:mga03sr017	was_informed_by	SAMEA7724288_ERR5002053	['gold:Gb0239938']
 151	nmdc:mga03t6x41	was_informed_by	SAMEA7724283	null
 152	nmdc:mga03vd943	was_informed_by	Gp0566717	['img.taxon:3300046747']
 153	nmdc:mga03x14	was_informed_by	Gp0138751	null
 154	nmdc:mga03xpg95	was_informed_by	Gp0566696	['img.taxon:3300046741']
 155	nmdc:mga03y9a35	was_informed_by	Gp0344818	['img.taxon:3300031860', 'biosample:SAMN11532109']
 156	nmdc:mga03zvw31	was_informed_by	Gp0566860	['img.taxon:3300047471']
-157	nmdc:mga0402025	was_informed_by	SAMEA7724312_ERR5003410	null
+157	nmdc:mga0402025	was_informed_by	SAMEA7724312_ERR5003410	['gold:Gb0240026']
 158	nmdc:mga041je31	was_informed_by	Gp0325959	['img.taxon:3300033289', 'biosample:SAMN11532176']
-159	nmdc:mga0421670	was_informed_by	SAMEA7724325_ERR5002141	null
+159	nmdc:mga0421670	was_informed_by	SAMEA7724325_ERR5002141	['gold:Gb0315661']
 160	nmdc:mga043xj94	was_informed_by	Gp0306248	null
 161	nmdc:mga04490	was_informed_by	SRR8849255	null
 162	nmdc:mga044q659	was_informed_by	Gp0321422	null
-163	nmdc:mga044re36	was_informed_by	SAMEA7724349_ERR5002157	null
+163	nmdc:mga044re36	was_informed_by	SAMEA7724349_ERR5002157	['gold:Gb0240053']
 164	nmdc:mga045k105	was_informed_by	Gp0119864	['img.taxon:3300042805', 'biosample:SAMN06343779', 'gold:Gb0119274']
 165	nmdc:mga04684	was_informed_by	SRR8849279	null
 166	nmdc:mga04781	was_informed_by	SRR13122276	null
@@ -173,12 +173,12 @@
 171	nmdc:mga04bd679	was_informed_by	Gp0566849	['img.taxon:3300047469']
 172	nmdc:mga04c66	was_informed_by	Gp0116335	null
 173	nmdc:mga04d1e10	was_informed_by	SAMEA7724293	null
-174	nmdc:mga04djc33	was_informed_by	SAMEA7724344_ERR5002152	null
+174	nmdc:mga04djc33	was_informed_by	SAMEA7724344_ERR5002152	['gold:Gb0240048']
 175	nmdc:mga04e0r11	was_informed_by	Gp0344827	['img.taxon:3300032063', 'biosample:SAMN11533384']
 176	nmdc:mga04f57	was_informed_by	Gp0116321	null
 177	nmdc:mga04g54	was_informed_by	Gp0138730	['img.taxon:3300025409', 'biosample:SAMN06266155']
 178	nmdc:mga04h51	was_informed_by	Gp0116327	['img.taxon:3300027866', 'biosample:SAMN06264537']
-179	nmdc:mga04hfg49	was_informed_by	SAMEA7724280_ERR5002046	null
+179	nmdc:mga04hfg49	was_informed_by	SAMEA7724280_ERR5002046	['gold:Gb0240012']
 180	nmdc:mga04hmk45	was_informed_by	Gp0321406	null
 181	nmdc:mga04jr429	was_informed_by	Gp0208582	['img.taxon:3300031890', 'biosample:SAMN07630346']
 182	nmdc:mga04k45	was_informed_by	Gp0208379	['img.taxon:3300014638', 'biosample:SAMN07631777']
@@ -186,8 +186,8 @@
 184	nmdc:mga04myz18	was_informed_by	Gp0225787	null
 185	nmdc:mga04nbd85	was_informed_by	Gp0566701	['img.taxon:3300046825']
 186	nmdc:mga04p2d11	was_informed_by	Gp0566659	['img.taxon:3300049441']
-187	nmdc:mga04rdz32	was_informed_by	SAMEA7724338_ERR5004966	null
-188	nmdc:mga04ret48	was_informed_by	SAMEA7724283_ERR5004849	null
+187	nmdc:mga04rdz32	was_informed_by	SAMEA7724338_ERR5004966	['gold:Gb0240042']
+188	nmdc:mga04ret48	was_informed_by	SAMEA7724283_ERR5004849	['gold:Gb0239935']
 189	nmdc:mga04ryr70	was_informed_by	Gp0566719	['img.taxon:3300046727']
 190	nmdc:mga04txv27	was_informed_by	Gp0208576	null
 191	nmdc:mga04xd673	was_informed_by	Gp0331410	null
@@ -196,38 +196,38 @@
 194	nmdc:mga050vf59	was_informed_by	Gp0566648	['img.taxon:3300046736']
 195	nmdc:mga052ja32	was_informed_by	Gp0566693	['img.taxon:3300046740']
 196	nmdc:mga052v265	was_informed_by	Gp0566635	['img.taxon:3300048622']
-197	nmdc:mga0541q40	was_informed_by	SAMEA7724304_ERR5002066	null
+197	nmdc:mga0541q40	was_informed_by	SAMEA7724304_ERR5002066	['gold:Gb0239925']
 198	nmdc:mga05491	was_informed_by	Gp0213347	['img.taxon:3300018034', 'biosample:SAMN08776827']
 199	nmdc:mga054a603	was_informed_by	Gp0344868	['img.taxon:3300031880', 'biosample:SAMN11533382']
-200	nmdc:mga054x719	was_informed_by	SAMEA7724315_ERR5003413	null
+200	nmdc:mga054x719	was_informed_by	SAMEA7724315_ERR5003413	['gold:Gb0240029']
 201	nmdc:mga0560v91	was_informed_by	Gp0225775	null
 202	nmdc:mga05685	was_informed_by	SRR12479812	null
 203	nmdc:mga056eb56	was_informed_by	Gp0566814	['img.taxon:3300046460']
 204	nmdc:mga05a9c79	was_informed_by	Gp0325961	['img.taxon:3300031942', 'biosample:SAMN11532866']
-205	nmdc:mga05j0s93	was_informed_by	SAMEA7724336_ERR5004177	null
+205	nmdc:mga05j0s93	was_informed_by	SAMEA7724336_ERR5004177	['gold:Gb0240040']
 206	nmdc:mga05j49	was_informed_by	Gp0138760	null
 207	nmdc:mga05k7983	was_informed_by	Gp0306240	null
 208	nmdc:mga05m0b05	was_informed_by	Gp0566767	['img.taxon:3300046458']
 209	nmdc:mga05m43	was_informed_by	Gp0213340	['img.taxon:3300017925', 'biosample:SAMN08777133']
 210	nmdc:mga05n40	was_informed_by	Gp0138743	['img.taxon:3300025406', 'biosample:SAMN06266171']
 211	nmdc:mga05p37	was_informed_by	Gp0116340	['img.taxon:3300009147', 'biosample:SAMN06264565']
-212	nmdc:mga05pqa95	was_informed_by	SAMEA7724288_ERR5003332	null
+212	nmdc:mga05pqa95	was_informed_by	SAMEA7724288_ERR5003332	['gold:Gb0239938']
 213	nmdc:mga05q34	was_informed_by	Gp0213375	['img.taxon:3300017996', 'biosample:SAMN08779029']
 214	nmdc:mga05r31	was_informed_by	Gp0213348	['img.taxon:3300018022', 'biosample:SAMN08778333']
 215	nmdc:mga05rf666	was_informed_by	Gp0331408	null
 216	nmdc:mga05rxj44	was_informed_by	Gp0331397	null
-217	nmdc:mga05w5k48	was_informed_by	SAMEA7724348_ERR5003435	null
+217	nmdc:mga05w5k48	was_informed_by	SAMEA7724348_ERR5003435	['gold:Gb0240052']
 218	nmdc:mga05wn412	was_informed_by	Gp0566770	['img.taxon:3300046499']
 219	nmdc:mga05y13	was_informed_by	Gp0213351	['img.taxon:3300018033', 'biosample:SAMN08779017']
-220	nmdc:mga05y7365	was_informed_by	SAMEA7724345_ERR5004186	null
+220	nmdc:mga05y7365	was_informed_by	SAMEA7724345_ERR5004186	['gold:Gb0240049']
 221	nmdc:mga05zg309	was_informed_by	SAMEA7724283	null
 222	nmdc:mga05zvf81	was_informed_by	Gp0127633	['img.taxon:3300042767', 'biosample:SAMN06267119', 'gold:Gb0126434']
 223	nmdc:mga06104	was_informed_by	Gp0138755	null
 224	nmdc:mga0616x82	was_informed_by	Gp0344847	['img.taxon:3300032067', 'biosample:SAMN11532767']
 225	nmdc:mga061xc59	was_informed_by	Gp0566780	['img.taxon:3300047317']
 226	nmdc:mga06298	was_informed_by	Gp0138752	['img.taxon:3300025576', 'biosample:SAMN06266175']
-227	nmdc:mga0652t21	was_informed_by	SAMEA7724315_ERR5002134	null
-228	nmdc:mga065kt38	was_informed_by	SAMEA7724296_ERR5003339	null
+227	nmdc:mga0652t21	was_informed_by	SAMEA7724315_ERR5002134	['gold:Gb0240029']
+228	nmdc:mga065kt38	was_informed_by	SAMEA7724296_ERR5003339	['gold:Gb0240017']
 229	nmdc:mga06686	was_informed_by	SRR8849288	null
 230	nmdc:mga067bb42	was_informed_by	Gp0321419	null
 231	nmdc:mga067n182	was_informed_by	Gp0566681	['img.taxon:3300046717']
@@ -239,7 +239,7 @@
 237	nmdc:mga06d65	was_informed_by	Gp0213350	['img.taxon:3300018015', 'biosample:SAMN08777606']
 238	nmdc:mga06es992	was_informed_by	Gp0306239	null
 239	nmdc:mga06f4615	was_informed_by	Gp0208583	['img.taxon:3300031954', 'biosample:SAMN07630347']
-240	nmdc:mga06g4356	was_informed_by	SAMEA7724312_ERR5004940	null
+240	nmdc:mga06g4356	was_informed_by	SAMEA7724312_ERR5004940	['gold:Gb0240026']
 241	nmdc:mga06gxg42	was_informed_by	Gp0321310	['img.taxon:3300042859', 'biosample:SAMN10864135', 'gold:Gb0191690']
 242	nmdc:mga06kfs97	was_informed_by	Gp0566636	['img.taxon:3300048687']
 243	nmdc:mga06mqp49	was_informed_by	Gp0119863	['img.taxon:3300042790', 'biosample:SAMN06343778', 'gold:Gb0119273']
@@ -254,37 +254,37 @@
 252	nmdc:mga06w3448	was_informed_by	Gp0566692	['img.taxon:3300047311']
 253	nmdc:mga06xhx19	was_informed_by	Gp0208567	null
 254	nmdc:mga06y14	was_informed_by	SRR12480120	null
-255	nmdc:mga06y4x38	was_informed_by	SAMEA7724346_ERR5003433	null
+255	nmdc:mga06y4x38	was_informed_by	SAMEA7724346_ERR5003433	['gold:Gb0240050']
 256	nmdc:mga06z11	was_informed_by	Gp0116326	['img.taxon:3300006178', 'biosample:SAMN06266332']
 257	nmdc:mga07008	was_informed_by	SRR8849199	null
-258	nmdc:mga0709194	was_informed_by	SAMEA7724339_ERR5004967	null
+258	nmdc:mga0709194	was_informed_by	SAMEA7724339_ERR5004967	['gold:Gb0240043']
 259	nmdc:mga070n982	was_informed_by	Gp0566698	['img.taxon:3300047089']
-260	nmdc:mga070qp45	was_informed_by	SAMEA7724204_ERR5003200	null
+260	nmdc:mga070qp45	was_informed_by	SAMEA7724204_ERR5003200	['gold:Gb0240065']
 261	nmdc:mga070wa86	was_informed_by	Gp0566836	['img.taxon:3300046810']
 262	nmdc:mga071r920	was_informed_by	Gp0127629	['img.taxon:3300042763', 'biosample:SAMN06267115', 'gold:Gb0126430']
 263	nmdc:mga072kj20	was_informed_by	Gp0119860	['img.taxon:3300042787', 'biosample:SAMN06343776', 'gold:Gb0119270']
-264	nmdc:mga0746f80	was_informed_by	SAMEA7724294_ERR5002058	null
+264	nmdc:mga0746f80	was_informed_by	SAMEA7724294_ERR5002058	['gold:Gb0240015']
 265	nmdc:mga07493	was_informed_by	Gp0138733	null
-266	nmdc:mga0763x02	was_informed_by	SAMEA7724343_ERR5003430	null
-267	nmdc:mga076fg53	was_informed_by	SAMEA7724278_ERR5002044	null
+266	nmdc:mga0763x02	was_informed_by	SAMEA7724343_ERR5003430	['gold:Gb0240047']
+267	nmdc:mga076fg53	was_informed_by	SAMEA7724278_ERR5002044	['gold:Gb0240010']
 268	nmdc:mga076j492	was_informed_by	Gp0321305	['img.taxon:3300042877', 'biosample:SAMN10864201', 'gold:Gb0191685']
 269	nmdc:mga0789741	was_informed_by	Gp0566794	['img.taxon:3300046514']
 270	nmdc:mga079y988	was_informed_by	Gp0127653	['img.taxon:3300042798', 'biosample:SAMN06267138', 'gold:Gb0126454']
 271	nmdc:mga07aeg83	was_informed_by	Gp0566791	['img.taxon:3300048090']
-272	nmdc:mga07bpb41	was_informed_by	SAMEA7724128_ERR5004506	null
+272	nmdc:mga07bpb41	was_informed_by	SAMEA7724128_ERR5004506	['gold:Gb0239950']
 273	nmdc:mga07cts35	was_informed_by	Gp0325960	['img.taxon:3300031573', 'biosample:SAMN10864215']
 274	nmdc:mga07d7123	was_informed_by	Gp0208578	null
 275	nmdc:mga07e63	was_informed_by	Gp0116333	['img.taxon:3300006853', 'biosample:SAMN06343962']
-276	nmdc:mga07f5p22	was_informed_by	SAMEA7724294_ERR5003337	null
+276	nmdc:mga07f5p22	was_informed_by	SAMEA7724294_ERR5003337	['gold:Gb0240015']
 277	nmdc:mga07fqj52	was_informed_by	Gp0566781	['img.taxon:3300046474']
 278	nmdc:mga07fr495	was_informed_by	Gp0095973	null
-279	nmdc:mga07gx047	was_informed_by	SAMEA7724347_ERR5004188	null
+279	nmdc:mga07gx047	was_informed_by	SAMEA7724347_ERR5004188	['gold:Gb0240051']
 280	nmdc:mga07gxh93	was_informed_by	Gp0566674	['img.taxon:3300046791']
-281	nmdc:mga07h8z62	was_informed_by	SAMEA7723902_ERR5003109	null
-282	nmdc:mga07jpm44	was_informed_by	SAMEA7724303_ERR5004082	null
+281	nmdc:mga07h8z62	was_informed_by	SAMEA7723902_ERR5003109	['gold:Gb0240115']
+282	nmdc:mga07jpm44	was_informed_by	SAMEA7724303_ERR5004082	['gold:Gb0239924']
 283	nmdc:mga07m2h97	was_informed_by	Gp0225768	null
 284	nmdc:mga07m45	was_informed_by	Gp0116329	['img.taxon:3300006353', 'biosample:SAMN06343959']
-285	nmdc:mga07t1c12	was_informed_by	SAMEA7724345_ERR5004973	null
+285	nmdc:mga07t1c12	was_informed_by	SAMEA7724345_ERR5004973	['gold:Gb0240049']
 286	nmdc:mga07tz563	was_informed_by	Gp0321293	['img.taxon:3300042847', 'biosample:SAMN10864331', 'gold:Gb0191673']
 287	nmdc:mga07w21	was_informed_by	Gp0208361	['img.taxon:3300014156', 'biosample:SAMN07631760']
 288	nmdc:mga08009	was_informed_by	Gp0213338	['img.taxon:3300017938', 'biosample:SAMN08779014']
@@ -299,7 +299,7 @@
 297	nmdc:mga0894a16	was_informed_by	Gp0344838	['img.taxon:3300031572', 'biosample:SAMN10864289']
 298	nmdc:mga08acq17	was_informed_by	Gp0566700	['img.taxon:3300047091']
 299	nmdc:mga08be217	was_informed_by	Gp0566769	['img.taxon:3300047673']
-300	nmdc:mga08bha93	was_informed_by	SAMEA7724285_ERR5002051	null
+300	nmdc:mga08bha93	was_informed_by	SAMEA7724285_ERR5002051	['gold:Gb0239937']
 301	nmdc:mga08dbn21	was_informed_by	Gp0119857	['img.taxon:3300042784', 'biosample:SAMN06343773', 'gold:Gb0119267']
 302	nmdc:mga08dc570	was_informed_by	Gp0344900	['img.taxon:3300031796', 'biosample:SAMN11532135']
 303	nmdc:mga08dx684	was_informed_by	Gp0566825	['img.taxon:3300046694']
@@ -311,24 +311,24 @@
 309	nmdc:mga08j52	was_informed_by	SRR8849208	null
 310	nmdc:mga08js743	was_informed_by	Gp0128143	null
 311	nmdc:mga08kx682	was_informed_by	Gp0321303	['img.taxon:3300042871', 'biosample:SAMN10864123', 'gold:Gb0191683']
-312	nmdc:mga08prf49	was_informed_by	SAMEA7724259_ERR5003317	null
+312	nmdc:mga08prf49	was_informed_by	SAMEA7724259_ERR5003317	['gold:Gb0239991']
 313	nmdc:mga08r34	was_informed_by	Gp0208360	['img.taxon:3300014160', 'biosample:SAMN07631759']
 314	nmdc:mga08s8a47	was_informed_by	Gp0566702	['img.taxon:3300046688']
 315	nmdc:mga08v25	was_informed_by	SRR8849203	null
-316	nmdc:mga08w1r94	was_informed_by	SAMEA7724289_ERR5004855	null
+316	nmdc:mga08w1r94	was_informed_by	SAMEA7724289_ERR5004855	['gold:Gb0239939']
 317	nmdc:mga08w22	was_informed_by	SRR13122233	null
 318	nmdc:mga08wz293	was_informed_by	SAMEA7724296	null
 319	nmdc:mga08x19	was_informed_by	Gp0116349	['img.taxon:3300006914', 'biosample:SAMN06343976']
 320	nmdc:mga08y16	was_informed_by	Gp0116345	['img.taxon:3300027907', 'biosample:SAMN06266326']
-321	nmdc:mga0903a72	was_informed_by	SAMEA7724270_ERR5002041	null
+321	nmdc:mga0903a72	was_informed_by	SAMEA7724270_ERR5002041	['gold:Gb0240002']
 322	nmdc:mga091q736	was_informed_by	SAMEA7724294	null
 323	nmdc:mga09204	was_informed_by	Gp0138764	null
 324	nmdc:mga09592	was_informed_by	Gp0116342	['img.taxon:3300006880', 'biosample:SAMN06343970']
 325	nmdc:mga09689	was_informed_by	SRR8849220	null
-326	nmdc:mga097v059	was_informed_by	SAMEA7724316_ERR5002135	null
+326	nmdc:mga097v059	was_informed_by	SAMEA7724316_ERR5002135	['gold:Gb0240030']
 327	nmdc:mga098nj31	was_informed_by	Gp0566856	['img.taxon:3300047322']
 328	nmdc:mga099j405	was_informed_by	Gp0566862	['img.taxon:3300047472']
-329	nmdc:mga09aej88	was_informed_by	SAMEA7724306_ERR5003347	null
+329	nmdc:mga09aej88	was_informed_by	SAMEA7724306_ERR5003347	['gold:Gb0239927']
 330	nmdc:mga09f1f50	was_informed_by	Gp0119866	['img.taxon:3300042807', 'biosample:SAMN06343682', 'gold:Gb0119276']
 331	nmdc:mga09fke71	was_informed_by	Gp0306250	null
 332	nmdc:mga09m47	was_informed_by	Gp0213339	['img.taxon:3300018038', 'biosample:SAMN08776997']
@@ -336,43 +336,43 @@
 334	nmdc:mga09myx03	was_informed_by	Gp0111286	null
 335	nmdc:mga09n3g47	was_informed_by	Gp0127630	['img.taxon:3300042764', 'biosample:SAMN06267116', 'gold:Gb0126431']
 336	nmdc:mga09n7k42	was_informed_by	Gp0128140	null
-337	nmdc:mga09n9y11	was_informed_by	SAMEA7724227_ERR5001940	null
-338	nmdc:mga09pck79	was_informed_by	SAMEA7724296_ERR5004075	null
+337	nmdc:mga09n9y11	was_informed_by	SAMEA7724227_ERR5001940	['gold:Gb0240054']
+338	nmdc:mga09pck79	was_informed_by	SAMEA7724296_ERR5004075	['gold:Gb0240017']
 339	nmdc:mga09q8m07	was_informed_by	Gp0321271	['img.taxon:3300042826', 'biosample:SAMN10864149', 'gold:Gb0191651']
 340	nmdc:mga09t29	was_informed_by	Gp0138738	['img.taxon:3300025459', 'biosample:SAMN06264667']
 341	nmdc:mga09wpw60	was_informed_by	Gp0127639	['img.taxon:3300042773', 'biosample:SAMN06267125', 'gold:Gb0126440']
-342	nmdc:mga09wq921	was_informed_by	SAMEA7724345_ERR5003432	null
+342	nmdc:mga09wq921	was_informed_by	SAMEA7724345_ERR5003432	['gold:Gb0240049']
 343	nmdc:mga09wys77	was_informed_by	Gp0321304	['img.taxon:3300042872', 'biosample:SAMN10864171', 'gold:Gb0191684']
-344	nmdc:mga09xb262	was_informed_by	SAMEA7724221_ERR5003908	null
+344	nmdc:mga09xb262	was_informed_by	SAMEA7724221_ERR5003908	['gold:Gb0240085']
 345	nmdc:mga09xf169	was_informed_by	Gp0566726	['img.taxon:3300047439']
-346	nmdc:mga09yrm53	was_informed_by	SAMEA7724217_ERR5004691	null
+346	nmdc:mga09yrm53	was_informed_by	SAMEA7724217_ERR5004691	['gold:Gb0240094']
 347	nmdc:mga0a011	was_informed_by	Gp0213367	['img.taxon:3300018037', 'biosample:SAMN08777129']
 348	nmdc:mga0a0jd35	was_informed_by	Gp0566645	['img.taxon:3300046709']
 349	nmdc:mga0a0n659	was_informed_by	Gp0344876	['img.taxon:3300031782', 'biosample:SAMN11532078']
 350	nmdc:mga0a205	was_informed_by	Gp0116346	['img.taxon:3300006852', 'biosample:SAMN06343973']
 351	nmdc:mga0a26d87	was_informed_by	Gp0566710	['img.taxon:3300046824']
 352	nmdc:mga0a5jv56	was_informed_by	Gp0111288	null
-353	nmdc:mga0a5y440	was_informed_by	SAMEA7724278_ERR5004844	null
+353	nmdc:mga0a5y440	was_informed_by	SAMEA7724278_ERR5004844	['gold:Gb0240010']
 354	nmdc:mga0a6vd42	was_informed_by	Gp0344861	['img.taxon:3300031763', 'biosample:SAMN11532311']
 355	nmdc:mga0a79a65	was_informed_by	Gp0225792	null
 356	nmdc:mga0a9qw89	was_informed_by	Gp0321425	null
-357	nmdc:mga0aa1m26	was_informed_by	SAMEA7724320_ERR5004948	null
+357	nmdc:mga0aa1m26	was_informed_by	SAMEA7724320_ERR5004948	['gold:Gb0240034']
 358	nmdc:mga0aajm43	was_informed_by	Gp0566802	['img.taxon:3300048091']
 359	nmdc:mga0ac72	was_informed_by	Gp0138727	['img.taxon:3300009759', 'biosample:SAMN06266165']
 360	nmdc:mga0ad1473	was_informed_by	Gp0344890	['img.taxon:3300031779', 'biosample:SAMN11533381']
 361	nmdc:mga0ae8d85	was_informed_by	Gp0321273	['img.taxon:3300042822', 'biosample:SAMN10864389', 'gold:Gb0191653']
-362	nmdc:mga0af2c17	was_informed_by	SAMEA7724288_ERR5004067	null
+362	nmdc:mga0af2c17	was_informed_by	SAMEA7724288_ERR5004067	['gold:Gb0239938']
 363	nmdc:mga0af63	was_informed_by	Gp0213344	['img.taxon:3300018014', 'biosample:SAMN08779043']
 364	nmdc:mga0agmt25	was_informed_by	Gp0566740	['img.taxon:3300047442']
 365	nmdc:mga0aj54	was_informed_by	Gp0138744	['img.taxon:3300025506', 'biosample:SAMN06264878']
 366	nmdc:mga0ak4p20	was_informed_by	Gp0127635	['img.taxon:3300042769', 'biosample:SAMN06267121', 'gold:Gb0126436']
 367	nmdc:mga0ak51	was_informed_by	Gp0138753	['img.taxon:3300025446', 'biosample:SAMN06266176']
 368	nmdc:mga0amgz37	was_informed_by	Gp0331389	null
-369	nmdc:mga0amm328	was_informed_by	SAMEA7724317_ERR5002136	null
+369	nmdc:mga0amm328	was_informed_by	SAMEA7724317_ERR5002136	['gold:Gb0240031']
 370	nmdc:mga0andh11	was_informed_by	Gp0127648	['img.taxon:3300042795', 'biosample:SAMN06267134', 'gold:Gb0126449']
 371	nmdc:mga0ap3t06	was_informed_by	Gp0331405	null
 372	nmdc:mga0ap42	was_informed_by	Gp0213372	['img.taxon:3300018008', 'biosample:SAMN08778354']
-373	nmdc:mga0ap6f42	was_informed_by	SAMEA7724283_ERR5002049	null
+373	nmdc:mga0ap6f42	was_informed_by	SAMEA7724283_ERR5002049	['gold:Gb0239935']
 374	nmdc:mga0aq39	was_informed_by	SRR8849232	null
 375	nmdc:mga0at30	was_informed_by	Gp0138747	null
 376	nmdc:mga0atqh84	was_informed_by	Gp0225794	null
@@ -385,19 +385,19 @@
 383	nmdc:mga0b0et46	was_informed_by	Gp0566852	['img.taxon:3300047321']
 384	nmdc:mga0b1ca27	was_informed_by	Gp0321424	null
 385	nmdc:mga0b1gt80	was_informed_by	Gp0566662	['img.taxon:3300046789']
-386	nmdc:mga0b1xb41	was_informed_by	SAMEA7724281_ERR5003326	null
+386	nmdc:mga0b1xb41	was_informed_by	SAMEA7724281_ERR5003326	['gold:Gb0240013']
 387	nmdc:mga0b303	was_informed_by	Gp0213337	['img.taxon:3300017940', 'biosample:SAMN08776828']
 388	nmdc:mga0b497	was_informed_by	SRR13122155	null
-389	nmdc:mga0b5aq17	was_informed_by	SAMEA7724208_ERR5001925	null
+389	nmdc:mga0b5aq17	was_informed_by	SAMEA7724208_ERR5001925	['gold:Gb0240087']
 390	nmdc:mga0b6cy30	was_informed_by	Gp0127632	['img.taxon:3300042766', 'biosample:SAMN06267118', 'gold:Gb0126433']
 391	nmdc:mga0b788	was_informed_by	Gp0138734	null
 392	nmdc:mga0b7gk02	was_informed_by	Gp0566670	['img.taxon:3300046739']
 393	nmdc:mga0b982	was_informed_by	Gp0213368	['img.taxon:3300018009', 'biosample:SAMN08776813']
-394	nmdc:mga0b9y137	was_informed_by	SAMEA7724340_ERR5003427	null
+394	nmdc:mga0b9y137	was_informed_by	SAMEA7724340_ERR5003427	['gold:Gb0240044']
 395	nmdc:mga0bbfk32	was_informed_by	Gp0344836	['img.taxon:3300032065', 'biosample:SAMN11532883']
 396	nmdc:mga0bd70	was_informed_by	SRR8849248	null
 397	nmdc:mga0bfpq58	was_informed_by	Gp0127625	['img.taxon:3300042759', 'biosample:SAMN06266284', 'gold:Gb0126426']
-398	nmdc:mga0bg1t60	was_informed_by	SAMEA7724297_ERR5004076	null
+398	nmdc:mga0bg1t60	was_informed_by	SAMEA7724297_ERR5004076	['gold:Gb0239918']
 399	nmdc:mga0bhq580	was_informed_by	Gp0321431	null
 400	nmdc:mga0bk7j89	was_informed_by	Gp0119854	['img.taxon:3300042781', 'biosample:SAMN06343770', 'gold:Gb0119264']
 401	nmdc:mga0bm49	was_informed_by	Gp0213332	['img.taxon:3300017935', 'biosample:SAMN08779011']
@@ -414,44 +414,44 @@
 412	nmdc:mga0c33s91	was_informed_by	Gp0344826	['img.taxon:3300031794', 'biosample:SAMN11532133']
 413	nmdc:mga0c67d33	was_informed_by	Gp0566765	['img.taxon:3300046794']
 414	nmdc:mga0c68j19	was_informed_by	Gp0566793	['img.taxon:3300046452']
-415	nmdc:mga0c71q29	was_informed_by	SAMEA7724270_ERR5003320	null
-416	nmdc:mga0c75490	was_informed_by	SAMEA7724227_ERR5004701	null
+415	nmdc:mga0c71q29	was_informed_by	SAMEA7724270_ERR5003320	['gold:Gb0240002']
+416	nmdc:mga0c75490	was_informed_by	SAMEA7724227_ERR5004701	['gold:Gb0240054']
 417	nmdc:mga0c789	was_informed_by	Gp0213354	['img.taxon:3300017998', 'biosample:SAMN08777132']
 418	nmdc:mga0c85813	was_informed_by	Gp0344885	['img.taxon:3300031679', 'biosample:SAMN10864294']
 419	nmdc:mga0c8cx54	was_informed_by	Gp0566725	['img.taxon:3300047467']
-420	nmdc:mga0c8f920	was_informed_by	SAMEA7724321_ERR5004162	null
+420	nmdc:mga0c8f920	was_informed_by	SAMEA7724321_ERR5004162	['gold:Gb0240035']
 421	nmdc:mga0cc74	was_informed_by	Gp0138756	['img.taxon:3300009762', 'biosample:SAMN06265143']
 422	nmdc:mga0cf0450	was_informed_by	Gp0115674	['img.taxon:3300042751', 'biosample:SAMN06343874', 'gold:Gb0115228']
-423	nmdc:mga0ckxp56	was_informed_by	SAMEA7723902_ERR5003681	null
+423	nmdc:mga0ckxp56	was_informed_by	SAMEA7723902_ERR5003681	['gold:Gb0240115']
 424	nmdc:mga0cmya28	was_informed_by	Gp0566832	['img.taxon:3300046615']
 425	nmdc:mga0cmzv75	was_informed_by	Gp0566641	['img.taxon:3300046834']
 426	nmdc:mga0cr38	was_informed_by	SRR8849243	null
 427	nmdc:mga0crw281	was_informed_by	Gp0344882	['img.taxon:3300032044', 'biosample:SAMN11528591']
 428	nmdc:mga0cs2w09	was_informed_by	Gp0208577	null
 429	nmdc:mga0ctef92	was_informed_by	Gp0566851	['img.taxon:3300047444']
-430	nmdc:mga0ctf332	was_informed_by	SAMEA7724338_ERR5004179	null
-431	nmdc:mga0ctkz49	was_informed_by	SAMEA7724300_ERR5003342	null
-432	nmdc:mga0ctm046	was_informed_by	SAMEA7724311_ERR5004939	null
+430	nmdc:mga0ctf332	was_informed_by	SAMEA7724338_ERR5004179	['gold:Gb0240042']
+431	nmdc:mga0ctkz49	was_informed_by	SAMEA7724300_ERR5003342	['gold:Gb0239921']
+432	nmdc:mga0ctm046	was_informed_by	SAMEA7724311_ERR5004939	['gold:Gb0240025']
 433	nmdc:mga0cv29	was_informed_by	Gp0213373	['img.taxon:3300018023', 'biosample:SAMN08779028']
 434	nmdc:mga0cvxk30	was_informed_by	Gp0127642	['img.taxon:3300042776', 'biosample:SAMN06267128', 'gold:Gb0126443']
 435	nmdc:mga0cwhj53	was_informed_by	Gp0115672	['img.taxon:3300042749', 'biosample:SAMN06343872', 'gold:Gb0115226']
 436	nmdc:mga0cwqc77	was_informed_by	Gp0128141	null
 437	nmdc:mga0cx23	was_informed_by	SRR8849270	null
-438	nmdc:mga0cyqf35	was_informed_by	SAMEA7724347_ERR5002155	null
+438	nmdc:mga0cyqf35	was_informed_by	SAMEA7724347_ERR5002155	['gold:Gb0240051']
 439	nmdc:mga0czd781	was_informed_by	Gp0321427	null
 440	nmdc:mga0d00z28	was_informed_by	Gp0566820	['img.taxon:3300046523']
 441	nmdc:mga0d014	was_informed_by	Gp0138764	['img.taxon:3300025454', 'biosample:SAMN06266160']
 442	nmdc:mga0d0xp84	was_informed_by	Gp0321292	['img.taxon:3300042851', 'biosample:SAMN10864378', 'gold:Gb0191672']
-443	nmdc:mga0d2r112	was_informed_by	SAMEA7724214_ERR5004688	null
+443	nmdc:mga0d2r112	was_informed_by	SAMEA7724214_ERR5004688	['gold:Gb0240100']
 444	nmdc:mga0d402	was_informed_by	SRR12479845	null
 445	nmdc:mga0d4yt07	was_informed_by	Gp0566773	['img.taxon:3300046542']
-446	nmdc:mga0d6j428	was_informed_by	SAMEA7724291_ERR5004070	null
+446	nmdc:mga0d6j428	was_informed_by	SAMEA7724291_ERR5004070	['gold:Gb0240018']
 447	nmdc:mga0d7pj22	was_informed_by	Gp0115670	['img.taxon:3300042747', 'biosample:SAMN06343870', 'gold:Gb0115224']
 448	nmdc:mga0d94c86	was_informed_by	Gp0344816	['img.taxon:3300031723', 'biosample:SAMN11532768']
 449	nmdc:mga0d9ff88	was_informed_by	Gp0566848	['img.taxon:3300047320']
 450	nmdc:mga0daby71	was_informed_by	Gp0127627	['img.taxon:3300042761', 'biosample:SAMN06266285', 'gold:Gb0126428']
 451	nmdc:mga0db2b54	was_informed_by	SAMEA7724288	null
-452	nmdc:mga0ddf261	was_informed_by	SAMEA7724270_ERR5004049	null
+452	nmdc:mga0ddf261	was_informed_by	SAMEA7724270_ERR5004049	['gold:Gb0240002']
 453	nmdc:mga0df66	was_informed_by	SRR8849245	null
 454	nmdc:mga0dhz502	was_informed_by	Gp0208564	null
 455	nmdc:mga0dj57	was_informed_by	Gp0208369	['img.taxon:3300014200', 'biosample:SAMN07631767']
@@ -463,7 +463,7 @@
 461	nmdc:mga0dm4q17	was_informed_by	Gp0127646	['img.taxon:3300042793', 'biosample:SAMN06267132', 'gold:Gb0126447']
 462	nmdc:mga0dmf873	was_informed_by	SAMEA7724285	null
 463	nmdc:mga0dna609	was_informed_by	Gp0566858	['img.taxon:3300049460']
-464	nmdc:mga0dncm66	was_informed_by	SAMEA7724211_ERR5001928	null
+464	nmdc:mga0dncm66	was_informed_by	SAMEA7724211_ERR5001928	['gold:Gb0240101']
 465	nmdc:mga0dnw142	was_informed_by	Gp0321279	['img.taxon:3300042836', 'biosample:SAMN10864141', 'gold:Gb0191659']
 466	nmdc:mga0dp45	was_informed_by	SRR8849290	null
 467	nmdc:mga0dqhf53	was_informed_by	Gp0119865	['img.taxon:3300042806', 'biosample:SAMN06343681', 'gold:Gb0119275']
@@ -473,24 +473,24 @@
 471	nmdc:mga0dtmv19	was_informed_by	Gp0321289	['img.taxon:3300042835', 'biosample:SAMN10864330', 'gold:Gb0191669']
 472	nmdc:mga0dv30	was_informed_by	Gp0138753	null
 473	nmdc:mga0dw27	was_informed_by	Gp0116334	['img.taxon:3300027909', 'biosample:SAMN06343963']
-474	nmdc:mga0dwaj03	was_informed_by	SAMEA7724334_ERR5004962	null
+474	nmdc:mga0dwaj03	was_informed_by	SAMEA7724334_ERR5004962	['gold:Gb0240038']
 475	nmdc:mga0dx24	was_informed_by	SRR8849212	null
 476	nmdc:mga0dy5g68	was_informed_by	Gp0566723	['img.taxon:3300047093']
-477	nmdc:mga0dy6a87	was_informed_by	SAMEA7724302_ERR5003343	null
-478	nmdc:mga0dzeh09	was_informed_by	SAMEA7724292_ERR5004071	null
+477	nmdc:mga0dy6a87	was_informed_by	SAMEA7724302_ERR5003343	['gold:Gb0239923']
+478	nmdc:mga0dzeh09	was_informed_by	SAMEA7724292_ERR5004071	['gold:Gb0240019']
 479	nmdc:mga0e015	was_informed_by	Gp0208374	['img.taxon:3300014169', 'biosample:SAMN07631772']
 480	nmdc:mga0e0r393	was_informed_by	Gp0566810	['img.taxon:3300046642']
-481	nmdc:mga0e23n82	was_informed_by	SAMEA7723904_ERR5003114	null
+481	nmdc:mga0e23n82	was_informed_by	SAMEA7723904_ERR5003114	['gold:Gb0240121']
 482	nmdc:mga0e2xc38	was_informed_by	Gp0208561	null
 483	nmdc:mga0e3ts28	was_informed_by	Gp0566811	['img.taxon:3300046663']
 484	nmdc:mga0e3xj52	was_informed_by	Gp0208583	null
 485	nmdc:mga0e4h029	was_informed_by	Gp0566643	['img.taxon:3300046658']
 486	nmdc:mga0e8jh10	was_informed_by	Gp0127624	['img.taxon:3300042758', 'biosample:SAMN06265458', 'gold:Gb0126425']
-487	nmdc:mga0e97d43	was_informed_by	SAMEA7724292_ERR5002056	null
+487	nmdc:mga0e97d43	was_informed_by	SAMEA7724292_ERR5002056	['gold:Gb0240019']
 488	nmdc:mga0ea0786	was_informed_by	Gp0225789	null
-489	nmdc:mga0ee3723	was_informed_by	SAMEA7724204_ERR5001921	null
+489	nmdc:mga0ee3723	was_informed_by	SAMEA7724204_ERR5001921	['gold:Gb0240065']
 490	nmdc:mga0eehe16	was_informed_by	Gp0115666	['img.taxon:3300042744', 'biosample:SAMN06343866', 'gold:Gb0115220']
-491	nmdc:mga0eejb26	was_informed_by	SAMEA7724312_ERR5004153	null
+491	nmdc:mga0eejb26	was_informed_by	SAMEA7724312_ERR5004153	['gold:Gb0240026']
 492	nmdc:mga0ef67	was_informed_by	SRR12480124	null
 493	nmdc:mga0ef9567	was_informed_by	Gp0344870	['img.taxon:3300031771', 'biosample:SAMN11532586']
 494	nmdc:mga0egpj73	was_informed_by	Gp0344873	['img.taxon:3300032041', 'biosample:SAMN11532407']
@@ -505,7 +505,7 @@
 503	nmdc:mga0eq4y49	was_informed_by	Gp0566757	['img.taxon:3300047315']
 504	nmdc:mga0eqc535	was_informed_by	Gp0566821	['img.taxon:3300046543']
 505	nmdc:mga0er40	was_informed_by	Gp0208370	['img.taxon:3300014153', 'biosample:SAMN07631768']
-506	nmdc:mga0er5172	was_informed_by	SAMEA7724286_ERR5002052	null
+506	nmdc:mga0er5172	was_informed_by	SAMEA7724286_ERR5002052	['gold:Gb0239951']
 507	nmdc:mga0er9176	was_informed_by	Gp0566713	['img.taxon:3300047672']
 508	nmdc:mga0es37	was_informed_by	Gp0138750	null
 509	nmdc:mga0es5786	was_informed_by	Gp0331399	null
@@ -514,21 +514,21 @@
 512	nmdc:mga0evc178	was_informed_by	Gp0127643	['img.taxon:3300042777', 'biosample:SAMN06267129', 'gold:Gb0126444']
 513	nmdc:mga0ewsj72	was_informed_by	Gp0321428	null
 514	nmdc:mga0ey9c41	was_informed_by	Gp0208563	null
-515	nmdc:mga0eya951	was_informed_by	SAMEA7724285_ERR5004064	null
+515	nmdc:mga0eya951	was_informed_by	SAMEA7724285_ERR5004064	['gold:Gb0239937']
 516	nmdc:mga0f210	was_informed_by	SRR8849216	null
 517	nmdc:mga0f307	was_informed_by	SRR12479734	null
 518	nmdc:mga0f404	was_informed_by	SRR8849272	null
 519	nmdc:mga0f58t28	was_informed_by	Gp0566787	['img.taxon:3300046648']
 520	nmdc:mga0f598	was_informed_by	Gp0138745	['img.taxon:3300025419', 'biosample:SAMN06266172']
-521	nmdc:mga0f5q703	was_informed_by	SAMEA7724341_ERR5004182	null
-522	nmdc:mga0f73941	was_informed_by	SAMEA7724301_ERR5004080	null
+521	nmdc:mga0f5q703	was_informed_by	SAMEA7724341_ERR5004182	['gold:Gb0240045']
+522	nmdc:mga0f73941	was_informed_by	SAMEA7724301_ERR5004080	['gold:Gb0239922']
 523	nmdc:mga0f74554	was_informed_by	Gp0344871	['img.taxon:3300031781', 'biosample:SAMN11532408']
-524	nmdc:mga0f74845	was_informed_by	SAMEA7724317_ERR5004158	null
+524	nmdc:mga0f74845	was_informed_by	SAMEA7724317_ERR5004158	['gold:Gb0240031']
 525	nmdc:mga0f81a68	was_informed_by	Gp0344858	['img.taxon:3300031544', 'biosample:SAMN10864227']
-526	nmdc:mga0f9xs83	was_informed_by	SAMEA7724204_ERR5003891	null
-527	nmdc:mga0fbpz25	was_informed_by	SAMEA7724347_ERR5004975	null
+526	nmdc:mga0f9xs83	was_informed_by	SAMEA7724204_ERR5003891	['gold:Gb0240065']
+527	nmdc:mga0fbpz25	was_informed_by	SAMEA7724347_ERR5004975	['gold:Gb0240051']
 528	nmdc:mga0fc77	was_informed_by	SRR8849227	null
-529	nmdc:mga0fd0w76	was_informed_by	SAMEA7724312_ERR5002131	null
+529	nmdc:mga0fd0w76	was_informed_by	SAMEA7724312_ERR5002131	['gold:Gb0240026']
 530	nmdc:mga0fdr475	was_informed_by	Gp0566784	['img.taxon:3300046511']
 531	nmdc:mga0fdw091	was_informed_by	Gp0321300	['img.taxon:3300042850', 'biosample:SAMN10864173', 'gold:Gb0191680']
 532	nmdc:mga0fe9z11	was_informed_by	Gp0321282	['img.taxon:3300042837', 'biosample:SAMN10864180', 'gold:Gb0191662']
@@ -536,9 +536,9 @@
 534	nmdc:mga0fght98	was_informed_by	Gp0321290	['img.taxon:3300042838', 'biosample:SAMN10864178', 'gold:Gb0191670']
 535	nmdc:mga0fhk792	was_informed_by	Gp0321415	null
 536	nmdc:mga0fkf367	was_informed_by	Gp0566677	['img.taxon:3300046835']
-537	nmdc:mga0fr0v43	was_informed_by	SAMEA7724284_ERR5004850	null
+537	nmdc:mga0fr0v43	was_informed_by	SAMEA7724284_ERR5004850	['gold:Gb0239936']
 538	nmdc:mga0frxy63	was_informed_by	Gp0566833	['img.taxon:3300046675']
-539	nmdc:mga0fsjy84	was_informed_by	SAMEA7724349_ERR5004977	null
+539	nmdc:mga0fsjy84	was_informed_by	SAMEA7724349_ERR5004977	['gold:Gb0240053']
 540	nmdc:mga0ft7t20	was_informed_by	Gp0566850	['img.taxon:3300047319']
 541	nmdc:mga0g0e588	was_informed_by	Gp0127647	['img.taxon:3300042794', 'biosample:SAMN06267133', 'gold:Gb0126448']
 542	nmdc:mga0g2hq04	was_informed_by	Gp0331396	null
@@ -551,7 +551,7 @@
 549	nmdc:mga0gf69	was_informed_by	Gp0208377	['img.taxon:3300014168', 'biosample:SAMN07631775']
 550	nmdc:mga0gg1q48	was_informed_by	Gp0115679	['img.taxon:3300042756', 'biosample:SAMN06343879', 'gold:Gb0115233']
 551	nmdc:mga0ghbe20	was_informed_by	Gp0321291	['img.taxon:3300042839', 'biosample:SAMN10864174', 'gold:Gb0191671']
-552	nmdc:mga0gk8h72	was_informed_by	SAMEA7724282_ERR5004061	null
+552	nmdc:mga0gk8h72	was_informed_by	SAMEA7724282_ERR5004061	['gold:Gb0240014']
 553	nmdc:mga0gmpt91	was_informed_by	Gp0344887	['img.taxon:3300032009', 'biosample:SAMN11529826']
 554	nmdc:mga0gmx370	was_informed_by	Gp0344837	['img.taxon:3300032066', 'biosample:SAMN11532403']
 555	nmdc:mga0gr8k32	was_informed_by	Gp0344843	['img.taxon:3300031897', 'biosample:SAMN11532585']
@@ -561,10 +561,10 @@
 559	nmdc:mga0gtd837	was_informed_by	Gp0325962	['img.taxon:3300031833', 'biosample:SAMN11528527']
 560	nmdc:mga0gtrs94	was_informed_by	Gp0111284	null
 561	nmdc:mga0gtzc43	was_informed_by	Gp0566689	['img.taxon:3300046815']
-562	nmdc:mga0gv2179	was_informed_by	SAMEA7724282_ERR5003327	null
+562	nmdc:mga0gv2179	was_informed_by	SAMEA7724282_ERR5003327	['gold:Gb0240014']
 563	nmdc:mga0gwjt52	was_informed_by	Gp0344891	['img.taxon:3300031821', 'biosample:SAMN11533262']
 564	nmdc:mga0gwq038	was_informed_by	SAMEA7724286	null
-565	nmdc:mga0gyew09	was_informed_by	SAMEA7724344_ERR5004972	null
+565	nmdc:mga0gyew09	was_informed_by	SAMEA7724344_ERR5004972	['gold:Gb0240048']
 566	nmdc:mga0gzh710	was_informed_by	Gp0566664	['img.taxon:3300046816']
 567	nmdc:mga0h0s362	was_informed_by	Gp0127654	['img.taxon:3300042799', 'biosample:SAMN06267139', 'gold:Gb0126455']
 568	nmdc:mga0h21f66	was_informed_by	Gp0321295	['img.taxon:3300042841', 'biosample:SAMN10864333', 'gold:Gb0191675']
@@ -580,16 +580,16 @@
 578	nmdc:mga0h9dt75	was_informed_by	Gp0115663	['img.taxon:3300042741', 'biosample:SAMN06343863', 'gold:Gb0115217']
 579	nmdc:mga0hed022	was_informed_by	Gp0108342	null
 580	nmdc:mga0hehd84	was_informed_by	Gp0566846	['img.taxon:3300046691']
-581	nmdc:mga0herq61	was_informed_by	SAMEA7724339_ERR5004180	null
+581	nmdc:mga0herq61	was_informed_by	SAMEA7724339_ERR5004180	['gold:Gb0240043']
 582	nmdc:mga0hf70	was_informed_by	SRR12479985	null
-583	nmdc:mga0hhgs46	was_informed_by	SAMEA7724306_ERR5004872	null
+583	nmdc:mga0hhgs46	was_informed_by	SAMEA7724306_ERR5004872	['gold:Gb0239927']
 584	nmdc:mga0hjgc20	was_informed_by	Gp0127638	['img.taxon:3300042772', 'biosample:SAMN06267124', 'gold:Gb0126439']
 585	nmdc:mga0hk5077	was_informed_by	SAMEA7724288	null
 586	nmdc:mga0hkm868	was_informed_by	Gp0344828	['img.taxon:3300032060', 'biosample:SAMN11532885']
 587	nmdc:mga0hn52	was_informed_by	SRR13122074	null
 588	nmdc:mga0hr43	was_informed_by	Gp0208359	['img.taxon:3300014655', 'biosample:SAMN07631758']
 589	nmdc:mga0htjf75	was_informed_by	Gp0306225	null
-590	nmdc:mga0hvd050	was_informed_by	SAMEA7724349_ERR5003436	null
+590	nmdc:mga0hvd050	was_informed_by	SAMEA7724349_ERR5003436	['gold:Gb0240053']
 591	nmdc:mga0hw3w85	was_informed_by	Gp0566686	['img.taxon:3300046796']
 592	nmdc:mga0hx8n46	was_informed_by	Gp0566640	['img.taxon:3300046781']
 593	nmdc:mga0hy1037	was_informed_by	Gp0566834	['img.taxon:3300046683']
@@ -600,12 +600,12 @@
 598	nmdc:mga0j310	was_informed_by	SRR8849244	null
 599	nmdc:mga0j4fe07	was_informed_by	Gp0127649	['img.taxon:3300042796', 'biosample:SAMN06267135', 'gold:Gb0126450']
 600	nmdc:mga0j4gd11	was_informed_by	Gp0321421	null
-601	nmdc:mga0j4ht70	was_informed_by	SAMEA7724319_ERR5004947	null
+601	nmdc:mga0j4ht70	was_informed_by	SAMEA7724319_ERR5004947	['gold:Gb0240033']
 602	nmdc:mga0j795	was_informed_by	SRR8849289	null
 603	nmdc:mga0ja86	was_informed_by	SRR8849209	null
 604	nmdc:mga0jbfx89	was_informed_by	Gp0127645	['img.taxon:3300042792', 'biosample:SAMN06267131', 'gold:Gb0126446']
 605	nmdc:mga0jc80	was_informed_by	Gp0213359	['img.taxon:3300018035', 'biosample:SAMN08777131']
-606	nmdc:mga0jdte15	was_informed_by	SAMEA7724216_ERR5004690	null
+606	nmdc:mga0jdte15	was_informed_by	SAMEA7724216_ERR5004690	['gold:Gb0240095']
 607	nmdc:mga0jdx060	was_informed_by	Gp0566768	['img.taxon:3300046454']
 608	nmdc:mga0jfwq54	was_informed_by	Gp0119849	['img.taxon:3300042802', 'biosample:SAMN06343766', 'gold:Gb0119259']
 609	nmdc:mga0jp50	was_informed_by	Gp0208376	['img.taxon:3300014152', 'biosample:SAMN07631774']
@@ -620,7 +620,7 @@
 618	nmdc:mga0k117	was_informed_by	Gp0138763	null
 619	nmdc:mga0k1me67	was_informed_by	Gp0566803	['img.taxon:3300046453']
 620	nmdc:mga0k2nc09	was_informed_by	Gp0208566	null
-621	nmdc:mga0k2rk88	was_informed_by	SAMEA7724293_ERR5003336	null
+621	nmdc:mga0k2rk88	was_informed_by	SAMEA7724293_ERR5003336	['gold:Gb0240020']
 622	nmdc:mga0k311	was_informed_by	Gp0138728	['img.taxon:3300025453', 'biosample:SAMN06264844']
 623	nmdc:mga0k408	was_informed_by	Gp0116325	['img.taxon:3300006195', 'biosample:SAMN06343958']
 624	nmdc:mga0k45x06	was_informed_by	Gp0566854	['img.taxon:3300049459']
@@ -631,11 +631,11 @@
 629	nmdc:mga0k6mj21	was_informed_by	Gp0566790	['img.taxon:3300048089']
 630	nmdc:mga0k7az04	was_informed_by	Gp0566798	['img.taxon:3300046557']
 631	nmdc:mga0k85x37	was_informed_by	Gp0115669	['img.taxon:3300042746', 'biosample:SAMN06343869', 'gold:Gb0115223']
-632	nmdc:mga0k88418	was_informed_by	SAMEA7724286_ERR5003331	null
+632	nmdc:mga0k88418	was_informed_by	SAMEA7724286_ERR5003331	['gold:Gb0239951']
 633	nmdc:mga0k893	was_informed_by	Gp0138754	['img.taxon:3300025460', 'biosample:SAMN06265144']
-634	nmdc:mga0k8t048	was_informed_by	SAMEA7724281_ERR5004060	null
+634	nmdc:mga0k8t048	was_informed_by	SAMEA7724281_ERR5004060	['gold:Gb0240013']
 635	nmdc:mga0k990	was_informed_by	SRR8849269	null
-636	nmdc:mga0kc8449	was_informed_by	SAMEA7724310_ERR5002130	null
+636	nmdc:mga0kc8449	was_informed_by	SAMEA7724310_ERR5002130	['gold:Gb0240024']
 637	nmdc:mga0kdca67	was_informed_by	Gp0321288	['img.taxon:3300042834', 'biosample:SAMN10864329', 'gold:Gb0191668']
 638	nmdc:mga0ke0n54	was_informed_by	Gp0225773	null
 639	nmdc:mga0ke75	was_informed_by	SRR8849253	null
@@ -644,7 +644,7 @@
 642	nmdc:mga0kg2s11	was_informed_by	Gp0111277	null
 643	nmdc:mga0kh66	was_informed_by	Gp0208381	['img.taxon:3300014162', 'biosample:SAMN09092231']
 644	nmdc:mga0khk038	was_informed_by	Gp0566704	['img.taxon:3300046723']
-645	nmdc:mga0khyn83	was_informed_by	SAMEA7724325_ERR5003420	null
+645	nmdc:mga0khyn83	was_informed_by	SAMEA7724325_ERR5003420	['gold:Gb0315661']
 646	nmdc:mga0kke679	was_informed_by	Gp0331407	null
 647	nmdc:mga0km57	was_informed_by	SRR13122157	null
 648	nmdc:mga0km8e81	was_informed_by	Gp0566800	['img.taxon:3300046690']
@@ -665,13 +665,13 @@
 663	nmdc:mga0m1d544	was_informed_by	SAMEA7724296	null
 664	nmdc:mga0m1d738	was_informed_by	Gp0344888	['img.taxon:3300031831', 'biosample:SAMN11533376']
 665	nmdc:mga0m1q166	was_informed_by	Gp0108335	null
-666	nmdc:mga0m1wn11	was_informed_by	SAMEA7724285_ERR5004851	null
+666	nmdc:mga0m1wn11	was_informed_by	SAMEA7724285_ERR5004851	['gold:Gb0239937']
 667	nmdc:mga0m2ed53	was_informed_by	Gp0306224	null
 668	nmdc:mga0m2km37	was_informed_by	Gp0321267	['img.taxon:3300042818', 'biosample:SAMN10864377', 'gold:Gb0191647']
-669	nmdc:mga0m2r490	was_informed_by	SAMEA7724335_ERR5004963	null
+669	nmdc:mga0m2r490	was_informed_by	SAMEA7724335_ERR5004963	['gold:Gb0240039']
 670	nmdc:mga0m312	was_informed_by	SRR8849260	null
 671	nmdc:mga0m5s393	was_informed_by	Gp0566763	['img.taxon:3300046536']
-672	nmdc:mga0m77924	was_informed_by	SAMEA7724302_ERR5002064	null
+672	nmdc:mga0m77924	was_informed_by	SAMEA7724302_ERR5002064	['gold:Gb0239923']
 673	nmdc:mga0m894	was_informed_by	Gp0116338	['img.taxon:3300006854', 'biosample:SAMN06343967']
 674	nmdc:mga0m8c767	was_informed_by	Gp0325956	['img.taxon:3300032035', 'biosample:SAMN11532521']
 675	nmdc:mga0m8nk40	was_informed_by	Gp0344860	['img.taxon:3300031893', 'biosample:SAMN11532401']
@@ -686,8 +686,8 @@
 684	nmdc:mga0menq26	was_informed_by	Gp0566676	['img.taxon:3300046813']
 685	nmdc:mga0meyn41	was_informed_by	Gp0306231	null
 686	nmdc:mga0mfxf90	was_informed_by	Gp0127652	['img.taxon:3300042812', 'biosample:SAMN06267137', 'gold:Gb0126453']
-687	nmdc:mga0mgyv87	was_informed_by	SAMEA7724320_ERR5003418	null
-688	nmdc:mga0mj7a82	was_informed_by	SAMEA7723904_ERR5004474	null
+687	nmdc:mga0mgyv87	was_informed_by	SAMEA7724320_ERR5003418	['gold:Gb0240034']
+688	nmdc:mga0mj7a82	was_informed_by	SAMEA7723904_ERR5004474	['gold:Gb0240121']
 689	nmdc:mga0mk61	was_informed_by	Gp0138739	['img.taxon:3300025404', 'biosample:SAMN06266156']
 690	nmdc:mga0mkvq95	was_informed_by	Gp0344845	['img.taxon:3300031894', 'biosample:SAMN11532136']
 691	nmdc:mga0mm58	was_informed_by	Gp0213334	['img.taxon:3300017941', 'biosample:SAMN08779012']
@@ -702,60 +702,60 @@
 700	nmdc:mga0n0je44	was_informed_by	Gp0115667	['img.taxon:3300042791', 'biosample:SAMN06343867', 'gold:Gb0115221']
 701	nmdc:mga0n1jq49	was_informed_by	Gp0225790	null
 702	nmdc:mga0n24427	was_informed_by	Gp0208575	['img.taxon:3300031744', 'biosample:SAMN07631797']
-703	nmdc:mga0n2eb16	was_informed_by	SAMEA7724284_ERR5003329	null
-704	nmdc:mga0n32g21	was_informed_by	SAMEA7724227_ERR5003219	null
+703	nmdc:mga0n2eb16	was_informed_by	SAMEA7724284_ERR5003329	['gold:Gb0239936']
+704	nmdc:mga0n32g21	was_informed_by	SAMEA7724227_ERR5003219	['gold:Gb0240054']
 705	nmdc:mga0n410	was_informed_by	Gp0138748	null
 706	nmdc:mga0n58m79	was_informed_by	Gp0321409	null
 707	nmdc:mga0n5dh93	was_informed_by	Gp0566730	['img.taxon:3300047513']
 708	nmdc:mga0n66h21	was_informed_by	Gp0115668	['img.taxon:3300042745', 'biosample:SAMN06343868', 'gold:Gb0115222']
-709	nmdc:mga0n78494	was_informed_by	SAMEA7724341_ERR5003428	null
+709	nmdc:mga0n78494	was_informed_by	SAMEA7724341_ERR5003428	['gold:Gb0240045']
 710	nmdc:mga0n80n67	was_informed_by	Gp0566805	['img.taxon:3300046459']
 711	nmdc:mga0n895	was_informed_by	Gp0116347	['img.taxon:3300006871', 'biosample:SAMN06343974']
 712	nmdc:mga0na6r31	was_informed_by	Gp0331398	null
 713	nmdc:mga0nc83	was_informed_by	SRR8849262	null
-714	nmdc:mga0nckv02	was_informed_by	SAMEA7724338_ERR5002147	null
+714	nmdc:mga0nckv02	was_informed_by	SAMEA7724338_ERR5002147	['gold:Gb0240042']
 715	nmdc:mga0nd80	was_informed_by	SRR13122091	null
-716	nmdc:mga0ndba77	was_informed_by	SAMEA7724315_ERR5004156	null
+716	nmdc:mga0ndba77	was_informed_by	SAMEA7724315_ERR5004156	['gold:Gb0240029']
 717	nmdc:mga0nhms72	was_informed_by	SAMEA7724286	null
-718	nmdc:mga0nj7r94	was_informed_by	SAMEA7724280_ERR5004846	null
+718	nmdc:mga0nj7r94	was_informed_by	SAMEA7724280_ERR5004846	['gold:Gb0240012']
 719	nmdc:mga0nm3m69	was_informed_by	Gp0331412	null
 720	nmdc:mga0nn56	was_informed_by	SRR8849240	null
-721	nmdc:mga0np0190	was_informed_by	SAMEA7724336_ERR5004964	null
+721	nmdc:mga0np0190	was_informed_by	SAMEA7724336_ERR5004964	['gold:Gb0240040']
 722	nmdc:mga0np53	was_informed_by	Gp0138763	['img.taxon:3300025472', 'biosample:SAMN06266159']
 723	nmdc:mga0nscm44	was_informed_by	Gp0119861	['img.taxon:3300042788', 'biosample:SAMN06343777', 'gold:Gb0119271']
 724	nmdc:mga0nv38	was_informed_by	SRR12479918	null
 725	nmdc:mga0nx8w47	was_informed_by	SAMEA7724288	null
 726	nmdc:mga0nzm789	was_informed_by	Gp0321306	['img.taxon:3300042873', 'biosample:SAMN10864137', 'gold:Gb0191686']
 727	nmdc:mga0p0hs64	was_informed_by	Gp0321413	null
-728	nmdc:mga0p46c26	was_informed_by	SAMEA7724321_ERR5002140	null
+728	nmdc:mga0p46c26	was_informed_by	SAMEA7724321_ERR5002140	['gold:Gb0240035']
 729	nmdc:mga0p4tw95	was_informed_by	Gp0208565	null
-730	nmdc:mga0p6fq66	was_informed_by	SAMEA7724296_ERR5004862	null
+730	nmdc:mga0p6fq66	was_informed_by	SAMEA7724296_ERR5004862	['gold:Gb0240017']
 731	nmdc:mga0p73j04	was_informed_by	Gp0566845	['img.taxon:3300046684']
 732	nmdc:mga0p896	was_informed_by	Gp0116331	['img.taxon:3300009100', 'biosample:SAMN06343960']
 733	nmdc:mga0p8hk47	was_informed_by	Gp0119862	['img.taxon:3300042789', 'biosample:SAMN06266111', 'gold:Gb0119272']
-734	nmdc:mga0p8vw30	was_informed_by	SAMEA7724282_ERR5002048	null
+734	nmdc:mga0p8vw30	was_informed_by	SAMEA7724282_ERR5002048	['gold:Gb0240014']
 735	nmdc:mga0p9fs59	was_informed_by	Gp0566731	['img.taxon:3300049451']
-736	nmdc:mga0p9g717	was_informed_by	SAMEA7724341_ERR5004969	null
+736	nmdc:mga0p9g717	was_informed_by	SAMEA7724341_ERR5004969	['gold:Gb0240045']
 737	nmdc:mga0pa4349	was_informed_by	Gp0566842	['img.taxon:3300046526']
 738	nmdc:mga0panc39	was_informed_by	Gp0566758	['img.taxon:3300046473']
-739	nmdc:mga0papr04	was_informed_by	SAMEA7724303_ERR5003344	null
+739	nmdc:mga0papr04	was_informed_by	SAMEA7724303_ERR5003344	['gold:Gb0239924']
 740	nmdc:mga0pb3283	was_informed_by	Gp0321414	null
 741	nmdc:mga0pd81	was_informed_by	Gp0208378	['img.taxon:3300014199', 'biosample:SAMN07631776']
 742	nmdc:mga0pdcf20	was_informed_by	Gp0119867	['img.taxon:3300042815', 'biosample:SAMN06343683', 'gold:Gb0119277']
-743	nmdc:mga0pfj814	was_informed_by	SAMEA7724104_ERR5003112	null
-744	nmdc:mga0pj4h69	was_informed_by	SAMEA7724223_ERR5003910	null
-745	nmdc:mga0pk8v75	was_informed_by	SAMEA7724340_ERR5004968	null
-746	nmdc:mga0pkw952	was_informed_by	SAMEA7724314_ERR5002133	null
+743	nmdc:mga0pfj814	was_informed_by	SAMEA7724104_ERR5003112	['gold:Gb0240119']
+744	nmdc:mga0pj4h69	was_informed_by	SAMEA7724223_ERR5003910	['gold:Gb0240086']
+745	nmdc:mga0pk8v75	was_informed_by	SAMEA7724340_ERR5004968	['gold:Gb0240044']
+746	nmdc:mga0pkw952	was_informed_by	SAMEA7724314_ERR5002133	['gold:Gb0240028']
 747	nmdc:mga0pky372	was_informed_by	Gp0119870	null
 748	nmdc:mga0ppgy73	was_informed_by	Gp0566774	['img.taxon:3300046537']
 749	nmdc:mga0pphe25	was_informed_by	Gp0321433	null
-750	nmdc:mga0pq6y95	was_informed_by	SAMEA7724341_ERR5002149	null
+750	nmdc:mga0pq6y95	was_informed_by	SAMEA7724341_ERR5002149	['gold:Gb0240045']
 751	nmdc:mga0pqkj47	was_informed_by	Gp0321275	['img.taxon:3300042827', 'biosample:SAMN10864182', 'gold:Gb0191655']
 752	nmdc:mga0pr48	was_informed_by	Gp0116340	null
-753	nmdc:mga0pt3a54	was_informed_by	SAMEA7724303_ERR5004869	null
-754	nmdc:mga0pt6669	was_informed_by	SAMEA7724296_ERR5002060	null
+753	nmdc:mga0pt3a54	was_informed_by	SAMEA7724303_ERR5004869	['gold:Gb0239924']
+754	nmdc:mga0pt6669	was_informed_by	SAMEA7724296_ERR5002060	['gold:Gb0240017']
 755	nmdc:mga0pv39	was_informed_by	Gp0213365	['img.taxon:3300018024', 'biosample:SAMN08779027']
-756	nmdc:mga0pvf031	was_informed_by	SAMEA7724300_ERR5002063	null
+756	nmdc:mga0pvf031	was_informed_by	SAMEA7724300_ERR5002063	['gold:Gb0239921']
 757	nmdc:mga0pvfz35	was_informed_by	Gp0344829	['img.taxon:3300032052', 'biosample:SAMN11532584']
 758	nmdc:mga0px0j26	was_informed_by	Gp0566761	['img.taxon:3300046492']
 759	nmdc:mga0px33	was_informed_by	Gp0213349	['img.taxon:3300018004', 'biosample:SAMN08779016']
@@ -763,18 +763,18 @@
 761	nmdc:mga0py30	was_informed_by	SRR12479809	null
 762	nmdc:mga0q218	was_informed_by	Gp0138758	['img.taxon:3300025501', 'biosample:SAMN06264843']
 763	nmdc:mga0q2y658	was_informed_by	SAMEA7724285	null
-764	nmdc:mga0q4cw38	was_informed_by	SAMEA7724259_ERR5004825	null
+764	nmdc:mga0q4cw38	was_informed_by	SAMEA7724259_ERR5004825	['gold:Gb0239991']
 765	nmdc:mga0q4zw57	was_informed_by	Gp0344877	['img.taxon:3300032068', 'biosample:SAMN11529798']
 766	nmdc:mga0q57j95	was_informed_by	Gp0344864	['img.taxon:3300032094', 'biosample:SAMN11532761']
 767	nmdc:mga0q606	was_informed_by	Gp0138734	['img.taxon:3300025480', 'biosample:SAMN06266168']
 768	nmdc:mga0q6p390	was_informed_by	Gp0566759	['img.taxon:3300046506']
 769	nmdc:mga0q7aq50	was_informed_by	Gp0225788	null
 770	nmdc:mga0q9t975	was_informed_by	Gp0344865	['img.taxon:3300031545', 'biosample:SAMN10864342']
-771	nmdc:mga0qa7y25	was_informed_by	SAMEA7724320_ERR5002139	null
+771	nmdc:mga0qa7y25	was_informed_by	SAMEA7724320_ERR5002139	['gold:Gb0240034']
 772	nmdc:mga0qa91	was_informed_by	SRR8849251	null
-773	nmdc:mga0qab119	was_informed_by	SAMEA7724286_ERR5004065	null
+773	nmdc:mga0qab119	was_informed_by	SAMEA7724286_ERR5004065	['gold:Gb0239951']
 774	nmdc:mga0qb88	was_informed_by	Gp0213335	['img.taxon:3300018046', 'biosample:SAMN08776998']
-775	nmdc:mga0qcab52	was_informed_by	SAMEA7724286_ERR5004852	null
+775	nmdc:mga0qcab52	was_informed_by	SAMEA7724286_ERR5004852	['gold:Gb0239951']
 776	nmdc:mga0qd82	was_informed_by	SRR8849287	null
 777	nmdc:mga0qebb20	was_informed_by	Gp0566642	['img.taxon:3300046657']
 778	nmdc:mga0qfj577	was_informed_by	Gp0208581	['img.taxon:3300032076', 'biosample:SAMN07630345']
@@ -786,7 +786,7 @@
 784	nmdc:mga0qn58	was_informed_by	Gp0213369	['img.taxon:3300018025', 'biosample:SAMN08778352']
 785	nmdc:mga0qnyw18	was_informed_by	Gp0566853	['img.taxon:3300047445']
 786	nmdc:mga0qp0z11	was_informed_by	Gp0566863	['img.taxon:3300047443']
-787	nmdc:mga0qpgt42	was_informed_by	SAMEA7724221_ERR5001935	null
+787	nmdc:mga0qpgt42	was_informed_by	SAMEA7724221_ERR5001935	['gold:Gb0240085']
 788	nmdc:mga0qr49	was_informed_by	Gp0208365	['img.taxon:3300014657', 'biosample:SAMN07631763']
 789	nmdc:mga0qs0k46	was_informed_by	Gp0225793	null
 790	nmdc:mga0qt4z46	was_informed_by	Gp0321280	['img.taxon:3300042831', 'biosample:SAMN10864328', 'gold:Gb0191660']
@@ -795,7 +795,7 @@
 793	nmdc:mga0qx9434	was_informed_by	Gp0321430	null
 794	nmdc:mga0qydv98	was_informed_by	Gp0566817	['img.taxon:3300046461']
 795	nmdc:mga0qz1n39	was_informed_by	Gp0344849	['img.taxon:3300031769', 'biosample:SAMN11533383']
-796	nmdc:mga0qzvc92	was_informed_by	SAMEA7724343_ERR5002151	null
+796	nmdc:mga0qzvc92	was_informed_by	SAMEA7724343_ERR5002151	['gold:Gb0240047']
 797	nmdc:mga0r0vf18	was_informed_by	Gp0127634	['img.taxon:3300042768', 'biosample:SAMN06267120', 'gold:Gb0126435']
 798	nmdc:mga0r12h19	was_informed_by	Gp0331403	null
 799	nmdc:mga0r3w742	was_informed_by	Gp0321309	['img.taxon:3300042857', 'biosample:SAMN10864136', 'gold:Gb0191689']
@@ -816,26 +816,26 @@
 814	nmdc:mga0rhwf78	was_informed_by	Gp0119855	['img.taxon:3300042782', 'biosample:SAMN06343771', 'gold:Gb0119265']
 815	nmdc:mga0rj68	was_informed_by	SRR8849214	null
 816	nmdc:mga0rjtf11	was_informed_by	Gp0321302	['img.taxon:3300042854', 'biosample:SAMN10864256', 'gold:Gb0191682']
-817	nmdc:mga0rmyk67	was_informed_by	SAMEA7724298_ERR5003340	null
+817	nmdc:mga0rmyk67	was_informed_by	SAMEA7724298_ERR5003340	['gold:Gb0239919']
 818	nmdc:mga0rn59	was_informed_by	SRR8849274	null
 819	nmdc:mga0rpck16	was_informed_by	Gp0566705	['img.taxon:3300046724']
 820	nmdc:mga0rpxq21	was_informed_by	Gp0225779	null
 821	nmdc:mga0rq53	was_informed_by	SRR8849267	null
-822	nmdc:mga0rr1r54	was_informed_by	SAMEA7724297_ERR5004863	null
+822	nmdc:mga0rr1r54	was_informed_by	SAMEA7724297_ERR5004863	['gold:Gb0239918']
 823	nmdc:mga0rr50	was_informed_by	Gp0116348	['img.taxon:3300007076', 'biosample:SAMN06343975']
 824	nmdc:mga0rre721	was_informed_by	Gp0344894	['img.taxon:3300032054', 'biosample:SAMN11532915']
-825	nmdc:mga0rsj272	was_informed_by	SAMEA7724321_ERR5004949	null
+825	nmdc:mga0rsj272	was_informed_by	SAMEA7724321_ERR5004949	['gold:Gb0240035']
 826	nmdc:mga0rsrf39	was_informed_by	Gp0331395	null
 827	nmdc:mga0rt44	was_informed_by	Gp0213336	['img.taxon:3300019082', 'biosample:SAMN08779013']
 828	nmdc:mga0rtag54	was_informed_by	Gp0344854	['img.taxon:3300031959', 'biosample:SAMN11532917']
-829	nmdc:mga0rv2r54	was_informed_by	SAMEA7724278_ERR5003323	null
+829	nmdc:mga0rv2r54	was_informed_by	SAMEA7724278_ERR5003323	['gold:Gb0240010']
 830	nmdc:mga0rw1351	was_informed_by	Gp0115671	['img.taxon:3300042748', 'biosample:SAMN06343871', 'gold:Gb0115225']
 831	nmdc:mga0rwx864	was_informed_by	SAMEA7724285	null
-832	nmdc:mga0rxeh54	was_informed_by	SAMEA7724295_ERR5003338	null
+832	nmdc:mga0rxeh54	was_informed_by	SAMEA7724295_ERR5003338	['gold:Gb0240016']
 833	nmdc:mga0ry32	was_informed_by	Gp0208373	['img.taxon:3300014159', 'biosample:SAMN07631771']
 834	nmdc:mga0rz29	was_informed_by	SRR8849268	null
 835	nmdc:mga0s123	was_informed_by	Gp0138732	['img.taxon:3300025500', 'biosample:SAMN06266167']
-836	nmdc:mga0s1mr70	was_informed_by	SAMEA7723902_ERR5004468	null
+836	nmdc:mga0s1mr70	was_informed_by	SAMEA7723902_ERR5004468	['gold:Gb0240115']
 837	nmdc:mga0s2tg35	was_informed_by	Gp0344893	['img.taxon:3300032010', 'biosample:SAMN11532916']
 838	nmdc:mga0s317	was_informed_by	Gp0213371	null
 839	nmdc:mga0s38291	was_informed_by	Gp0119851	['img.taxon:3300042804', 'biosample:SAMN06264562', 'gold:Gb0119261']
@@ -843,7 +843,7 @@
 841	nmdc:mga0s705	was_informed_by	SRR8849204	null
 842	nmdc:mga0s996	was_informed_by	Gp0213361	['img.taxon:3300017931', 'biosample:SAMN08778350']
 843	nmdc:mga0s9zg70	was_informed_by	Gp0111280	null
-844	nmdc:mga0sadz39	was_informed_by	SAMEA7724332_ERR5003421	null
+844	nmdc:mga0sadz39	was_informed_by	SAMEA7724332_ERR5003421	['gold:Gb0240036']
 845	nmdc:mga0sb5x69	was_informed_by	Gp0344824	['img.taxon:3300031736', 'biosample:SAMN11532489']
 846	nmdc:mga0sb9b30	was_informed_by	Gp0127637	['img.taxon:3300042771', 'biosample:SAMN06267123', 'gold:Gb0126438']
 847	nmdc:mga0sbze43	was_informed_by	Gp0208581	null
@@ -857,21 +857,21 @@
 855	nmdc:mga0smdv80	was_informed_by	Gp0225772	null
 856	nmdc:mga0smzd43	was_informed_by	Gp0566633	['img.taxon:3300046713']
 857	nmdc:mga0sq0438	was_informed_by	Gp0344825	['img.taxon:3300031747', 'biosample:SAMN11528590']
-858	nmdc:mga0sqaa30	was_informed_by	SAMEA7724223_ERR5004697	null
+858	nmdc:mga0sqaa30	was_informed_by	SAMEA7724223_ERR5004697	['gold:Gb0240086']
 859	nmdc:mga0sr51	was_informed_by	SRR13122248	null
 860	nmdc:mga0ss48	was_informed_by	Gp0138737	['img.taxon:3300025442', 'biosample:SAMN06266170']
 861	nmdc:mga0stds84	was_informed_by	Gp0566634	['img.taxon:3300046707']
 862	nmdc:mga0stfn98	was_informed_by	Gp0331413	null
-863	nmdc:mga0sthf21	was_informed_by	SAMEA7724319_ERR5004160	null
+863	nmdc:mga0sthf21	was_informed_by	SAMEA7724319_ERR5004160	['gold:Gb0240033']
 864	nmdc:mga0sy33	was_informed_by	Gp0138727	null
 865	nmdc:mga0sz30	was_informed_by	Gp0116328	['img.taxon:3300006186', 'biosample:SAMN06266333']
-866	nmdc:mga0szsj83	was_informed_by	SAMEA7724300_ERR5004866	null
+866	nmdc:mga0szsj83	was_informed_by	SAMEA7724300_ERR5004866	['gold:Gb0239921']
 867	nmdc:mga0t1k874	was_informed_by	Gp0119858	['img.taxon:3300042785', 'biosample:SAMN06343774', 'gold:Gb0119268']
 868	nmdc:mga0t221	was_informed_by	Gp0213355	['img.taxon:3300018042', 'biosample:SAMN08779182']
 869	nmdc:mga0t2nn69	was_informed_by	Gp0306236	null
 870	nmdc:mga0t30k86	was_informed_by	Gp0321263	['img.taxon:3300042813', 'biosample:SAMN10864388', 'gold:Gb0191643']
-871	nmdc:mga0t32339	was_informed_by	SAMEA7723905_ERR5004475	null
-872	nmdc:mga0t33z53	was_informed_by	SAMEA7724319_ERR5002138	null
+871	nmdc:mga0t32339	was_informed_by	SAMEA7723905_ERR5004475	['gold:Gb0240122']
+872	nmdc:mga0t33z53	was_informed_by	SAMEA7724319_ERR5002138	['gold:Gb0240033']
 873	nmdc:mga0t3f158	was_informed_by	Gp0321420	null
 874	nmdc:mga0t3qg21	was_informed_by	Gp0344848	['img.taxon:3300032089', 'biosample:SAMN11532288']
 875	nmdc:mga0t40854	was_informed_by	Gp0344883	['img.taxon:3300032039', 'biosample:SAMN11532920']
@@ -884,11 +884,11 @@
 882	nmdc:mga0tf6r73	was_informed_by	Gp0566711	['img.taxon:3300047092']
 883	nmdc:mga0tf79	was_informed_by	Gp0213345	['img.taxon:3300018020', 'biosample:SAMN08777607']
 884	nmdc:mga0tftw81	was_informed_by	Gp0566687	['img.taxon:3300046838']
-885	nmdc:mga0tg3e35	was_informed_by	SAMEA7724305_ERR5004871	null
-886	nmdc:mga0tjqg16	was_informed_by	SAMEA7724310_ERR5003409	null
+885	nmdc:mga0tg3e35	was_informed_by	SAMEA7724305_ERR5004871	['gold:Gb0239926']
+886	nmdc:mga0tjqg16	was_informed_by	SAMEA7724310_ERR5003409	['gold:Gb0240024']
 887	nmdc:mga0tm5595	was_informed_by	Gp0344875	['img.taxon:3300031896', 'biosample:SAMN11529916']
 888	nmdc:mga0tmfr48	was_informed_by	Gp0566682	['img.taxon:3300046792']
-889	nmdc:mga0tnd538	was_informed_by	SAMEA7724333_ERR5004174	null
+889	nmdc:mga0tnd538	was_informed_by	SAMEA7724333_ERR5004174	['gold:Gb0240037']
 890	nmdc:mga0tp58	was_informed_by	Gp0208372	['img.taxon:3300014161', 'biosample:SAMN07631770']
 891	nmdc:mga0tq55	was_informed_by	Gp0138741	['img.taxon:3300025439', 'biosample:SAMN06264879']
 892	nmdc:mga0tqny35	was_informed_by	Gp0344815	['img.taxon:3300031748', 'biosample:SAMN11532402']
@@ -896,37 +896,37 @@
 894	nmdc:mga0ts8564	was_informed_by	Gp0566668	['img.taxon:3300049443']
 895	nmdc:mga0tscn20	was_informed_by	Gp0344841	['img.taxon:3300032090', 'biosample:SAMN11532914']
 896	nmdc:mga0tvab15	was_informed_by	Gp0128142	null
-897	nmdc:mga0txra96	was_informed_by	SAMEA7724206_ERR5003893	null
+897	nmdc:mga0txra96	was_informed_by	SAMEA7724206_ERR5003893	['gold:Gb0240067']
 898	nmdc:mga0ty34	was_informed_by	Gp0138756	null
 899	nmdc:mga0tybt67	was_informed_by	Gp0344867	['img.taxon:3300031777', 'biosample:SAMN11533242']
 900	nmdc:mga0tyn058	was_informed_by	Gp0119853	['img.taxon:3300042780', 'biosample:SAMN06343769', 'gold:Gb0119263']
 901	nmdc:mga0tz31	was_informed_by	Gp0208363	['img.taxon:3300017988', 'biosample:SAMN08778604']
 902	nmdc:mga0v125	was_informed_by	Gp0213366	['img.taxon:3300018021', 'biosample:SAMN08778351']
-903	nmdc:mga0v1h344	was_informed_by	SAMEA7724206_ERR5001923	null
+903	nmdc:mga0v1h344	was_informed_by	SAMEA7724206_ERR5001923	['gold:Gb0240067']
 904	nmdc:mga0v2yz05	was_informed_by	Gp0344830	['img.taxon:3300032025', 'biosample:SAMN11532491']
-905	nmdc:mga0v42231	was_informed_by	SAMEA7724325_ERR5004953	null
-906	nmdc:mga0v4z066	was_informed_by	SAMEA7724216_ERR5003212	null
+905	nmdc:mga0v42231	was_informed_by	SAMEA7724325_ERR5004953	['gold:Gb0315661']
+906	nmdc:mga0v4z066	was_informed_by	SAMEA7724216_ERR5003212	['gold:Gb0240095']
 907	nmdc:mga0v5kb53	was_informed_by	Gp0321307	['img.taxon:3300042855', 'biosample:SAMN10864401', 'gold:Gb0191687']
 908	nmdc:mga0v7q736	was_informed_by	Gp0321417	null
 909	nmdc:mga0v7zt84	was_informed_by	Gp0331404	null
 910	nmdc:mga0v90195	was_informed_by	Gp0344884	['img.taxon:3300031682', 'biosample:SAMN10864410']
 911	nmdc:mga0v998	was_informed_by	Gp0138750	['img.taxon:3300025477', 'biosample:SAMN06266158']
-912	nmdc:mga0v9dd72	was_informed_by	SAMEA7724318_ERR5002137	null
+912	nmdc:mga0v9dd72	was_informed_by	SAMEA7724318_ERR5002137	['gold:Gb0240032']
 913	nmdc:mga0va95	was_informed_by	Gp0138737	null
 914	nmdc:mga0vcq217	was_informed_by	Gp0321287	['img.taxon:3300042833', 'biosample:SAMN10864179', 'gold:Gb0191667']
 915	nmdc:mga0vd86	was_informed_by	Gp0138733	['img.taxon:3300025469', 'biosample:SAMN06264897']
 916	nmdc:mga0ve1p96	was_informed_by	Gp0095972	null
 917	nmdc:mga0vf2h47	was_informed_by	Gp0115675	['img.taxon:3300042752', 'biosample:SAMN06343875', 'gold:Gb0115229']
 918	nmdc:mga0vgdk84	was_informed_by	SAMEA7724292	null
-919	nmdc:mga0vgv058	was_informed_by	SAMEA7724228_ERR5001941	null
+919	nmdc:mga0vgv058	was_informed_by	SAMEA7724228_ERR5001941	['gold:Gb0240084']
 920	nmdc:mga0vhp279	was_informed_by	Gp0344850	['img.taxon:3300031859', 'biosample:SAMN11532764']
-921	nmdc:mga0vhq959	was_informed_by	SAMEA7724348_ERR5004976	null
-922	nmdc:mga0vjd496	was_informed_by	SAMEA7724281_ERR5002047	null
+921	nmdc:mga0vhq959	was_informed_by	SAMEA7724348_ERR5004976	['gold:Gb0240052']
+922	nmdc:mga0vjd496	was_informed_by	SAMEA7724281_ERR5002047	['gold:Gb0240013']
 923	nmdc:mga0vjta91	was_informed_by	Gp0331391	null
 924	nmdc:mga0vk0p61	was_informed_by	Gp0566819	['img.taxon:3300046522']
-925	nmdc:mga0vnbd66	was_informed_by	SAMEA7724342_ERR5003429	null
+925	nmdc:mga0vnbd66	was_informed_by	SAMEA7724342_ERR5003429	['gold:Gb0240046']
 926	nmdc:mga0vqqy91	was_informed_by	Gp0566822	['img.taxon:3300046680']
-927	nmdc:mga0vssw66	was_informed_by	SAMEA7724298_ERR5004864	null
+927	nmdc:mga0vssw66	was_informed_by	SAMEA7724298_ERR5004864	['gold:Gb0239919']
 928	nmdc:mga0vtq568	was_informed_by	Gp0344853	['img.taxon:3300031792', 'biosample:SAMN11532609']
 929	nmdc:mga0vx38	was_informed_by	Gp0213371	null
 930	nmdc:mga0vyfq37	was_informed_by	Gp0566775	['img.taxon:3300046678']
@@ -947,7 +947,7 @@
 945	nmdc:mga0wa96	was_informed_by	Gp0138740	['img.taxon:3300025444', 'biosample:SAMN06264880']
 946	nmdc:mga0wetc11	was_informed_by	Gp0566638	['img.taxon:3300046780']
 947	nmdc:mga0wfkf27	was_informed_by	Gp0111278	null
-948	nmdc:mga0wfrq08	was_informed_by	SAMEA7724302_ERR5004868	null
+948	nmdc:mga0wfrq08	was_informed_by	SAMEA7724302_ERR5004868	['gold:Gb0239923']
 949	nmdc:mga0wg1q17	was_informed_by	Gp0566824	['img.taxon:3300046524']
 950	nmdc:mga0wg78	was_informed_by	Gp0208360	null
 951	nmdc:mga0wjj555	was_informed_by	Gp0119850	['img.taxon:3300042803', 'biosample:SAMN06343767', 'gold:Gb0119260']
@@ -956,17 +956,17 @@
 954	nmdc:mga0wn63	was_informed_by	Gp0213363	['img.taxon:3300017946', 'biosample:SAMN08777130']
 955	nmdc:mga0wpfe56	was_informed_by	Gp0325954	['img.taxon:3300031947', 'biosample:SAMN11528528']
 956	nmdc:mga0wr54	was_informed_by	SRR8849252	null
-957	nmdc:mga0ws1859	was_informed_by	SAMEA7724329_ERR5004170	null
+957	nmdc:mga0ws1859	was_informed_by	SAMEA7724329_ERR5004170	['gold:Gb0315665']
 958	nmdc:mga0ws51	was_informed_by	Gp0208362	['img.taxon:3300014658', 'biosample:SAMN07631761']
 959	nmdc:mga0ws5m27	was_informed_by	SAMEA7724289	null
-960	nmdc:mga0ws6r16	was_informed_by	SAMEA7724228_ERR5003220	null
+960	nmdc:mga0ws6r16	was_informed_by	SAMEA7724228_ERR5003220	['gold:Gb0240084']
 961	nmdc:mga0wwa576	was_informed_by	Gp0344851	['img.taxon:3300031561', 'biosample:SAMN10864290']
 962	nmdc:mga0wxzx57	was_informed_by	SAMEA7724296	null
 963	nmdc:mga0wy9736	was_informed_by	Gp0321410	null
 964	nmdc:mga0wyga34	was_informed_by	Gp0095971	null
 965	nmdc:mga0x030	was_informed_by	SRR12480197	null
 966	nmdc:mga0x0j712	was_informed_by	Gp0325957	['img.taxon:3300031941', 'biosample:SAMN11532081']
-967	nmdc:mga0x1rx81	was_informed_by	SAMEA7724301_ERR5004867	null
+967	nmdc:mga0x1rx81	was_informed_by	SAMEA7724301_ERR5004867	['gold:Gb0239922']
 968	nmdc:mga0x224	was_informed_by	SRR8849233	null
 969	nmdc:mga0x26r13	was_informed_by	Gp0566721	['img.taxon:3300046799']
 970	nmdc:mga0x3mj77	was_informed_by	Gp0321284	['img.taxon:3300042844', 'biosample:SAMN10864400', 'gold:Gb0191664']
@@ -980,12 +980,12 @@
 978	nmdc:mga0x8zm48	was_informed_by	Gp0208578	['img.taxon:3300031912', 'biosample:SAMN07630342']
 979	nmdc:mga0xa97	was_informed_by	SRR12480096	null
 980	nmdc:mga0xasy76	was_informed_by	Gp0566695	['img.taxon:3300046797']
-981	nmdc:mga0xbct10	was_informed_by	SAMEA7724128_ERR5001854	null
-982	nmdc:mga0xbeg42	was_informed_by	SAMEA7724217_ERR5003904	null
+981	nmdc:mga0xbct10	was_informed_by	SAMEA7724128_ERR5001854	['gold:Gb0239950']
+982	nmdc:mga0xbeg42	was_informed_by	SAMEA7724217_ERR5003904	['gold:Gb0240094']
 983	nmdc:mga0xccm60	was_informed_by	Gp0321426	null
 984	nmdc:mga0xdrf22	was_informed_by	Gp0566809	['img.taxon:3300046558']
 985	nmdc:mga0xdrn04	was_informed_by	Gp0566841	['img.taxon:3300046531']
-986	nmdc:mga0xf3886	was_informed_by	SAMEA7724128_ERR5003133	null
+986	nmdc:mga0xf3886	was_informed_by	SAMEA7724128_ERR5003133	['gold:Gb0239950']
 987	nmdc:mga0xf82	was_informed_by	Gp0138732	null
 988	nmdc:mga0xn7p46	was_informed_by	Gp0321429	null
 989	nmdc:mga0xpmn94	was_informed_by	Gp0321270	['img.taxon:3300042820', 'biosample:SAMN10864327', 'gold:Gb0191650']
@@ -994,7 +994,7 @@
 992	nmdc:mga0xrfs44	was_informed_by	Gp0566762	['img.taxon:3300046535']
 993	nmdc:mga0xt49	was_informed_by	Gp0116320	['img.taxon:3300006022', 'biosample:SAMN06267230']
 994	nmdc:mga0xt7x88	was_informed_by	Gp0344889	['img.taxon:3300031799', 'biosample:SAMN11532313']
-995	nmdc:mga0xvbj60	was_informed_by	SAMEA7724228_ERR5004702	null
+995	nmdc:mga0xvbj60	was_informed_by	SAMEA7724228_ERR5004702	['gold:Gb0240084']
 996	nmdc:mga0xvyp67	was_informed_by	Gp0566694	['img.taxon:3300046818']
 997	nmdc:mga0xwgm91	was_informed_by	Gp0208571	null
 998	nmdc:mga0xxdv02	was_informed_by	Gp0306228	null
@@ -1004,15 +1004,15 @@
 1002	nmdc:mga0y75d65	was_informed_by	SAMEA7724288	null
 1003	nmdc:mga0y7cp45	was_informed_by	Gp0306232	null
 1004	nmdc:mga0y7kv37	was_informed_by	Gp0208574	['img.taxon:3300031719', 'biosample:SAMN07631796']
-1005	nmdc:mga0y90j12	was_informed_by	SAMEA7724294_ERR5004860	null
-1006	nmdc:mga0y97267	was_informed_by	SAMEA7724308_ERR5003407	null
+1005	nmdc:mga0y90j12	was_informed_by	SAMEA7724294_ERR5004860	['gold:Gb0240015']
+1006	nmdc:mga0y97267	was_informed_by	SAMEA7724308_ERR5003407	['gold:Gb0240022']
 1007	nmdc:mga0yafm53	was_informed_by	Gp0566797	['img.taxon:3300046539']
 1008	nmdc:mga0ybxk05	was_informed_by	Gp0566776	['img.taxon:3300046809']
 1009	nmdc:mga0ydkx29	was_informed_by	Gp0321432	null
 1010	nmdc:mga0yf2w79	was_informed_by	Gp0344819	['img.taxon:3300031713', 'biosample:SAMN11532139']
 1011	nmdc:mga0yky513	was_informed_by	Gp0325955	['img.taxon:3300031946', 'biosample:SAMN11532447']
 1012	nmdc:mga0ynkj27	was_informed_by	Gp0566806	['img.taxon:3300046517']
-1013	nmdc:mga0yp0094	was_informed_by	SAMEA7724342_ERR5004970	null
+1013	nmdc:mga0yp0094	was_informed_by	SAMEA7724342_ERR5004970	['gold:Gb0240046']
 1014	nmdc:mga0yp6b67	was_informed_by	Gp0306247	null
 1015	nmdc:mga0ypfy19	was_informed_by	Gp0566716	['img.taxon:3300049448']
 1016	nmdc:mga0yqf432	was_informed_by	Gp0566647	['img.taxon:3300046782']
@@ -1021,24 +1021,24 @@
 1019	nmdc:mga0ys2m35	was_informed_by	Gp0344839	['img.taxon:3300031543', 'biosample:SAMN10864292']
 1020	nmdc:mga0yv47	was_informed_by	Gp0213331	['img.taxon:3300017948', 'biosample:SAMN08777000']
 1021	nmdc:mga0yw44	was_informed_by	Gp0116324	['img.taxon:3300006038', 'biosample:SAMN06266331']
-1022	nmdc:mga0ywny23	was_informed_by	SAMEA7724316_ERR5004157	null
+1022	nmdc:mga0ywny23	was_informed_by	SAMEA7724316_ERR5004157	['gold:Gb0240030']
 1023	nmdc:mga0yy38	was_informed_by	Gp0116335	null
 1024	nmdc:mga0yysy91	was_informed_by	SAMEA7724295	null
 1025	nmdc:mga0yywd48	was_informed_by	Gp0566691	['img.taxon:3300046721']
-1026	nmdc:mga0yz6194	was_informed_by	SAMEA7724307_ERR5002127	null
+1026	nmdc:mga0yz6194	was_informed_by	SAMEA7724307_ERR5002127	['gold:Gb0240021']
 1027	nmdc:mga0z14838	was_informed_by	SAMEA7724294	null
-1028	nmdc:mga0z1yd49	was_informed_by	SAMEA7724295_ERR5002059	null
+1028	nmdc:mga0z1yd49	was_informed_by	SAMEA7724295_ERR5002059	['gold:Gb0240016']
 1029	nmdc:mga0z22p26	was_informed_by	SAMEA7724294	null
 1030	nmdc:mga0z2a488	was_informed_by	Gp0566823	['img.taxon:3300046681']
 1031	nmdc:mga0z2hr35	was_informed_by	Gp0566861	['img.taxon:3300047447']
-1032	nmdc:mga0z3ct56	was_informed_by	SAMEA7724340_ERR5002148	null
+1032	nmdc:mga0z3ct56	was_informed_by	SAMEA7724340_ERR5002148	['gold:Gb0240044']
 1033	nmdc:mga0z42e17	was_informed_by	SAMEA7724291	null
 1034	nmdc:mga0z4th32	was_informed_by	Gp0566813	['img.taxon:3300046520']
 1035	nmdc:mga0z58e55	was_informed_by	Gp0208579	['img.taxon:3300032001', 'biosample:SAMN07630343']
 1036	nmdc:mga0z59n35	was_informed_by	Gp0344872	['img.taxon:3300031793', 'biosample:SAMN11532762']
 1037	nmdc:mga0z5ny20	was_informed_by	Gp0208579	null
-1038	nmdc:mga0z7yz90	was_informed_by	SAMEA7724308_ERR5004149	null
-1039	nmdc:mga0z8vk58	was_informed_by	SAMEA7724104_ERR5004472	null
+1038	nmdc:mga0z7yz90	was_informed_by	SAMEA7724308_ERR5004149	['gold:Gb0240022']
+1039	nmdc:mga0z8vk58	was_informed_by	SAMEA7724104_ERR5004472	['gold:Gb0240119']
 1040	nmdc:mga0z93v42	was_informed_by	Gp0566847	['img.taxon:3300046692']
 1041	nmdc:mga0z96708	was_informed_by	Gp0566785	['img.taxon:3300046538']
 1042	nmdc:mga0zags93	was_informed_by	Gp0108340	null
@@ -1055,13 +1055,13 @@
 1053	nmdc:mga0zg81	was_informed_by	SRR8849285	null
 1054	nmdc:mga0zh78	was_informed_by	Gp0138761	['img.taxon:3300025612', 'biosample:SAMN06266180']
 1055	nmdc:mga0zjbg80	was_informed_by	Gp0225774	null
-1056	nmdc:mga0zjtm83	was_informed_by	SAMEA7724299_ERR5004078	null
+1056	nmdc:mga0zjtm83	was_informed_by	SAMEA7724299_ERR5004078	['gold:Gb0239920']
 1057	nmdc:mga0zkhn06	was_informed_by	Gp0111285	null
 1058	nmdc:mga0zkna43	was_informed_by	Gp0306241	null
 1059	nmdc:mga0zknh22	was_informed_by	Gp0344817	['img.taxon:3300031751', 'biosample:SAMN11532490']
-1060	nmdc:mga0zkx760	was_informed_by	SAMEA7724290_ERR5004069	null
+1060	nmdc:mga0zkx760	was_informed_by	SAMEA7724290_ERR5004069	['gold:Gb0239940']
 1061	nmdc:mga0zn66	was_informed_by	Gp0208364	['img.taxon:3300014158', 'biosample:SAMN07631762']
-1062	nmdc:mga0zp7252	was_informed_by	SAMEA7724288_ERR5004854	null
+1062	nmdc:mga0zp7252	was_informed_by	SAMEA7724288_ERR5004854	['gold:Gb0239938']
 1063	nmdc:mga0zqhd61	was_informed_by	Gp0321296	['img.taxon:3300042842', 'biosample:SAMN10864138', 'gold:Gb0191676']
 1064	nmdc:mga0zqzj60	was_informed_by	Gp0566783	['img.taxon:3300046501']
 1065	nmdc:mga0zr57	was_informed_by	Gp0138755	['img.taxon:3300025463', 'biosample:SAMN06266177']
